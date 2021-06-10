@@ -1,0 +1,64 @@
+header {
+  margin-top: 180px;
+}
+header h2 {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 65px;
+  line-height: 79px;
+  text-align: center;
+  font-feature-settings: "pnum" on, "lnum" on, "liga" off;
+  color: #1c1c1f;
+}
+
+header h2 span {
+  color: #ff7300;
+}
+
+main header p {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  font-feature-settings: "pnum" on, "lnum" on, "liga" off;
+  color: #8c8c8c;
+  padding: 0 180px;
+}
+main header .header_bottom {
+  padding-top: 70px;
+  padding-bottom: 50px;
+}
+
+main header .header_bottom .text_line {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  position: relative;
+  text-align: center;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  font-feature-settings: "pnum" on, "lnum" on, "liga" off;
+  color: #ff7300;
+}
+main header .header_bottom .text_line::before {
+  content: "";
+  width: 100%;
+  height: 1px;
+  background: #ebebeb;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  z-index: -1;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+main header .header_bottom .text_line span {
+  background-color: #fff;
+  padding: 0 16px;
+}

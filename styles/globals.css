@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar .navbar-brand img {
+  width: 100%;
+  height: 100%;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  font-feature-settings: "pnum" on, "lnum" on, "liga" off;
+  color: #1c1c1f;
+}
+.navbar-light .navbar-nav .nav-item:nth-child(1) {
+  margin-right: 10px;
+}
+
+.link_active {
+  box-sizing: border-box;
+  border-bottom: #ff7300 3px solid;
+}
+
+
+
