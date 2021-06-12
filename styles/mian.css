@@ -15,17 +15,19 @@ header h2 {
 header h2 span {
   color: #ff7300;
 }
-
+header .container .row{
+  justify-content: center;
+}
 main header p {
   font-family: "Inter", sans-serif;
   font-style: normal;
-  font-weight: 600;
+  /* font-weight: 600; */
   font-size: 20px;
   line-height: 30px;
   text-align: center;
   font-feature-settings: "pnum" on, "lnum" on, "liga" off;
   color: #8c8c8c;
-  padding: 0 180px;
+  padding: 0 70px;
 }
 main header .header_bottom {
   padding-top: 70px;
