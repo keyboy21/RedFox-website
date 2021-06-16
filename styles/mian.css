@@ -1,3 +1,8 @@
+p {
+  margin: 0;
+  padding: 0;
+}
+
 header {
   margin-top: 180px;
 }
@@ -15,7 +20,7 @@ header h2 {
 header h2 span {
   color: #ff7300;
 }
-header .container .row{
+header .container .row {
   justify-content: center;
 }
 main header p {
@@ -63,4 +68,166 @@ main header .header_bottom .text_line::before {
 main header .header_bottom .text_line span {
   background-color: #fff;
   padding: 0 16px;
+}
+
+/* Sedction */
+section .container img {
+  width: 100%;
+}
+
+section .container p {
+  margin: 10px 0 16px;
+  font-family: Inter;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 19px;
+  font-feature-settings: "pnum" on, "lnum" on, "liga" off;
+  color: #1c1c1f;
+}
+
+section .container .bottom p {
+  margin: 10px 0 50px;
+  font-family: Inter;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 19px;
+  font-feature-settings: "pnum" on, "lnum" on, "liga" off;
+  color: #1c1c1f;
+}
+
+.experts .col-lg-4 {
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.experts .col-lg-4 div:nth-child(2) {
+  margin-left: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.experts .col-lg-4 div h4 {
+  margin-bottom: 5px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  font-feature-settings: "pnum" on, "lnum" on, "liga" off;
+  color: #1c1c1f;
+}
+
+.experts .col-lg-4 div p {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  font-feature-settings: "pnum" on, "lnum" on, "liga" off;
+  color: #a6a6a6;
+}
+
+.experts .col-lg-4 div img:hover {
+  box-shadow: 0px 0px 20px #ca8d38;
+  border-radius: 50%;
+}
+
+.reason {
+  margin-top: 20px;
+}
+.reason .bg_item {
+  background-color: #fcfcfc;
+  border-radius: 5px;
+  padding: 30px 40px 30px 40px;
+}
+.reason .col-lg-4 {
+  margin-bottom: 30px;
+}
+.reason .bg_item img {
+  margin-bottom: 22px;
+}
+
+.reason .bg_item h5 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #1c1c1f;
+  margin-bottom: 2px;
+}
+
+.reason .bg_item span {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  font-feature-settings: "pnum" on, "lnum" on, "liga" off;
+  color: #ff7300;
+  margin-bottom: 15px;
+}
+
+.reason .bg_item p {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  font-feature-settings: "pnum" on, "lnum" on, "liga" off;
+  color: #3b4254;
+  margin-bottom: 40px;
+}
+
+.belive .container .row {
+  justify-content: center;
+}
+
+.belive .col-lg-4 {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 65px;
+}
+
+.belive .col-lg-4 span {
+  margin: 20px 0;
+  padding: 0 38px 0 0;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 36px;
+  font-feature-settings: "pnum" on, "lnum" on, "liga" off;
+  color: #1c1c1f;
+}
+
+.belive .col-lg-4 p {
+  padding: 0 75px 0 0;
+  font-family: Inter;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 30px;
+  font-feature-settings: "pnum" on, "lnum" on, "liga" off;
+  color: #626468;
+}
+
+header .write {
+  text-align: center;
+}
+header .write{
+  margin-top: 50px;
+  margin-bottom: 150px;
+}
+header .write h3 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 34px;
+  font-feature-settings: "pnum" on, "lnum" on, "liga" off;
+  color: #1c1c1f;
+  border-bottom: 5px solid #FF7300;
+  display: inline-block;
 }
