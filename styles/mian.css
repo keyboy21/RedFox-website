@@ -216,7 +216,7 @@ section .container .bottom p {
 header .write {
   text-align: center;
 }
-header .write{
+header .write {
   margin-top: 50px;
   margin-bottom: 150px;
 }
@@ -228,6 +228,64 @@ header .write h3 {
   line-height: 34px;
   font-feature-settings: "pnum" on, "lnum" on, "liga" off;
   color: #1c1c1f;
-  border-bottom: 5px solid #FF7300;
+  border-bottom: 5px solid #ff7300;
   display: inline-block;
 }
+
+
+
+.skills{
+  margin-top: 70px;
+}
+
+.skills .col-lg-3{
+  margin-bottom: 54px;
+  padding: 0 27px;
+}
+.skills .logos{
+  background: #FAFAFA;
+  padding: 20px 20px 16px 20px;
+}
+.skills .logos:hover{
+  background: #FFFBF5;
+}
+.skills h4 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 27px;
+  font-feature-settings: "pnum" on, "lnum" on, "liga" off;
+  color: #1c1c1f;
+  margin-bottom: 6px;
+  margin-top: 26px;
+}
+.skills p {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 16px;
+  font-feature-settings: "pnum" on, "lnum" on, "liga" off;
+  color: #1c1c1f;
+}
+.skills .others .other{
+  font-family: Inter;
+font-style: normal;
+font-weight: 600;
+font-size: 25px;
+line-height: 30px;
+font-feature-settings: 'pnum' on, 'lnum' on;
+color: #A6A6A6;
+}
+.skills .others{
+  padding: 50px 25px 20px;
+}
+.skills .others:hover{
+  background: #FFFBF5;
+}
+.skills .others .other div{
+  display: inline;
+  margin-left: 10px;
+}
+

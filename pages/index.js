@@ -134,6 +134,107 @@ export default function Home() {
           </div>
         </div>
       </header>
+      {/* Skills */}
+      <div className="skills">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-3">
+              <div className="logos">
+                <img src="/SubtractWriter_active.png" />
+                <h4>Naming</h4>
+                <div className="d-flex justify-content-between">
+                  <p>Brend nomini topish</p>
+                  <div>
+                    <img src="/Arrow 4Active_-_.png" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-3">
+              <div className="logos">
+                <img src="/SubtractWriter_active.png" />
+                <h4>Logo & Branding</h4>
+                <div className="d-flex justify-content-between">
+                  <p>Savdo belgisini yaratish</p>
+                  <div>
+                    <img src="/Arrow 4Active_-_.png" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-3">
+              <div className="logos">
+                <img src="/SubtractWriter_active.png" />
+                <h4>Graphic design</h4>
+                <div className="d-flex justify-content-between">
+                  <p>Barcha turdagi xizmatlar</p>
+                  <div>
+                    <img src="/Arrow 4Active_-_.png" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-3">
+              <div className="logos">
+                <img src="/SubtractWriter_active.png" />
+                <h4>Web & UX/UI</h4>
+                <div className="d-flex justify-content-between">
+                  <p>Web va Mobile dizayn</p>
+                  <div>
+                    <img src="/Arrow 4Active_-_.png" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-3">
+              <div className="logos">
+                <img src="/SubtractWriter_active.png" />
+                <h4>Packaging</h4>
+                <div className="d-flex justify-content-between">
+                  <p>Qadoqlash dizayni</p>
+                  <div>
+                    <img src="/Arrow 4Active_-_.png" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-3">
+              <div className="logos">
+                <img src="/SubtractWriter_active.png" />
+                <h4>Poligrafik</h4>
+                <div className="d-flex justify-content-between">
+                  <p>Banner va Flayer dizayni</p>
+                  <div>
+                    <img src="/Arrow 4Active_-_.png" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-3">
+              <div className="logos">
+                <img src="/SubtractWriter_active.png" />
+                <h4>SMM design</h4>
+                <div className="d-flex justify-content-between">
+                  <p>Ijtimoiy tarmog’lar uchun</p>
+                  <div>
+                    <img src="/Arrow 4Active_-_.png" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-3">
+              <div className="others">
+                <span className="other">
+                  Yana shu kabi ko‘plab xizmatlar mavjud
+                  <div>
+                    <img src="/Arrow 4Right_-_.png" />
+                  </div>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       <header>
         <div className="container">
           <div className="row">

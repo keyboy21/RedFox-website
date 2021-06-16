@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Link from "next/link";
 
 export default function Footer() {
   const [active, setActive] = useState(true);
@@ -13,7 +14,9 @@ export default function Footer() {
           <div className="row">
             <div className="col-lg-6">
               <div className="right-footer">
-                <img src="/logoFoot.webp" alt="logoFoot" />
+                <Link href="/">
+                  <img src="/logoFoot.webp" alt="logoFoot" />
+                </Link>
                 <h1>+998 97 778 5008</h1>
                 <h2>
                   Toshkent shahri, Olmazor tum.,
