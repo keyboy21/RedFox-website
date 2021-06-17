@@ -4,6 +4,7 @@ import { useRouter } from "next/router";
 import Footer from "./Footer";
 export default function MainLayout({ children, title = "" }) {
   const router = useRouter();
+  console.log(router.pathname);
   return (
     <>
       <Head>
@@ -37,10 +38,10 @@ export default function MainLayout({ children, title = "" }) {
           >
             <ul className="navbar-nav mb-2 mb-lg-0">
               <li className="nav-item">
-                <Link href="/portfolio">
+                <Link href="/portfolio/all">
                   <a
                     className={
-                      router.pathname == "/portfolio"
+                      router.pathname == `/portfolio`
                         ? "nav-link link_active"
                         : "nav-link"
                     }
