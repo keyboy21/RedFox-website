@@ -4,7 +4,6 @@ import { useRouter } from "next/router";
 import Footer from "./Footer";
 export default function MainLayout({ children, title = "" }) {
   const router = useRouter();
-  console.log(router.pathname);
   return (
     <>
       <Head>
@@ -21,6 +20,7 @@ export default function MainLayout({ children, title = "" }) {
               <img src="/Logo.webp" alt="" />
             </a>
           </Link>
+          .container
           <button
             className="navbar-toggler"
             type="button"
