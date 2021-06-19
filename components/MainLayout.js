@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Head from "next/head";
 import { useRouter } from "next/router";
+
 import Footer from "./Footer";
 export default function MainLayout({ children, title = "" }) {
   const router = useRouter();
@@ -20,7 +21,6 @@ export default function MainLayout({ children, title = "" }) {
               <img src="/Logo.webp" alt="" />
             </a>
           </Link>
-          .container
           <button
             className="navbar-toggler"
             type="button"
@@ -41,9 +41,9 @@ export default function MainLayout({ children, title = "" }) {
                 <Link href="/portfolio/all">
                   <a
                     className={
-                      router.pathname == `/portfolio`
-                        ? "nav-link link_active"
-                        : "nav-link"
+                      router.pathname.length <= 7
+                        ? "nav-link"
+                        : "nav-link link_active"
                     }
                   >
                     Portfolio
@@ -67,9 +67,7 @@ export default function MainLayout({ children, title = "" }) {
           </div>
         </div>
       </nav>
-
       <main>{children}</main>
-
       <Footer />
     </>
   );

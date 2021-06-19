@@ -244,8 +244,15 @@ header .write h3 {
   background: #fafafa;
   padding: 20px 20px 16px 20px;
 }
-.skills .logos:hover {
+.skills .logos i {
+  font-size: 60px;
+  color: #a6a6a6;
+}
+
+.skills .logos:hover,
+.skills .logos i:hover {
   background: #fffbf5;
+  color: #ff7300;
 }
 .skills h4 {
   font-family: Inter;

@@ -140,7 +140,7 @@ export default function Home() {
           <div className="row">
             <div className="col-lg-3">
               <div className="logos">
-                <img src="/SubtractWriter_active.png" />
+              <i className="fad fa-file-signature"></i>
                 <h4>Naming</h4>
                 <div className="d-flex justify-content-between">
                   <p>Brend nomini topish</p>
@@ -152,7 +152,7 @@ export default function Home() {
             </div>
             <div className="col-lg-3">
               <div className="logos">
-                <img src="/SubtractWriter_active.png" />
+              <i className="fad fa-pen-fancy"></i>
                 <h4>Logo & Branding</h4>
                 <div className="d-flex justify-content-between">
                   <p>Savdo belgisini yaratish</p>
@@ -164,7 +164,7 @@ export default function Home() {
             </div>
             <div className="col-lg-3">
               <div className="logos">
-                <img src="/SubtractWriter_active.png" />
+                <i className="fas fa-palette"></i>
                 <h4>Graphic design</h4>
                 <div className="d-flex justify-content-between">
                   <p>Barcha turdagi xizmatlar</p>
@@ -176,7 +176,7 @@ export default function Home() {
             </div>
             <div className="col-lg-3">
               <div className="logos">
-                <img src="/SubtractWriter_active.png" />
+              <i className="fal fa-phone-laptop"></i>
                 <h4>Web & UX/UI</h4>
                 <div className="d-flex justify-content-between">
                   <p>Web va Mobile dizayn</p>
@@ -188,7 +188,7 @@ export default function Home() {
             </div>
             <div className="col-lg-3">
               <div className="logos">
-                <img src="/SubtractWriter_active.png" />
+              <i className="far fa-shopping-bag"></i>
                 <h4>Packaging</h4>
                 <div className="d-flex justify-content-between">
                   <p>Qadoqlash dizayni</p>
@@ -200,7 +200,7 @@ export default function Home() {
             </div>
             <div className="col-lg-3">
               <div className="logos">
-                <img src="/SubtractWriter_active.png" />
+                <i className="fas fa-print"></i>
                 <h4>Poligrafik</h4>
                 <div className="d-flex justify-content-between">
                   <p>Banner va Flayer dizayni</p>
@@ -212,7 +212,7 @@ export default function Home() {
             </div>
             <div className="col-lg-3">
               <div className="logos">
-                <img src="/SubtractWriter_active.png" />
+                <i className="fab fa-instagram"></i>
                 <h4>SMM design</h4>
                 <div className="d-flex justify-content-between">
                   <p>Ijtimoiy tarmog’lar uchun</p>

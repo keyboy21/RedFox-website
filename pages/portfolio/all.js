@@ -4,12 +4,66 @@ export default function All() {
   return (
     <>
       <Index>
-        <h1>Alllllllll</h1>
-        <h1>Alllllllll</h1>
-        <h1>Alllllllll</h1>
-        <h1>Alllllllll</h1>
-        <h1>Alllllllll</h1>
-        <h1>Alllllllll</h1>
+        <div className="col-lg-4">
+          <img src="/Rectangle 65portfolio.jpg" alt="" />
+          <p>Nurafshon smart city</p>
+        </div>
+        <div className="col-lg-4">
+          <img src="/Rectangle 65portfolio.jpg" alt="" />
+          <p>Nurafshon smart city</p>
+        </div>
+        <div className="col-lg-4">
+          <img src="/Rectangle 65portfolio.jpg" alt="" />
+          <p>Nurafshon smart city</p>
+        </div>
+        <div className="col-lg-4">
+          <img src="/Rectangle 65portfolio.jpg" alt="" />
+          <p>Nurafshon smart city</p>
+        </div>
+        <div className="col-lg-4">
+          <img src="/Rectangle 65portfolio.jpg" alt="" />
+          <p>Nurafshon smart city</p>
+        </div>
+        <div className="col-lg-4">
+          <img src="/Rectangle 65portfolio.jpg" alt="" />
+          <p>Nurafshon smart city</p>
+        </div>
+        <div className="col-lg-4">
+          <img src="/Rectangle 65portfolio.jpg" alt="" />
+          <p>Nurafshon smart city</p>
+        </div>
+        <div className="col-lg-4">
+          <img src="/Rectangle 65portfolio.jpg" alt="" />
+          <p>Nurafshon smart city</p>
+        </div>
+        <div className="col-lg-4">
+          <img src="/Rectangle 65portfolio.jpg" alt="" />
+          <p>Nurafshon smart city</p>
+        </div>
+        <div className="col-lg-4">
+          <img src="/Rectangle 65portfolio.jpg" alt="" />
+          <p>Nurafshon smart city</p>
+        </div>
+        <div className="col-lg-4">
+          <img src="/Rectangle 65portfolio.jpg" alt="" />
+          <p>Nurafshon smart city</p>
+        </div>
+        <div className="col-lg-4">
+          <img src="/Rectangle 65portfolio.jpg" alt="" />
+          <p>Nurafshon smart city</p>
+        </div>
+        <div className="col-lg-4">
+          <img src="/Rectangle 65portfolio.jpg" alt="" />
+          <p>Nurafshon smart city</p>
+        </div>
+        <div className="col-lg-4">
+          <img src="/Rectangle 65portfolio.jpg" alt="" />
+          <p>Nurafshon smart city</p>
+        </div>
+        <div className="col-lg-4">
+          <img src="/Rectangle 65portfolio.jpg" alt="" />
+          <p>Nurafshon smart city</p>
+        </div>
       </Index>
     </>
   );
