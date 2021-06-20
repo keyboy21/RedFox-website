@@ -15,7 +15,7 @@ export default function MainLayout({ children, title = "" }) {
         <link rel="icon" href="/Group.png" />
       </Head>
       <nav className="navbar navbar-expand-sm navbar-light">
-        <div className="container d-flex justify-content-between">
+        <div className="container">
           <Link href="/">
             <a className="navbar-brand">
               <img src="/Logo.webp" alt="" />

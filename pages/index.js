@@ -140,7 +140,7 @@ export default function Home() {
           <div className="row">
             <div className="col-lg-3">
               <div className="logos">
-              <i className="fad fa-file-signature"></i>
+                <i className="fad fa-file-signature"></i>
                 <h4>Naming</h4>
                 <div className="d-flex justify-content-between">
                   <p>Brend nomini topish</p>
@@ -152,7 +152,7 @@ export default function Home() {
             </div>
             <div className="col-lg-3">
               <div className="logos">
-              <i className="fad fa-pen-fancy"></i>
+                <i className="fad fa-pen-fancy"></i>
                 <h4>Logo & Branding</h4>
                 <div className="d-flex justify-content-between">
                   <p>Savdo belgisini yaratish</p>
@@ -176,7 +176,7 @@ export default function Home() {
             </div>
             <div className="col-lg-3">
               <div className="logos">
-              <i className="fal fa-phone-laptop"></i>
+                <i className="fal fa-phone-laptop"></i>
                 <h4>Web & UX/UI</h4>
                 <div className="d-flex justify-content-between">
                   <p>Web va Mobile dizayn</p>
@@ -188,7 +188,7 @@ export default function Home() {
             </div>
             <div className="col-lg-3">
               <div className="logos">
-              <i className="far fa-shopping-bag"></i>
+                <i className="far fa-shopping-bag"></i>
                 <h4>Packaging</h4>
                 <div className="d-flex justify-content-between">
                   <p>Qadoqlash dizayni</p>
