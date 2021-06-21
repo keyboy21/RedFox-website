@@ -8,13 +8,11 @@ export default function Portfoio({ children }) {
   const router = useRouter();
   
   
-  
 
   return (
     <MainLayout title={"| Portfolio"}>
       <div className="portfolio">
         <div className="container">
-        {constt}
             <h2>Portfolio</h2>
             <p>
               Jami Topshirilgan ishlar soni: <span>1078+</span>
