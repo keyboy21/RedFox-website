@@ -27,14 +27,12 @@ export default function Home() {
       <header>
         <div className="container">
           <div className="row">
-            <div className="header_top">
+            <div className="header_top col-lg-10">
               <h2>
-                Bizga ishonch bildirgan kompaniyalar <span>250+</span>
+              Muvaffaqiyatli topshirilgan ishlarimiz soni  <span>1250+</span>
               </h2>
               <p>
-                Biznesda ham hayotda ham eng muhim omil bu ishonchdir.Bizga
-                ishonch bildirgan kompaniyalar qatorida sizni ham ko'rishdan
-                mamnunmiz.
+              Biz o'z ishimizni yaxshi ko'rib bajaramiz. Siz yoki kompaniyangiz uchun nimayiki topshirsangiz, biz uni bajarishdan xursand bo'lamiz. 
               </p>
             </div>
             <div className="header_bottom">
@@ -62,7 +60,7 @@ export default function Home() {
               <img
                 src="/image 21Nurafshon.jpg"
                 alt="nurafshon"
-                height="93.8%"
+                
               />
               <p>Nurafshon smart city</p>
             </div>

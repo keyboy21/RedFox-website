@@ -4,6 +4,10 @@ export default function Industry() {
   return (
     <>
       <Index>
+        <div className="industriya">
+          <div className="row">
+
+         
         <h3>
           Education <span>(129)</span>
         </h3>
@@ -63,6 +67,8 @@ export default function Industry() {
         <div className="col-lg-4">
           <img src="/Rectangle 65portfolio.jpg" alt="" />
           <p>Nurafshon smart city</p>
+        </div>
+        </div>
         </div>
       </Index>
     </>

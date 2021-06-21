@@ -1,14 +1,20 @@
 import Link from "next/link";
+import React  from "react";
 import { useRouter } from "next/router";
 import MainLayout from "../../components/MainLayout";
 
+
 export default function Portfoio({ children }) {
   const router = useRouter();
+  
+  
+  
+
   return (
     <MainLayout title={"| Portfolio"}>
       <div className="portfolio">
         <div className="container">
-          <div className="row">
+        {constt}
             <h2>Portfolio</h2>
             <p>
               Jami Topshirilgan ishlar soni: <span>1078+</span>
@@ -73,7 +79,6 @@ export default function Portfoio({ children }) {
                     <hr className="hr1"/>
             {children}
           <button className="btn_portfolio">Shu yerga bosing</button>
-          </div>
         </div>
       </div>
     </MainLayout>

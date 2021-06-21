@@ -4,6 +4,10 @@ export default function Clients() {
   return (
     <>
       <Index>
+        <div className="client">
+          <div className="row">
+
+         
         <h3>
           Sardor company <span>(129)</span>
         </h3>
@@ -63,6 +67,8 @@ export default function Clients() {
         <div className="col-lg-4">
           <img src="/Rectangle 65portfolio.jpg" alt="" />
           <p>Nurafshon smart city</p>
+        </div>
+        </div>
         </div>
       </Index>
     </>

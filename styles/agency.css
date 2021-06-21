@@ -1,35 +1,39 @@
-*{
-  margin: 0;padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.agency{
+.agency {
   margin-bottom: 180px;
 }
-.agency .heading{
+.agency .container {
+  padding: 0 107px;
+}
+.agency .heading {
   font-family: "PT serif", serif;
   font-style: normal;
   font-weight: bold;
   font-size: 48px;
-  line-height: 64px;  
+  line-height: 64px;
   display: flex;
   align-items: center;
-  font-feature-settings: 'pnum' on, 'lnum' on, 'liga' off;
-  color: #1C1C1F;
+  font-feature-settings: "pnum" on, "lnum" on, "liga" off;
+  color: #1c1c1f;
   margin-top: 180px;
 }
 
-.agency h3{
+.agency h3 {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 30px;
-  font-feature-settings: 'pnum' on, 'lnum' on, 'liga' off;
-  color: #A6A6A6;
+  font-feature-settings: "pnum" on, "lnum" on, "liga" off;
+  color: #a6a6a6;
   margin-top: 16px;
 }
 
-.agency h2{
+.agency h2 {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
@@ -37,86 +41,86 @@
   line-height: 36px;
   display: flex;
   align-items: center;
-  font-feature-settings: 'pnum' on, 'lnum' on, 'liga' off;
-  color: #1C1C1F;
+  font-feature-settings: "pnum" on, "lnum" on, "liga" off;
+  color: #1c1c1f;
   margin-top: 70px;
 }
 
-.agency p{
+.agency p {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
   line-height: 32px;
-  font-feature-settings: 'pnum' on, 'lnum' on, 'liga' off;
-  color: #1C1C1F;
+  font-feature-settings: "pnum" on, "lnum" on, "liga" off;
+  color: #1c1c1f;
   margin-top: 16px;
 }
 
-.agency .p-bold{
+.agency .p-bold {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
   line-height: 32px;
-  font-feature-settings: 'pnum' on, 'lnum' on, 'liga' off;
-  color: #1C1C1F;
+  font-feature-settings: "pnum" on, "lnum" on, "liga" off;
+  color: #1c1c1f;
 }
 
-.agency .p-italic{
+.agency .p-italic {
   font-family: "Inter", sans-serif;
   font-style: italic;
   font-weight: normal;
   font-size: 20px;
   line-height: 32px;
-  font-feature-settings: 'pnum' on, 'lnum' on, 'liga' off;
-  color: #1C1C1F;
+  font-feature-settings: "pnum" on, "lnum" on, "liga" off;
+  color: #1c1c1f;
 }
 
-.agency .p-bold-italic{
+.agency .p-bold-italic {
   font-style: italic;
   font-weight: 600;
   font-size: 20px;
   line-height: 32px;
-  font-feature-settings: 'pnum' on, 'lnum' on, 'liga' off;
-  color: #1C1C1F;
+  font-feature-settings: "pnum" on, "lnum" on, "liga" off;
+  color: #1c1c1f;
 }
 
-.agency .p-underLine{
+.agency .p-underLine {
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
   line-height: 32px;
   text-decoration-line: underline;
-  font-feature-settings: 'pnum' on, 'lnum' on, 'liga' off;
-  color: #1C1C1F;
+  font-feature-settings: "pnum" on, "lnum" on, "liga" off;
+  color: #1c1c1f;
 }
 
-.agency .p-line{
+.agency .p-line {
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
   line-height: 32px;
   text-decoration-line: line-through;
-  font-feature-settings: 'pnum' on, 'lnum' on, 'liga' off;
-  color: #1C1C1F;
+  font-feature-settings: "pnum" on, "lnum" on, "liga" off;
+  color: #1c1c1f;
 }
-.agency .under{
-  color: #ff7300; 
+.agency .under {
+  color: #ff7300;
   text-decoration: none;
 }
-.maqola{
-  font-family:" PT Serif", serif;
+.maqola {
+  font-family: " PT Serif", serif;
   font-style: normal;
   font-weight: bold;
   font-size: 24px;
   line-height: 35px;
-  font-feature-settings: 'pnum' on, 'lnum' on, 'liga' off;
-  color: #1C1C1F;
+  font-feature-settings: "pnum" on, "lnum" on, "liga" off;
+  color: #1c1c1f;
   margin: 0px !important;
 }
 
-.maqola2 h1{
+.maqola2 h1 {
   font-family: "PT Serif", serif;
   font-style: normal;
   font-weight: 700;
@@ -125,16 +129,16 @@
   display: flex;
   align-items: center;
   text-align: center;
-  font-feature-settings: 'pnum' on, 'lnum' on, 'liga' off;
-  color: #1C1C1F;
+  font-feature-settings: "pnum" on, "lnum" on, "liga" off;
+  color: #1c1c1f;
   margin-top: 24px;
 }
 
-.maqola2 h1{
+.maqola2 h1 {
   margin: 0 !important;
 }
 
-.maqola3 h1{
+.maqola3 h1 {
   font-family: "Merriweather", serif;
   font-style: italic;
   font-weight: 500;
@@ -143,96 +147,109 @@
   display: flex;
   align-items: center;
   text-align: center;
-  font-feature-settings: 'pnum' on, 'lnum' on, 'liga' off;
-  color: #1C1C1F;
+  font-feature-settings: "pnum" on, "lnum" on, "liga" off;
+  color: #1c1c1f;
   margin-top: 24px;
 }
 
 .dots {
   justify-content: center;
-  display:flex;
+  display: flex;
   margin-top: 24px;
 }
 
-.blogs li{
-  color: #FF7300;
+.blogs li {
+  color: #ff7300;
 }
 
-.blogs li h5{
-  font-family: "Inter",sans-serif;
+.blogs li h5 {
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
   line-height: 32px;
-  font-feature-settings: 'pnum' on, 'lnum' on, 'liga' off;
-  color: #1C1C1F;
+  font-feature-settings: "pnum" on, "lnum" on, "liga" off;
+  color: #1c1c1f;
   margin-top: 29px;
   margin-left: 18px;
 }
 
-.ligh-light{
+.ligh-light {
   background-color: rgb(255, 230, 220);
 }
 
-.under:hover{
+.under:hover {
   text-decoration: underline !important;
 }
 
-@media(max-width: 1024px){
-
-  .agency .heading{
+@media (max-width: 1024px) {
+  .agency .heading {
     font-size: 30px;
     line-height: 32px;
   }
-  
-  .agency h3{
+
+  .agency h3 {
     font-size: 16px;
     line-height: 17px;
   }
-  
-  .agency h2{
+
+  .agency h2 {
     font-size: 24px;
     line-height: 24px;
   }
-  
-  .agency p, .agency .p-bold, .agency .p-bold-italic, .agency .p-italic, .agency .p-underLine, .agency .p-line{
+
+  .agency p,
+  .agency .p-bold,
+  .agency .p-bold-italic,
+  .agency .p-italic,
+  .agency .p-underLine,
+  .agency .p-line {
     font-size: 16px;
     line-height: 22px;
   }
-  
-  .maqola, .maqola2 h1, .maqola3 h1{
+
+  .maqola,
+  .maqola2 h1,
+  .maqola3 h1 {
     font-size: 20px;
   }
-  
-  .blogs li h5{
+
+  .blogs li h5 {
     font-size: 16px;
     line-height: 22px;
   }
 }
 
-@media(max-width:375px){
-  .agency .heading{
+@media (max-width: 375px) {
+  .agency .heading {
     font-size: 24px;
   }
-  
-  .agency h3{
+
+  .agency h3 {
     font-size: 14px;
   }
-  
-  .agency h2{
+
+  .agency h2 {
     font-size: 20px;
   }
-  
-  .agency p, .agency .p-bold, .agency .p-bold-italic, .agency .p-italic, .agency .p-underLine, .agency .p-line{
+
+  .agency p,
+  .agency .p-bold,
+  .agency .p-bold-italic,
+  .agency .p-italic,
+  .agency .p-underLine,
+  .agency .p-line {
     font-size: 14px;
   }
-  
-  .maqola, .maqola2 h1, .maqola3 h1{
+
+  .maqola,
+  .maqola2 h1,
+  .maqola3 h1 {
     font-size: 16px;
     line-height: 24px;
   }
-  
-  .blogs li h5{
+
+  .blogs li h5 {
     font-size: 14px;
   }
 }
