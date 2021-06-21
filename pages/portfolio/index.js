@@ -7,7 +7,6 @@ import MainLayout from "../../components/MainLayout";
 export default function Portfoio({ children }) {
   const router = useRouter();
   
-  
 
   return (
     <MainLayout title={"| Portfolio"}>

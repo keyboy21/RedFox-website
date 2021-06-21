@@ -20,6 +20,7 @@
 .portfolio .hr1{
   height: 3px;
   margin-bottom: 70px;
+  margin-top: 0;
 }
 .portfolio h3 {
   font-family: Inter;
@@ -160,4 +161,34 @@ color: black;
 .portfolio .tags .col-auto{
   height: 1190px;
   margin-right: 52px;
+}
+
+
+
+
+
+
+/* Tablet  */
+@media(max-width:991px){
+  .portfolio  .btn_portfolio{
+    margin-top: 70px;
+    margin-bottom: 95px;
+  }
+}
+
+
+/* Small  */
+@media(max-width:767px){
+  .portfolio  .all .row{
+    justify-content: center;
+  }
+  .categories .row{
+    justify-content: center;
+  }
+  .client .row{
+    justify-content: center;
+  }
+  .industriya .row{
+    justify-content: center;
+  }
 }

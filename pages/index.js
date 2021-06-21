@@ -29,10 +29,12 @@ export default function Home() {
           <div className="row">
             <div className="header_top col-lg-10">
               <h2>
-              Muvaffaqiyatli topshirilgan ishlarimiz soni  <span>1250+</span>
+                Muvaffaqiyatli topshirilgan ishlarimiz soni <span>1250+</span>
               </h2>
               <p>
-              Biz o'z ishimizni yaxshi ko'rib bajaramiz. Siz yoki kompaniyangiz uchun nimayiki topshirsangiz, biz uni bajarishdan xursand bo'lamiz. 
+                Biz o'z ishimizni yaxshi ko'rib bajaramiz. Siz yoki
+                kompaniyangiz uchun nimayiki topshirsangiz, biz uni bajarishdan
+                xursand bo'lamiz.
               </p>
             </div>
             <div className="header_bottom">
@@ -45,66 +47,62 @@ export default function Home() {
       </header>
       <section>
         <div className="container">
-          <div className="row">
-            <div className="col-lg-4">
-              <div className="col-lg-12">
+          <div className="row rev">
+            <div className="col-lg-4 col-md-4 derzi">
+              <div className="col-lg-12 col-5">
                 <img src="/Rectangle 62Najot_talim.jpg" alt="najot" />
                 <p>Najot ta’lim o‘quv markazi</p>
               </div>
-              <div className="col-lg-12">
+              <div className="col-lg-12 col-5">
                 <img src="/Rectangle 63Derri.jpg" alt="derri" />
                 <p>Derzi kiyim fabrikasi</p>
               </div>
             </div>
-            <div className="col-lg-8">
-              <img
-                src="/image 21Nurafshon.jpg"
-                alt="nurafshon"
-                
-              />
+            <div className="col-lg-8 col-md-8">
+              <img src="/image 21Nurafshon.jpg" alt="nurafshon" />
               <p>Nurafshon smart city</p>
             </div>
           </div>
           <div className="row bottom">
-            <div className="col-lg-6">
+            <div className="col-lg-6 col-md-6">
               <img src="/image 22Normal_Nurafshon.jpg" alt="normal_Nur" />
               <p>Eden saryog‘lari qadoq dizayn</p>
             </div>
-            <div className="col-lg-6">
+            <div className="col-lg-6 col-md-6">
               <img src="/Rectangle 79MIndo.jpg" alt="Mindo" />
               <p>Mindo mahsuloti uchun qadoq dizayn</p>
             </div>
-            <div className="col-lg-6">
+            <div className="col-lg-6 col-md-6">
               <img src="/Rectangle 389blue_BG.png" alt="normal_Nur" />
               <p>Supercorn qadoq dizayni</p>
             </div>
-            <div className="col-lg-6">
+            <div className="col-lg-6 col-md-6">
               <img src="/Rectangle 390Ping_Bg.png" alt="Mindo" />
               <p>Roma pizza</p>
             </div>
           </div>
           <div className="row">
-            <div className="col-lg-4">
+            <div className="col-lg-4 col-md-4 col-6">
               <img src="/Rectangle 67background.png" alt="redfox" />
               <p>Vast travel sayohat agentligi </p>
             </div>
-            <div className="col-lg-4">
+            <div className="col-lg-4 col-md-4 col-6">
               <img src="/Rectangle 62Blue_b ackground.png" alt="redfox" />
               <p>Giym internet magazin</p>
             </div>
-            <div className="col-lg-4">
+            <div className="col-lg-4 col-md-4 col-6">
               <img src="/Rectangle 67background.png" alt="redfox" />
               <p>Nurafshon smart city</p>
             </div>
-            <div className="col-lg-4">
+            <div className="col-lg-4 col-md-4 col-6">
               <img src="/Rectangle 67background.png" alt="redfox" />
               <p>Venox</p>
             </div>
-            <div className="col-lg-4">
+            <div className="col-lg-4 col-md-4 col-6">
               <img src="/Rectangle 62Blue_b ackground.png" alt="redfox" />
               <p>Boxcom</p>
             </div>
-            <div className="col-lg-4">
+            <div className="col-lg-4 col-md-4 col-6">
               <img src="/Rectangle 67background.png" alt="redfox" />
               <p>Nurafshon smart city</p>
             </div>
@@ -114,7 +112,7 @@ export default function Home() {
       <header>
         <div className="container">
           <div className="row">
-            <div className="header_top col-lg-7">
+            <div className="header_top col-lg-8">
               <h2>
                 Mahalliy bozordagi tajribamiz <span>4 yil</span>
               </h2>
@@ -136,91 +134,136 @@ export default function Home() {
       <div className="skills">
         <div className="container">
           <div className="row">
-            <div className="col-lg-3">
+            <div className="col-lg-4 col-md-4">
               <div className="logos">
-                <i className="fad fa-file-signature"></i>
-                <h4>Naming</h4>
-                <div className="d-flex justify-content-between">
-                  <p>Brend nomini topish</p>
-                  <div>
-                    <img src="/Arrow 4Active_-_.png" />
+                <div className="row">
+                  <div className="col-4 col-md-12 col-lg-12">
+                    <i className="fad fa-file-signature"></i>
+                  </div>
+                  <div className="col-8 col-md-12 col-lg-12">
+                    <h4>Naming</h4>
+                    <div className="d-flex justify-content-between">
+                      <p>Brend nomini topish</p>
+                      <div>
+                        <img src="/Arrow 4Active_-_.png" />
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div className="col-lg-3">
+            <div className="col-lg-4 col-md-4">
               <div className="logos">
-                <i className="fad fa-pen-fancy"></i>
-                <h4>Logo & Branding</h4>
-                <div className="d-flex justify-content-between">
-                  <p>Savdo belgisini yaratish</p>
-                  <div>
-                    <img src="/Arrow 4Active_-_.png" />
+                <div className="row">
+                  <div className="col-4 col-md-12 col-lg-12">
+                    <i className="fad fa-pen-fancy"></i>
+                  </div>
+                  <div className="col-8 col-md-12 col-lg-12">
+                    <h4>Logo & Branding</h4>
+                    <div className="d-flex justify-content-between">
+                      <p>Savdo belgisini yaratish</p>
+                      <div>
+                        <img src="/Arrow 4Active_-_.png" />
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div className="col-lg-3">
+            <div className="col-lg-4 col-md-4">
               <div className="logos">
-                <i className="fas fa-palette"></i>
-                <h4>Graphic design</h4>
-                <div className="d-flex justify-content-between">
-                  <p>Barcha turdagi xizmatlar</p>
-                  <div>
-                    <img src="/Arrow 4Active_-_.png" />
+                <div className="row">
+                  <div className="col-4  col-md-12 col-lg-12">
+                    <i className="fas fa-palette"></i>
+                  </div>
+
+                  <div className="col-8  col-md-12 col-lg-12">
+                    <h4>Graphic design</h4>
+                    <div className="d-flex justify-content-between">
+                      <p>Barcha turdagi xizmatlar</p>
+                      <div>
+                        <img src="/Arrow 4Active_-_.png" />
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div className="col-lg-3">
+            <div className="col-lg-4 col-md-4">
               <div className="logos">
-                <i className="fal fa-phone-laptop"></i>
-                <h4>Web & UX/UI</h4>
-                <div className="d-flex justify-content-between">
-                  <p>Web va Mobile dizayn</p>
-                  <div>
-                    <img src="/Arrow 4Active_-_.png" />
+                <div className="row">
+                  <div className="col-4  col-md-12 col-lg-12">
+                    <i className="fal fa-phone-laptop"></i>
+                  </div>
+
+                  <div className="col-8 col-md-12 col-lg-12">
+                    <h4>Web & UX/UI</h4>
+                    <div className="d-flex justify-content-between">
+                      <p>Web va Mobile dizayn</p>
+                      <div>
+                        <img src="/Arrow 4Active_-_.png" />
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div className="col-lg-3">
+            <div className="col-lg-4 col-md-4">
               <div className="logos">
-                <i className="far fa-shopping-bag"></i>
-                <h4>Packaging</h4>
-                <div className="d-flex justify-content-between">
-                  <p>Qadoqlash dizayni</p>
-                  <div>
-                    <img src="/Arrow 4Active_-_.png" />
+                <div className="row">
+                  <div className="col-4 col-md-12 col-lg-12">
+                    <i className="far fa-shopping-bag"></i>
+                  </div>
+                  <div className="col-8 col-md-12 col-lg-12">
+                    <h4>Packaging</h4>
+                    <div className="d-flex justify-content-between">
+                      <p>Qadoqlash dizayni</p>
+                      <div>
+                        <img src="/Arrow 4Active_-_.png" />
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div className="col-lg-3">
+            <div className="col-lg-4 col-md-4">
               <div className="logos">
-                <i className="fas fa-print"></i>
-                <h4>Poligrafik</h4>
-                <div className="d-flex justify-content-between">
-                  <p>Banner va Flayer dizayni</p>
-                  <div>
-                    <img src="/Arrow 4Active_-_.png" />
+                <div className="row">
+                  <div className="col-4 col-md-12 col-lg-12">
+                    <i className="fas fa-print"></i>
+                  </div>
+                  <div className="col-8 col-md-12 col-lg-12">
+                    <h4>Poligrafik</h4>
+                    <div className="d-flex justify-content-between">
+                      <p>Banner va Flayer dizayni</p>
+                      <div>
+                        <img src="/Arrow 4Active_-_.png" />
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div className="col-lg-3">
+            <div className="col-lg-4 ">
               <div className="logos">
-                <i className="fab fa-instagram"></i>
-                <h4>SMM design</h4>
-                <div className="d-flex justify-content-between">
-                  <p>Ijtimoiy tarmog’lar uchun</p>
-                  <div>
-                    <img src="/Arrow 4Active_-_.png" />
+                <div className="row">
+                  <div className="col-4 col-md-12 col-lg-12">
+                    <i className="fab fa-instagram"></i>
+                  </div>
+
+                  <div className="col-8 col-md-12 col-lg-12">
+                    <h4>SMM design</h4>
+                    <div className="d-flex justify-content-between">
+                      <p>Ijtimoiy tarmog’lar uchun</p>
+                      <div>
+                        <img src="/Arrow 4Active_-_.png" />
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div className="col-lg-3">
+            <div className="col-lg-4 col-md-4">
               <div className="others">
                 <span className="other">
                   Yana shu kabi ko‘plab xizmatlar mavjud
@@ -258,7 +301,7 @@ export default function Home() {
       <div className="experts">
         <div className="container">
           <div className="row">
-            <div className="col-lg-4">
+            <div className="col-lg-4 col-md-6">
               <div>
                 <img src="/My-User-Pic-001 1PolatovM.jpg" />
               </div>
@@ -267,7 +310,7 @@ export default function Home() {
                 <p>UX/UI dizayner · Tajriba: 4 yil</p>
               </div>
             </div>
-            <div className="col-lg-4">
+            <div className="col-lg-4 col-md-6">
               <div>
                 <img src="/My-User-Pic-001 1AzamM.jpg" />
               </div>
@@ -276,7 +319,7 @@ export default function Home() {
                 <p>Grafik dizayner · Tajriba: 10 yil</p>
               </div>
             </div>
-            <div className="col-lg-4">
+            <div className="col-lg-4 col-md-6">
               <div>
                 <img src="/My-User-Pic-001 1RahmatulloJ.jpg" />
               </div>
@@ -285,7 +328,7 @@ export default function Home() {
                 <p>UX/UI dizayner · Tajriba: 4 yil</p>
               </div>
             </div>
-            <div className="col-lg-4">
+            <div className="col-lg-4 col-md-6">
               <div>
                 <img src="/My-User-Pic-001 1RahimjonG.jpg" />
               </div>
@@ -294,7 +337,7 @@ export default function Home() {
                 <p>UX/UI dizayner · Tajriba: 4 yil</p>
               </div>
             </div>
-            <div className="col-lg-4">
+            <div className="col-lg-4 col-md-6">
               <div>
                 <img src="/PicNurmatovO.png" />
               </div>
@@ -303,7 +346,7 @@ export default function Home() {
                 <p>UX/UI dizayner · Tajriba: 4 yil</p>
               </div>
             </div>
-            <div className="col-lg-4">
+            <div className="col-lg-4 col-md-6">
               <div>
                 <img src="/My-User-Pic-001 1BaxtiyorjonG.jpg" />
               </div>
@@ -312,7 +355,7 @@ export default function Home() {
                 <p>UX/UI dizayner · Tajriba: 4 yil</p>
               </div>
             </div>
-            <div className="col-lg-4">
+            <div className="col-lg-4 col-md-6">
               <div>
                 <img src="/My-User-Pic-001 1SarvgartbekA.jpg" />
               </div>
@@ -321,7 +364,7 @@ export default function Home() {
                 <p>UX/UI dizayner · Tajriba: 4 yil</p>
               </div>
             </div>
-            <div className="col-lg-4">
+            <div className="col-lg-4 col-md-6">
               <div>
                 <img src="/My-User-Pic-001 1ShokhruhR.jpg" />
               </div>
@@ -330,7 +373,7 @@ export default function Home() {
                 <p>UX/UI dizayner · Tajriba: 4 yil</p>
               </div>
             </div>
-            <div className="col-lg-4">
+            <div className="col-lg-4 col-md-6">
               <div>
                 <img src="/My-User-Pic-001 1UtkirT.jpg" />
               </div>
@@ -345,7 +388,7 @@ export default function Home() {
       <header>
         <div className="container">
           <div className="row">
-            <div className="header_top col-lg-8">
+            <div className="header_top col-lg-8 col-md-11">
               <h2>
                 Mijozlarni qo‘llab quvvatlash, support <span>24/7</span>
               </h2>
@@ -366,7 +409,7 @@ export default function Home() {
       <div className="reason">
         <div className="container">
           <div className="row">
-            <div className="col-lg-4">
+            <div className="col-lg-4 col-md-6">
               <div className="bg_item">
                 <div>
                   <img src="/Frame 8Baxodir_AK.png" />
@@ -383,7 +426,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="col-lg-4">
+            <div className="col-lg-4 col-md-6">
               <div className="bg_item">
                 <div>
                   <img src="/Frame 8RixsiboyU.png" />
@@ -401,7 +444,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="col-lg-4">
+            <div className="col-lg-4 col-md-6">
               <div className="bg_item">
                 <div>
                   <img src="/PicQudratA.png" />
@@ -418,7 +461,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="col-lg-4">
+            <div className="col-lg-4 col-md-6">
               <div className="bg_item">
                 <div>
                   <img src="/PicSunnah.png" />
@@ -434,7 +477,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="col-lg-4">
+            <div className="col-lg-4 col-md-6">
               <div className="bg_item">
                 <div>
                   <img src="/PicAbdurahmon_Nasriddin.png" />
@@ -450,7 +493,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="col-lg-4">
+            <div className="col-lg-4 col-md-6">
               <div className="bg_item">
                 <div>
                   <img src="/PicAhmadSaidov.png" />

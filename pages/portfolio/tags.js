@@ -41,6 +41,56 @@ export default function Tags() {
               <li><span>#</span><p>2020 yil</p><p>(365)</p></li>
             </ul>
             </div>
+            <div className="col-auto">
+            <ul>
+  
+              <li><span>#</span><p>2020 yil</p><p>(365)</p></li>
+              <li><span>#</span><p>2020 yil</p><p>(365)</p></li>
+              <li><span>#</span><p>2020 yil</p><p>(365)</p></li>
+              <li><span>#</span><p>2020 yil</p><p>(365)</p></li>
+              <li><span>#</span><p>2020 yil</p><p>(365)</p></li>
+              <li><span>#</span><p>2020 yil</p><p>(365)</p></li>
+              <li><span>#</span><p>2020 yil</p><p>(365)</p></li>
+              <li><span>#</span><p>2020 yil</p><p>(365)</p></li>
+              <li><span>#</span><p>2020 yil</p><p>(365)</p></li>
+              <li><span>#</span><p>2020 yil</p><p>(365)</p></li>
+              <li><span>#</span><p>2020 yil</p><p>(365)</p></li>
+              <li><span>#</span><p>2020 yil</p><p>(365)</p></li>
+              <li><span>#</span><p>2020 yil</p><p>(365)</p></li>
+              <li><span>#</span><p>2020 yil</p><p>(365)</p></li>
+              <li><span>#</span><p>2020 yil</p><p>(365)</p></li>
+              <li><span>#</span><p>2020 yil</p><p>(365)</p></li>
+              <li><span>#</span><p>2020 yil</p><p>(365)</p></li>
+              <li><span>#</span><p>2020 yil</p><p>(365)</p></li>
+              <li><span>#</span><p>2020 yil</p><p>(365)</p></li>
+              <li><span>#</span><p>2020 yil</p><p>(365)</p></li>
+            </ul>
+            </div>
+            <div className="col-auto">
+            <ul>
+        
+              <li><span>#</span><p>2020 yil</p><p>(365)</p></li>
+              <li><span>#</span><p>2020 yil</p><p>(365)</p></li>
+              <li><span>#</span><p>2020 yil</p><p>(365)</p></li>
+              <li><span>#</span><p>2020 yil</p><p>(365)</p></li>
+              <li><span>#</span><p>2020 yil</p><p>(365)</p></li>
+              <li><span>#</span><p>2020 yil</p><p>(365)</p></li>
+              <li><span>#</span><p>2020 yil</p><p>(365)</p></li>
+              <li><span>#</span><p>2020 yil</p><p>(365)</p></li>
+              <li><span>#</span><p>2020 yil</p><p>(365)</p></li>
+              <li><span>#</span><p>2020 yil</p><p>(365)</p></li>
+              <li><span>#</span><p>2020 yil</p><p>(365)</p></li>
+              <li><span>#</span><p>2020 yil</p><p>(365)</p></li>
+              <li><span>#</span><p>2020 yil</p><p>(365)</p></li>
+              <li><span>#</span><p>2020 yil</p><p>(365)</p></li>
+              <li><span>#</span><p>2020 yil</p><p>(365)</p></li>
+              <li><span>#</span><p>2020 yil</p><p>(365)</p></li>
+              <li><span>#</span><p>2020 yil</p><p>(365)</p></li>
+              <li><span>#</span><p>2020 yil</p><p>(365)</p></li>
+              <li><span>#</span><p>2020 yil</p><p>(365)</p></li>
+              <li><span>#</span><p>2020 yil</p><p>(365)</p></li>
+            </ul>
+            </div>
           </div>
         </div>
       </Index>
