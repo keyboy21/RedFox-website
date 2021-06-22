@@ -33,3 +33,9 @@ ul {
 .navbar-light .navbar-toggler {
   border: none !important;
 }
+
+@media (max-width: 576px) {
+  .navbar-light .navbar-nav .nav-link{
+    display: inline-block;
+  }
+}

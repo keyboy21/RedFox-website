@@ -68,6 +68,7 @@ export default function All() {
             </div>
           </div>
         </div>
+        <button className="btn_portfolio">Shu yerga bosing</button>
       </Index>
     </>
   );

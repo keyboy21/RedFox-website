@@ -70,6 +70,7 @@ export default function Industry() {
         </div>
         </div>
         </div>
+        <button className="btn_portfolio">Shu yerga bosing</button>
       </Index>
     </>
   );

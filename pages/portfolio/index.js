@@ -75,7 +75,6 @@ export default function Portfoio({ children }) {
             </div>
                     
             {children}
-          <button className="btn_portfolio">Shu yerga bosing</button>
         </div>
       </div>
     </MainLayout>
