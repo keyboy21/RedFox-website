@@ -6,8 +6,6 @@ import MainLayout from "../../components/MainLayout";
 
 export default function Portfoio({ children }) {
   const router = useRouter();
-  
-
   return (
     <MainLayout title={"| Portfolio"}>
       <div className="portfolio">
@@ -16,6 +14,7 @@ export default function Portfoio({ children }) {
             <p>
               Jami Topshirilgan ishlar soni: <span>1078+</span>
             </p>
+            <div className="port_ul">
             <ul>
               <li>
                 <Link href="/portfolio/all">
@@ -73,7 +72,8 @@ export default function Portfoio({ children }) {
                 </Link>
               </li>
             </ul>
-                    <hr className="hr1"/>
+            </div>
+                    
             {children}
           <button className="btn_portfolio">Shu yerga bosing</button>
         </div>

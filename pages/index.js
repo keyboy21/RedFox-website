@@ -134,10 +134,10 @@ export default function Home() {
       <div className="skills">
         <div className="container">
           <div className="row">
-            <div className="col-lg-4 col-md-4">
+            <div className="col-lg-3 col-md-4">
               <div className="logos">
                 <div className="row">
-                  <div className="col-4 col-md-12 col-lg-12">
+                  <div className="col-3 col-md-12 col-lg-12">
                     <i className="fad fa-file-signature"></i>
                   </div>
                   <div className="col-8 col-md-12 col-lg-12">
@@ -152,10 +152,10 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="col-lg-4 col-md-4">
+            <div className="col-lg-3 col-md-4">
               <div className="logos">
                 <div className="row">
-                  <div className="col-4 col-md-12 col-lg-12">
+                  <div className="col-3 col-md-12 col-lg-12">
                     <i className="fad fa-pen-fancy"></i>
                   </div>
                   <div className="col-8 col-md-12 col-lg-12">
@@ -170,13 +170,12 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="col-lg-4 col-md-4">
+            <div className="col-lg-3 col-md-4">
               <div className="logos">
                 <div className="row">
-                  <div className="col-4  col-md-12 col-lg-12">
+                  <div className="col-3  col-md-12 col-lg-12">
                     <i className="fas fa-palette"></i>
                   </div>
-
                   <div className="col-8  col-md-12 col-lg-12">
                     <h4>Graphic design</h4>
                     <div className="d-flex justify-content-between">
@@ -189,10 +188,10 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="col-lg-4 col-md-4">
+            <div className="col-lg-3 col-md-4">
               <div className="logos">
                 <div className="row">
-                  <div className="col-4  col-md-12 col-lg-12">
+                  <div className="col-3  col-md-12 col-lg-12">
                     <i className="fal fa-phone-laptop"></i>
                   </div>
 
@@ -208,10 +207,10 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="col-lg-4 col-md-4">
+            <div className="col-lg-3 col-md-4">
               <div className="logos">
                 <div className="row">
-                  <div className="col-4 col-md-12 col-lg-12">
+                  <div className="col-3 col-md-12 col-lg-12">
                     <i className="far fa-shopping-bag"></i>
                   </div>
                   <div className="col-8 col-md-12 col-lg-12">
@@ -226,10 +225,10 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="col-lg-4 col-md-4">
+            <div className="col-lg-3 col-md-4">
               <div className="logos">
                 <div className="row">
-                  <div className="col-4 col-md-12 col-lg-12">
+                  <div className="col-3 col-md-12 col-lg-12">
                     <i className="fas fa-print"></i>
                   </div>
                   <div className="col-8 col-md-12 col-lg-12">
@@ -244,10 +243,10 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="col-lg-4 ">
+            <div className="col-lg-3 col-md-4">
               <div className="logos">
                 <div className="row">
-                  <div className="col-4 col-md-12 col-lg-12">
+                  <div className="col-3 col-md-12 col-lg-12">
                     <i className="fab fa-instagram"></i>
                   </div>
 
@@ -263,7 +262,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="col-lg-4 col-md-4">
+            <div className="col-lg-3 col-md-4">
               <div className="others">
                 <span className="other">
                   Yana shu kabi ko‘plab xizmatlar mavjud

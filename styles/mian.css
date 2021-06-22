@@ -262,7 +262,7 @@ header .write h3 {
   font-family: Inter;
   font-style: normal;
   font-weight: 600;
-  font-size: 22px;
+  font-size: 18px;
   line-height: 27px;
   font-feature-settings: "pnum" on, "lnum" on, "liga" off;
   color: #1c1c1f;
@@ -328,6 +328,12 @@ header .write h3 {
     font-size: 24px;
     line-height: 29px;
   }
+  header{
+    margin-top:70px ;
+  }
+  .skills .logos i{
+    font-size: 50px;
+  }
   header .header_top p {
     padding: 0;
     font-size: 14px;
@@ -341,6 +347,9 @@ header .write h3 {
 
   section .rev {
     flex-direction: column-reverse;
+  }
+  .skills{
+    margin-top: 0;
   }
   .skills h4 {
     font-size: 20px;
@@ -364,9 +373,7 @@ header .write h3 {
     line-height: 20px;
     padding: 0;
   }
-  header {
-    margin-top: 120px;
-  }
+ 
   header .write {
     margin-bottom: 50px;
   }
@@ -374,5 +381,9 @@ header .write h3 {
   header .write h3 {
     font-size: 18px;
     line-height: 22px;
+  }
+  main header .header_bottom{
+    margin: 30px;
+    padding: 0;
   }
 }

@@ -100,8 +100,11 @@ footer .left-footer h2 a,
 
   .collapse #showCol1 {
     transition: 1s ease-in;
-  }
 
+  }
+.last_collapse{
+  padding-top: 50px;
+}
   .activeShow {
     height: 35px;
     overflow: hidden;

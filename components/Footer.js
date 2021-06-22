@@ -95,7 +95,7 @@ export default function Footer() {
         </div>
       </footer>
 
-      <div className="collapse d-block d-sm-none">
+      <div className="collapse d-block d-sm-none last_collapse">
         <div className="container">
           <div
             id="showCol1"
