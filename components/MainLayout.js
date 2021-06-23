@@ -18,7 +18,7 @@ export default function MainLayout({ children, title = "" }) {
         <div className="container">
           <Link href="/">
             <a className="navbar-brand">
-              <img src="/Logo.webp" alt="" />
+              <img src="/logo11111.svg" alt="" />
             </a>
           </Link>
           <button
