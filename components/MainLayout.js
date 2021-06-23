@@ -8,7 +8,7 @@ export default function MainLayout({ children, title = "" }) {
   return (
     <>
       <Head>
-        <title>Redfox {title}</title>
+        <title>Redfox Agency {title}</title>
         <meta name="description" content="Redfox agency website" />
         <meta name="keywords" content="redfox,design,web development, naming" />
         <meta charSet="utf-8" />

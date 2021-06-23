@@ -320,6 +320,100 @@ export default function Tags() {
                 </li>
               </ul>
             </div>
+
+
+            <div className="accordion accordion-flush d-block d-sm-none" id="accordionFlushExample">
+              <div className="accordion-item">
+                <h2 className="accordion-header" id="flush-headingOne">
+                  <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                    Yillar
+                  </button>
+                </h2>
+                <div id="flush-collapseOne" className="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                  <div className="accordion-body">
+                  <ul className="show_ul">
+                      <li>
+                        <div className="back">
+                          <span>#</span>
+                          <p>2020 yil</p>
+                          <p>(365)</p>
+                        </div>
+                      </li>
+                      <li>
+                        <div className="back">
+                          <span>#</span>
+                          <p>2019 yil</p>
+                          <p>(365)</p>
+                        </div>
+                      </li>
+                      <li>
+                        <div className="back">
+                          <span>#</span>
+                          <p>2018 yil</p>
+                          <p>(365)</p>
+                        </div>
+                      </li>
+                      <li>
+                        <div className="back">
+                          <span>#</span>
+                          <p>2017 yil</p>
+                          <p>(365)</p>
+                        </div>
+                      </li>
+                      <li>
+                        <div className="back">
+                          <span>#</span>
+                          <p>2016 yil</p>
+                          <p>(365)</p>
+                        </div>
+                      </li>
+                   </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div className="accordion-item">
+                <h2 className="accordion-header" id="flush-headingTwo">
+                  <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                   Tags
+                  </button>
+                </h2>
+                <div id="flush-collapseTwo" className="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                  <div className="accordion-body">
+                   <ul className="show_ul">
+                      <li>
+                        <div className="back">
+                          <span>#</span>
+                          <p>Branding</p>
+                          <p>(365)</p>
+                        </div>
+                      </li>
+                      <li>
+                        <div className="back">
+                          <span>#</span>
+                          <p>Naming</p>
+                          <p>(365)</p>
+                        </div>
+                      </li>
+                      <li>
+                        <div className="back">
+                          <span>#</span>
+                          <p>UI/UX</p>
+                          <p>(365)</p>
+                        </div>
+                      </li>
+                      <li>
+                        <div className="back">
+                          <span>#</span>
+                          <p>Motion Design</p>
+                          <p>(365)</p>
+                        </div>
+                      </li>
+                   </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </Index>

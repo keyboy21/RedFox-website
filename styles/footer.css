@@ -116,10 +116,10 @@ footer .left-footer h2 a,
   .hideShow3,
   .hideShow4,
   .hideShow5 {
-    transition: 0.3s ease-in;
+    transition: 3s ease-in;
     height: 210px;
   }
-
+ 
   .sircleImg {
     transform: rotate(0deg);
     transition: 0.3s ease-in;
@@ -169,11 +169,13 @@ footer .left-footer h2 a,
   .footer-bottom .col-6 {
     width: 100%;
   }
+ 
 
   .footer-bottom .right-footer h2 {
     font-size: 16px;
     text-align: center;
   }
+
 }
 
 @media (max-width: 418px) {
@@ -181,6 +183,8 @@ footer .left-footer h2 a,
     font-size: 12px;
     text-align: center;
   }
+
+
 }
 
 @media (max-width: 328px) {
@@ -188,6 +192,11 @@ footer .left-footer h2 a,
     font-size: 10px;
     text-align: center;
   }
+ 
+  .collapse .coll h2 a, .collapse .coll h2 {
+    color: #D1D1D1;
+  }
+ 
 }
 @media (max-width: 268px) {
   .footer-bottom .right-footer h2 {

@@ -7,6 +7,7 @@ export default function Footer() {
   const [active2, setActive2] = useState(true);
   const [active3, setActive3] = useState(true);
   const [active4, setActive4] = useState(true);
+
   return (
     <>
       <footer className="d-none  d-sm-block">
@@ -236,6 +237,8 @@ export default function Footer() {
           </div>
         </div>
       </div>
+
+
 
       <div className="footer-bottom">
         <div className="container">

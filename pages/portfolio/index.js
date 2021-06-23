@@ -9,7 +9,7 @@ export default function Portfoio({ children }) {
   return (
     <MainLayout title={"| Portfolio"}>
       <div className="portfolio">
-        <div className="container">
+        <div className="container top_color">
             <h2>Portfolio</h2>
             <p>
               Jami Topshirilgan ishlar soni: <span>1078+</span>
@@ -73,7 +73,8 @@ export default function Portfoio({ children }) {
               </li>
             </ul>
             </div>
-                    
+        </div>
+        <div className="container">
             {children}
         </div>
       </div>

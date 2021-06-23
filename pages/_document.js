@@ -11,6 +11,7 @@ export default class MyDocument extends Document {
             rel="stylesheet"
           />
           <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"></link>
         </Head>
         <body>
           <Main />

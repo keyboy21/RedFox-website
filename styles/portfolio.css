@@ -148,7 +148,7 @@
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  background: #f1f1f1;
+  background-color: #d8d8d8;
   border-radius: 4px;
   margin-bottom: 15px;
   margin-right: 30px;
@@ -205,6 +205,10 @@
   .portfolio .tags .row {
     flex-direction: column;
   }
+  .portfolio .tags .name h2 {
+    text-align: start;
+    margin-top: 15px;
+  }
 }
 
 @media (max-width: 576px) {
@@ -243,6 +247,53 @@
   .portfolio .port_ul ul li a.clik::after {
     display: none;
   }
+  .portfolio{
+    padding-bottom: 70px;
+  }
+  .accordion {
+    background: transparent;
+   
+  }
+  .accordion .accordion-button {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    font-feature-settings: "pnum" on, "lnum" on, "liga" off;
+    color: #1c1c1f;
+    background-color: #E7E7E7;
+  }
+  .accordion .accordion-button::after{
+    background-image: none;
+    background-image: url(../public/Vector.webp);
+  }
 
+ 
+  .accordion-collapse{
+    background: #E7E7E7;
+  }
+  .accordion .accordion-item .show_ul{
+    display: flex;
+    flex-direction: column;
+  }
+  .accordion .accordion-item .show_ul li{
 
-}
+    margin-right: 0;
+    background:transparent;
+  }
+  .accordion .accordion-item .show_ul .back{
+    background-color: #d8d8d8;
+    display: flex;
+    align-items: center;
+    padding: 8px 15px;
+    border-radius: 4px;
+ }
+ .portfolio .top_color{
+   background:#FFFFFF;
+   padding-top: 30px;
+ }
+ .portfolio{
+   padding-top: 0;
+ }
+} 
