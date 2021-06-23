@@ -220,6 +220,15 @@
   }
 }
 
+@media (max-width: 576px) {
+  .agency .container {
+    padding: 0 20px;
+  }
+  .agency .heading {
+    margin-top: 50px;
+  }
+}
+
 @media (max-width: 375px) {
   .agency .heading {
     font-size: 24px;
@@ -252,10 +261,10 @@
   .blogs li h5 {
     font-size: 14px;
   }
-  .agency .heading{
+  .agency .heading {
     margin-top: 50px;
   }
-  .agency .container{
-    padding: 0 20px ;
+  .agency .container {
+    padding: 0 20px;
   }
 }

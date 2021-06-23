@@ -247,12 +247,11 @@
   .portfolio .port_ul ul li a.clik::after {
     display: none;
   }
-  .portfolio{
+  .portfolio {
     padding-bottom: 70px;
   }
   .accordion {
     background: transparent;
-   
   }
   .accordion .accordion-button {
     font-family: Inter;
@@ -262,38 +261,42 @@
     line-height: 24px;
     font-feature-settings: "pnum" on, "lnum" on, "liga" off;
     color: #1c1c1f;
-    background-color: #E7E7E7;
+    background-color: #e7e7e7;
   }
-  .accordion .accordion-button::after{
+  .accordion .accordion-button::after {
     background-image: none;
     background-image: url(../public/Vector.webp);
   }
 
- 
-  .accordion-collapse{
-    background: #E7E7E7;
+  .accordion-collapse {
+    background: #e7e7e7;
   }
-  .accordion .accordion-item .show_ul{
+  .accordion .accordion-item .show_ul {
     display: flex;
     flex-direction: column;
   }
-  .accordion .accordion-item .show_ul li{
-
+  .accordion .accordion-item .show_ul li {
     margin-right: 0;
-    background:transparent;
+    background: transparent;
   }
-  .accordion .accordion-item .show_ul .back{
+  .accordion .accordion-item .show_ul .back {
     background-color: #d8d8d8;
     display: flex;
     align-items: center;
     padding: 8px 15px;
     border-radius: 4px;
- }
- .portfolio .top_color{
-   background:#FFFFFF;
-   padding-top: 30px;
- }
- .portfolio{
-   padding-top: 0;
- }
-} 
+  }
+  .portfolio .top_color {
+    background: #ffffff;
+    padding-top: 30px;
+  }
+  .portfolio {
+    padding-top: 0;
+  }
+
+  .accordion-button:focus {
+    z-index: 3;
+    border-color: none;
+    box-shadow: none;
+  }
+}

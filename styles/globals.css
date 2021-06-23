@@ -32,6 +32,7 @@ ul {
 
 .navbar-light .navbar-toggler {
   border: none !important;
+  box-shadow: none;
 }
 
 @media (max-width: 576px) {
