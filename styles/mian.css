@@ -73,7 +73,10 @@ main header .header_bottom .text_line span {
 section .container img {
   width: 100%;
 }
-
+section .container img:hover {
+  transition: .5s ;
+  transform: scale(1.0300);
+}
 section .container p {
   margin: 10px 0 16px;
   font-family: Inter;
