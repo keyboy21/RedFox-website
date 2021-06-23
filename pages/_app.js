@@ -1,5 +1,6 @@
 import NextNprogress from "nextjs-progressbar";
 import "/node_modules/bootstrap/dist/css/bootstrap.min.css";
+import '../styles/animate.css'
 import "../styles/globals.css";
 import "../styles/mian.css";
 import "../styles/footer.css";

@@ -4,7 +4,7 @@ import ScrollAnimation from "react-animate-on-scroll";
 export default function Home() {
   return (
     <MainLayout>
-      <ScrollAnimation animateIn="fadeInUp" animateOnce="true">
+      <ScrollAnimation animateIn="fadeInUp" animateOnce={true}>
         <header>
           <div className="container">
             <div className="row">
@@ -28,7 +28,7 @@ export default function Home() {
         </header>
       </ScrollAnimation>
 
-      <ScrollAnimation animateIn="fadeInUp" animateOnce="true">
+      <ScrollAnimation animateIn="fadeInUp" animateOnce={true}>
         <header>
           <div className="container">
             <div className="row">
@@ -52,7 +52,7 @@ export default function Home() {
         </header>
       </ScrollAnimation>
 
-      <ScrollAnimation animateIn="fadeInUp" animateOnce="true">
+      <ScrollAnimation animateIn="fadeInUp" animateOnce={true}>
         <section>
           <div className="container">
             <div className="row rev">
@@ -119,7 +119,7 @@ export default function Home() {
         </section>
       </ScrollAnimation>
 
-      <ScrollAnimation animateIn="fadeInUp" animateOnce="true">
+      <ScrollAnimation animateIn="fadeInUp" animateOnce={true}>
         <header>
           <div className="container">
             <div className="row">
@@ -144,7 +144,7 @@ export default function Home() {
       </ScrollAnimation>
 
       {/* Skills */}
-      <ScrollAnimation animateIn="fadeInUp" animateOnce="true">
+      <ScrollAnimation animateIn="fadeInUp" animateOnce={true}>
         <div className="skills">
           <div className="container">
             <div className="row">
@@ -291,7 +291,7 @@ export default function Home() {
         </div>
       </ScrollAnimation>
 
-      <ScrollAnimation animateIn="fadeInUp" animateOnce="true">
+      <ScrollAnimation animateIn="fadeInUp" animateOnce={true}>
         <header>
           <div className="container">
             <div className="row">
@@ -316,7 +316,7 @@ export default function Home() {
         </header>
       </ScrollAnimation>
 
-      <ScrollAnimation animateIn="fadeInUp" animateOnce="true">
+      <ScrollAnimation animateIn="fadeInUp" animateOnce={true}>
         <div className="experts">
           <div className="container">
             <div className="row">
@@ -406,7 +406,7 @@ export default function Home() {
         </div>
       </ScrollAnimation>
 
-      <ScrollAnimation animateIn="fadeInUp" animateOnce="true">
+      <ScrollAnimation animateIn="fadeInUp" animateOnce={true}>
         <header>
           <div className="container">
             <div className="row">
@@ -430,7 +430,7 @@ export default function Home() {
         </header>
       </ScrollAnimation>
 
-      <ScrollAnimation animateIn="fadeInUp" animateOnce="true">
+      <ScrollAnimation animateIn="fadeInUp" animateOnce={true}>
         <div className="reason">
           <div className="container">
             <div className="row">
@@ -541,7 +541,7 @@ export default function Home() {
         </div>
       </ScrollAnimation>
 
-      <ScrollAnimation animateIn="fadeInUp" animateOnce="true">
+      <ScrollAnimation animateIn="fadeInUp" animateOnce={true}>
         <header>
           <div className="container">
             <div className="row">
@@ -566,7 +566,7 @@ export default function Home() {
       </ScrollAnimation>
 
       {/* Beliver || Ishonch */}
-      <ScrollAnimation animateIn="fadeInUp" animateOnce="true">
+      <ScrollAnimation animateIn="fadeInUp" animateOnce={true}>
         <div className="belive">
           <div className="container">
             <div className="row">
@@ -631,7 +631,7 @@ export default function Home() {
         </div>
       </ScrollAnimation>
 
-      <ScrollAnimation animateIn="fadeInUp" animateOnce="true">
+      <ScrollAnimation animateIn="fadeInUp" animateOnce={true}>
         <header>
           <div className="container">
             <div className="row">
