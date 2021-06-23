@@ -252,9 +252,11 @@ header .write h3 {
   color: #a6a6a6;
 }
 
-.skills .logos:hover,
-.skills .logos i:hover {
+.skills .logos:hover {
   background: #fffbf5;
+}
+
+.skills .logos:hover i {
   color: #ff7300;
 }
 .skills h4 {
