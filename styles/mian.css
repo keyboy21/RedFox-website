@@ -451,4 +451,8 @@ header .write h3 {
     margin: 30px;
     padding: 0;
   }
+
+  main header .header_bottom .text_line{
+    font-size: 12px;;
+  }
 }
