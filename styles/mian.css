@@ -17,6 +17,68 @@ header h2 {
   color: #1c1c1f;
 }
 
+@-webkit-keyframes scroll {
+  0% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(calc(-250px * 11));
+    transform: translateX(calc(-250px * 11));
+  }
+}
+
+@keyframes scroll {
+  0% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(calc(-250px * 11));
+    transform: translateX(calc(-250px * 11));
+  }
+}
+.slider {
+  margin-top: 30px;
+  height: 100px;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.slider .slide-track {
+  -webkit-animation: scroll 90s linear infinite;
+  animation: scroll 90s linear infinite;
+  display: flex;
+  width: calc(250px * 14);
+}
+.slider .slide {
+  height: 200px;
+  width: 250px;
+}
+
+.two .slide-track {
+  -webkit-animation: scroll 90s linear infinite;
+  animation: scroll 90s linear infinite;
+  display: flex;
+  width: calc(200px * 40);
+}
+
+.two {
+  margin-bottom: 0;
+}
+
+.two .slide {
+  width: 200px;
+  justify-content: space-evenly;
+}
+
+.medium {
+  margin-top: 0;
+}
+
 header h2 span {
   color: #ff7300;
 }
@@ -74,8 +136,8 @@ section .container img {
   width: 100%;
 }
 section .container img:hover {
-  transition: .5s ;
-  transform: scale(1.0300);
+  transition: 0.5s;
+  transform: scale(1.03);
 }
 section .container p {
   margin: 10px 0 16px;
@@ -321,10 +383,9 @@ header .write h3 {
 }
 
 @media (max-width: 767px) {
-  .skills h4{
+  .skills h4 {
     margin-top: 0;
   }
-  
 }
 
 @media (max-width: 576px) {
@@ -332,10 +393,10 @@ header .write h3 {
     font-size: 24px;
     line-height: 29px;
   }
-  header{
-    margin-top:70px ;
+  header {
+    margin-top: 70px;
   }
-  .skills .logos i{
+  .skills .logos i {
     font-size: 50px;
   }
   header .header_top p {
@@ -352,7 +413,7 @@ header .write h3 {
   section .rev {
     flex-direction: column-reverse;
   }
-  .skills{
+  .skills {
     margin-top: 0;
   }
   .skills h4 {
@@ -377,7 +438,7 @@ header .write h3 {
     line-height: 20px;
     padding: 0;
   }
- 
+
   header .write {
     margin-bottom: 50px;
   }
@@ -386,7 +447,7 @@ header .write h3 {
     font-size: 18px;
     line-height: 22px;
   }
-  main header .header_bottom{
+  main header .header_bottom {
     margin: 30px;
     padding: 0;
   }
