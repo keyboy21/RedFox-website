@@ -39,4 +39,7 @@ ul {
   .navbar-light .navbar-nav .nav-link{
     display: inline-block;
   }
+  .navbar {
+    box-shadow: 0 -18px 27px gray;
+  }
 }
