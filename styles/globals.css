@@ -12,6 +12,11 @@ ul {
   height: 100%;
 }
 
+
+#nprogress .spinner-icon{
+  display: none;
+}
+
 .navbar-light .navbar-nav .nav-link {
   font-family: Inter;
   font-style: normal;

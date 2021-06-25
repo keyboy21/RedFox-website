@@ -29,115 +29,114 @@ export default function Home() {
       </ScrollAnimation>
 
       <div className="slider">
-	<div className="slide-track">
-		<div className="slide">
-			<img src="/enterprise/Frame.webp" alt="" />
-		</div>
-		<div className="slide">
-			<img src="/enterprise/Group (1).webp"  alt="" />
-		</div>
-		<div className="slide">
-			<img src="/enterprise/Group (2).webp" alt="" />
-		</div>
-		<div className="slide">
-			<img src="/enterprise/Group (4).webp" alt="" />
-		</div>
-		<div className="slide">
-			<img src="/enterprise/Group (5).webp" alt="" />
-		</div>
-		<div className="slide">
-			<img src="/enterprise/Group (6).webp" alt="" />
-		</div>
-		<div className="slide">
-			<img src="/enterprise/Group (7).webp" alt="" />
-		</div>
-		<div className="slide">
-			<img src="/enterprise/Group (8).webp" alt="" />
-		</div>
-		<div className="slide">
-			<img src="/enterprise/Group (9).webp" alt="" />
-		</div>
-		<div className="slide">
-			<img src="/enterprise/Group 19.webp" alt="" />
-		</div>
-		<div className="slide">
-			<img src="/enterprise/Group 64.webp" alt="" />
-		</div>
-    <div className="slide">
-			<img src="/enterprise/Group (4).webp" alt="" />
-		</div>
+        <div className="slide-track">
+          <div className="slide">
+            <img src="/enterprise/Frame.webp" alt="" />
+          </div>
+          <div className="slide">
+            <img src="/enterprise/Group (1).webp" alt="" />
+          </div>
+          <div className="slide">
+            <img src="/enterprise/Group (2).webp" alt="" />
+          </div>
+          <div className="slide">
+            <img src="/enterprise/Group (4).webp" alt="" />
+          </div>
+          <div className="slide">
+            <img src="/enterprise/Group (5).webp" alt="" />
+          </div>
+          <div className="slide">
+            <img src="/enterprise/Group (6).webp" alt="" />
+          </div>
+          <div className="slide">
+            <img src="/enterprise/Group (7).webp" alt="" />
+          </div>
+          <div className="slide">
+            <img src="/enterprise/Group (8).webp" alt="" />
+          </div>
+          <div className="slide">
+            <img src="/enterprise/Group (9).webp" alt="" />
+          </div>
+          <div className="slide">
+            <img src="/enterprise/Group 19.webp" alt="" />
+          </div>
+          <div className="slide">
+            <img src="/enterprise/Group 64.webp" alt="" />
+          </div>
+          <div className="slide">
+            <img src="/enterprise/Group (4).webp" alt="" />
+          </div>
 
-    <div className="slide">
-			<img src="/enterprise/Group (8).webp" alt="" />
-		</div>
-    <div className="slide">
-			<img src="/enterprise/Frame.webp" alt="" />
-		</div>
-    <div className="slide">
-			<img src="/enterprise/Group (2).webp" alt="" />
-		</div>
-	</div>
-  <div className="slide">
-			<img src="/enterprise/Group (8).webp" alt="" />
-		</div>
-</div>
-
+          <div className="slide">
+            <img src="/enterprise/Group (8).webp" alt="" />
+          </div>
+          <div className="slide">
+            <img src="/enterprise/Frame.webp" alt="" />
+          </div>
+          <div className="slide">
+            <img src="/enterprise/Group (2).webp" alt="" />
+          </div>
+        </div>
+        <div className="slide">
+          <img src="/enterprise/Group (8).webp" alt="" />
+        </div>
+      </div>
 
       <div className="slider">
-	<div className="slide-track">
-		<div className="slide">
-			<img src="/enterprise/Group 68.webp" alt="" />
-		</div>
-		<div className="slide">
-			<img src="/enterprise/Group 7.webp"  alt="" />
-		</div>
-		<div className="slide">
-			<img src="/enterprise/Group 70.webp" alt="" />
-		</div>
-		<div className="slide">
-			<img src="/enterprise/Group.webp" alt="" />
-		</div>
-		<div className="slide">
-			<img src="/enterprise/Hamkor.webp" alt="" />
-		</div>
-		<div className="slide">
-			<img src="/enterprise/Integral.webp" alt="" />
-		</div>
-		<div className="slide">
-			<img src="/enterprise/Ipoteka.webp" alt="" />
-		</div>
-		<div className="slide">
-			<img src="/enterprise/Logo Light Gorizontal 1.webp" alt="" />
-		</div>
-		<div className="slide">
-			<img src="/enterprise/REHAU.webp" alt="" />
-		</div>
-		<div className="slide">
-			<img src="/enterprise/Sardor.webp" alt="" />
-		</div>
-		<div className="slide">
-			<img src="/enterprise/Tosh.webp" alt="" />
-		</div>
-    <div className="slide">
-			<img src="/enterprise/Group 70.webp" alt="" />
-		</div>
-    <div className="slide">
-			<img src="/enterprise/Ipoteka.webp" alt="" />
-		</div>
-    <div className="slide">
-			<img src="/enterprise/Sardor.webp" alt="" />
-		</div>
-    <div className="slide">
-			<img src="/enterprise/Logo Light Gorizontal 1.webp" alt="" />
-		</div>
-	</div>
-  <div className="slide">
-			<img src="/enterprise/REHAU.webp" alt="" />
-		</div>
-</div>
+        <div className="slide-track">
+          <div className="slide">
+            <img src="/enterprise/Group 68.webp" alt="" />
+          </div>
+          <div className="slide">
+            <img src="/enterprise/Group 7.webp" alt="" />
+          </div>
+          <div className="slide">
+            <img src="/enterprise/Group 70.webp" alt="" />
+          </div>
+          <div className="slide">
+            <img src="/enterprise/Group.webp" alt="" />
+          </div>
+          <div className="slide">
+            <img src="/enterprise/Hamkor.webp" alt="" />
+          </div>
+          <div className="slide">
+            <img src="/enterprise/Integral.webp" alt="" />
+          </div>
+          <div className="slide">
+            <img src="/enterprise/Ipoteka.webp" alt="" />
+          </div>
+          <div className="slide">
+            <img src="/enterprise/Logo Light Gorizontal 1.webp" alt="" />
+          </div>
+          <div className="slide">
+            <img src="/enterprise/REHAU.webp" alt="" />
+          </div>
+          <div className="slide">
+            <img src="/enterprise/Sardor.webp" alt="" />
+          </div>
+          <div className="slide">
+            <img src="/enterprise/Tosh.webp" alt="" />
+          </div>
+          <div className="slide">
+            <img src="/enterprise/Group 70.webp" alt="" />
+          </div>
+          <div className="slide">
+            <img src="/enterprise/Ipoteka.webp" alt="" />
+          </div>
+          <div className="slide">
+            <img src="/enterprise/Sardor.webp" alt="" />
+          </div>
+          <div className="slide">
+            <img src="/enterprise/Logo Light Gorizontal 1.webp" alt="" />
+          </div>
+        </div>
+        <div className="slide">
+          <img src="/enterprise/REHAU.webp" alt="" />
+        </div>
+      </div>
 
-<ScrollAnimation animateIn="fadeInUp" animateOnce={true}>
-        <header className='medium'>
+      <ScrollAnimation animateIn="fadeInUp" animateOnce={true}>
+        <header className="medium">
           <div className="container">
             <div className="row">
               <div className="header_bottom">
@@ -150,238 +149,231 @@ export default function Home() {
         </header>
       </ScrollAnimation>
 
+      <div className="slider two">
+        <div className="slide-track">
+          <div className="slide">
+            <img src="/business/2 2046310529.webp" alt="" />
+          </div>
+          <div className="slide">
+            <img src="/business/boxcom 1.webp" alt="" />
+          </div>
+          <div className="slide">
+            <img src="/business/Frame (1).webp" alt="" />
+          </div>
+          <div className="slide">
+            <img src="/business/Frame (2).webp" alt="" />
+          </div>
+          <div className="slide">
+            <img src="/business/Frame (3).webp" alt="" />
+          </div>
+          <div className="slide">
+            <img src="/business/Frame.webp" alt="" />
+          </div>
+          <div className="slide">
+            <img src="/business/Group (1).webp" alt="" />
+          </div>
+          <div className="slide">
+            <img src="/business/Group (10).webp" alt="" />
+          </div>
+          <div className="slide">
+            <img src="/business/Group (11).webp" alt="" />
+          </div>
+          <div className="slide">
+            <img src="/business/Group (12).webp" alt="" />
+          </div>
+          <div className="slide">
+            <img src="/business/Group (13).webp" alt="" />
+          </div>
+          <div className="slide">
+            <img src="/business/Group (14).webp" alt="" />
+          </div>
+          <div className="slide">
+            <img src="/business/Group (15).webp" alt="" />
+          </div>
+          <div className="slide">
+            <img src="/business/Group (16).webp" alt="" />
+          </div>
+          <div className="slide">
+            <img src="/business/Group (17).webp" alt="" />
+          </div>
+        </div>
+        <div className="slide">
+          <img src="/business/Group (18).webp" alt="" />
+        </div>
+
+        <div className="slide">
+          <img src="/business/2 2046310529.webp" alt="" />
+        </div>
+
+        <div className="slide">
+          <img src="/business/Frame.webp" alt="" />
+        </div>
+
+        <div className="slide">
+          <img src="/business/Group (11).webp" alt="" />
+        </div>
+
+        <div className="slide">
+          <img src="/business/Group (15).webp" alt="" />
+        </div>
+
+        <div className="slide">
+          <img src="/business/2 2046310529.webp" alt="" />
+        </div>
+        <div className="slide">
+          <img src="/business/Frame.webp" alt="" />
+        </div>
+
+        <div className="slide">
+          <img src="/business/Group (15).webp" alt="" />
+        </div>
+      </div>
 
       <div className="slider two">
-	<div className="slide-track">
-		<div className="slide">
-			<img src="/business/2 2046310529.webp" alt="" />
-		</div>
-		<div className="slide">
-			<img src="/business/boxcom 1.webp"  alt="" />
-		</div>
-		<div className="slide">
-			<img src="/business/Frame (1).webp" alt="" />
-		</div>
-		<div className="slide">
-			<img src="/business/Frame (2).webp" alt="" />
-		</div>
-		<div className="slide">
-			<img src="/business/Frame (3).webp" alt="" />
-		</div>
-		<div className="slide">
-			<img src="/business/Frame.webp" alt="" />
-		</div>
-		<div className="slide">
-			<img src="/business/Group (1).webp" alt="" />
-		</div>
-		<div className="slide">
-			<img src="/business/Group (10).webp" alt="" />
-		</div>
-		<div className="slide">
-			<img src="/business/Group (11).webp" alt="" />
-		</div>
-		<div className="slide">
-			<img src="/business/Group (12).webp" alt="" />
-		</div>
-		<div className="slide">
-			<img src="/business/Group (13).webp" alt="" />
-		</div>
-    <div className="slide">
-			<img src="/business/Group (14).webp" alt="" />
-		</div>
-    <div className="slide">
-			<img src="/business/Group (15).webp" alt="" />
-		</div>
-    <div className="slide">
-			<img src="/business/Group (16).webp" alt="" />
-		</div>
-    <div className="slide">
-			<img src="/business/Group (17).webp" alt="" />
-		</div>
-	</div>
-  <div className="slide">
-			<img src="/business/Group (18).webp" alt="" />
-		</div>
+        <div className="slide-track">
+          <div className="slide">
+            <img src="/business/Group (19).webp" alt="" />
+          </div>
+          <div className="slide">
+            <img src="/business/Group (2).webp" alt="" />
+          </div>
+          <div className="slide">
+            <img src="/business/Group (20).webp" alt="" />
+          </div>
+          <div className="slide">
+            <img src="/business/Group (21).webp" alt="" />
+          </div>
+          <div className="slide">
+            <img src="/business/Group (22).webp" alt="" />
+          </div>
+          <div className="slide">
+            <img src="/business/Group (23).webp" alt="" />
+          </div>
+          <div className="slide">
+            <img src="/business/Group (3).webp" alt="" />
+          </div>
+          <div className="slide">
+            <img src="/business/Group (4).webp" alt="" />
+          </div>
+          <div className="slide">
+            <img src="/business/Group (5).webp" alt="" />
+          </div>
+          <div className="slide">
+            <img src="/business/Group (6).webp" alt="" />
+          </div>
+          <div className="slide">
+            <img src="/business/Group (7).webp" alt="" />
+          </div>
+          <div className="slide">
+            <img src="/business/Group (8).webp" alt="" />
+          </div>
+          <div className="slide">
+            <img src="/business/Group (9).webp" alt="" />
+          </div>
+          <div className="slide">
+            <img src="/business/Group 13.webp" alt="" />
+          </div>
+          <div className="slide">
+            <img src="/business/Group 16.webp" alt="" />
+          </div>
+        </div>
+        <div className="slide">
+          <img src="/business/Group 2.webp" alt="" />
+        </div>
 
-    <div className="slide">
-			<img src="/business/2 2046310529.webp" alt="" />
-		</div>
+        <div className="slide">
+          <img src="/business/Group (19).webp" alt="" />
+        </div>
 
-    <div className="slide">
-			<img src="/business/Frame.webp" alt="" />
-		</div>
+        <div className="slide">
+          <img src="/business/Group (22).webp" alt="" />
+        </div>
 
-    <div className="slide">
-			<img src="/business/Group (11).webp" alt="" />
-		</div>
+        <div className="slide">
+          <img src="/business/Group (7).webp" alt="" />
+        </div>
+        <div className="slide">
+          <img src="/business/Group 13.webp" alt="" />
+        </div>
 
-    <div className="slide">
-			<img src="/business/Group (15).webp" alt="" />
-		</div>
+        <div className="slide">
+          <img src="/business/Group (19).webp" alt="" />
+        </div>
 
-    <div className="slide">
-			<img src="/business/2 2046310529.webp" alt="" />
-		</div>
-    <div className="slide">
-			<img src="/business/Frame.webp" alt="" />
-		</div>
+        <div className="slide">
+          <img src="/business/Group (22).webp" alt="" />
+        </div>
 
-    <div className="slide">
-			<img src="/business/Group (15).webp" alt="" />
-		</div>
-</div>
-
-      <div className="slider two">
-	<div className="slide-track">
-		<div className="slide">
-			<img src="/business/Group (19).webp" alt="" />
-		</div>
-		<div className="slide">
-			<img src="/business/Group (2).webp"  alt="" />
-		</div>
-		<div className="slide">
-			<img src="/business/Group (20).webp" alt="" />
-		</div>
-		<div className="slide">
-			<img src="/business/Group (21).webp" alt="" />
-		</div>
-		<div className="slide">
-			<img src="/business/Group (22).webp" alt="" />
-		</div>
-		<div className="slide">
-			<img src="/business/Group (23).webp" alt="" />
-		</div>
-		<div className="slide">
-			<img src="/business/Group (3).webp" alt="" />
-		</div>
-		<div className="slide">
-			<img src="/business/Group (4).webp" alt="" />
-		</div>
-		<div className="slide">
-			<img src="/business/Group (5).webp" alt="" />
-		</div>
-		<div className="slide">
-			<img src="/business/Group (6).webp" alt="" />
-		</div>
-		<div className="slide">
-			<img src="/business/Group (7).webp" alt="" />
-		</div>
-    <div className="slide">
-			<img src="/business/Group (8).webp" alt="" />
-		</div>
-    <div className="slide">
-			<img src="/business/Group (9).webp" alt="" />
-		</div>
-    <div className="slide">
-			<img src="/business/Group 13.webp" alt="" />
-		</div>
-    <div className="slide">
-			<img src="/business/Group 16.webp" alt="" />
-		</div>
-	</div>
-  <div className="slide">
-			<img src="/business/Group 2.webp" alt="" />
-		</div>
-
-    <div className="slide">
-			<img src="/business/Group (19).webp" alt="" />
-		</div>
-
-    <div className="slide">
-			<img src="/business/Group (22).webp" alt="" />
-		</div>
-
-    <div className="slide">
-			<img src="/business/Group (7).webp" alt="" />
-		</div>
-    <div className="slide">
-			<img src="/business/Group 13.webp" alt="" />
-		</div>
-
-    <div className="slide">
-			<img src="/business/Group (19).webp" alt="" />
-		</div>
-
-    <div className="slide">
-			<img src="/business/Group (22).webp" alt="" />
-		</div>
-
-    <div className="slide">
-			<img src="/business/Group (9).webp" alt="" />
-		</div>
-    
-</div>
+        <div className="slide">
+          <img src="/business/Group (9).webp" alt="" />
+        </div>
+      </div>
 
       <div className="slider two">
-	<div className="slide-track">
-		<div className="slide">
-			<img src="/business/x31 thinkland 1.webp" alt="" />
-		</div>
-		<div className="slide">
-			<img src="/business/logo 1.webp"  alt="" />
-		</div>
-		<div className="slide">
-			<img src="/business/boxcom 1.webp" alt="" />
-		</div>
-		<div className="slide">
-			<img src="/business/Vector.webp" alt="" />
-		</div>
-		<div className="slide">
-			<img src="/business/Teach Me.webp" alt="" />
-		</div>
-		<div className="slide">
-			<img src="/business/SUPERCORN 1.webp" alt="" />
-		</div>
-		<div className="slide">
-			<img src="/business/Med Logo.webp" alt="" />
-		</div>
-		<div className="slide">
-			<img src="/business/Group.webp" alt="" />
-		</div>
-		<div className="slide">
-			<img src="/business/Group 67.webp" alt="" />
-		</div>
-		<div className="slide">
-			<img src="/business/Group 66.webp" alt="" />
-		</div>
-		<div className="slide">
-			<img src="/business/Group 65.webp" alt="" />
-		</div>
-    <div className="slide">
-			<img src="/business/Group 63.webp" alt="" />
-		</div>
-    <div className="slide">
-			<img src="/business/Group 62.webp" alt="" />
-		</div>
-    <div className="slide">
-			<img src="/business/Group 32895.webp" alt="" />
-		</div>
-    <div className="slide">
-			<img src="/business/Group 21.webp" alt="" />
-		</div>
-	</div>
-  <div className="slide">
-			<img src="/business/Group 2.webp" alt="" />
-		</div>
+        <div className="slide-track">
+          <div className="slide">
+            <img src="/business/x31 thinkland 1.webp" alt="" />
+          </div>
+          <div className="slide">
+            <img src="/business/logo 1.webp" alt="" />
+          </div>
+          <div className="slide">
+            <img src="/business/boxcom 1.webp" alt="" />
+          </div>
+          <div className="slide">
+            <img src="/business/Vector.webp" alt="" />
+          </div>
+          <div className="slide">
+            <img src="/business/Teach Me.webp" alt="" />
+          </div>
+          <div className="slide">
+            <img src="/business/SUPERCORN 1.webp" alt="" />
+          </div>
+          <div className="slide">
+            <img src="/business/Med Logo.webp" alt="" />
+          </div>
+          <div className="slide">
+            <img src="/business/Group.webp" alt="" />
+          </div>
+          <div className="slide">
+            <img src="/business/Group 67.webp" alt="" />
+          </div>
+          <div className="slide">
+            <img src="/business/Group 66.webp" alt="" />
+          </div>
+          <div className="slide">
+            <img src="/business/Group 65.webp" alt="" />
+          </div>
+          <div className="slide">
+            <img src="/business/Group 63.webp" alt="" />
+          </div>
+          <div className="slide">
+            <img src="/business/Group 62.webp" alt="" />
+          </div>
+          <div className="slide">
+            <img src="/business/Group 32895.webp" alt="" />
+          </div>
+          <div className="slide">
+            <img src="/business/Group 21.webp" alt="" />
+          </div>
+        </div>
+        <div className="slide">
+          <img src="/business/Group 2.webp" alt="" />
+        </div>
 
-    <div className="slide">
-			<img src="/business/x31 thinkland 1.webp" alt="" />
-		</div>
+        <div className="slide">
+          <img src="/business/x31 thinkland 1.webp" alt="" />
+        </div>
 
-    <div className="slide">
-			<img src="/business/Teach Me.webp" alt="" />
-		</div>
+        <div className="slide">
+          <img src="/business/Teach Me.webp" alt="" />
+        </div>
 
-    <div className="slide">
-			<img src="/business/Group 63.webp" alt="" />
-		</div>
-</div>
+        <div className="slide">
+          <img src="/business/Group 63.webp" alt="" />
+        </div>
+      </div>
 
-
-
-
-
-     
       <ScrollAnimation animateIn="fadeInUp" animateOnce={true}>
         <header>
           <div className="container">

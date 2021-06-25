@@ -1,8 +1,6 @@
 import Link from "next/link";
-import React  from "react";
 import { useRouter } from "next/router";
 import MainLayout from "../../components/MainLayout";
-
 
 export default function Portfoio({ children }) {
   const router = useRouter();

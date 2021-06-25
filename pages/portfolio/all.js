@@ -1,15 +1,33 @@
 import Index from "./index.js";
+// import { useEffect, useState } from "react";
+import fetch from "node-fetch";
 
-export default function All() {
+const All = ({ data: serverpost }) => {
+  // const [posts, setPosts] = useState(serverpost);
+  // useEffect(() => {
+  //   async function load() {
+  //     const res = await fetch(`https://jsonplaceholder.typicode.com/users`);
+  //     const data = await res.json();
+
+  //     setPosts(data);
+  //   }
+
+  //   if (!serverpost) {
+  //     load();
+  //   }
+  // }, []);
+
   return (
     <>
       <Index>
         <div className="all">
           <div className="row">
-            <div className="col-lg-4 col-md-4 col-sm-6">
-              <img src="/Rectangle 65portfolio.jpg" alt="" />
-              <p>Nurafshon smart city</p>
-            </div>
+            {/* {posts.map((name) => (
+              <div className="col-lg-4 col-md-4 col-sm-6" key={name.id}>
+                <img src="/Rectangle 65portfolio.jpg" alt="" />
+                <p>{name.name}</p>
+              </div>
+            ))} */}
             <div className="col-lg-4 col-md-4 col-sm-6">
               <img src="/Rectangle 65portfolio.jpg" alt="" />
               <p>Nurafshon smart city</p>
@@ -72,4 +90,15 @@ export default function All() {
       </Index>
     </>
   );
-}
+};
+
+// export async function getServerSideProps() {
+//   // Fetch data from external API
+//   const res = await fetch(`https://jsonplaceholder.typicode.com/users`);
+//   const data = await res.json();
+
+//   // Pass data to the page via props
+//   return { props: { data } };
+// }
+
+export default All;

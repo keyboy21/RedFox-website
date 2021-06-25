@@ -23,8 +23,8 @@ header h2 {
     transform: translateX(0);
   }
   100% {
-    -webkit-transform: translateX(calc(-250px * 11));
-    transform: translateX(calc(-250px * 11));
+    -webkit-transform: translateX(calc(-250px * 7));
+    transform: translateX(calc(-250px * 7));
   }
 }
 
@@ -34,8 +34,8 @@ header h2 {
     transform: translateX(0);
   }
   100% {
-    -webkit-transform: translateX(calc(-250px * 11));
-    transform: translateX(calc(-250px * 11));
+    -webkit-transform: translateX(calc(-250px * 7));
+    transform: translateX(calc(-250px * 7));
   }
 }
 .slider {
@@ -52,7 +52,7 @@ header h2 {
   -webkit-animation: scroll 90s linear infinite;
   animation: scroll 90s linear infinite;
   display: flex;
-  width: calc(250px * 14);
+  width: calc(250px * 15);
 }
 .slider .slide {
   height: 200px;
@@ -63,7 +63,7 @@ header h2 {
   -webkit-animation: scroll 90s linear infinite;
   animation: scroll 90s linear infinite;
   display: flex;
-  width: calc(200px * 40);
+  width: calc(400px * 200);
 }
 
 .two {
@@ -71,7 +71,7 @@ header h2 {
 }
 
 .two .slide {
-  width: 200px;
+  width: 240px;
   justify-content: space-evenly;
 }
 
@@ -452,7 +452,7 @@ header .write h3 {
     padding: 0;
   }
 
-  main header .header_bottom .text_line{
-    font-size: 12px;;
+  main header .header_bottom .text_line {
+    font-size: 12px;
   }
 }
