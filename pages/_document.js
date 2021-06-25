@@ -15,7 +15,7 @@ export default class MyDocument extends Document {
             href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
           />
         </Head>
-        <body onContextMenu ={false}>
+        <body>
           <Main />
           <NextScript />
           <script> </script>
