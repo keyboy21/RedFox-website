@@ -2,29 +2,29 @@ import Index from "./index.js";
 import { useEffect, useState } from "react";
 import fetch from "node-fetch";
 
-const All = ({ data : serverPost }) => {
-  const [posts, setPosts] = useState(serverPost);
+const All = ({ data  }) => {
+  // const [posts, setPosts] = useState(serverPost);
 
-  useEffect(() => {
-    async function load() {
-      const res = await fetch(`https://jsonplaceholder.typicode.com/users`);
-      const data = await res.json();
+  // useEffect(() => {
+  //   async function load() {
+  //     const res = await fetch(`https://jsonplaceholder.typicode.com/users`);
+  //     const data = await res.json();
 
-      setPosts(data);
-    }
+  //     setPosts(data);
+  //   }
 
-    if (!serverPost) {
-      load();
-    }
-    load();
-  }, []);
+  //   if (!serverPost) {
+  //     load();
+  //   }
+  //   load();
+  // }, []);
 
   return (
     <>
       <Index>
         <div className="all">
           <div className="row">
-            {posts.map((name) => (
+            {data.map((name) => (
               <div className="col-lg-4 col-md-4 col-sm-6" key={name.id}>
                 <img src="/Rectangle 65portfolio.jpg" alt="" />
                 <p>{name.name}</p>
