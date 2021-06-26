@@ -198,11 +198,11 @@ section .container .bottom p {
   border-radius: 50%;
 }
 
-.experts .col-lg-4 div:nth-child(1):hover {
+.experts .col-lg-4:hover div:nth-child(1) {
   border: 2px solid #f1bd91;
   box-shadow: 0 0 0 4px #f1c49f;
   border-radius: 50%;
-  transition:box-shadow .2 ease;
+  transition: box-shadow 0.2 ease;
 }
 
 .reason {
