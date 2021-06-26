@@ -2,7 +2,7 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 import MainLayout from "../../components/MainLayout";
 
-export default function Portfoio({ children }) {
+export default function Portfolio({ children }) {
   const router = useRouter();
 
   return (
