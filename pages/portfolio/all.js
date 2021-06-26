@@ -26,7 +26,7 @@ const All = ({ data }) => {
           <div className="row">
             {data.map((name) => (
               <div className="col-lg-4 col-md-4 col-sm-6" key={name.id}>
-                <img src="/Rectangle 65portfolio.jpg" alt="" />
+                <img src="/Rectangle 65portfolio.webp" alt="" />
                 <p>{name.name}</p>
               </div>
             ))}
