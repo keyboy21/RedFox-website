@@ -223,16 +223,16 @@ export default function Footer() {
               />
             </button>
             <h2>
-              <a href="https://telegram.org">Telegram</a>
+              <a href="https://telegram.org" target="_blank">Telegram</a>
             </h2>
             <h2>
-              <a href="https://instagram.com">Instagram</a>
+              <a href="https://instagram.com" target="_blank">Instagram</a>
             </h2>
             <h2>
-              <a href="https://dribblbe.com">Dribbble</a>
+              <a href="https://dribblbe.com" target="_blank">Dribbble</a>
             </h2>
             <h2>
-              <a href="https://behance.net">Behance</a>
+              <a href="https://behance.net" target="_blank">Behance</a>
             </h2>
           </div>
         </div>

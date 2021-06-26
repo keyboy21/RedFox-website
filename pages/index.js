@@ -668,7 +668,7 @@ export default function Home() {
             <div className="row">
               <div className="col-lg-4 col-md-6">
                 <div>
-                  <img src="/My-User-Pic-001 1PolatovM.webp" />
+                  <img src="/My-User-Pic-001 1.png" />
                 </div>
                 <div>
                   <h4>Polatov Mavlonbek</h4>
@@ -677,7 +677,7 @@ export default function Home() {
               </div>
               <div className="col-lg-4 col-md-6">
                 <div>
-                  <img src="/My-User-Pic-001 1AzamM.webp" />
+                  <img src="/My-User-Pic-001 1 (1).png" />
                 </div>
                 <div>
                   <h4>Azam Muhammadiyev</h4>
@@ -686,7 +686,7 @@ export default function Home() {
               </div>
               <div className="col-lg-4 col-md-6">
                 <div>
-                  <img src="/My-User-Pic-001 1RahmatulloJ.webp" />
+                  <img src="/My-User-Pic-001 1 (2).png" />
                 </div>
                 <div>
                   <h4>Rahmatullo Jabborov</h4>
@@ -695,7 +695,7 @@ export default function Home() {
               </div>
               <div className="col-lg-4 col-md-6">
                 <div>
-                  <img src="/My-User-Pic-001 1RahimjonG.webp" />
+                  <img src="/My-User-Pic-001 1 (3).png" />
                 </div>
                 <div>
                   <h4>Rahimjon Gaziyev</h4>
@@ -713,7 +713,7 @@ export default function Home() {
               </div>
               <div className="col-lg-4 col-md-6">
                 <div>
-                  <img src="/My-User-Pic-001 1BaxtiyorjonG.webp" />
+                  <img src="/My-User-Pic-001 1 (4).png" />
                 </div>
                 <div>
                   <h4>Baxtiyorjon Gaziyev</h4>
@@ -722,7 +722,7 @@ export default function Home() {
               </div>
               <div className="col-lg-4 col-md-6">
                 <div>
-                  <img src="/My-User-Pic-001 1SarvgartbekA.webp" />
+                  <img src="/My-User-Pic-001 1 (5).png" />
                 </div>
                 <div>
                   <h4>Sarvarbek Abdupattoyev</h4>
@@ -731,7 +731,7 @@ export default function Home() {
               </div>
               <div className="col-lg-4 col-md-6">
                 <div>
-                  <img src="/My-User-Pic-001 1ShokhruhR.webp" />
+                  <img src="/My-User-Pic-001 1 (6).png" />
                 </div>
                 <div>
                   <h4>Shokhrukh Rakhmatov</h4>
@@ -740,7 +740,7 @@ export default function Home() {
               </div>
               <div className="col-lg-4 col-md-6">
                 <div>
-                  <img src="/My-User-Pic-001 1UtkirT.webp" />
+                  <img src="/My-User-Pic-001 1 (7).png" />
                 </div>
                 <div>
                   <h4>Shokhrukh Rakhmatov</h4>
