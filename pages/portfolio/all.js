@@ -2,7 +2,7 @@ import Index from "./index.js";
 import { useEffect, useState } from "react";
 import fetch from "node-fetch";
 
-const All = ({ data  }) => {
+const All = ({ data }) => {
   // const [posts, setPosts] = useState(serverPost);
 
   // useEffect(() => {

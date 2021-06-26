@@ -404,60 +404,60 @@ export default function Home() {
             <div className="row rev">
               <div className="col-lg-4 col-md-4 derzi">
                 <div className="col-lg-12 col-5">
-                  <img src="/Rectangle 62Najot_talim.jpg" alt="najot" />
+                  <img src="/Rectangle 62Najot_talim.webp" alt="najot" />
                   <p>Najot ta’lim o‘quv markazi</p>
                 </div>
                 <div className="col-lg-12 col-5">
-                  <img src="/Rectangle 63Derri.jpg" alt="derri" />
+                  <img src="/Rectangle 63Derri.webp" alt="derri" />
                   <p>Derzi kiyim fabrikasi</p>
                 </div>
               </div>
               <div className="col-lg-8 col-md-8">
-                <img src="/image 21Nurafshon.jpg" alt="nurafshon" />
+                <img src="/image 21Nurafshon.webp" alt="nurafshon" />
                 <p>Nurafshon smart city</p>
               </div>
             </div>
             <div className="row bottom">
               <div className="col-lg-6 col-md-6">
-                <img src="/image 22Normal_Nurafshon.jpg" alt="normal_Nur" />
+                <img src="/image 22Normal_Nurafshon.webp" alt="normal_Nur" />
                 <p>Eden saryog‘lari qadoq dizayn</p>
               </div>
               <div className="col-lg-6 col-md-6">
-                <img src="/Rectangle 79MIndo.jpg" alt="Mindo" />
+                <img src="/Rectangle 79MIndo.webp" alt="Mindo" />
                 <p>Mindo mahsuloti uchun qadoq dizayn</p>
               </div>
               <div className="col-lg-6 col-md-6">
-                <img src="/Rectangle 389blue_BG.png" alt="normal_Nur" />
+                <img src="/Rectangle 389blue_BG.webp" alt="normal_Nur" />
                 <p>Supercorn qadoq dizayni</p>
               </div>
               <div className="col-lg-6 col-md-6">
-                <img src="/Rectangle 390Ping_Bg.png" alt="Mindo" />
+                <img src="/Rectangle 390Ping_Bg.webp" alt="Mindo" />
                 <p>Roma pizza</p>
               </div>
             </div>
             <div className="row">
               <div className="col-lg-4 col-md-4 col-6">
-                <img src="/Rectangle 67background.png" alt="redfox" />
+                <img src="/Rectangle 67background.webp" alt="redfox" />
                 <p>Vast travel sayohat agentligi </p>
               </div>
               <div className="col-lg-4 col-md-4 col-6">
-                <img src="/Rectangle 62Blue_b ackground.png" alt="redfox" />
+                <img src="/Rectangle 62Blue_b ackground.webp" alt="redfox" />
                 <p>Giym internet magazin</p>
               </div>
               <div className="col-lg-4 col-md-4 col-6">
-                <img src="/Rectangle 67background.png" alt="redfox" />
+                <img src="/Rectangle 67background.webp" alt="redfox" />
                 <p>Nurafshon smart city</p>
               </div>
               <div className="col-lg-4 col-md-4 col-6">
-                <img src="/Rectangle 67background.png" alt="redfox" />
+                <img src="/Rectangle 67background.webp" alt="redfox" />
                 <p>Venox</p>
               </div>
               <div className="col-lg-4 col-md-4 col-6">
-                <img src="/Rectangle 62Blue_b ackground.png" alt="redfox" />
+                <img src="/Rectangle 62Blue_b ackground.webp" alt="redfox" />
                 <p>Boxcom</p>
               </div>
               <div className="col-lg-4 col-md-4 col-6">
-                <img src="/Rectangle 67background.png" alt="redfox" />
+                <img src="/Rectangle 67background.webp" alt="redfox" />
                 <p>Nurafshon smart city</p>
               </div>
             </div>
@@ -918,7 +918,7 @@ export default function Home() {
             <div className="row">
               <div className="col-lg-4">
                 <div>
-                  <img src="/1one.jpg"></img>
+                  <img src="/1one.webp"></img>
                 </div>
                 <span>Tanlash imkoniyati ko'pligi</span>
                 <p>
@@ -929,7 +929,7 @@ export default function Home() {
               </div>
               <div className="col-lg-4">
                 <div>
-                  <img src="/2two.jpg"></img>
+                  <img src="/2two.webp"></img>
                 </div>
                 <span>24/7 rejimda muloqot mavjudligi</span>
                 <p>
@@ -940,7 +940,7 @@ export default function Home() {
               </div>
               <div className="col-lg-4">
                 <div>
-                  <img src="3three.jpg"></img>
+                  <img src="3three.webp"></img>
                 </div>
                 <span>Sohalar qamrovi kengligi</span>
                 <p>
@@ -951,7 +951,7 @@ export default function Home() {
               </div>
               <div className="col-lg-4">
                 <div>
-                  <img src="/4four.jpg"></img>
+                  <img src="/4four.webp"></img>
                 </div>
                 <span>Yirik loyihalardagi tajriba</span>
                 <p>
@@ -963,7 +963,7 @@ export default function Home() {
               </div>
               <div className="col-lg-4">
                 <div>
-                  <img src="/5five.jpg"></img>
+                  <img src="/5five.webp"></img>
                 </div>
                 <span>Eng muhimi</span>
                 <p>

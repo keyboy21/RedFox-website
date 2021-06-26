@@ -4,15 +4,16 @@ import MainLayout from "../../components/MainLayout";
 
 export default function Portfoio({ children }) {
   const router = useRouter();
+
   return (
     <MainLayout title={"| Portfolio"}>
       <div className="portfolio">
         <div className="container top_color">
-            <h2>Portfolio</h2>
-            <p>
-              Jami Topshirilgan ishlar soni: <span>1078+</span>
-            </p>
-            <div className="port_ul">
+          <h2>Portfolio</h2>
+          <p>
+            Jami Topshirilgan ishlar soni: <span>1078+</span>
+          </p>
+          <div className="port_ul">
             <ul>
               <li>
                 <Link href="/portfolio/all">
@@ -70,11 +71,9 @@ export default function Portfoio({ children }) {
                 </Link>
               </li>
             </ul>
-            </div>
+          </div>
         </div>
-        <div className="container">
-            {children}
-        </div>
+        <div className="container">{children}</div>
       </div>
     </MainLayout>
   );
