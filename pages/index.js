@@ -1,3 +1,4 @@
+import { useEffect, useState } from "react";
 import MainLayout from "../components/MainLayout";
 import ScrollAnimation from "react-animate-on-scroll";
 
@@ -969,7 +970,11 @@ export default function Home() {
                 <p>
                   Biz o'z kasbimizni sevamiz va barchasini chin dildan
                   bajaramiz. Bu ham albatta sizning foydangizga. Qolganini
-                  bizning Portfolio (https://t.me/portfolius) gapirsin.
+                  bizning Portfolio{" "}
+                  <a href="https://t.me/portfolius" target="_blank">
+                    (https://t.me/portfolius)
+                  </a>{" "}
+                  gapirsin.
                 </p>
               </div>
             </div>
@@ -992,7 +997,9 @@ export default function Home() {
                 </p>
               </div>
               <div className="write col-lg-12">
-                <h3>Online yozing</h3>
+                <a href="https://t.me/RedFoxManager" target="_blank">
+                  <h3> Online yozing</h3>
+                </a>
               </div>
             </div>
           </div>

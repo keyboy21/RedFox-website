@@ -15,10 +15,12 @@ export default function Footer() {
           <div className="row">
             <div className="col-lg-6">
               <div className="right-footer">
-                <Link href="/">
+                
                   <img src="/logoFoot.webp" alt="logoFoot" />
-                </Link>
-                <h1>+998 97 778 5008</h1>
+               
+                <a href="tel:+99897-778-50-08">
+                  <h1>+998 97 778 50 08</h1>
+                </a>
                 <h2>
                   Toshkent shahri, Olmazor tum.,
                   <br />
@@ -79,16 +81,28 @@ export default function Footer() {
                       <a href="#">Realtime Portfolio</a>
                     </h2>
                     <h2>
-                      <a href="#">Fontus</a>
+                      <a href="https://t.me/fontus" target="_blank">
+                        Fontus
+                      </a>
                     </h2>
                   </div>
                   <div className="col-lg-3 col-md-3 col-sm-3">
                     <h1>Support</h1>
-                    <h2>97 778-5008</h2>
-                    <h2>97 335-5900</h2>
-                    <h2>94 919-1516</h2>
+                    <a href="tel:+99897-778-50-08">
+                      <h2>97 778-5008</h2>
+                    </a>
+
+                    <a href="tel:+99897-335-59-00">
+                      <h2>97 335-5900</h2>
+                    </a>
+
+                    <a href="tel:+99894-919-15-16">
+                      <h2>94 919-1516</h2>
+                    </a>
                     <h2>
-                      <a href="#">Online yozing</a>
+                      <a href="https://t.me/RedFoxManager" target="_blank">
+                        Online yozing
+                      </a>
                     </h2>
                   </div>
                 </div>
@@ -189,7 +203,9 @@ export default function Footer() {
               <a href="#">Realtime Portfolio</a>
             </h2>
             <h2>
-              <a href="#">Fontus</a>
+              <a href="https://t.me/fontus" target="_blank">
+                Fontus
+              </a>
             </h2>
           </div>
           <hr />
@@ -207,9 +223,17 @@ export default function Footer() {
                 alt=""
               />
             </button>
-            <h2>97 778-5008</h2>
-            <h2>97 335-5900</h2>
-            <h2>94 919-1516</h2>
+            <a href="tel:+99897-778-50-08">
+              <h2>97 778-5008</h2>
+            </a>
+
+            <a href="tel:+99897-335-59-00">
+              <h2>97 335-5900</h2>
+            </a>
+
+            <a href="tel:+99894-919-15-16">
+              <h2>94 919-1516</h2>
+            </a>
           </div>
           <hr />
           <div
@@ -232,17 +256,17 @@ export default function Footer() {
               </a>
             </h2>
             <h2>
-              <a href="https://instagram.com" target="_blank">
+              <a href="https://www.instagram.com/redfoxuz/" target="_blank">
                 Instagram
               </a>
             </h2>
             <h2>
-              <a href="https://dribblbe.com" target="_blank">
+              <a href="https://dribbble.com/redfoxuz" target="_blank">
                 Dribbble
               </a>
             </h2>
             <h2>
-              <a href="https://behance.net" target="_blank">
+              <a href="https://www.behance.net/redfoxuz" target="_blank">
                 Behance
               </a>
             </h2>
@@ -255,7 +279,7 @@ export default function Footer() {
           <div className="row">
             <div className="col-lg-6 col-md-6 col-sm-6 col-6 mw-100vh">
               <div className="right-footer">
-                <h2>© 2016 — 2020 RedFox agency | All right reserved.</h2>
+                <h2>© 2016 — 2021 RedFox agency | All right reserved.</h2>
               </div>
             </div>
             <div className="d-none d-sm-block col-lg-6 col-md-6 col-sm-6 col-6 ">
@@ -266,17 +290,17 @@ export default function Footer() {
                   </a>
                 </h2>
                 <h2>
-                  <a href="https://instagram.com/" target="_blank">
+                  <a href="https://www.instagram.com/redfoxuz/" target="_blank">
                     Instagram
                   </a>
                 </h2>
                 <h2>
-                  <a href="https://dribbble.com/" target="_blank">
+                  <a href="https://dribbble.com/redfoxuz" target="_blank">
                     Dribbble
                   </a>
                 </h2>
                 <h2>
-                  <a href="https://behance.net/" target="_blank">
+                  <a href="https://www.behance.net/redfoxuz" target="_blank">
                     Behance
                   </a>
                 </h2>

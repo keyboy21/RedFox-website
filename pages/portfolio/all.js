@@ -94,7 +94,7 @@ const All = ({ data }) => {
   );
 };
 
-export async function getStaticProps() {
+export async function getServerSideProps() {
   // Fetch data from external API
   const res = await fetch(`https://jsonplaceholder.typicode.com/users`);
   const data = await res.json();
