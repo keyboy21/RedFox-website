@@ -65,7 +65,9 @@ export default function Footer() {
                       <a href="#">Loyihalarimiz</a>
                     </h2>
                     <h2>
-                      <a href="#">Frilansus.com</a>
+                      <a href="https://frilansus.com/" target="_blank">
+                        Frilansus.com
+                      </a>
                     </h2>
                     <h2>
                       <a href="#">Dizayn akademiya</a>
@@ -173,7 +175,9 @@ export default function Footer() {
               <a href="#">Loyihalarimiz</a>
             </h2>
             <h2>
-              <a href="#">Frilansus.com</a>
+              <a href="https://frilansus.com/" target="_blank">
+                Frilansus.com
+              </a>
             </h2>
             <h2>
               <a href="#">Dizayn akademiya</a>
@@ -223,22 +227,28 @@ export default function Footer() {
               />
             </button>
             <h2>
-              <a href="https://telegram.org" target="_blank">Telegram</a>
+              <a href="https://t.me/RedFoxUz" target="_blank">
+                Telegram
+              </a>
             </h2>
             <h2>
-              <a href="https://instagram.com" target="_blank">Instagram</a>
+              <a href="https://instagram.com" target="_blank">
+                Instagram
+              </a>
             </h2>
             <h2>
-              <a href="https://dribblbe.com" target="_blank">Dribbble</a>
+              <a href="https://dribblbe.com" target="_blank">
+                Dribbble
+              </a>
             </h2>
             <h2>
-              <a href="https://behance.net" target="_blank">Behance</a>
+              <a href="https://behance.net" target="_blank">
+                Behance
+              </a>
             </h2>
           </div>
         </div>
       </div>
-
-
 
       <div className="footer-bottom">
         <div className="container">
@@ -251,7 +261,7 @@ export default function Footer() {
             <div className="d-none d-sm-block col-lg-6 col-md-6 col-sm-6 col-6 ">
               <div className=" left-footer">
                 <h2>
-                  <a href="https://telegram.org" target="_blank">
+                  <a href="https://t.me/RedFoxUz" target="_blank">
                     Telegram
                   </a>
                 </h2>
