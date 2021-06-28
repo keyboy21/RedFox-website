@@ -2,7 +2,31 @@ import { useEffect, useState } from "react";
 import MainLayout from "../components/MainLayout";
 import ScrollAnimation from "react-animate-on-scroll";
 
-export default function Home() {
+export default function Home({ data: indexPosts }) {
+  const [partner, setpartner] = useState(indexPosts);
+
+  useEffect(() => {
+    async function load() {
+      const res = await fetch(`http://redfox.frilansus.com/api/apipartner`);
+      const data = await res.json();
+      setpartner(data);
+    }
+
+    if (!partner) {
+      load();
+    }
+  }, []);
+
+  const SliderFirsFilter = partner.filter((slide) => {
+    return slide.id <= 11;
+  });
+  const SliderSecondFilter = partner.filter((slider) => {
+    return slider.id >= 12 && slider.id <= 23;
+  });
+  const SliderThreeFilter = partner.filter((slider) => {
+    return slider.id >= 24 && slider.id <= 35;
+  });
+
   return (
     <MainLayout>
       <ScrollAnimation animateIn="fadeInUp" animateOnce={true}>
@@ -31,10 +55,15 @@ export default function Home() {
 
       <div className="slider">
         <div className="slide-track">
-          <div className="slide">
-            <img src="/enterprise/Frame.webp" alt="" />
-          </div>
-          <div className="slide">
+          {SliderFirsFilter.map((slider) => {
+            return (
+              <div className="slide" key={slider.id}>
+                <img src={slider.logo} alt="" />
+              </div>
+            );
+          })}
+
+          {/* <div className="slide">
             <img src="/enterprise/Group (1).webp" alt="" />
           </div>
           <div className="slide">
@@ -67,7 +96,6 @@ export default function Home() {
           <div className="slide">
             <img src="/enterprise/Group (4).webp" alt="" />
           </div>
-
           <div className="slide">
             <img src="/enterprise/Group (8).webp" alt="" />
           </div>
@@ -77,15 +105,22 @@ export default function Home() {
           <div className="slide">
             <img src="/enterprise/Group (2).webp" alt="" />
           </div>
-        </div>
-        <div className="slide">
-          <img src="/enterprise/Group (8).webp" alt="" />
+          <div className="slide">
+            <img src="/enterprise/Group (8).webp" alt="" />
+          </div> */}
         </div>
       </div>
 
       <div className="slider">
         <div className="slide-track">
-          <div className="slide">
+          {SliderSecondFilter.map((slider) => {
+            return (
+              <div className="slide" key={slider.id}>
+                <img src={slider.logo} alt="" />
+              </div>
+            );
+          })}
+          {/* <div className="slide">
             <img src="/enterprise/Group 68.webp" alt="" />
           </div>
           <div className="slide">
@@ -129,10 +164,7 @@ export default function Home() {
           </div>
           <div className="slide">
             <img src="/enterprise/Logo Light Gorizontal 1.webp" alt="" />
-          </div>
-        </div>
-        <div className="slide">
-          <img src="/enterprise/REHAU.webp" alt="" />
+          </div> */}
         </div>
       </div>
 
@@ -152,6 +184,14 @@ export default function Home() {
 
       <div className="slider two">
         <div className="slide-track">
+          {/* {SliderFirsFilter.map((slider) => {
+            return (
+              <div className="slide" key={slider.id}>
+                <img src={slider.logo} alt="" />
+              </div>
+            );
+          })} */}
+
           <div className="slide">
             <img src="/business/2 2046310529.webp" alt="" />
           </div>
@@ -197,36 +237,37 @@ export default function Home() {
           <div className="slide">
             <img src="/business/Group (17).webp" alt="" />
           </div>
-        </div>
-        <div className="slide">
-          <img src="/business/Group (18).webp" alt="" />
-        </div>
 
-        <div className="slide">
-          <img src="/business/2 2046310529.webp" alt="" />
-        </div>
+          <div className="slide">
+            <img src="/business/Group (18).webp" alt="" />
+          </div>
 
-        <div className="slide">
-          <img src="/business/Frame.webp" alt="" />
-        </div>
+          <div className="slide">
+            <img src="/business/2 2046310529.webp" alt="" />
+          </div>
 
-        <div className="slide">
-          <img src="/business/Group (11).webp" alt="" />
-        </div>
+          <div className="slide">
+            <img src="/business/Frame.webp" alt="" />
+          </div>
 
-        <div className="slide">
-          <img src="/business/Group (15).webp" alt="" />
-        </div>
+          <div className="slide">
+            <img src="/business/Group (11).webp" alt="" />
+          </div>
 
-        <div className="slide">
-          <img src="/business/2 2046310529.webp" alt="" />
-        </div>
-        <div className="slide">
-          <img src="/business/Frame.webp" alt="" />
-        </div>
+          <div className="slide">
+            <img src="/business/Group (15).webp" alt="" />
+          </div>
 
-        <div className="slide">
-          <img src="/business/Group (15).webp" alt="" />
+          <div className="slide">
+            <img src="/business/2 2046310529.webp" alt="" />
+          </div>
+          <div className="slide">
+            <img src="/business/Frame.webp" alt="" />
+          </div>
+
+          <div className="slide">
+            <img src="/business/Group (15).webp" alt="" />
+          </div>
         </div>
       </div>
 
@@ -1007,4 +1048,15 @@ export default function Home() {
       </ScrollAnimation>
     </MainLayout>
   );
+}
+
+// getServerSideProps
+// getStaticProps
+export async function getServerSideProps() {
+  // Fetch data from external API
+  const res = await fetch(`http://redfox.frilansus.com/api/apipartner`);
+  const data = await res.json();
+
+  // Pass data to the page via props
+  return { props: { data } };
 }

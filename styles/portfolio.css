@@ -2,13 +2,30 @@
   margin: 0;
   padding: 0;
 }
-::-webkit-scrollbar {
-  width: 0;
+.portfolio ::-webkit-scrollbar-thumb {
+  background: #ff7300;
+  border-radius: 5px;
 }
+.portfolio ::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+.portfolio ::-webkit-scrollbar {
+  height: 8px;
+}
+
 .portfolio {
   background: #e7e7e7;
   padding-bottom: 180px;
   padding-top: 70px;
+}
+
+.categories .prime{
+  margin-top: 20px;
+}
+.categories .hide {
+  flex-wrap: nowrap;
+  overflow: scroll;
 }
 .portfolio .port_ul ul {
   display: flex;
@@ -31,6 +48,7 @@
   font-feature-settings: "pnum" on, "lnum" on, "liga" off;
   color: #1c1c1f;
 }
+
 .portfolio .port_ul ul li a {
   font-family: Inter;
   font-style: normal;
@@ -102,7 +120,7 @@
   line-height: 19px;
   font-feature-settings: "pnum" on, "lnum" on, "liga" off;
   color: #1c1c1f;
-  margin: 10px 0 50px;
+  margin: 10px 0 30px;
 }
 
 .portfolio .btn_portfolio {
@@ -212,6 +230,9 @@
 }
 
 @media (max-width: 576px) {
+  ::-webkit-scrollbar {
+    width: 0;
+  }
   .portfolio h2 {
     text-align: center;
   }
@@ -298,5 +319,9 @@
     z-index: 3;
     border-color: none;
     box-shadow: none;
+  }
+
+  .categories .hide{
+    justify-content: flex-start;
   }
 }
