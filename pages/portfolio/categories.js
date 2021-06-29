@@ -1,39 +1,39 @@
 import Index from "./index.js";
 import React, { useState, useEffect } from "react";
 
-export default function Categories({ data: serverPost }) {
-  const [loader, setLoader] = useState(serverPost);
+export default function Categories({ data }) {
+  // const [loader, setLoader] = useState(serverPost);
 
-  useEffect(() => {
-    async function load() {
-      const res = await fetch(`http://redfox.frilansus.com/api/apiportfolio`);
-      const data = await res.json();
-      setLoader(data);
-    }
+  // useEffect(() => {
+  //   async function load() {
+  //     const res = await fetch(`http://redfox.frilansus.com/api/apiportfolio`);
+  //     const data = await res.json();
+  //     setLoader(data);
+  //   }
 
-    if (!loader) {
-      load();
-    }
-  }, []);
+  //   if (!loader) {
+  //     load();
+  //   }
+  // }, []);
 
-  if (!loader) {
-    return (
-      <Index>
-        <p>Loading...</p>
-      </Index>
-    );
-  }
+  // if (!loader) {
+  //   return (
+  //     <Index>
+  //       <p>Loading...</p>
+  //     </Index>
+  //   );
+  // }
 
-  const firsFilter = loader.filter((item) => {
+  const firsFilter = data.filter((item) => {
     return item.category_id == 1;
   });
-  const secondFilter = loader.filter((item) => {
+  const secondFilter = data.filter((item) => {
     return item.category_id == 2;
   });
-  const threeFilter = loader.filter((item) => {
+  const threeFilter = data.filter((item) => {
     return item.category_id == 3;
   });
-  const fourFilter = loader.filter((item) => {
+  const fourFilter = data.filter((item) => {
     return item.category_id == 4;
   });
 
