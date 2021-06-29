@@ -2,36 +2,36 @@ import Index from "./index.js";
 import { useEffect, useState } from "react";
 import fetch from "node-fetch";
 
-const All = ({ data: serverPost }) => {
-  const [posts, setPosts] = useState(serverPost);
+const All = ({ data }) => {
+  // const [posts, setPosts] = useState(serverPost);
 
-  useEffect(() => {
-    async function load() {
-      const res = await fetch(`http://redfox.frilansus.com/api/apiportfolio`);
-      const data = await res.json();
-      setPosts(data);
-    }
+  // useEffect(() => {
+  //   async function load() {
+  //     const res = await fetch(`http://redfox.frilansus.com/api/apiportfolio`);
+  //     const data = await res.json();
+  //     setPosts(data);
+  //   }
 
-    if (!serverPost) {
-      load();
-    }
-    load();
-  }, []);
+  //   if (!serverPost) {
+  //     load();
+  //   }
+  //   load();
+  // }, []);
 
-  if (!posts) {
-    return (
-      <Index>
-        <p>Loading...</p>
-      </Index>
-    );
-  }
+  // if (!posts) {
+  //   return (
+  //     <Index>
+  //       <p>Loading...</p>
+  //     </Index>
+  //   );
+  // }
 
   return (
     <>
       <Index>
         <div className="all">
           <div className="row">
-            {posts.map((all) => {
+            {data.map((all) => {
               return (
                 <div className="col-lg-4 col-md-4 col-sm-6" key={all.id}>
                   <img src={all.img} alt="" />
