@@ -2,38 +2,36 @@ import { useEffect, useState } from "react";
 import MainLayout from "../components/MainLayout";
 import ScrollAnimation from "react-animate-on-scroll";
 
-export default function Home({ data: indexPosts }) {
-  const [partner, setpartner] = useState(indexPosts);
+export default function Home({ data }) {
+  // const [partner, setpartner] = useState(indexPosts);
 
-  useEffect(() => {
-    async function load() {
-      const res = await fetch(`http://redfox.frilansus.com/api/apipartner`);
-      const data = await res.json();
-      setpartner(data);
-    }
+  // useEffect(() => {
+  //   async function load() {
+  //     const res = await fetch(`http://redfox.frilansus.com/api/apipartner`);
+  //     const data = await res.json();
+  //     setpartner(data);
+  //   }
 
-    if (!partner) {
-      load();
-    }
-  }, []);
+  //   if (!partner) {
+  //     load();
+  //   }
+  // }, []);
 
-  const SliderFirsFilter = partner.filter((slide) => {
+  const SliderFirsFilter = data.filter((slide) => {
     return slide.id <= 14;
   });
-  const SliderSecondFilter = partner.filter((slider) => {
+  const SliderSecondFilter = data.filter((slider) => {
     return slider.id >= 15 && slider.id <= 28;
   });
-  const SliderThreeFilter = partner.filter((slider) => {
+  const SliderThreeFilter = data.filter((slider) => {
     return slider.id >= 29 && slider.id <= 42;
   });
-  const SliderFourFilter = partner.filter((slider) => {
+  const SliderFourFilter = data.filter((slider) => {
     return slider.id >= 43 && slider.id <= 55;
   });
-  const SliderFiveFilter = partner.filter((slider) => {
+  const SliderFiveFilter = data.filter((slider) => {
     return slider.id >= 56 && slider.id <= 69;
   });
-
-  console.log(partner);
 
   return (
     <MainLayout>
@@ -358,8 +356,7 @@ export default function Home({ data: indexPosts }) {
 
       <div className="slider two">
         <div className="slide-track">
-
-        {SliderFiveFilter.map((slider) => {
+          {SliderFiveFilter.map((slider) => {
             return (
               <div className="slide" key={slider.id}>
                 <img src={slider.logo} alt="" />
