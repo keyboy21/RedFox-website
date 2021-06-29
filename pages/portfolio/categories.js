@@ -52,7 +52,7 @@ export default function Categories({ data: serverPost }) {
                     className="col-lg-4 col-md-4 col-sm-6 col-12"
                     key={brand.id}
                   >
-                    <img src="/Rectangle 65portfolio.webp" alt="" />
+                    <img src={brand.img} alt="" />
                     <p>{brand.title_uz}</p>
                   </div>
                 );
@@ -115,7 +115,7 @@ export default function Categories({ data: serverPost }) {
 }
 // getServerSideProps
 // getStaticProps
-export async function getInitialProps() {
+export async function getServerSideProps() {
   // Fetch data from external API
   const res = await fetch(`http://redfox.frilansus.com/api/apiportfolio`);
   const data = await res.json();

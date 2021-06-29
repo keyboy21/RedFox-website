@@ -95,8 +95,8 @@ export default function Agency() {
             <p>Respublikamizda dizayn sohasiga bo'lgan talab haddan tashqari ortib ketayotgani sababli, dizayn studiyani o'ziga ham doim mutaxassislar kerak bo'lgan. <span className="ligh-light">Tabiyki hech bir o'quv dargohi bu sohani advanced darajada mutaxassis tayyorlamaydi.</span> Shuning uchun, akademiya loyihasini tashkillash, RedFox dizayn studiyasi uchun malakali dizaynerlarni yetishtirib studiyani o'zida ish bilan ta'minlashni oldimizga asosiy maqsad qilib qo'ydik.</p>
           </div>
           <div className="col-lg-12 mt-5">
-            <p>Akademiyada tahsil olib, nima ishlar qila olishingiz mumkinligi haqida jamoamiz tayyorlagan ishlarni ko'ring, siz ham shunday tayyorlay olishingiz mumkin: <a href="#" className="under">Behance/redfoxuz</a>
-            Sizni ham real buyurtmalar asosida topshirilgan muvaffaqiyatli loyihalaringiz, dizayn studiyaning <a href="!#" className="under">Portfolio</a> kanaliga ismingiz bilan joylab boriladi.</p>
+            <p>Akademiyada tahsil olib, nima ishlar qila olishingiz mumkinligi haqida jamoamiz tayyorlagan ishlarni ko'ring, siz ham shunday tayyorlay olishingiz mumkin: <a href="#!" className="under">Behance/redfoxuz</a>
+            Sizni ham real buyurtmalar asosida topshirilgan muvaffaqiyatli loyihalaringiz, dizayn studiyaning <a href="#!" className="under">Portfolio</a> kanaliga ismingiz bilan joylab boriladi.</p>
           </div>
         </div>
       </div>

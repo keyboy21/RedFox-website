@@ -18,14 +18,22 @@ export default function Home({ data: indexPosts }) {
   }, []);
 
   const SliderFirsFilter = partner.filter((slide) => {
-    return slide.id <= 11;
+    return slide.id <= 14;
   });
   const SliderSecondFilter = partner.filter((slider) => {
-    return slider.id >= 12 && slider.id <= 23;
+    return slider.id >= 15 && slider.id <= 28;
   });
   const SliderThreeFilter = partner.filter((slider) => {
-    return slider.id >= 24 && slider.id <= 35;
+    return slider.id >= 29 && slider.id <= 42;
   });
+  const SliderFourFilter = partner.filter((slider) => {
+    return slider.id >= 43 && slider.id <= 55;
+  });
+  const SliderFiveFilter = partner.filter((slider) => {
+    return slider.id >= 56 && slider.id <= 69;
+  });
+
+  console.log(partner);
 
   return (
     <MainLayout>
@@ -184,15 +192,15 @@ export default function Home({ data: indexPosts }) {
 
       <div className="slider two">
         <div className="slide-track">
-          {/* {SliderFirsFilter.map((slider) => {
+          {SliderThreeFilter.map((slider) => {
             return (
               <div className="slide" key={slider.id}>
                 <img src={slider.logo} alt="" />
               </div>
             );
-          })} */}
+          })}
 
-          <div className="slide">
+          {/* <div className="slide">
             <img src="/business/2 2046310529.webp" alt="" />
           </div>
           <div className="slide">
@@ -237,7 +245,6 @@ export default function Home({ data: indexPosts }) {
           <div className="slide">
             <img src="/business/Group (17).webp" alt="" />
           </div>
-
           <div className="slide">
             <img src="/business/Group (18).webp" alt="" />
           </div>
@@ -245,7 +252,6 @@ export default function Home({ data: indexPosts }) {
           <div className="slide">
             <img src="/business/2 2046310529.webp" alt="" />
           </div>
-
           <div className="slide">
             <img src="/business/Frame.webp" alt="" />
           </div>
@@ -253,11 +259,9 @@ export default function Home({ data: indexPosts }) {
           <div className="slide">
             <img src="/business/Group (11).webp" alt="" />
           </div>
-
           <div className="slide">
             <img src="/business/Group (15).webp" alt="" />
           </div>
-
           <div className="slide">
             <img src="/business/2 2046310529.webp" alt="" />
           </div>
@@ -267,13 +271,20 @@ export default function Home({ data: indexPosts }) {
 
           <div className="slide">
             <img src="/business/Group (15).webp" alt="" />
-          </div>
+          </div> */}
         </div>
       </div>
 
       <div className="slider two">
         <div className="slide-track">
-          <div className="slide">
+          {SliderFourFilter.map((slider) => {
+            return (
+              <div className="slide" key={slider.id}>
+                <img src={slider.logo} alt="" />
+              </div>
+            );
+          })}
+          {/* <div className="slide">
             <img src="/business/Group (19).webp" alt="" />
           </div>
           <div className="slide">
@@ -318,42 +329,44 @@ export default function Home({ data: indexPosts }) {
           <div className="slide">
             <img src="/business/Group 16.webp" alt="" />
           </div>
-        </div>
-        <div className="slide">
-          <img src="/business/Group 2.webp" alt="" />
-        </div>
-
-        <div className="slide">
-          <img src="/business/Group (19).webp" alt="" />
-        </div>
-
-        <div className="slide">
-          <img src="/business/Group (22).webp" alt="" />
-        </div>
-
-        <div className="slide">
-          <img src="/business/Group (7).webp" alt="" />
-        </div>
-        <div className="slide">
-          <img src="/business/Group 13.webp" alt="" />
-        </div>
-
-        <div className="slide">
-          <img src="/business/Group (19).webp" alt="" />
-        </div>
-
-        <div className="slide">
-          <img src="/business/Group (22).webp" alt="" />
-        </div>
-
-        <div className="slide">
-          <img src="/business/Group (9).webp" alt="" />
+          <div className="slide">
+            <img src="/business/Group 2.webp" alt="" />
+          </div>
+          <div className="slide">
+            <img src="/business/Group (19).webp" alt="" />
+          </div>
+          <div className="slide">
+            <img src="/business/Group (22).webp" alt="" />
+          </div>
+          <div className="slide">
+            <img src="/business/Group (7).webp" alt="" />
+          </div>
+          <div className="slide">
+            <img src="/business/Group 13.webp" alt="" />
+          </div>
+          <div className="slide">
+            <img src="/business/Group (19).webp" alt="" />
+          </div>
+          <div className="slide">
+            <img src="/business/Group (22).webp" alt="" />
+          </div>
+          <div className="slide">
+            <img src="/business/Group (9).webp" alt="" />
+          </div> */}
         </div>
       </div>
 
       <div className="slider two">
         <div className="slide-track">
-          <div className="slide">
+
+        {SliderFiveFilter.map((slider) => {
+            return (
+              <div className="slide" key={slider.id}>
+                <img src={slider.logo} alt="" />
+              </div>
+            );
+          })}
+          {/* <div className="slide">
             <img src="/business/x31 thinkland 1.webp" alt="" />
           </div>
           <div className="slide">
@@ -398,21 +411,18 @@ export default function Home({ data: indexPosts }) {
           <div className="slide">
             <img src="/business/Group 21.webp" alt="" />
           </div>
-        </div>
-        <div className="slide">
-          <img src="/business/Group 2.webp" alt="" />
-        </div>
-
-        <div className="slide">
-          <img src="/business/x31 thinkland 1.webp" alt="" />
-        </div>
-
-        <div className="slide">
-          <img src="/business/Teach Me.webp" alt="" />
-        </div>
-
-        <div className="slide">
-          <img src="/business/Group 63.webp" alt="" />
+          <div className="slide">
+            <img src="/business/Group 2.webp" alt="" />
+          </div>
+          <div className="slide">
+            <img src="/business/x31 thinkland 1.webp" alt="" />
+          </div>
+          <div className="slide">
+            <img src="/business/Teach Me.webp" alt="" />
+          </div>
+          <div className="slide">
+            <img src="/business/Group 63.webp" alt="" />
+          </div> */}
         </div>
       </div>
 

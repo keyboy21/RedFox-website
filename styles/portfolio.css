@@ -27,6 +27,10 @@
   flex-wrap: nowrap;
   overflow: scroll;
 }
+
+.categories .hide p{
+
+}
 .portfolio .port_ul ul {
   display: flex;
   list-style: none;
@@ -120,7 +124,7 @@
   line-height: 19px;
   font-feature-settings: "pnum" on, "lnum" on, "liga" off;
   color: #1c1c1f;
-  margin: 10px 0 30px;
+  margin: 10px 0 15px;
 }
 
 .portfolio .btn_portfolio {
