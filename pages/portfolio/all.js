@@ -3,29 +3,8 @@ import { useEffect, useState } from "react";
 import fetch from "node-fetch";
 
 const All = ({ data }) => {
-  // const [posts, setPosts] = useState(serverPost);
 
-  // useEffect(() => {
-  //   async function load() {
-  //     const res = await fetch(`http://redfox.frilansus.com/api/apiportfolio`);
-  //     const data = await res.json();
-  //     setPosts(data);
-  //   }
-
-  //   if (!serverPost) {
-  //     load();
-  //   }
-  //   load();
-  // }, []);
-
-  // if (!posts) {
-  //   return (
-  //     <Index>
-  //       <p>Loading...</p>
-  //     </Index>
-  //   );
-  // }
-
+  console.log(data)
   return (
     <>
       <Index>
@@ -34,67 +13,14 @@ const All = ({ data }) => {
             {data.map((all) => {
               return (
                 <div className="col-lg-4 col-md-4 col-sm-6" key={all.id}>
-                  <img src={all.img} alt="" />
+                  <img
+                    src={`http://redfox.frilansus.com/frontend/images/${all.img.slice(7)}`}
+                    alt=""
+                  />
                   <p>{all.title_uz}</p>
                 </div>
               );
             })}
-            {/* <div className="col-lg-4 col-md-4 col-sm-6">
-              <img src="/Rectangle 65portfolio.jpg" alt="" />
-              <p>Nurafshon smart city</p>
-            </div>
-            <div className="col-lg-4 col-md-4 col-sm-6">
-              <img src="/Rectangle 65portfolio.jpg" alt="" />
-              <p>Nurafshon smart city</p>
-            </div>
-            <div className="col-lg-4 col-md-4 col-sm-6">
-              <img src="/Rectangle 65portfolio.jpg" alt="" />
-              <p>Nurafshon smart city</p>
-            </div>
-            <div className="col-lg-4 col-md-4 col-sm-6">
-              <img src="/Rectangle 65portfolio.jpg" alt="" />
-              <p>Nurafshon smart city</p>
-            </div>
-            <div className="col-lg-4 col-md-4 col-sm-6">
-              <img src="/Rectangle 65portfolio.jpg" alt="" />
-              <p>Nurafshon smart city</p>
-            </div>
-            <div className="col-lg-4 col-md-4 col-sm-6">
-              <img src="/Rectangle 65portfolio.jpg" alt="" />
-              <p>Nurafshon smart city</p>
-            </div>
-            <div className="col-lg-4 col-md-4 col-sm-6">
-              <img src="/Rectangle 65portfolio.jpg" alt="" />
-              <p>Nurafshon smart city</p>
-            </div>
-            <div className="col-lg-4 col-md-4 col-sm-6">
-              <img src="/Rectangle 65portfolio.jpg" alt="" />
-              <p>Nurafshon smart city</p>
-            </div>
-            <div className="col-lg-4 col-md-4 col-sm-6">
-              <img src="/Rectangle 65portfolio.jpg" alt="" />
-              <p>Nurafshon smart city</p>
-            </div>
-            <div className="col-lg-4 col-md-4 col-sm-6">
-              <img src="/Rectangle 65portfolio.jpg" alt="" />
-              <p>Nurafshon smart city</p>
-            </div>
-            <div className="col-lg-4 col-md-4 col-sm-6">
-              <img src="/Rectangle 65portfolio.jpg" alt="" />
-              <p>Nurafshon smart city</p>
-            </div>
-            <div className="col-lg-4 col-md-4 col-sm-6">
-              <img src="/Rectangle 65portfolio.jpg" alt="" />
-              <p>Nurafshon smart city</p>
-            </div>
-            <div className="col-lg-4 col-md-4 col-sm-6">
-              <img src="/Rectangle 65portfolio.jpg" alt="" />
-              <p>Nurafshon smart city</p>
-            </div>
-            <div className="col-lg-4 col-md-4 col-sm-6">
-              <img src="/Rectangle 65portfolio.jpg" alt="" />
-              <p>Nurafshon smart city</p>
-            </div> */}
           </div>
         </div>
         <button className="btn_portfolio">Shu yerga bosing</button>

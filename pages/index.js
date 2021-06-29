@@ -4,7 +4,6 @@ import ScrollAnimation from "react-animate-on-scroll";
 
 export default function Home({ data }) {
   // const [partner, setpartner] = useState(indexPosts);
-
   // useEffect(() => {
   //   async function load() {
   //     const res = await fetch(`http://redfox.frilansus.com/api/apipartner`);
@@ -16,6 +15,8 @@ export default function Home({ data }) {
   //     load();
   //   }
   // }, []);
+
+  console.log(data);
 
   const SliderFirsFilter = data.filter((slide) => {
     return slide.id <= 14;
@@ -64,56 +65,13 @@ export default function Home({ data }) {
           {SliderFirsFilter.map((slider) => {
             return (
               <div className="slide" key={slider.id}>
-                <img src={slider.logo} alt="" />
+                <img
+                  src={`http://redfox.frilansus.com/storage/app/${slider.logo}`}
+                  alt=""
+                />
               </div>
             );
           })}
-
-          {/* <div className="slide">
-            <img src="/enterprise/Group (1).webp" alt="" />
-          </div>
-          <div className="slide">
-            <img src="/enterprise/Group (2).webp" alt="" />
-          </div>
-          <div className="slide">
-            <img src="/enterprise/Group (4).webp" alt="" />
-          </div>
-          <div className="slide">
-            <img src="/enterprise/Group (5).webp" alt="" />
-          </div>
-          <div className="slide">
-            <img src="/enterprise/Group (6).webp" alt="" />
-          </div>
-          <div className="slide">
-            <img src="/enterprise/Group (7).webp" alt="" />
-          </div>
-          <div className="slide">
-            <img src="/enterprise/Group (8).webp" alt="" />
-          </div>
-          <div className="slide">
-            <img src="/enterprise/Group (9).webp" alt="" />
-          </div>
-          <div className="slide">
-            <img src="/enterprise/Group 19.webp" alt="" />
-          </div>
-          <div className="slide">
-            <img src="/enterprise/Group 64.webp" alt="" />
-          </div>
-          <div className="slide">
-            <img src="/enterprise/Group (4).webp" alt="" />
-          </div>
-          <div className="slide">
-            <img src="/enterprise/Group (8).webp" alt="" />
-          </div>
-          <div className="slide">
-            <img src="/enterprise/Frame.webp" alt="" />
-          </div>
-          <div className="slide">
-            <img src="/enterprise/Group (2).webp" alt="" />
-          </div>
-          <div className="slide">
-            <img src="/enterprise/Group (8).webp" alt="" />
-          </div> */}
         </div>
       </div>
 
@@ -122,55 +80,13 @@ export default function Home({ data }) {
           {SliderSecondFilter.map((slider) => {
             return (
               <div className="slide" key={slider.id}>
-                <img src={slider.logo} alt="" />
+                <img
+                  src={`http://redfox.frilansus.com/storage/app/${slider.logo}`}
+                  alt=""
+                />
               </div>
             );
           })}
-          {/* <div className="slide">
-            <img src="/enterprise/Group 68.webp" alt="" />
-          </div>
-          <div className="slide">
-            <img src="/enterprise/Group 7.webp" alt="" />
-          </div>
-          <div className="slide">
-            <img src="/enterprise/Group 70.webp" alt="" />
-          </div>
-          <div className="slide">
-            <img src="/enterprise/Group.webp" alt="" />
-          </div>
-          <div className="slide">
-            <img src="/enterprise/Hamkor.webp" alt="" />
-          </div>
-          <div className="slide">
-            <img src="/enterprise/Integral.webp" alt="" />
-          </div>
-          <div className="slide">
-            <img src="/enterprise/Ipoteka.webp" alt="" />
-          </div>
-          <div className="slide">
-            <img src="/enterprise/Logo Light Gorizontal 1.webp" alt="" />
-          </div>
-          <div className="slide">
-            <img src="/enterprise/REHAU.webp" alt="" />
-          </div>
-          <div className="slide">
-            <img src="/enterprise/Sardor.webp" alt="" />
-          </div>
-          <div className="slide">
-            <img src="/enterprise/Tosh.webp" alt="" />
-          </div>
-          <div className="slide">
-            <img src="/enterprise/Group 70.webp" alt="" />
-          </div>
-          <div className="slide">
-            <img src="/enterprise/Ipoteka.webp" alt="" />
-          </div>
-          <div className="slide">
-            <img src="/enterprise/Sardor.webp" alt="" />
-          </div>
-          <div className="slide">
-            <img src="/enterprise/Logo Light Gorizontal 1.webp" alt="" />
-          </div> */}
         </div>
       </div>
 
@@ -193,83 +109,13 @@ export default function Home({ data }) {
           {SliderThreeFilter.map((slider) => {
             return (
               <div className="slide" key={slider.id}>
-                <img src={slider.logo} alt="" />
+                <img
+                  src={`http://redfox.frilansus.com/storage/app/${slider.logo}`}
+                  alt=""
+                />
               </div>
             );
           })}
-
-          {/* <div className="slide">
-            <img src="/business/2 2046310529.webp" alt="" />
-          </div>
-          <div className="slide">
-            <img src="/business/boxcom 1.webp" alt="" />
-          </div>
-          <div className="slide">
-            <img src="/business/Frame (1).webp" alt="" />
-          </div>
-          <div className="slide">
-            <img src="/business/Frame (2).webp" alt="" />
-          </div>
-          <div className="slide">
-            <img src="/business/Frame (3).webp" alt="" />
-          </div>
-          <div className="slide">
-            <img src="/business/Frame.webp" alt="" />
-          </div>
-          <div className="slide">
-            <img src="/business/Group (1).webp" alt="" />
-          </div>
-          <div className="slide">
-            <img src="/business/Group (10).webp" alt="" />
-          </div>
-          <div className="slide">
-            <img src="/business/Group (11).webp" alt="" />
-          </div>
-          <div className="slide">
-            <img src="/business/Group (12).webp" alt="" />
-          </div>
-          <div className="slide">
-            <img src="/business/Group (13).webp" alt="" />
-          </div>
-          <div className="slide">
-            <img src="/business/Group (14).webp" alt="" />
-          </div>
-          <div className="slide">
-            <img src="/business/Group (15).webp" alt="" />
-          </div>
-          <div className="slide">
-            <img src="/business/Group (16).webp" alt="" />
-          </div>
-          <div className="slide">
-            <img src="/business/Group (17).webp" alt="" />
-          </div>
-          <div className="slide">
-            <img src="/business/Group (18).webp" alt="" />
-          </div>
-
-          <div className="slide">
-            <img src="/business/2 2046310529.webp" alt="" />
-          </div>
-          <div className="slide">
-            <img src="/business/Frame.webp" alt="" />
-          </div>
-
-          <div className="slide">
-            <img src="/business/Group (11).webp" alt="" />
-          </div>
-          <div className="slide">
-            <img src="/business/Group (15).webp" alt="" />
-          </div>
-          <div className="slide">
-            <img src="/business/2 2046310529.webp" alt="" />
-          </div>
-          <div className="slide">
-            <img src="/business/Frame.webp" alt="" />
-          </div>
-
-          <div className="slide">
-            <img src="/business/Group (15).webp" alt="" />
-          </div> */}
         </div>
       </div>
 
@@ -278,79 +124,13 @@ export default function Home({ data }) {
           {SliderFourFilter.map((slider) => {
             return (
               <div className="slide" key={slider.id}>
-                <img src={slider.logo} alt="" />
+                <img
+                  src={`http://redfox.frilansus.com/storage/app/${slider.logo}`}
+                  alt=""
+                />
               </div>
             );
           })}
-          {/* <div className="slide">
-            <img src="/business/Group (19).webp" alt="" />
-          </div>
-          <div className="slide">
-            <img src="/business/Group (2).webp" alt="" />
-          </div>
-          <div className="slide">
-            <img src="/business/Group (20).webp" alt="" />
-          </div>
-          <div className="slide">
-            <img src="/business/Group (21).webp" alt="" />
-          </div>
-          <div className="slide">
-            <img src="/business/Group (22).webp" alt="" />
-          </div>
-          <div className="slide">
-            <img src="/business/Group (23).webp" alt="" />
-          </div>
-          <div className="slide">
-            <img src="/business/Group (3).webp" alt="" />
-          </div>
-          <div className="slide">
-            <img src="/business/Group (4).webp" alt="" />
-          </div>
-          <div className="slide">
-            <img src="/business/Group (5).webp" alt="" />
-          </div>
-          <div className="slide">
-            <img src="/business/Group (6).webp" alt="" />
-          </div>
-          <div className="slide">
-            <img src="/business/Group (7).webp" alt="" />
-          </div>
-          <div className="slide">
-            <img src="/business/Group (8).webp" alt="" />
-          </div>
-          <div className="slide">
-            <img src="/business/Group (9).webp" alt="" />
-          </div>
-          <div className="slide">
-            <img src="/business/Group 13.webp" alt="" />
-          </div>
-          <div className="slide">
-            <img src="/business/Group 16.webp" alt="" />
-          </div>
-          <div className="slide">
-            <img src="/business/Group 2.webp" alt="" />
-          </div>
-          <div className="slide">
-            <img src="/business/Group (19).webp" alt="" />
-          </div>
-          <div className="slide">
-            <img src="/business/Group (22).webp" alt="" />
-          </div>
-          <div className="slide">
-            <img src="/business/Group (7).webp" alt="" />
-          </div>
-          <div className="slide">
-            <img src="/business/Group 13.webp" alt="" />
-          </div>
-          <div className="slide">
-            <img src="/business/Group (19).webp" alt="" />
-          </div>
-          <div className="slide">
-            <img src="/business/Group (22).webp" alt="" />
-          </div>
-          <div className="slide">
-            <img src="/business/Group (9).webp" alt="" />
-          </div> */}
         </div>
       </div>
 
@@ -359,67 +139,13 @@ export default function Home({ data }) {
           {SliderFiveFilter.map((slider) => {
             return (
               <div className="slide" key={slider.id}>
-                <img src={slider.logo} alt="" />
+                <img
+                  src={`http://redfox.frilansus.com/storage/app/${slider.logo}`}
+                  alt=""
+                />
               </div>
             );
           })}
-          {/* <div className="slide">
-            <img src="/business/x31 thinkland 1.webp" alt="" />
-          </div>
-          <div className="slide">
-            <img src="/business/logo 1.webp" alt="" />
-          </div>
-          <div className="slide">
-            <img src="/business/boxcom 1.webp" alt="" />
-          </div>
-          <div className="slide">
-            <img src="/business/Vector.webp" alt="" />
-          </div>
-          <div className="slide">
-            <img src="/business/Teach Me.webp" alt="" />
-          </div>
-          <div className="slide">
-            <img src="/business/SUPERCORN 1.webp" alt="" />
-          </div>
-          <div className="slide">
-            <img src="/business/Med Logo.webp" alt="" />
-          </div>
-          <div className="slide">
-            <img src="/business/Group.webp" alt="" />
-          </div>
-          <div className="slide">
-            <img src="/business/Group 67.webp" alt="" />
-          </div>
-          <div className="slide">
-            <img src="/business/Group 66.webp" alt="" />
-          </div>
-          <div className="slide">
-            <img src="/business/Group 65.webp" alt="" />
-          </div>
-          <div className="slide">
-            <img src="/business/Group 63.webp" alt="" />
-          </div>
-          <div className="slide">
-            <img src="/business/Group 62.webp" alt="" />
-          </div>
-          <div className="slide">
-            <img src="/business/Group 32895.webp" alt="" />
-          </div>
-          <div className="slide">
-            <img src="/business/Group 21.webp" alt="" />
-          </div>
-          <div className="slide">
-            <img src="/business/Group 2.webp" alt="" />
-          </div>
-          <div className="slide">
-            <img src="/business/x31 thinkland 1.webp" alt="" />
-          </div>
-          <div className="slide">
-            <img src="/business/Teach Me.webp" alt="" />
-          </div>
-          <div className="slide">
-            <img src="/business/Group 63.webp" alt="" />
-          </div> */}
         </div>
       </div>
 
@@ -832,7 +558,7 @@ export default function Home({ data }) {
               <div className="col-lg-4 col-md-6">
                 <div className="bg_item">
                   <div>
-                    <img src="/Frame 8Baxodir_AK.png" />
+                    <img src="/My-User-Pic-001 1.png" />
                   </div>
                   <h5>Bahodir Akbarov</h5>
                   <span>Venox kompaniyasi asoschisi</span>
@@ -842,14 +568,14 @@ export default function Home({ data }) {
                     chiroyli chiqdi mosholloh, gapyo‘q hammanglarga rahmat katta
                   </p>
                   <div>
-                    <img src="/GroupVenox.png" />
+                    <img src="/Group.svg" />
                   </div>
                 </div>
               </div>
               <div className="col-lg-4 col-md-6">
                 <div className="bg_item">
                   <div>
-                    <img src="/Frame 8RixsiboyU.png" />
+                    <img src="/Frame 8.png" />
                   </div>
                   <h5>Rixsiboy Umarov</h5>
                   <span>ITGO asoschisi</span>
@@ -860,14 +586,14 @@ export default function Home({ data }) {
                     turibti. Sizlar bilan hamkorlik qilganimizdan xursandmiz.
                   </p>
                   <div>
-                    <img src="/GroupiTGO.png" />
+                    <img src="/Group1.svg" />
                   </div>
                 </div>
               </div>
               <div className="col-lg-4 col-md-6">
                 <div className="bg_item">
                   <div>
-                    <img src="/PicQudratA.png" />
+                    <img src="/Frame 8 (1).png" />
                   </div>
                   <h5>Qudrat Abdurahimov</h5>
                   <span>GITA Kompaniyasi Founderi</span>
@@ -877,14 +603,14 @@ export default function Home({ data }) {
                     qo‘llaringizni ushlab rahmat aytib qo‘yaman.
                   </p>
                   <div>
-                    <img src="/GroupGITA.png" />
+                    <img src="/Groupgita.svg" />
                   </div>
                 </div>
               </div>
               <div className="col-lg-4 col-md-6">
                 <div className="bg_item">
                   <div>
-                    <img src="/PicSunnah.png" />
+                    <img src="/Frame 8 (2).png" />
                   </div>
                   <h5>Sobirjon Yaxshiyev</h5>
                   <span>Sunnah product asoschisi</span>
@@ -894,14 +620,14 @@ export default function Home({ data }) {
                     uchramasin
                   </p>
                   <div>
-                    <img src="/GroupSunnah_LOGO.png" />
+                    <img src="/Groupsunnah.svg" />
                   </div>
                 </div>
               </div>
               <div className="col-lg-4 col-md-6">
                 <div className="bg_item">
                   <div>
-                    <img src="/PicAbdurahmon_Nasriddin.png" />
+                    <img src="/My-User-Pic-001 2.png" />
                   </div>
                   <h5>Abdurahmon Nasriddinov</h5>
                   <span>Sardor brendi Founderi</span>
@@ -910,14 +636,14 @@ export default function Home({ data }) {
                     dard ko‘rmasin mexnatlaring halol
                   </p>
                   <div>
-                    <img src="/SardorSardor.jpg" />
+                    <img src="/Sardorsardor.svg" />
                   </div>
                 </div>
               </div>
               <div className="col-lg-4 col-md-6">
                 <div className="bg_item">
                   <div>
-                    <img src="/PicAhmadSaidov.png" />
+                    <img src="/Frame 8 (3).png" />
                   </div>
                   <h5>Ahmad Saidov</h5>
                   <span>Greenmotors asoschisi</span>
@@ -927,7 +653,7 @@ export default function Home({ data }) {
                     raxmat, salomat bo‘lilar.
                   </p>
                   <div>
-                    <img src="/Слой x0020 1Green_MOTOROS.png" />
+                    <img src="/Слой x0020 1green.svg" />
                   </div>
                 </div>
               </div>
