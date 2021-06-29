@@ -105,7 +105,7 @@ const All = ({ data }) => {
 
 // getServerSideProps
 // getStaticProps
-export async function getInitialProps() {
+export async function getServerSideProps() {
   // Fetch data from external API
   const res = await fetch(`http://redfox.frilansus.com/api/apiportfolio`);
   const data = await res.json();
