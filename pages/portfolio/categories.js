@@ -52,7 +52,7 @@ export default function Categories({ data }) {
                     className="col-lg-4 col-md-4 col-sm-6 col-12"
                     key={brand.id}
                   >
-                    <img src={`http://redfox.frilansus.com/frontend/images/${brand.img.slice(7)}`} alt="" />
+                    <img src={`https://redfox.frilansus.com/frontend/images/${brand.img.slice(7)}`} alt="" />
                     <p>{brand.title_uz}</p>
                   </div>
                 );
@@ -68,7 +68,7 @@ export default function Categories({ data }) {
               {secondFilter.map((brand) => {
                 return (
                   <div className="col-lg-4 col-md-4 col-sm-6" key={brand.id}>
-                    <img src={`http://redfox.frilansus.com/frontend/images/${brand.img.slice(7)}`} alt="" />
+                    <img src={`https://redfox.frilansus.com/frontend/images/${brand.img.slice(7)}`} alt="" />
                     <p>{brand.title_uz}</p>
                   </div>
                 );
@@ -84,7 +84,7 @@ export default function Categories({ data }) {
               {threeFilter.map((brand) => {
                 return (
                   <div className="col-lg-4 col-md-4 col-sm-6" key={brand.id}>
-                    <img src={`http://redfox.frilansus.com/frontend/images/${brand.img.slice(7)}`} alt="" />
+                    <img src={`https://redfox.frilansus.com/frontend/images/${brand.img.slice(7)}`} alt="" />
                     <p>{brand.title_uz}</p>
                   </div>
                 );
@@ -100,7 +100,7 @@ export default function Categories({ data }) {
               {fourFilter.map((brand) => {
                 return (
                   <div className="col-lg-4 col-md-4 col-sm-6" key={brand.id}>
-                    <img src={`http://redfox.frilansus.com/frontend/images/${brand.img.slice(7)}`} alt="" />
+                    <img src={`https://redfox.frilansus.com/frontend/images/${brand.img.slice(7)}`} alt="" />
                     <p>{brand.title_uz}</p>
                   </div>
                 );
@@ -117,7 +117,7 @@ export default function Categories({ data }) {
 // getStaticProps
 export async function getServerSideProps() {
   // Fetch data from external API
-  const res = await fetch(`http://redfox.frilansus.com/api/apiportfolio`);
+  const res = await fetch(`https://redfox.frilansus.com/api/apiportfolio`);
   const data = await res.json();
 
   // Pass data to the page via props

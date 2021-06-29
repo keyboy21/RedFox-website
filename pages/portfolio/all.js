@@ -14,7 +14,7 @@ const All = ({ data }) => {
               return (
                 <div className="col-lg-4 col-md-4 col-sm-6" key={all.id}>
                   <img
-                    src={`http://redfox.frilansus.com/frontend/images/${all.img.slice(7)}`}
+                    src={`https://redfox.frilansus.com/frontend/images/${all.img.slice(7)}`}
                     alt=""
                   />
                   <p>{all.title_uz}</p>
@@ -33,7 +33,7 @@ const All = ({ data }) => {
 // getStaticProps
 export async function getServerSideProps() {
   // Fetch data from external API
-  const res = await fetch(`http://redfox.frilansus.com/api/apiportfolio`);
+  const res = await fetch(`https://redfox.frilansus.com/api/apiportfolio`);
   const data = await res.json();
 
   // Pass data to the page via props

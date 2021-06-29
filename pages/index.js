@@ -16,7 +16,6 @@ export default function Home({ data }) {
   //   }
   // }, []);
 
-  console.log(data);
 
   const SliderFirsFilter = data.filter((slide) => {
     return slide.id <= 14;
@@ -66,7 +65,7 @@ export default function Home({ data }) {
             return (
               <div className="slide" key={slider.id}>
                 <img
-                  src={`http://redfox.frilansus.com/storage/app/${slider.logo}`}
+                  src={`https://redfox.frilansus.com/storage/app/${slider.logo}`}
                   alt=""
                 />
               </div>
@@ -81,7 +80,7 @@ export default function Home({ data }) {
             return (
               <div className="slide" key={slider.id}>
                 <img
-                  src={`http://redfox.frilansus.com/storage/app/${slider.logo}`}
+                  src={`https://redfox.frilansus.com/storage/app/${slider.logo}`}
                   alt=""
                 />
               </div>
@@ -110,7 +109,7 @@ export default function Home({ data }) {
             return (
               <div className="slide" key={slider.id}>
                 <img
-                  src={`http://redfox.frilansus.com/storage/app/${slider.logo}`}
+                  src={`https://redfox.frilansus.com/storage/app/${slider.logo}`}
                   alt=""
                 />
               </div>
@@ -125,7 +124,7 @@ export default function Home({ data }) {
             return (
               <div className="slide" key={slider.id}>
                 <img
-                  src={`http://redfox.frilansus.com/storage/app/${slider.logo}`}
+                  src={`https://redfox.frilansus.com/storage/app/${slider.logo}`}
                   alt=""
                 />
               </div>
@@ -140,7 +139,7 @@ export default function Home({ data }) {
             return (
               <div className="slide" key={slider.id}>
                 <img
-                  src={`http://redfox.frilansus.com/storage/app/${slider.logo}`}
+                  src={`https://redfox.frilansus.com/storage/app/${slider.logo}`}
                   alt=""
                 />
               </div>
@@ -787,7 +786,7 @@ export default function Home({ data }) {
 // getStaticProps
 export async function getServerSideProps() {
   // Fetch data from external API
-  const res = await fetch(`http://redfox.frilansus.com/api/apipartner`);
+  const res = await fetch(`https://redfox.frilansus.com/api/apipartner`);
   const data = await res.json();
 
   // Pass data to the page via props
