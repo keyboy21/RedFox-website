@@ -960,7 +960,7 @@ export default function Home({ data: indexPosts }) {
             <div className="row">
               <div className="col-lg-4">
                 <div>
-                  <img src="/1one.webp"></img>
+                  <img src="/1one .svg"></img>
                 </div>
                 <span>Tanlash imkoniyati ko'pligi</span>
                 <p>
@@ -971,7 +971,7 @@ export default function Home({ data: indexPosts }) {
               </div>
               <div className="col-lg-4">
                 <div>
-                  <img src="/2two.webp"></img>
+                  <img src="/2two.svg"></img>
                 </div>
                 <span>24/7 rejimda muloqot mavjudligi</span>
                 <p>
@@ -982,7 +982,7 @@ export default function Home({ data: indexPosts }) {
               </div>
               <div className="col-lg-4">
                 <div>
-                  <img src="3three.webp"></img>
+                  <img src="/3three.svg"></img>
                 </div>
                 <span>Sohalar qamrovi kengligi</span>
                 <p>
@@ -993,7 +993,7 @@ export default function Home({ data: indexPosts }) {
               </div>
               <div className="col-lg-4">
                 <div>
-                  <img src="/4four.webp"></img>
+                  <img src="/4four.svg"></img>
                 </div>
                 <span>Yirik loyihalardagi tajriba</span>
                 <p>
@@ -1005,7 +1005,7 @@ export default function Home({ data: indexPosts }) {
               </div>
               <div className="col-lg-4">
                 <div>
-                  <img src="/5five.webp"></img>
+                  <img src="/5five.svg"></img>
                 </div>
                 <span>Eng muhimi</span>
                 <p>

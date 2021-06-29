@@ -15,9 +15,8 @@ export default function Footer() {
           <div className="row">
             <div className="col-lg-6">
               <div className="right-footer">
-                
-                  <img src="/logoFoot.webp" alt="logoFoot" />
-               
+                <img src="/Group 32193footer_logo.svg" alt="logoFoot" />
+
                 <a href="tel:+99897-778-50-08">
                   <h1>+998 97 778 50 08</h1>
                 </a>

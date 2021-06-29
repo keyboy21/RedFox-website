@@ -28,8 +28,14 @@ footer .right-footer h2 {
   color: #d2d2d2;
 }
 
+footer .right-footer a {
+  text-decoration: none;
+  color: #d2d2d2;
+}
+
 footer .left-footer .col-lg-3 a {
   text-decoration: none;
+  color: #d2d2d2;
 }
 
 footer .left-footer h1 {
@@ -42,7 +48,6 @@ footer .left-footer h1 {
   color: #ffffff;
   font-style: normal;
 }
-
 
 footer .left-footer h2 a,
 .footer-bottom h2,
