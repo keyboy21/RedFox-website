@@ -1,23 +1,7 @@
-import { useEffect, useState } from "react";
 import MainLayout from "../components/MainLayout";
 import ScrollAnimation from "react-animate-on-scroll";
 
-export default function Home({ data }) {
-  // const [partner, setpartner] = useState(indexPosts);
-  // useEffect(() => {
-  //   async function load() {
-  //     const res = await fetch(`http://redfox.frilansus.com/api/apipartner`);
-  //     const data = await res.json();
-  //     setpartner(data);
-  //   }
-
-  //   if (!partner) {
-  //     load();
-  //   }
-  // }, []);
-
-  console.log(data);
-
+export default function Home({ data, img }) {
   const SliderFirsFilter = data.filter((slide) => {
     return slide.id <= 14;
   });
@@ -32,6 +16,15 @@ export default function Home({ data }) {
   });
   const SliderFiveFilter = data.filter((slider) => {
     return slider.id >= 56 && slider.id <= 69;
+  });
+  
+
+  const ImageFilter2 = img.filter((slide) => {
+    return slide.id <= 4;
+  });
+
+  const ImageFilter = img.filter((slide) => {
+    return slide.id >= 5 && slide.id <= 10;
   });
 
   return (
@@ -178,6 +171,17 @@ export default function Home({ data }) {
           <div className="container">
             <div className="row rev">
               <div className="col-lg-4 col-md-4 derzi">
+                {/* {ImageFilter.map((port) => (
+                <div className="col-lg-12 col-5" key={port.id}>
+                  <img
+                    src={`http://redfox.frilansus.com/frontend/images/${port.img.slice(
+                      8
+                    )}`}
+                    alt="najot"
+                  />
+                  <p>{port.title_uz}</p>
+                </div>
+              ))} */}
                 <div className="col-lg-12 col-5">
                   <img src="/Rectangle 62Najot_talim.webp" alt="najot" />
                   <p>Najot ta’lim o‘quv markazi</p>
@@ -193,7 +197,18 @@ export default function Home({ data }) {
               </div>
             </div>
             <div className="row bottom">
-              <div className="col-lg-6 col-md-6">
+              {ImageFilter2.map((port) => (
+                <div className="col-lg-6 col-md-6" key={port.id}>
+                  <img
+                    src={`http://redfox.frilansus.com/frontend/images/${port.img.slice(
+                      8
+                    )}`}
+                    alt="najot"
+                  />
+                  <p>{port.title_uz}</p>
+                </div>
+              ))}
+              {/* <div className="col-lg-6 col-md-6">
                 <img src="/image 22Normal_Nurafshon.webp" alt="normal_Nur" />
                 <p>Eden saryog‘lari qadoq dizayn</p>
               </div>
@@ -208,33 +223,21 @@ export default function Home({ data }) {
               <div className="col-lg-6 col-md-6">
                 <img src="/Rectangle 390Ping_Bg.webp" alt="Mindo" />
                 <p>Roma pizza</p>
-              </div>
+              </div> */}
             </div>
+
             <div className="row">
-              <div className="col-lg-4 col-md-4 col-6">
-                <img src="/Rectangle 67background.webp" alt="redfox" />
-                <p>Vast travel sayohat agentligi </p>
-              </div>
-              <div className="col-lg-4 col-md-4 col-6">
-                <img src="/Rectangle 62Blue_b ackground.webp" alt="redfox" />
-                <p>Giym internet magazin</p>
-              </div>
-              <div className="col-lg-4 col-md-4 col-6">
-                <img src="/Rectangle 67background.webp" alt="redfox" />
-                <p>Nurafshon smart city</p>
-              </div>
-              <div className="col-lg-4 col-md-4 col-6">
-                <img src="/Rectangle 67background.webp" alt="redfox" />
-                <p>Venox</p>
-              </div>
-              <div className="col-lg-4 col-md-4 col-6">
-                <img src="/Rectangle 62Blue_b ackground.webp" alt="redfox" />
-                <p>Boxcom</p>
-              </div>
-              <div className="col-lg-4 col-md-4 col-6">
-                <img src="/Rectangle 67background.webp" alt="redfox" />
-                <p>Nurafshon smart city</p>
-              </div>
+              {ImageFilter.map((port) => (
+                <div className="col-lg-4 col-md-4 col-6" key={port.id}>
+                  <img
+                    src={`http://redfox.frilansus.com/frontend/images/${port.img.slice(
+                      8
+                    )}`}
+                    alt="najot"
+                  />
+                  <p>{port.title_uz}</p>
+                </div>
+              ))}
             </div>
           </div>
         </section>
@@ -790,6 +793,10 @@ export async function getServerSideProps() {
   const res = await fetch(`http://redfox.frilansus.com/api/apipartner`);
   const data = await res.json();
 
+  // Fetch data from external API
+  const qwe = await fetch(`http://redfox.frilansus.com/api/apiportfolio`);
+  const img = await qwe.json();
+
   // Pass data to the page via props
-  return { props: { data } };
+  return { props: { data, img } };
 }

@@ -1,10 +1,9 @@
 import Index from "./index.js";
-import { useEffect, useState } from "react";
 import fetch from "node-fetch";
+import Link from "next/link";
 
 const All = ({ data }) => {
 
-  console.log(data)
   return (
     <>
       <Index>
@@ -12,13 +11,17 @@ const All = ({ data }) => {
           <div className="row">
             {data.map((all) => {
               return (
-                <div className="col-lg-4 col-md-4 col-sm-6" key={all.id}>
-                  <img
-                    src={`https://redfox.frilansus.com/frontend/images/${all.img.slice(7)}`}
-                    alt=""
-                  />
-                  <p>{all.title_uz}</p>
-                </div>
+                <Link href={`/portfolio/${all.id}`}>
+                  <div className="col-lg-4 col-md-4 col-sm-6" key={all.id}>
+                    <img
+                      src={`https://redfox.frilansus.com/frontend/images/${all.img.slice(
+                        7
+                      )}`}
+                      alt=""
+                    />
+                    <p>{all.title_uz}</p>
+                  </div>
+                </Link>
               );
             })}
           </div>

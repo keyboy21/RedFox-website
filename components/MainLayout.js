@@ -8,6 +8,13 @@ export default function MainLayout({ children, title = "" }) {
   return (
     <>
       <Head>
+        <meta charSet="utf-8" />
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <meta name="description" content="Redfox agency website" />
+        <meta
+          name="keywords"
+          content="redfox, design, web-development, naming"
+        />
         <title>Redfox Agency {title}</title>
         <link rel="icon" href="/Group.png" />
       </Head>

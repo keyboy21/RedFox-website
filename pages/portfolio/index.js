@@ -1,9 +1,18 @@
 import Link from "next/link";
+import { useState, useEffect } from "react";
 import { useRouter } from "next/router";
 import MainLayout from "../../components/MainLayout";
 
 export default function Portfolio({ children }) {
+  const [count, setCount] = useState([]);
   const router = useRouter();
+
+  useEffect(async () => {
+    // Fetch data from external API
+    const res = await fetch(`https://redfox.frilansus.com/api/apiportfolio`);
+    const data = await res.json();
+    setCount(data);
+  }, []);
 
   return (
     <MainLayout title={"| Portfolio"}>
@@ -11,7 +20,7 @@ export default function Portfolio({ children }) {
         <div className="container top_color">
           <h2>Portfolio</h2>
           <p>
-            Jami Topshirilgan ishlar soni: <span>1078+</span>
+            Jami Topshirilgan ishlar soni: <span>{count.length}</span>
           </p>
           <div className="port_ul">
             <ul>
