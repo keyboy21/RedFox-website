@@ -9,9 +9,6 @@ export default function MainLayout({ children, title = "" }) {
     <>
       <Head>
         <title>Redfox Agency {title}</title>
-        <meta name="description" content="Redfox agency website" />
-        <meta name="keywords" content="redfox,design,web development, naming" />
-        <meta charSet="utf-8" />
         <link rel="icon" href="/Group.png" />
       </Head>
       <nav className="navbar navbar-expand-sm navbar-light">
