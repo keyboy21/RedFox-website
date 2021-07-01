@@ -3,7 +3,6 @@ import fetch from "node-fetch";
 import Link from "next/link";
 
 const All = ({ data }) => {
-
   return (
     <>
       <Index>
@@ -14,8 +13,8 @@ const All = ({ data }) => {
                 <Link href={`/portfolio/${all.id}`}>
                   <div className="col-lg-4 col-md-4 col-sm-6" key={all.id}>
                     <img
-                      src={`https://redfox.frilansus.com/frontend/images/${all.img.slice(
-                        7
+                      src={`http://redfox.frilansus.com/frontend/images/${all.img.slice(
+                        8
                       )}`}
                       alt=""
                     />
@@ -36,7 +35,7 @@ const All = ({ data }) => {
 // getStaticProps
 export async function getServerSideProps() {
   // Fetch data from external API
-  const res = await fetch(`https://redfox.frilansus.com/api/apiportfolio`);
+  const res = await fetch(`http://redfox.frilansus.com/api/apiportfolio`);
   const data = await res.json();
 
   // Pass data to the page via props

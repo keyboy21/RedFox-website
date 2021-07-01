@@ -17,14 +17,21 @@ export default function Home({ data, img }) {
   const SliderFiveFilter = data.filter((slider) => {
     return slider.id >= 56 && slider.id <= 69;
   });
-  
 
   const ImageFilter2 = img.filter((slide) => {
-    return slide.id <= 4;
+    return slide.id <= 1;
   });
 
-  const ImageFilter = img.filter((slide) => {
-    return slide.id >= 5 && slide.id <= 10;
+  const ImageFilter1 = img.filter((slide) => {
+    return slide.id >= 2 && slide.id <= 3;
+  });
+
+  const ImageFilter3 = img.filter((slide) => {
+    return slide.id >= 4 && slide.id <= 7;
+  });
+
+  const ImageFilter4 = img.filter((slide) => {
+    return slide.id >= 8 && slide.id <= 13;
   });
 
   return (
@@ -171,33 +178,34 @@ export default function Home({ data, img }) {
           <div className="container">
             <div className="row rev">
               <div className="col-lg-4 col-md-4 derzi">
-                {/* {ImageFilter.map((port) => (
-                <div className="col-lg-12 col-5" key={port.id}>
+                {ImageFilter1.map((port) => (
+                  <div className="col-lg-12 col-5" key={port.id}>
+                    <img
+                      src={`http://redfox.frilansus.com/frontend/images/${port.img.slice(
+                        8
+                      )}`}
+                      alt="najot"
+                    />
+                    <p>{port.title_uz}</p>
+                  </div>
+                ))}
+              </div>
+
+              {ImageFilter2.map((port) => (
+                <div className="col-lg-8 col-md-8" key={port.id}>
                   <img
                     src={`http://redfox.frilansus.com/frontend/images/${port.img.slice(
                       8
                     )}`}
-                    alt="najot"
+                    alt="nurafshon"
                   />
                   <p>{port.title_uz}</p>
                 </div>
-              ))} */}
-                <div className="col-lg-12 col-5">
-                  <img src="/Rectangle 62Najot_talim.webp" alt="najot" />
-                  <p>Najot ta’lim o‘quv markazi</p>
-                </div>
-                <div className="col-lg-12 col-5">
-                  <img src="/Rectangle 63Derri.webp" alt="derri" />
-                  <p>Derzi kiyim fabrikasi</p>
-                </div>
-              </div>
-              <div className="col-lg-8 col-md-8">
-                <img src="/image 21Nurafshon.webp" alt="nurafshon" />
-                <p>Nurafshon smart city</p>
-              </div>
+              ))}
             </div>
+
             <div className="row bottom">
-              {ImageFilter2.map((port) => (
+              {ImageFilter3.map((port) => (
                 <div className="col-lg-6 col-md-6" key={port.id}>
                   <img
                     src={`http://redfox.frilansus.com/frontend/images/${port.img.slice(
@@ -208,26 +216,10 @@ export default function Home({ data, img }) {
                   <p>{port.title_uz}</p>
                 </div>
               ))}
-              {/* <div className="col-lg-6 col-md-6">
-                <img src="/image 22Normal_Nurafshon.webp" alt="normal_Nur" />
-                <p>Eden saryog‘lari qadoq dizayn</p>
-              </div>
-              <div className="col-lg-6 col-md-6">
-                <img src="/Rectangle 79MIndo.webp" alt="Mindo" />
-                <p>Mindo mahsuloti uchun qadoq dizayn</p>
-              </div>
-              <div className="col-lg-6 col-md-6">
-                <img src="/Rectangle 389blue_BG.webp" alt="normal_Nur" />
-                <p>Supercorn qadoq dizayni</p>
-              </div>
-              <div className="col-lg-6 col-md-6">
-                <img src="/Rectangle 390Ping_Bg.webp" alt="Mindo" />
-                <p>Roma pizza</p>
-              </div> */}
             </div>
 
             <div className="row">
-              {ImageFilter.map((port) => (
+              {ImageFilter4.map((port) => (
                 <div className="col-lg-4 col-md-4 col-6" key={port.id}>
                   <img
                     src={`http://redfox.frilansus.com/frontend/images/${port.img.slice(
