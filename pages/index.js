@@ -66,8 +66,11 @@ export default function Home({ data, img }) {
             return (
               <div className="slide" key={slider.id}>
                 <img
+                  rel="preload"
+                  as="image"
                   src={`http://redfox.frilansus.com/storage/app/${slider.logo}`}
-                  alt=""
+                  alt="partner."
+                  decoding="auto"
                 />
               </div>
             );
@@ -81,8 +84,11 @@ export default function Home({ data, img }) {
             return (
               <div className="slide" key={slider.id}>
                 <img
+                  rel="preload"
+                  as="image"
                   src={`http://redfox.frilansus.com/storage/app/${slider.logo}`}
-                  alt=""
+                  alt="partner."
+                  decoding="auto"
                 />
               </div>
             );
@@ -110,8 +116,11 @@ export default function Home({ data, img }) {
             return (
               <div className="slide" key={slider.id}>
                 <img
+                  rel="preload"
+                  as="image"
                   src={`http://redfox.frilansus.com/storage/app/${slider.logo}`}
-                  alt=""
+                  alt="partner."
+                  decoding="auto"
                 />
               </div>
             );
@@ -125,8 +134,11 @@ export default function Home({ data, img }) {
             return (
               <div className="slide" key={slider.id}>
                 <img
+                  rel="preload"
+                  as="image"
                   src={`http://redfox.frilansus.com/storage/app/${slider.logo}`}
-                  alt=""
+                  alt="partner."
+                  decoding="auto"
                 />
               </div>
             );
@@ -140,8 +152,11 @@ export default function Home({ data, img }) {
             return (
               <div className="slide" key={slider.id}>
                 <img
+                  rel="preload"
+                  as="image"
                   src={`http://redfox.frilansus.com/storage/app/${slider.logo}`}
-                  alt=""
+                  alt="partner."
+                  decoding="auto"
                 />
               </div>
             );
@@ -181,10 +196,13 @@ export default function Home({ data, img }) {
                 {ImageFilter1.map((port) => (
                   <div className="col-lg-12 col-5" key={port.id}>
                     <img
+                      rel="preload"
+                      as="image"
                       src={`http://redfox.frilansus.com/frontend/images/${port.img.slice(
                         8
                       )}`}
-                      alt="najot"
+                      alt="najot."
+                      decoding="auto"
                     />
                     <p>{port.title_uz}</p>
                   </div>
@@ -194,10 +212,13 @@ export default function Home({ data, img }) {
               {ImageFilter2.map((port) => (
                 <div className="col-lg-8 col-md-8" key={port.id}>
                   <img
+                    rel="preload"
+                    as="image"
                     src={`http://redfox.frilansus.com/frontend/images/${port.img.slice(
                       8
                     )}`}
-                    alt="nurafshon"
+                    alt="nurafshon."
+                    decoding="auto"
                   />
                   <p>{port.title_uz}</p>
                 </div>
@@ -208,10 +229,13 @@ export default function Home({ data, img }) {
               {ImageFilter3.map((port) => (
                 <div className="col-lg-6 col-md-6" key={port.id}>
                   <img
+                    rel="preload"
+                    as="image"
                     src={`http://redfox.frilansus.com/frontend/images/${port.img.slice(
                       8
                     )}`}
-                    alt="najot"
+                    alt="najot."
+                    decoding="auto"
                   />
                   <p>{port.title_uz}</p>
                 </div>
@@ -222,10 +246,13 @@ export default function Home({ data, img }) {
               {ImageFilter4.map((port) => (
                 <div className="col-lg-4 col-md-4 col-6" key={port.id}>
                   <img
+                    rel="preload"
+                    as="image"
                     src={`http://redfox.frilansus.com/frontend/images/${port.img.slice(
                       8
                     )}`}
-                    alt="najot"
+                    alt="najot."
+                    decoding="auto"
                   />
                   <p>{port.title_uz}</p>
                 </div>

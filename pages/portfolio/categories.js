@@ -2,7 +2,6 @@ import Index from "./index.js";
 import Link from "next/link";
 
 export default function Categories({ data }) {
-
   const firsFilter = data.filter((item) => {
     return item.category_id == 1;
   });
@@ -33,10 +32,13 @@ export default function Categories({ data }) {
                       key={brand.id}
                     >
                       <img
+                        rel="preload"
+                        as="image"
                         src={`http://redfox.frilansus.com/frontend/images/${brand.img.slice(
-                          7
+                          8
                         )}`}
-                        alt=""
+                        alt="work."
+                        decoding="auto"
                       />
                       <p>{brand.title_uz}</p>
                     </div>
@@ -56,10 +58,13 @@ export default function Categories({ data }) {
                   <Link href={`/portfolio/${brand.id}`}>
                     <div className="col-lg-4 col-md-4 col-sm-6" key={brand.id}>
                       <img
+                        rel="preload"
+                        as="image"
                         src={`http://redfox.frilansus.com/frontend/images/${brand.img.slice(
-                          7
+                          8
                         )}`}
-                        alt=""
+                        alt="work."
+                        decoding="auto"
                       />
                       <p>{brand.title_uz}</p>
                     </div>
@@ -79,10 +84,13 @@ export default function Categories({ data }) {
                   <Link href={`/portfolio/${brand.id}`}>
                     <div className="col-lg-4 col-md-4 col-sm-6" key={brand.id}>
                       <img
+                        rel="preload"
+                        as="image"
                         src={`http://redfox.frilansus.com/frontend/images/${brand.img.slice(
-                          7
+                          8
                         )}`}
-                        alt=""
+                        alt="work."
+                        decoding="auto"
                       />
                       <p>{brand.title_uz}</p>
                     </div>
@@ -102,10 +110,13 @@ export default function Categories({ data }) {
                   <Link href={`/portfolio/${brand.id}`}>
                     <div className="col-lg-4 col-md-4 col-sm-6" key={brand.id}>
                       <img
+                        rel="preload"
+                        as="image"
                         src={`http://redfox.frilansus.com/frontend/images/${brand.img.slice(
-                          7
+                          8
                         )}`}
-                        alt=""
+                        alt="work."
+                        decoding="auto"
                       />
                       <p>{brand.title_uz}</p>
                     </div>

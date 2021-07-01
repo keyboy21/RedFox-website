@@ -13,10 +13,13 @@ const All = ({ data }) => {
                 <Link href={`/portfolio/${all.id}`}>
                   <div className="col-lg-4 col-md-4 col-sm-6" key={all.id}>
                     <img
+                      rel="preload"
+                      as="image"
                       src={`http://redfox.frilansus.com/frontend/images/${all.img.slice(
                         8
                       )}`}
-                      alt=""
+                      alt="work."
+                      decoding="auto"
                     />
                     <p>{all.title_uz}</p>
                   </div>
