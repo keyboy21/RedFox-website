@@ -708,7 +708,6 @@ export default function Home({ data, img }) {
         </header>
       </ScrollAnimation>
 
-      {/* Beliver || Ishonch */}
       <ScrollAnimation animateIn="fadeInUp" animateOnce={true}>
         <div className="belive">
           <div className="container">
@@ -808,14 +807,9 @@ export default function Home({ data, img }) {
 // getServerSideProps
 // getStaticProps
 export async function getServerSideProps() {
-  // Fetch data from external API
   const res = await fetch(`http://redfox.frilansus.com/api/apipartner`);
   const data = await res.json();
-
-  // Fetch data from external API
   const qwe = await fetch(`http://redfox.frilansus.com/api/apiportfolio`);
   const img = await qwe.json();
-
-  // Pass data to the page via props
   return { props: { data, img } };
 }
