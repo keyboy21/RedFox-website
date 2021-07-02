@@ -1,5 +1,4 @@
 import Index from "./index.js";
-import fetch from "node-fetch";
 import Link from "next/link";
 
 const All = ({ data }) => {
@@ -10,8 +9,8 @@ const All = ({ data }) => {
           <div className="row">
             {data.map((all) => {
               return (
-                <Link href={`/portfolio/${all.id}`}>
-                  <div className="col-lg-4 col-md-4 col-sm-6" key={all.id}>
+                <Link href={`/portfolio/${all.id}`} key={all.id}>
+                  <div className="col-lg-4 col-md-4 col-sm-6">
                     <img
                       rel="preload"
                       as="image"

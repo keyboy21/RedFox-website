@@ -26,11 +26,8 @@ export default function Categories({ data }) {
             <div className="row hide">
               {firsFilter.map((brand) => {
                 return (
-                  <Link href={`/portfolio/${brand.id}`}>
-                    <div
-                      className="col-lg-4 col-md-4 col-sm-6 col-12"
-                      key={brand.id}
-                    >
+                  <Link href={`/portfolio/${brand.id}`} key={brand.id}>
+                    <div className="col-lg-4 col-md-4 col-sm-6 col-12">
                       <img
                         rel="preload"
                         as="image"
@@ -55,8 +52,8 @@ export default function Categories({ data }) {
             <div className="row hide">
               {secondFilter.map((brand) => {
                 return (
-                  <Link href={`/portfolio/${brand.id}`}>
-                    <div className="col-lg-4 col-md-4 col-sm-6" key={brand.id}>
+                  <Link href={`/portfolio/${brand.id}`} key={brand.id}>
+                    <div className="col-lg-4 col-md-4 col-sm-6">
                       <img
                         rel="preload"
                         as="image"
@@ -81,8 +78,8 @@ export default function Categories({ data }) {
             <div className="row hide">
               {threeFilter.map((brand) => {
                 return (
-                  <Link href={`/portfolio/${brand.id}`}>
-                    <div className="col-lg-4 col-md-4 col-sm-6" key={brand.id}>
+                  <Link href={`/portfolio/${brand.id}`} key={brand.id}>
+                    <div className="col-lg-4 col-md-4 col-sm-6">
                       <img
                         rel="preload"
                         as="image"
@@ -107,8 +104,8 @@ export default function Categories({ data }) {
             <div className="row hide">
               {fourFilter.map((brand) => {
                 return (
-                  <Link href={`/portfolio/${brand.id}`}>
-                    <div className="col-lg-4 col-md-4 col-sm-6" key={brand.id}>
+                  <Link href={`/portfolio/${brand.id}`} key={brand.id}>
+                    <div className="col-lg-4 col-md-4 col-sm-6">
                       <img
                         rel="preload"
                         as="image"

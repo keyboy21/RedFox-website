@@ -18,12 +18,12 @@ export default function Home({ data, img }) {
     return slider.id >= 56 && slider.id <= 69;
   });
 
-  const ImageFilter2 = img.filter((slide) => {
-    return slide.id <= 1;
-  });
-
   const ImageFilter1 = img.filter((slide) => {
     return slide.id >= 2 && slide.id <= 3;
+  });
+
+  const ImageFilter2 = img.filter((slide) => {
+    return slide.id <= 1;
   });
 
   const ImageFilter3 = img.filter((slide) => {
@@ -809,7 +809,7 @@ export default function Home({ data, img }) {
 export async function getServerSideProps() {
   const res = await fetch(`http://redfox.frilansus.com/api/apipartner`);
   const data = await res.json();
-  const qwe = await fetch(`http://redfox.frilansus.com/api/apiportfolio`);
-  const img = await qwe.json();
+  const portfolio = await fetch(`http://redfox.frilansus.com/api/apiportfolio`);
+  const img = await portfolio.json();
   return { props: { data, img } };
 }
