@@ -68,7 +68,7 @@ export default function Home({ data, img }) {
                 <img
                   rel="preload"
                   as="image"
-                  src={`http://redfox.frilansus.com/storage/app/${slider.logo}`}
+                  src={`https://redfox.frilansus.com/storage/app/${slider.logo}`}
                   alt="partner."
                   decoding="auto"
                 />
@@ -86,7 +86,7 @@ export default function Home({ data, img }) {
                 <img
                   rel="preload"
                   as="image"
-                  src={`http://redfox.frilansus.com/storage/app/${slider.logo}`}
+                  src={`https://redfox.frilansus.com/storage/app/${slider.logo}`}
                   alt="partner."
                   decoding="auto"
                 />
@@ -118,7 +118,7 @@ export default function Home({ data, img }) {
                 <img
                   rel="preload"
                   as="image"
-                  src={`http://redfox.frilansus.com/storage/app/${slider.logo}`}
+                  src={`https://redfox.frilansus.com/storage/app/${slider.logo}`}
                   alt="partner."
                   decoding="auto"
                 />
@@ -136,7 +136,7 @@ export default function Home({ data, img }) {
                 <img
                   rel="preload"
                   as="image"
-                  src={`http://redfox.frilansus.com/storage/app/${slider.logo}`}
+                  src={`https://redfox.frilansus.com/storage/app/${slider.logo}`}
                   alt="partner."
                   decoding="auto"
                 />
@@ -154,7 +154,7 @@ export default function Home({ data, img }) {
                 <img
                   rel="preload"
                   as="image"
-                  src={`http://redfox.frilansus.com/storage/app/${slider.logo}`}
+                  src={`https://redfox.frilansus.com/storage/app/${slider.logo}`}
                   alt="partner."
                   decoding="auto"
                 />
@@ -302,7 +302,7 @@ export default function Home({ data, img }) {
                       <div className="d-flex justify-content-between">
                         <p>Brend nomini topish</p>
                         <div>
-                          <img src="/Arrow 4Active_-_.png" />
+                          <i className="far fa-long-arrow-right"></i>
                         </div>
                       </div>
                     </div>
@@ -320,7 +320,7 @@ export default function Home({ data, img }) {
                       <div className="d-flex justify-content-between">
                         <p>Savdo belgisini yaratish</p>
                         <div>
-                          <img src="/Arrow 4Active_-_.png" />
+                          <i className="far fa-long-arrow-right"></i>
                         </div>
                       </div>
                     </div>
@@ -338,7 +338,7 @@ export default function Home({ data, img }) {
                       <div className="d-flex justify-content-between">
                         <p>Barcha turdagi xizmatlar</p>
                         <div>
-                          <img src="/Arrow 4Active_-_.png" />
+                          <i className="far fa-long-arrow-right"></i>
                         </div>
                       </div>
                     </div>
@@ -357,7 +357,7 @@ export default function Home({ data, img }) {
                       <div className="d-flex justify-content-between">
                         <p>Web va Mobile dizayn</p>
                         <div>
-                          <img src="/Arrow 4Active_-_.png" />
+                          <i className="far fa-long-arrow-right"></i>
                         </div>
                       </div>
                     </div>
@@ -375,7 +375,7 @@ export default function Home({ data, img }) {
                       <div className="d-flex justify-content-between">
                         <p>Qadoqlash dizayni</p>
                         <div>
-                          <img src="/Arrow 4Active_-_.png" />
+                          <i className="far fa-long-arrow-right"></i>
                         </div>
                       </div>
                     </div>
@@ -393,7 +393,7 @@ export default function Home({ data, img }) {
                       <div className="d-flex justify-content-between">
                         <p>Banner va Flayer dizayni</p>
                         <div>
-                          <img src="/Arrow 4Active_-_.png" />
+                          <i className="far fa-long-arrow-right"></i>
                         </div>
                       </div>
                     </div>
@@ -412,7 +412,7 @@ export default function Home({ data, img }) {
                       <div className="d-flex justify-content-between">
                         <p>Ijtimoiy tarmog’lar uchun</p>
                         <div>
-                          <img src="/Arrow 4Active_-_.png" />
+                          <i className="far fa-long-arrow-right"></i>
                         </div>
                       </div>
                     </div>
@@ -424,7 +424,7 @@ export default function Home({ data, img }) {
                   <span className="other">
                     Yana shu kabi ko‘plab xizmatlar mavjud
                     <div>
-                      <img src="/Arrow 4Right_-_.png" />
+                      <i className="far fa-long-arrow-right"></i>
                     </div>
                   </span>
                 </div>
@@ -807,9 +807,9 @@ export default function Home({ data, img }) {
 // getServerSideProps
 // getStaticProps
 export async function getServerSideProps() {
-  const res = await fetch(`http://redfox.frilansus.com/api/apipartner`);
+  const res = await fetch(`https://redfox.frilansus.com/api/apipartner`);
   const data = await res.json();
-  const portfolio = await fetch(`http://redfox.frilansus.com/api/apiportfolio`);
+  const portfolio = await fetch(`https://redfox.frilansus.com/api/apiportfolio`);
   const img = await portfolio.json();
   return { props: { data, img } };
 }

@@ -31,7 +31,7 @@ export default function Categories({ data }) {
                       <img
                         rel="preload"
                         as="image"
-                        src={`http://redfox.frilansus.com/frontend/images/${brand.img.slice(
+                        src={`https://redfox.frilansus.com/frontend/images/${brand.img.slice(
                           8
                         )}`}
                         alt="work."
@@ -57,7 +57,7 @@ export default function Categories({ data }) {
                       <img
                         rel="preload"
                         as="image"
-                        src={`http://redfox.frilansus.com/frontend/images/${brand.img.slice(
+                        src={`https://redfox.frilansus.com/frontend/images/${brand.img.slice(
                           8
                         )}`}
                         alt="work."
@@ -83,7 +83,7 @@ export default function Categories({ data }) {
                       <img
                         rel="preload"
                         as="image"
-                        src={`http://redfox.frilansus.com/frontend/images/${brand.img.slice(
+                        src={`https://redfox.frilansus.com/frontend/images/${brand.img.slice(
                           8
                         )}`}
                         alt="work."
@@ -109,7 +109,7 @@ export default function Categories({ data }) {
                       <img
                         rel="preload"
                         as="image"
-                        src={`http://redfox.frilansus.com/frontend/images/${brand.img.slice(
+                        src={`https://redfox.frilansus.com/frontend/images/${brand.img.slice(
                           8
                         )}`}
                         alt="work."
@@ -130,7 +130,7 @@ export default function Categories({ data }) {
 }
 
 export async function getServerSideProps() {
-  const res = await fetch(`http://redfox.frilansus.com/api/apiportfolio`);
+  const res = await fetch(`https://redfox.frilansus.com/api/apiportfolio`);
   const data = await res.json();
   return { props: { data } };
 }

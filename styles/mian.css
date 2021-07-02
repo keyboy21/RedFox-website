@@ -324,6 +324,9 @@ header .write h3 {
   font-size: 60px;
   color: #a6a6a6;
 }
+.skills .logos .col-8 .far{
+  font-size: 17px;
+}
 
 .skills .logos:hover {
   background: #fffbf5;
