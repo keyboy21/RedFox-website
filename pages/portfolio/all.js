@@ -9,8 +9,7 @@ const All = ({ data }) => {
           <div className="row">
             {data.map((all) => {
               return (
-                <Link href={`/portfolio/${all.id}`} key={all.id}>
-                  <div className="col-lg-4 col-md-4 col-sm-6">
+                  <div className="col-lg-4 col-md-4 col-sm-6" key={all.id}>
                     <img
                       rel="preload"
                       as="image"
@@ -22,7 +21,6 @@ const All = ({ data }) => {
                     />
                     <p>{all.title_uz}</p>
                   </div>
-                </Link>
               );
             })}
           </div>

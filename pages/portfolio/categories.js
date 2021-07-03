@@ -26,8 +26,7 @@ export default function Categories({ data }) {
             <div className="row hide">
               {firsFilter.map((brand) => {
                 return (
-                  <Link href={`/portfolio/${brand.id}`} key={brand.id}>
-                    <div className="col-lg-4 col-md-4 col-sm-6 col-12">
+                    <div className="col-lg-4 col-md-4 col-sm-6 col-12" key={brand.id}>
                       <img
                         rel="preload"
                         as="image"
@@ -39,7 +38,6 @@ export default function Categories({ data }) {
                       />
                       <p>{brand.title_uz}</p>
                     </div>
-                  </Link>
                 );
               })}
             </div>
@@ -52,8 +50,7 @@ export default function Categories({ data }) {
             <div className="row hide">
               {secondFilter.map((brand) => {
                 return (
-                  <Link href={`/portfolio/${brand.id}`} key={brand.id}>
-                    <div className="col-lg-4 col-md-4 col-sm-6">
+                    <div className="col-lg-4 col-md-4 col-sm-6" key={brand.id}>
                       <img
                         rel="preload"
                         as="image"
@@ -65,7 +62,6 @@ export default function Categories({ data }) {
                       />
                       <p>{brand.title_uz}</p>
                     </div>
-                  </Link>
                 );
               })}
             </div>
@@ -78,8 +74,7 @@ export default function Categories({ data }) {
             <div className="row hide">
               {threeFilter.map((brand) => {
                 return (
-                  <Link href={`/portfolio/${brand.id}`} key={brand.id}>
-                    <div className="col-lg-4 col-md-4 col-sm-6">
+                    <div className="col-lg-4 col-md-4 col-sm-6" key={brand.id}>
                       <img
                         rel="preload"
                         as="image"
@@ -91,7 +86,6 @@ export default function Categories({ data }) {
                       />
                       <p>{brand.title_uz}</p>
                     </div>
-                  </Link>
                 );
               })}
             </div>
@@ -104,8 +98,7 @@ export default function Categories({ data }) {
             <div className="row hide">
               {fourFilter.map((brand) => {
                 return (
-                  <Link href={`/portfolio/${brand.id}`} key={brand.id}>
-                    <div className="col-lg-4 col-md-4 col-sm-6">
+                    <div className="col-lg-4 col-md-4 col-sm-6" key={brand.id}>
                       <img
                         rel="preload"
                         as="image"
@@ -117,7 +110,6 @@ export default function Categories({ data }) {
                       />
                       <p>{brand.title_uz}</p>
                     </div>
-                  </Link>
                 );
               })}
             </div>
