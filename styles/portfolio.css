@@ -20,7 +20,7 @@
   padding-top: 70px;
 }
 
-.categories .prime{
+.categories .prime {
   margin-top: 20px;
 }
 .categories .hide {
@@ -28,9 +28,6 @@
   overflow: scroll;
 }
 
-.categories .hide p{
-
-}
 .portfolio .port_ul ul {
   display: flex;
   list-style: none;
@@ -234,7 +231,8 @@
 }
 
 @media (max-width: 576px) {
-  ::-webkit-scrollbar {
+  .portfolio .port_ul ::-webkit-scrollbar {
+    height: 0;
     width: 0;
   }
   .portfolio h2 {
@@ -325,7 +323,7 @@
     box-shadow: none;
   }
 
-  .categories .hide{
+  .categories .hide {
     justify-content: flex-start;
   }
 }

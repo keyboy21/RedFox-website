@@ -6,6 +6,7 @@ import "../styles/footer.css";
 import "../styles/animate.css";
 import "../styles/portfolio.css";
 import "../styles/agency.css";
+import "../styles/view.css";
 import NextNprogress from "nextjs-progressbar";
 
 function MyApp({ Component, pageProps }) {
