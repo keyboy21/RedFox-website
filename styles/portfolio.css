@@ -241,6 +241,9 @@
   .portfolio p {
     text-align: center;
   }
+  .portfolio .col-lg-4 p {
+    margin: 10px 0 10px;
+  }
   .portfolio .port_ul ul {
     overflow: scroll;
     border-bottom: none;
@@ -288,7 +291,7 @@
   }
   .accordion .accordion-button::after {
     background-image: none;
-    background-image: url(../public/Vector.webp);
+    background-image: url("../public/Vector\ \(Stroke\)accc.svg");
   }
 
   .accordion-collapse {

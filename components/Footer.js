@@ -123,7 +123,7 @@ export default function Footer() {
               <img
                 id="vektor1"
                 className={active ? "sircleImg" : "sircleImg1"}
-                src="/Vector.webp"
+                src="/Vector (Stroke)accc.svg"
                 alt=""
               />
             </button>
@@ -158,7 +158,7 @@ export default function Footer() {
               <img
                 id="vektor2"
                 className={active1 ? "sircleImg" : "sircleImg1"}
-                src="/Vector.webp"
+                src="/Vector (Stroke)accc.svg"
                 alt=""
               />
             </button>
@@ -180,8 +180,7 @@ export default function Footer() {
               <img
                 id="vektor3"
                 className={active2 ? "sircleImg" : "sircleImg1"}
-                src="/Vector.webp"
-                alt=""
+                src="/Vector (Stroke)accc.svg"
               />
             </button>
             <h2>
@@ -218,8 +217,8 @@ export default function Footer() {
               <img
                 id="vektor4"
                 className={active3 ? "sircleImg" : "sircleImg1"}
-                src="/Vector.webp"
-                alt=""
+                src="/Vector (Stroke)accc.svg"
+              
               />
             </button>
             <a href="tel:+99897-778-50-08">
@@ -245,8 +244,8 @@ export default function Footer() {
               <img
                 id="vektor5"
                 className={active4 ? "sircleImg" : "sircleImg1"}
-                src="/Vector.webp"
-                alt=""
+                src="/Vector (Stroke)accc.svg"
+               
               />
             </button>
             <h2>

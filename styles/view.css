@@ -4,7 +4,7 @@
   align-items: center;
 }
 
-.view h2 {
+.view .view_top h2 {
   font-family: Inter;
   font-style: normal;
   font-weight: 600;
@@ -24,6 +24,11 @@
   font-feature-settings: "pnum" on, "lnum" on, "liga" off;
   color: #1c1c1f;
   padding-left: 233px;
+}
+
+.view .view_top h3:nth-of-type(1) {
+  margin-top: 70px;
+  margin-bottom: 30px;
 }
 
 .view .view_bottom .view_text {
@@ -59,7 +64,7 @@
 .view .view_img .col-lg-11 img {
   width: 100%;
 }
-.view .view_img .col-lg-11{
+.view .view_img .col-lg-11 {
   margin-bottom: 30px;
 }
 
@@ -71,4 +76,253 @@
 }
 .view .view_img .img {
   justify-content: space-between;
+}
+.view .two {
+  margin-top: 100px;
+}
+.view .view_info {
+  margin-top: 180px;
+  margin-bottom: 74px;
+}
+
+.view .view_info .col-lg-3 h6 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #ff7300;
+}
+.view .view_info .col-lg-3:nth-child(2) h6:nth-of-type(2) {
+  margin-top: 44px;
+}
+.view .view_info .col-lg-3:nth-child(4) h6:nth-of-type(2) {
+  margin-top: 44px;
+}
+
+.view .view_info .col-lg-3 p {
+  font-family: Inter;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 19px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #3d3d3d;
+  margin-top: 16px;
+}
+
+.view hr {
+  height: 1px;
+}
+.view .similar h5 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  font-feature-settings: "pnum" on, "lnum" on, "liga" off;
+  color: #1c1c1f;
+}
+.view .similar img {
+  width: 100%;
+}
+
+.view .similar p {
+  font-family: Inter;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 19px;
+  font-feature-settings: "pnum" on, "lnum" on, "liga" off;
+  color: #1c1c1f;
+  margin-top: 16px;
+}
+
+.view .similar {
+  background: #f9f9f9;
+  padding: 120px 0 180px;
+}
+
+@media (max-width: 991px) {
+  .view .view_top h2 {
+    font-size: 30px;
+    padding-left: 100px;
+    padding-right: 156px;
+  }
+  .view .view_top h3 {
+    padding-left: 100px;
+  }
+  .view .view_bottom .view_text {
+    display: flex;
+    flex-direction: column;
+    padding-left: 123px;
+  }
+  .view .view_bottom .view_text .col-lg-3 {
+    padding-left: 0;
+  }
+  .view .view_top h3 {
+    font-size: 24px;
+  }
+  .view .view_bottom .view_text span {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  .view .view_bottom .view_text p {
+    font-size: 16px;
+    margin-bottom: 0;
+  }
+  .view .view_bottom .view_text .col-lg-7 p:nth-of-type(2) {
+    margin-bottom: 20px;
+  }
+  .view .two {
+    margin-top: 73px;
+  }
+  .view .view_img .row .images {
+    width: 49%;
+  }
+
+  .view .view_accardion .accordion-item h2 button {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #ff7300;
+  }
+  .view .view_top h3:nth-of-type(1) {
+    margin-top: 30px;
+  }
+  .accordion-button::after {
+    background-image: url("../public/Vector (Stroke)accc.svg");
+  }
+  .accordion-button:not(.collapsed)::after {
+    background-image: url("../public/Vector (Stroke)accc.svg");
+  }
+  .view .view_accardion .accordion-item p {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #3d3d3d;
+  }
+  .view .view_accardion .accordion-item {
+    border: none;
+    border-bottom: 1px solid #ebebeb;
+  }
+  .accordion-button:not(.collapsed) {
+    color: transparent;
+    background-color: transparent;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+  .view .view_accardion .accordion-item .time {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .view .view_accardion .accordion-item .time div:nth-of-type(1) {
+    margin-right: 150px;
+  }
+  .view .view_accardion .accordion-item .time h6 {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #ff7300;
+  }
+  .view .view_accardion .accordion-item .time p {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 36px;
+    color: #3d3d3d;
+  }
+  .view .view_accardion .accordion-item .accordion-body .design {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 310px;
+  }
+  .view .view_accardion .accordion-item .accordion-body ul li p {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: justify;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #3d3d3d;
+  }
+  .view .view_accardion .accordion-item .accordion-body ul li {
+    list-style: none;
+    margin-bottom: 30px;
+  }
+  .view .view_accardion .accordion-item .time p:nth-child(1) {
+    margin-bottom: 30px;
+  }
+  .accordion-button:focus {
+    box-shadow: none;
+  }
+  .view .similar {
+    background: #f9f9f9;
+    padding: 80px 0 119px;
+  }
+  .view .two {
+    margin-bottom: 60px;
+  }
+  .view .similar p {
+    font-size: 14px;
+    line-height: 18px;
+  }
+}
+
+@media (max-width: 767px) {
+  .view .similar .col-sm-6 {
+    margin-bottom: 20px;
+  }
+  .view .similar p {
+    font-size: 14px;
+  }
+  .accordion-collapse {
+    background-color: none;
+  }
+}
+
+@media (max-width: 575px) {
+  .view .d-block {
+    background-color: transparent;
+  }
+  .view .accordion .accordion-button {
+    background-color: transparent;
+  }
+  .accordion-collapse {
+    background-color: none;
+  }
+  .view .view_bottom .view_text {
+    padding-left: 16px;
+  }
+  .view .view_img .row .images {
+    width: 100%;
+  }
+  .view .view_top h2 {
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 30px;
+    line-height: 36px;
+    padding-left: 16px;
+    padding-right: 52px;
+  }
+  .view .view_top h3 {
+    padding-left: 16px;
+    padding-right: 0;
+  }
+  .view .view_top h3:nth-of-type(1) {
+    margin-bottom: 15px;
+  }
+  .accordion-collapse {
+    background: none;
+  }
 }
