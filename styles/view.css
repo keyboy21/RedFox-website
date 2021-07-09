@@ -325,4 +325,7 @@
   .accordion-collapse {
     background: none;
   }
+  .view .view_accardion .accordion-item .accordion-body .design {
+    height: auto;
+  }
 }
