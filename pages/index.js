@@ -194,7 +194,7 @@ export default function Home({ data, img }) {
             <div className="row rev">
               <div className="col-lg-4 col-md-4 derzi">
                 {ImageFilter1.map((port) => (
-                  <div className="col-lg-12 col-5" key={port.id}>
+                  <div className="col-md-12 col-lg-12 col-5" key={port.id}>
                     <img
                       rel="preload"
                       as="image"
