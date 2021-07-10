@@ -71,7 +71,7 @@ export default function Footer() {
                       </a>
                     </h2>
                     <h2>
-                      <a href="#">Dizayn akademiya</a>
+                      <a href="http://t.me/redfoxacademy" target="_blank">Dizayn akademiya</a>
                     </h2>
                     <h2>
                       <a href="https://t.me/redfoxacademy" target="_blank">IT akademiya</a>
@@ -192,7 +192,7 @@ export default function Footer() {
               </a>
             </h2>
             <h2>
-              <a href="#">Dizayn akademiya</a>
+              <a href="http://t.me/redfoxacademy" target="_blank" >Dizayn akademiya</a>
             </h2>
             <h2>
               <a href="https://t.me/redfoxacademy" target="_blank">IT akademiya</a>
