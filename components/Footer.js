@@ -36,7 +36,7 @@ export default function Footer() {
                       <a href="#">Biz haqimizda</a>
                     </h2>
                     <h2>
-                      <a href="#">Portfolio</a>
+                      <a href="https://www.behance.net/redfoxuz" target="_blank">Portfolio</a>
                     </h2>
                   </div>
                   <div className="col-lg-3 col-md-3 col-sm-3">
@@ -77,7 +77,7 @@ export default function Footer() {
                       <a href="https://t.me/redfoxacademy" target="_blank">IT akademiya</a>
                     </h2>
                     <h2>
-                      <a href="#">Realtime Portfolio</a>
+                      <a href="https://t.me/portfolius" target="_blank">Realtime Portfolio</a>
                     </h2>
                     <h2>
                       <a href="https://t.me/fontus" target="_blank">
@@ -137,7 +137,7 @@ export default function Footer() {
               <a href="#">Branding</a>
             </h2>
             <h2>
-              <a href="https://t.me/redfoxacademy" target="_blank">IT dasturlash </a>
+              <a href="#">IT dasturlash </a>
             </h2>
             <h2>
               <a href="#">Web sayt</a>
@@ -166,7 +166,7 @@ export default function Footer() {
               <a href="#">Biz haqimizda</a>
             </h2>
             <h2>
-              <a href="#">Portfolio</a>
+              <a href="https://www.behance.net/redfoxuz" target="_blank" >Portfolio</a>
             </h2>
           </div>
           <hr />
@@ -195,10 +195,10 @@ export default function Footer() {
               <a href="#">Dizayn akademiya</a>
             </h2>
             <h2>
-              <a href="#">IT akademiya</a>
+              <a href="https://t.me/redfoxacademy" target="_blank">IT akademiya</a>
             </h2>
             <h2>
-              <a href="#">Realtime Portfolio</a>
+              <a href="https://t.me/portfolius" target="_blank">Realtime Portfolio</a>
             </h2>
             <h2>
               <a href="https://t.me/fontus" target="_blank">
