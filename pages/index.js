@@ -268,7 +268,7 @@ export default function Home({ data, img }) {
             <div className="row">
               <div className="header_top col-lg-8">
                 <h2>
-                  Mahalliy bozordagi tajribamiz <span>4 yil</span>
+                 RedFox 30 iyunda <span>5</span> yosh bo'gan 
                 </h2>
                 <p>
                   RedFox dizayn studiyasi bir vaqtda ko‘plab kompaniyalar bilan
@@ -727,11 +727,9 @@ export default function Home({ data, img }) {
                 <div>
                   <img src="/2two.svg"></img>
                 </div>
-                <span>24/7 rejimda muloqot mavjudligi</span>
+                <span>Deyarli 24/7 rejimda muloqot mavjudligi</span>
                 <p>
-                  Xalqaro miqyosda tan olingan va eng a'lo sifatda baholangan
-                  24/7 menejer support buyurtmangiz yakunlanguncha sizning
-                  xizmatingizda.
+                  Xalqaro miqyosda tan olingan va eng a'lo sifatda baholangan 24/7 menejerlar support'i ishlashga harakat qilmoqdamiz, buyurtmangiz yakunlanguncha sizning xizmatingizdamiz.
                 </p>
               </div>
               <div className="col-lg-4">
@@ -783,7 +781,7 @@ export default function Home({ data, img }) {
             <div className="row">
               <div className="header_top col-lg-8">
                 <h2>
-                  Istalgan vaqt buyurtma bering: <span>97 778 5008 </span>
+                  Istalgan vaqt buyurtma bering: <span>71 200 5008 </span>
                 </h2>
                 <p>
                   Bizdan mijozlarimiz, tezkor xizmat, sifatli ishlar, ajoyib
