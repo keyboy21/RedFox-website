@@ -268,7 +268,7 @@ export default function Home({ data, img }) {
             <div className="row">
               <div className="header_top col-lg-8">
                 <h2>
-                 RedFox 30 iyunda <span>5</span> yosh bo'gan 
+                  Mahalliy bozordagi tajribamiz <span>5 yil </span>
                 </h2>
                 <p>
                   RedFox dizayn studiyasi bir vaqtda ko‘plab kompaniyalar bilan
@@ -465,7 +465,7 @@ export default function Home({ data, img }) {
             <div className="row">
               <div className="col-lg-4 col-md-6">
                 <div>
-                  <img src="/My-User-Pic-001 1.png" />
+                  <img src="/My-User-Pic-001 1mavlonbek.png" />
                 </div>
                 <div>
                   <h4>Polatov Mavlonbek</h4>
@@ -729,7 +729,9 @@ export default function Home({ data, img }) {
                 </div>
                 <span>Deyarli 24/7 rejimda muloqot mavjudligi</span>
                 <p>
-                  Xalqaro miqyosda tan olingan va eng a'lo sifatda baholangan 24/7 menejerlar support'i ishlashga harakat qilmoqdamiz, buyurtmangiz yakunlanguncha sizning xizmatingizdamiz.
+                  Xalqaro miqyosda tan olingan va eng a'lo sifatda baholangan
+                  24/7 menejerlar support'i ishlashga harakat qilmoqdamiz,
+                  buyurtmangiz yakunlanguncha sizning xizmatingizdamiz.
                 </p>
               </div>
               <div className="col-lg-4">
@@ -807,7 +809,9 @@ export default function Home({ data, img }) {
 export async function getServerSideProps() {
   const res = await fetch(`https://redfox.frilansus.com/api/apipartner`);
   const data = await res.json();
-  const portfolio = await fetch(`https://redfox.frilansus.com/api/apiportfolio`);
+  const portfolio = await fetch(
+    `https://redfox.frilansus.com/api/apiportfolio`
+  );
   const img = await portfolio.json();
   return { props: { data, img } };
 }
