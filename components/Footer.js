@@ -17,13 +17,14 @@ export default function Footer() {
               <div className="right-footer">
                 <img src="/Group 32193footer_logo.svg" alt="logoFoot" />
 
-                <a href="tel:+99897-778-50-08">
-                  <h1>+998 97 778 50 08</h1>
+                <a href="tel:+998 71 200 5008">
+                  <h1>+998 71 200 5008</h1>
                 </a>
                 <h2>
-                  Toshkent shahri, Olmazor tum.,
+                 Toshkent shahri, Shayxontohur tum.,
                   <br />
-                  Farovon 3-tor ko’cha, 2 uy.
+                  Arxitektorlar ko’chasi, 11 uy.
+                  
                 </h2>
               </div>
             </div>
