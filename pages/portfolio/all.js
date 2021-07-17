@@ -33,7 +33,7 @@ const All = ({ data }) => {
   );
 };
 
-export async function getServerSideProps() {
+export async function getStaticProps() {
   const res = await fetch(`https://redfox.frilansus.com/api/apiportfolio`);
   const data = await res.json();
   return { props: { data } };
