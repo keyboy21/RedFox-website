@@ -806,7 +806,7 @@ export default function Home({ data, img }) {
 
 // getServerSideProps
 // getStaticProps
-export async function getServerSideProps() {
+export async function getStaticProps() {
   const res = await fetch(`https://redfox.frilansus.com/api/apipartner`);
   const data = await res.json();
   const portfolio = await fetch(
