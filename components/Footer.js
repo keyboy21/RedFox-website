@@ -37,7 +37,7 @@ export default function Footer() {
                       <a href="#">Biz haqimizda</a>
                     </h2>
                     <h2>
-                      <a href="https://www.behance.net/redfoxuz" target="_blank">Portfolio</a>
+                      <a href="https://www.behance.net/redfoxuz" target="_blank" rel="noopener">Portfolio</a>
                     </h2>
                   </div>
                   <div className="col-lg-3 col-md-3 col-sm-3">
@@ -67,18 +67,18 @@ export default function Footer() {
                       <a href="#">Loyihalarimiz</a>
                     </h2>
                     <h2>
-                      <a href="https://frilansus.com/" target="_blank">
+                      <a href="https://frilansus.com/" target="_blank" rel="noopener">
                         Frilansus.com
                       </a>
                     </h2>
                     <h2>
-                      <a href="http://t.me/redfoxacademy" target="_blank">Dizayn akademiya</a>
+                      <a href="http://t.me/redfoxacademy" target="_blank" rel="noopener">Dizayn akademiya</a>
                     </h2>
                     <h2>
-                      <a href="https://t.me/redfoxacademy" target="_blank">IT akademiya</a>
+                      <a href="https://t.me/redfoxacademy" target="_blank" rel="noopener">IT akademiya</a>
                     </h2>
                     <h2>
-                      <a href="https://t.me/portfolius" target="_blank">Realtime Portfolio</a>
+                      <a href="https://t.me/portfolius" target="_blank" rel="noopener">Realtime Portfolio</a>
                     </h2>
                     <h2>
                       <a href="https://t.me/fontus" target="_blank">
@@ -100,7 +100,7 @@ export default function Footer() {
                       <h2>94 919-1516</h2>
                     </a>
                     <h2>
-                      <a href="https://t.me/RedFoxManager" target="_blank">
+                      <a href="https://t.me/RedFoxManager" target="_blank" rel="noopener">
                         Online yozing
                       </a>
                     </h2>
@@ -167,7 +167,7 @@ export default function Footer() {
               <a href="#">Biz haqimizda</a>
             </h2>
             <h2>
-              <a href="https://www.behance.net/redfoxuz" target="_blank" >Portfolio</a>
+              <a href="https://www.behance.net/redfoxuz" target="_blank" rel="noopener">Portfolio</a>
             </h2>
           </div>
           <hr />
@@ -188,21 +188,21 @@ export default function Footer() {
               <a href="#">Loyihalarimiz</a>
             </h2>
             <h2>
-              <a href="https://frilansus.com/" target="_blank">
+              <a href="https://frilansus.com/" target="_blank" rel="noopener">
                 Frilansus.com
               </a>
             </h2>
             <h2>
-              <a href="http://t.me/redfoxacademy" target="_blank" >Dizayn akademiya</a>
+              <a href="http://t.me/redfoxacademy" target="_blank" rel="noopener" >Dizayn akademiya</a>
             </h2>
             <h2>
-              <a href="https://t.me/redfoxacademy" target="_blank">IT akademiya</a>
+              <a href="https://t.me/redfoxacademy" target="_blank" rel="noopener">IT akademiya</a>
             </h2>
             <h2>
-              <a href="https://t.me/portfolius" target="_blank">Realtime Portfolio</a>
+              <a href="https://t.me/portfolius" target="_blank" rel="noopener">Realtime Portfolio</a>
             </h2>
             <h2>
-              <a href="https://t.me/fontus" target="_blank">
+              <a href="https://t.me/fontus" target="_blank" rel="noopener">
                 Fontus
               </a>
             </h2>
@@ -250,22 +250,22 @@ export default function Footer() {
               />
             </button>
             <h2>
-              <a href="https://t.me/RedFoxUz" target="_blank">
+              <a href="https://t.me/RedFoxUz" target="_blank" rel="noopener">
                 Telegram
               </a>
             </h2>
             <h2>
-              <a href="https://www.instagram.com/redfoxuz/" target="_blank">
+              <a href="https://www.instagram.com/redfoxuz/" target="_blank" rel="noopener">
                 Instagram
               </a>
             </h2>
             <h2>
-              <a href="https://dribbble.com/redfoxuz" target="_blank">
+              <a href="https://dribbble.com/redfoxuz" target="_blank" rel="noopener">
                 Dribbble
               </a>
             </h2>
             <h2>
-              <a href="https://www.behance.net/redfoxuz" target="_blank">
+              <a href="https://www.behance.net/redfoxuz" target="_blank" rel="noopener">
                 Behance
               </a>
             </h2>
@@ -284,22 +284,22 @@ export default function Footer() {
             <div className="d-none d-sm-block col-lg-6 col-md-6 col-sm-6 col-6 ">
               <div className=" left-footer">
                 <h2>
-                  <a href="https://t.me/RedFoxUz" target="_blank">
+                  <a href="https://t.me/RedFoxUz" target="_blank" rel="noopener">
                     Telegram
                   </a>
                 </h2>
                 <h2>
-                  <a href="https://www.instagram.com/redfoxuz/" target="_blank">
+                  <a href="https://www.instagram.com/redfoxuz/" target="_blank" rel="noopener">
                     Instagram
                   </a>
                 </h2>
                 <h2>
-                  <a href="https://dribbble.com/redfoxuz" target="_blank">
+                  <a href="https://dribbble.com/redfoxuz" target="_blank" rel="noopener">
                     Dribbble
                   </a>
                 </h2>
                 <h2>
-                  <a href="https://www.behance.net/redfoxuz" target="_blank">
+                  <a href="https://www.behance.net/redfoxuz" target="_blank" rel="noopener">
                     Behance
                   </a>
                 </h2>
