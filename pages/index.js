@@ -792,7 +792,7 @@ export default function Home({ data, img }) {
                 </p>
               </div>
               <div className="write col-lg-12">
-                <a href="https://t.me/RedFoxManager" target="_blank">
+                <a href="https://t.me/RedFoxManager" target="_blank" rel="noopener">
                   <h3> Online yozing</h3>
                 </a>
               </div>
