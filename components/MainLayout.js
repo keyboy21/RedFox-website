@@ -16,7 +16,7 @@ export default function MainLayout({ children, title = "" }) {
           content="redfox, design, web-development, naming"
         />
         <title>Redfox Agency {title}</title>
-        <link rel="icon" href="/Group.png" />
+        <link rel="icon" type="image/png" href="/Group.png" />
       </Head>
       <nav className="navbar navbar-expand-sm navbar-light">
         <div className="container">
