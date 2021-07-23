@@ -9,7 +9,8 @@ export default function MainLayout({ children, title = "" }) {
     <>
       <Head>
         <meta charSet="utf-8" />
-<link rel="apple-touch-icon" href="/apple-touch-icon.png" type="image/png" />
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png" type="image/png" />
+        <meta name="theme-color" content="#000000" />
         <meta name="viewport" content="width=device-width" />
         <meta name="description" content="Redfox agency website" />
         <meta
