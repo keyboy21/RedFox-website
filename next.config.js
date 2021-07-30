@@ -10,7 +10,7 @@ module.exports = {
     domains: [
       {
         domain: 'redfox.uz',
-        defaultLocale: 'uz-UZ',
+        defaultLocale: 'uz',
       },
       {
         domain: 'redfox.uz/ru',
