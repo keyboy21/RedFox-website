@@ -14,9 +14,7 @@ const All = ({ data }) => {
                     <img
                       rel="preload"
                       as="image"
-                      src={`https://redfox.frilansus.com/frontend/images/${all.img.slice(
-                        8
-                      )}`}
+                      src={`https://redfox.frilansus.com/${all.logo}`}
                       alt="work."
                       decoding="auto"
                     />
