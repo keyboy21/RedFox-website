@@ -1,8 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Inter", sans-serif;
 }
+body {
+  font-family: "Inter", sans-serif;
+}
+
 ul {
   margin: 0;
   padding: 0;
@@ -12,18 +19,15 @@ ul {
   height: 100%;
 }
 
-
-#nprogress .spinner-icon{
+#nprogress .spinner-icon {
   display: none;
 }
 
 .navbar-light .navbar-nav .nav-link {
-  font-family: Inter;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 19px;
-  font-feature-settings: "pnum" on, "lnum" on, "liga" off;
   color: #1c1c1f;
 }
 .navbar-light .navbar-nav .nav-item:nth-child(1) {
@@ -41,7 +45,7 @@ ul {
 }
 
 @media (max-width: 576px) {
-  .navbar-light .navbar-nav .nav-link{
+  .navbar-light .navbar-nav .nav-link {
     display: inline-block;
   }
   .navbar {

@@ -1,0 +1,132 @@
+.blog img {
+  width: 100%;
+}
+.any {
+  background-color: transparent;
+}
+
+.blog {
+  margin-bottom: 100px;
+  margin-top: 95px;
+}
+
+.blog .top_info {
+  display: flex;
+  align-items: center;
+}
+
+.blog .top_info div:nth-child(1) {
+  border: 2px solid #e7e7e7;
+  box-shadow: 0 0 0 4px #e7e7e7;
+  border-radius: 50%;
+}
+
+.blog .top_info div:nth-child(2) {
+  margin-left: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.blog .top_info h6 {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  color: #3d3d3d;
+}
+.blog .top_info p {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #828282;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.blog .top_info:hover div:nth-child(1) {
+  border: 2px solid #f1bd91;
+  box-shadow: 0 0 0 4px #f1c49f;
+  border-radius: 50%;
+  transition: box-shadow 0.2 ease;
+}
+.blog .bottom_info button {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  padding: 6px 10px;
+  background: #f1f1f1;
+  border-radius: 3px;
+  border: none;
+  margin: 17px 0;
+}
+.blog .bottom_info button span {
+  color: #ff6200;
+}
+.blog .bottom_info p:nth-of-type(1) {
+  color: #1c1c1f;
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 31px;
+  margin-bottom: 16px;
+
+}
+
+.blog .bottom_info p:nth-of-type(2) {
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 32px;
+  color: #3d3d3d;
+}
+.blog .blog_three .col-lg-4 {
+  margin-bottom: 70px;
+}
+
+.blog .blog_three {
+  margin-top: 70px;
+}
+
+.blog .blog_three .col-lg-4 .top_info,
+.blog .blog_two .col-lg-6 .top_info {
+  margin-top: 16px;
+}
+
+.blog .blog_two .gorizontal .top_info{
+  margin-top: 0;
+}
+
+.blog .blog_two .col-lg-5 {
+  margin-right: 40px;
+}
+
+.blog .blog_two .gorizontal {
+  margin-bottom: 70px;
+}
+
+@media (max-width: 991px) {
+  .blog .top_info h6 {
+    font-size: 14px;
+    line-height: 17px;
+  }
+  .blog .top_info p {
+    font-size: 12px;
+    line-height: 15px;
+  }
+  .blog .bottom_info button {
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .blog .bottom_info p:nth-of-type(1) {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .blog .bottom_info p:nth-of-type(2) {
+    font-size: 16px;
+    line-height: 28px;
+  }
+}
+
+@media (max-width: 767px) {
+  .any .top_color .port_ul ul li a {
+    font-size: 15px;
+  }
+}

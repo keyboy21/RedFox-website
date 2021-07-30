@@ -1,7 +1,8 @@
 import { useState } from "react";
-
+import { useRouter } from "next/router";
 
 export default function Footer() {
+  const router = useRouter();
   const [active, setActive] = useState(true);
   const [active1, setActive1] = useState(true);
   const [active2, setActive2] = useState(true);
@@ -16,72 +17,79 @@ export default function Footer() {
             <div className="col-lg-6">
               <div className="right-footer">
                 <img src="/Group 32193footer_logo.svg" alt="logoFoot" />
-
-                <a href="tel:+998 71 200 5008">
+                <a href="tel:+99871-200-50-08">
                   <h1>+998 71 200 5008</h1>
                 </a>
-                <h2>
-                 Toshkent shahri, Shayxontohur tum.,
+                {router.locale == "uz" ? (<h2>
+                  Toshkent shahri, Shayxontohur tum.,
                   <br />
                   Arxitektorlar ko’chasi, 11 uy.
-                  
-                </h2>
+                </h2>) : (<h2>
+                  Город Ташкент, Шайхантахурский район,
+                  <br />
+                  проезд Архитекторов, 11 дом.
+                </h2>)}
+
               </div>
             </div>
             <div className="col-lg-6">
               <div className="left-footer">
                 <div className="row">
                   <div className="col-lg-3 col-md-3 col-sm-3">
-                    <h1>Kompaniya</h1>
+                    {router.locale == "uz" ? (<h1>Kompaniya</h1>) : (<h1>Компания </h1>)}
+                    {router.locale == 'uz' ? (<h2><a href="#">Biz haqimizda</a></h2>) : (<h2><a href="#">О нас</a> </h2>)}
                     <h2>
-                      <a href="#">Biz haqimizda</a>
-                    </h2>
-                    <h2>
-                      <a href="https://www.behance.net/redfoxuz" target="_blank" rel="noopener">Portfolio</a>
-                    </h2>
-                  </div>
-                  <div className="col-lg-3 col-md-3 col-sm-3">
-                    <h1>Xizmatlar</h1>
-                    <h2>
-                      <a href="#">Grafik dizayn</a>
-                    </h2>
-                    <h2>
-                      <a href="#">Motion dizayn</a>
-                    </h2>
-                    <h2>
-                      <a href="#">Branding</a>
-                    </h2>
-                    <h2>
-                      <a href="#">IT dasturlash </a>
-                    </h2>
-                    <h2>
-                      <a href="#">Web sayt</a>
-                    </h2>
-                    <h2>
-                      <a href="#">Bot yasash</a>
+                      <a
+                        href="https://www.behance.net/redfoxuz"
+                        target="_blank" rel="noopener"
+                      >
+                        Portfolio
+                      </a>
                     </h2>
                   </div>
                   <div className="col-lg-3 col-md-3 col-sm-3">
-                    <h1>Loyihalarimiz</h1>
+                    {router.locale == "uz" ? (<h1>Xizmatlar</h1>) : (<h1>Услуги</h1>)}
                     <h2>
-                      <a href="#">Loyihalarimiz</a>
+                      {router.locale == 'uz' ? (<a href="#">Grafik dizayn</a>) : (<a href="#">Графический дизайн</a>)}
                     </h2>
+                    <h2>
+                      {router.locale == 'uz' ? (<a href="#">Motion dizayn</a>) : (<a href="#">Моушен дизайн</a>)}
+                    </h2>
+                    <h2>
+                      {router.locale == 'uz' ? (<a href="#">Branding</a>) : (<a href="#">Брендинг</a>)}
+                    </h2>
+                    <h2>
+                      {router.locale == 'uz' ? (<a href="#">IT dasturlash </a>) : (<a href="#">IT программирование</a>)}
+                    </h2>
+                    <h2>
+                      {router.locale == 'uz' ? (<a href="#">Web sayt</a>) : (<a href="#">Веб сайт</a>)}
+                    </h2>
+                    <h2>
+                      {router.locale == 'uz' ? (<a href="#">Bot yasash</a>) : (<a href="#">Разработка ботов</a>)}
+                    </h2>
+                  </div>
+                  <div className="col-lg-3 col-md-3 col-sm-3">
+                    {router.locale == 'uz' ? (<h1>Loyihalarimiz</h1>) : (<h1>Проекты</h1>)}
                     <h2>
                       <a href="https://frilansus.com/" target="_blank" rel="noopener">
                         Frilansus.com
                       </a>
                     </h2>
                     <h2>
-                      <a href="http://t.me/redfoxacademy" target="_blank" rel="noopener">Dizayn akademiya</a>
+                      {router.locale == 'uz' ? (<a href="http://t.me/redfoxacademy" target="_blank" rel="noopener"> Dizayn akademiya</a>) :
+                        (<a href="http://t.me/redfoxacademy" target="_blank" rel="noopener">Дизайн Академия </a>)}
                     </h2>
                     <h2>
-                      <a href="https://t.me/redfoxacademy" target="_blank" rel="noopener">IT akademiya</a>
+                      {router.locale == 'uz' ? (<a href="#">IT akademiya</a>) :
+                        (<a href="#">IT академия</a>)}
                     </h2>
                     <h2>
-                      <a href="https://t.me/portfolius" target="_blank" rel="noopener">Realtime Portfolio</a>
+                      <a href="http://t.me/portfolius" target="_blank" rel="noopener">
+                        Realtime Portfolio
+                      </a>
                     </h2>
                     <h2>
-                      <a href="https://t.me/fontus" target="_blank">
+                      <a href="https://t.me/fontus" target="_blank" rel="noopener">
                         Fontus
                       </a>
                     </h2>
@@ -100,9 +108,10 @@ export default function Footer() {
                       <h2>94 919-1516</h2>
                     </a>
                     <h2>
-                      <a href="https://t.me/RedFoxManager" target="_blank" rel="noopener">
-                        Online yozing
-                      </a>
+                      {router.locale == 'uz' ? (<a href="https://t.me/RedFoxManager" target="_blank" rel="noopener"> Online yozing </a>)
+                        : (<a href="https://t.me/RedFoxManager" target="_blank" rel="noopener">
+                          Напишите онлайн
+                        </a>)}
                     </h2>
                   </div>
                 </div>
@@ -120,31 +129,31 @@ export default function Footer() {
             className={active ? "coll activeShow" : "coll Hideshow1"}
           >
             <button className="onShow1 onShow">
-              <h1>Xizmatlar</h1>
+              {router.locale == "uz" ? (<h1>Xizmatlar</h1>) : (<h1>Услуги</h1>)}
               <img
                 id="vektor1"
                 className={active ? "sircleImg" : "sircleImg1"}
                 src="/Vector (Stroke)accc.svg"
-                alt=""
+                alt="vektor."
               />
             </button>
             <h2>
-              <a href="#">Grafik dizayn</a>
+              {router.locale == 'uz' ? (<a href="#">Grafik dizayn</a>) : (<a href="#">Графический дизайн</a>)}
             </h2>
             <h2>
-              <a href="#">Motion dizayn</a>
+              {router.locale == 'uz' ? (<a href="#">Motion dizayn</a>) : (<a href="#">Моушен дизайн</a>)}
             </h2>
             <h2>
-              <a href="#">Branding</a>
+              {router.locale == 'uz' ? (<a href="#">Branding</a>) : (<a href="#">Брендинг</a>)}
             </h2>
             <h2>
-              <a href="#">IT dasturlash </a>
+              {router.locale == 'uz' ? (<a href="#">IT dasturlash </a>) : (<a href="#">IT программирование</a>)}
             </h2>
             <h2>
-              <a href="#">Web sayt</a>
+              {router.locale == 'uz' ? (<a href="#">Web sayt</a>) : (<a href="#">Веб сайт</a>)}
             </h2>
             <h2>
-              <a href="#">Bot yasash</a>
+              {router.locale == 'uz' ? (<a href="#">Bot yasash</a>) : (<a href="#">Разработка ботов</a>)}
             </h2>
           </div>
           <hr />
@@ -155,19 +164,19 @@ export default function Footer() {
             className={active1 ? "coll activeShow" : "coll Hideshow2"}
           >
             <button className="onShow2 onShow">
-              <h1>Kompaniya</h1>
+              {router.locale == "uz" ? (<h1>Kompaniya</h1>) : (<h1>Компания </h1>)}
               <img
                 id="vektor2"
                 className={active1 ? "sircleImg" : "sircleImg1"}
                 src="/Vector (Stroke)accc.svg"
-                alt=""
+                alt="vektor."
               />
             </button>
+            {router.locale == 'uz' ? (<h2><a href="#">Biz haqimizda</a></h2>) : (<h2><a href="#">О нас</a> </h2>)}
             <h2>
-              <a href="#">Biz haqimizda</a>
-            </h2>
-            <h2>
-              <a href="https://www.behance.net/redfoxuz" target="_blank" rel="noopener">Portfolio</a>
+              <a href="https://www.behance.net/redfoxuz" target="_blank" rel="noopener">
+                Portfolio
+              </a>
             </h2>
           </div>
           <hr />
@@ -177,29 +186,29 @@ export default function Footer() {
             className={active2 ? "coll activeShow" : "coll Hideshow3"}
           >
             <button className="onShow3 onShow">
-              <h1>Loyihalarimiz</h1>
+              {router.locale == 'uz' ? (<h1>Loyihalarimiz</h1>) : (<h1>Проекты</h1>)}
               <img
                 id="vektor3"
                 className={active2 ? "sircleImg" : "sircleImg1"}
-                src="/Vector (Stroke)accc.svg"
+                src="/Vector (Stroke)accc.svg" alt="vektor."
               />
             </button>
-            <h2>
-              <a href="#">Loyihalarimiz</a>
-            </h2>
             <h2>
               <a href="https://frilansus.com/" target="_blank" rel="noopener">
                 Frilansus.com
               </a>
             </h2>
             <h2>
-              <a href="http://t.me/redfoxacademy" target="_blank" rel="noopener" >Dizayn akademiya</a>
+              {router.locale == 'uz' ? (<a href="http://t.me/redfoxacademy" target="_blank"> Dizayn akademiya</a>) :
+                (<a href="http://t.me/redfoxacademy" target="_blank" rel="noopener">Дизайн Академия </a>)}
             </h2>
             <h2>
-              <a href="https://t.me/redfoxacademy" target="_blank" rel="noopener">IT akademiya</a>
+              <a href="#">IT akademiya</a>
             </h2>
             <h2>
-              <a href="https://t.me/portfolius" target="_blank" rel="noopener">Realtime Portfolio</a>
+              <a href="http://t.me/portfolius" target="_blank" rel="noopener">
+                Realtime Portfolio
+              </a>
             </h2>
             <h2>
               <a href="https://t.me/fontus" target="_blank" rel="noopener">
@@ -218,8 +227,7 @@ export default function Footer() {
               <img
                 id="vektor4"
                 className={active3 ? "sircleImg" : "sircleImg1"}
-                src="/Vector (Stroke)accc.svg"
-              
+                src="/Vector (Stroke)accc.svg" alt="vektor."
               />
             </button>
             <a href="tel:+99897-778-50-08">
@@ -241,12 +249,11 @@ export default function Footer() {
             className={active4 ? "coll activeShow" : "coll Hideshow4"}
           >
             <button className="onShow5 onShow">
-              <h1>Ijtmoiy tarmoqlar</h1>
+              {router.locale == 'uz' ? (<h1>Ijtmoiy tarmoqlar</h1>) : (<h1>Социальные сети</h1>)}
               <img
                 id="vektor5"
                 className={active4 ? "sircleImg" : "sircleImg1"}
-                src="/Vector (Stroke)accc.svg"
-               
+                src="/Vector (Stroke)accc.svg" alt="vektor."
               />
             </button>
             <h2>
@@ -255,7 +262,7 @@ export default function Footer() {
               </a>
             </h2>
             <h2>
-              <a href="https://www.instagram.com/redfoxuz/" target="_blank" rel="noopener">
+              <a href="https://www.instagram.com/redfoxuz/" target="_blank" rel="noopener" >
                 Instagram
               </a>
             </h2>

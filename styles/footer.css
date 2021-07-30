@@ -15,12 +15,10 @@ footer .right-footer img {
 footer h1 {
   font-weight: 700;
   font-size: 16px;
-  font-family: "Inter", sans-serif;
 }
 
 footer h2 {
   font-size: 13px;
-  font-family: "Inter", sans-serif;
 }
 
 footer .right-footer h2 {
@@ -40,11 +38,9 @@ footer .left-footer .col-lg-3 a {
 
 footer .left-footer h1 {
   margin-bottom: 18px;
-  font-family: "Inter", sans-serif;
   font-weight: bold;
   font-size: 16px;
   line-height: 19px;
-  font-feature-settings: "pnum" on, "lnum" on, "liga" off;
   color: #ffffff;
   font-style: normal;
 }
@@ -52,12 +48,10 @@ footer .left-footer h1 {
 footer .left-footer h2 a,
 .footer-bottom h2,
 .footer-bottom .left-footer h2 a {
-  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 13px;
   line-height: 16px;
-  font-feature-settings: "pnum" on, "lnum" on, "liga" off;
   color: #d2d2d2;
   text-decoration: none;
 }
@@ -160,14 +154,14 @@ footer .left-footer h2 a,
   }
 
   .coll .onShow h1 {
-    font-family: "Inter", sans-serif;
+
     font-size: 20px;
     font-weight: 600;
   }
 
   .collapse .coll h2 a,
   .collapse .coll h2 {
-    font-family: "Inter", sans-serif;
+
     font-weight: 500;
     font-size: 16px;
     line-height: 19.36px;

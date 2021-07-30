@@ -2,9 +2,10 @@
   margin: 0;
   padding: 0;
 }
-.portfolio ::-webkit-scrollbar-thumb {
+/* .portfolio ::-webkit-scrollbar-thumb {
   background: #ff7300;
   border-radius: 5px;
+  width: 1px;
 }
 .portfolio ::-webkit-scrollbar-corner {
   background: transparent;
@@ -12,12 +13,25 @@
 
 .portfolio ::-webkit-scrollbar {
   height: 8px;
+} */
+
+.portfolio .categories ::-webkit-scrollbar-thumb {
+  background: #ff7300;
+  border-radius: 10px;
+  width: 1px;
+}
+.portfolio .categories ::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+.portfolio .categories ::-webkit-scrollbar {
+  height: 8px;
 }
 
 .portfolio {
   background: #e7e7e7;
   padding-bottom: 180px;
-  padding-top: 70px;
+  padding-top: 100px;
 }
 
 .categories .prime {
@@ -28,7 +42,8 @@
   overflow: scroll;
 }
 
-.portfolio .port_ul ul {
+.portfolio .port_ul ul,
+.blog .port_ul ul {
   display: flex;
   list-style: none;
   position: relative;
@@ -36,59 +51,56 @@
   border-bottom: 3px solid #d2d2d2;
 }
 
-.portfolio .port_ul ul li {
+.portfolio .port_ul ul li,
+.blog .port_ul ul li {
   margin-right: 30px;
   padding-bottom: 8px;
 }
-.portfolio h3 {
-  font-family: Inter;
+.portfolio h3,
+.blog h3 {
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
   line-height: 29px;
-  font-feature-settings: "pnum" on, "lnum" on, "liga" off;
   color: #1c1c1f;
 }
 
-.portfolio .port_ul ul li a {
-  font-family: Inter;
+.portfolio .port_ul ul li a,
+.blog .port_ul ul li a {
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
   line-height: 24px;
-  font-feature-settings: "pnum" on, "lnum" on, "liga" off;
   color: #a6a6a6;
   text-decoration: none;
 }
 
-.portfolio h2 {
-  font-family: Inter;
+.portfolio h2,
+.blog h2 {
   font-style: normal;
   font-weight: 600;
   font-size: 48px;
   line-height: 58px;
-  font-feature-settings: "pnum" on, "lnum" on, "liga" off;
 }
-.portfolio p {
-  font-family: Inter;
+.portfolio p,
+.blog .top_color p {
   font-style: normal;
   font-size: 20px;
   line-height: 30px;
-  font-feature-settings: "pnum" on, "lnum" on, "liga" off;
   color: #1c1c1f;
   margin-bottom: 75px;
 }
 
-.portfolio span {
-  font-family: Inter;
+.portfolio span,
+.blog .top_color span {
   font-style: normal;
   font-size: 20px;
   line-height: 30px;
-  font-feature-settings: "pnum" on, "lnum" on, "liga" off;
   color: #ff7300;
 }
 
-.portfolio .port_ul ul li a.clik {
+.portfolio .port_ul ul li a.clik,
+.blog .port_ul ul li a.clik {
   color: #1c1c1f;
   content: "";
   width: 100%;
@@ -97,7 +109,8 @@
   position: relative;
   margin-bottom: 7px;
 }
-.portfolio .port_ul ul li a.clik::after {
+.portfolio .port_ul ul li a.clik::after,
+.blog .port_ul ul li a.clik::after {
   content: "";
   height: 3px;
   width: 100%;
@@ -114,42 +127,36 @@
 }
 
 .portfolio .col-lg-4 p {
-  font-family: Inter;
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
   line-height: 19px;
-  font-feature-settings: "pnum" on, "lnum" on, "liga" off;
   color: #1c1c1f;
   margin: 10px 0 15px;
 }
 
-.portfolio .btn_portfolio {
+.portfolio .btn_portfolio,
+.blog .btn_portfolio {
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   background: #f1f1f1;
-  font-family: Inter;
   font-style: normal;
   font-weight: 600;
   font-size: 30px;
   line-height: 36px;
-  font-feature-settings: "pnum" on, "lnum" on, "liga" off;
   border: none;
-  /* Gray/Button */
   padding: 15px 0;
   color: #a6a6a6;
   margin-top: 120px;
 }
 
 .portfolio .tags .name h2 {
-  font-family: Inter;
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
   line-height: 24px;
-  font-feature-settings: "pnum" on, "lnum" on, "liga" off;
   color: #1c1c1f;
 }
 .portfolio .tags .tags_ul {
@@ -176,12 +183,10 @@
 .portfolio .tags ul p {
   margin: 0;
   padding: 0;
-  font-family: Inter;
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
   line-height: 19px;
-  font-feature-settings: "pnum" on, "lnum" on;
   color: black;
 }
 
@@ -208,6 +213,9 @@
 
 /* Small  */
 @media (max-width: 767px) {
+  .portfolio .top_color .port_ul ul li a{
+    font-size: 18px;
+  }
   .portfolio .all .row {
     justify-content: center;
   }
@@ -280,12 +288,11 @@
     background: transparent;
   }
   .accordion .accordion-button {
-    font-family: Inter;
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
     line-height: 24px;
-    font-feature-settings: "pnum" on, "lnum" on, "liga" off;
+
     color: #1c1c1f;
     background-color: #e7e7e7;
   }

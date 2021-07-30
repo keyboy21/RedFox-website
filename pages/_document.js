@@ -8,16 +8,16 @@ export default class MyDocument extends Document {
           <link
             rel="stylesheet"
             href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+            loading="lazy"
           />
         </Head>
         <body>
           <Main />
           <NextScript />
-          <script 
-            rel="preload"
+          <script
             src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
-            crossOrigin="anonymous"
+            crossOrigin="anonymous" loading="lazy"
           />
         </body>
       </Html>

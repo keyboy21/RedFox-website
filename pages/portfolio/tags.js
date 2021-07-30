@@ -1,9 +1,9 @@
-import Index from "./index.js";
+import Portfolio from "./index.js";
 
 export default function Tags() {
   return (
     <>
-      <Index>
+      <Portfolio>
         <div className="tags">
           <div className="row">
             <div className="d-none d-sm-block col-6 col-sm-5 col-md-4 col-lg-auto">
@@ -416,7 +416,7 @@ export default function Tags() {
             </div>
           </div>
         </div>
-      </Index>
+      </Portfolio>
     </>
   );
 }

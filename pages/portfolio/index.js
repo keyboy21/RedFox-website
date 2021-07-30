@@ -9,7 +9,7 @@ export default function Portfolio({ children }) {
 
   useEffect(async () => {
     // Fetch data from external API
-    const res = await fetch(`https://redfox.frilansus.com/api/apiportfolio`);
+    const res = await fetch(`https://redfox.frilansus.com/api/portfolio`);
     const data = await res.json();
     setCount(data);
   }, []);

@@ -7,13 +7,11 @@ header {
   margin-top: 180px;
 }
 header h2 {
-  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 800;
-  font-size: 65px;
+  font-size: 64px;
   line-height: 79px;
   text-align: center;
-  font-feature-settings: "pnum" on, "lnum" on, "liga" off;
   color: #1c1c1f;
 }
 
@@ -55,8 +53,7 @@ header h2 {
   width: calc(250px * 15);
 }
 .slider .slide {
-  height: 200px;
-  width: 250px;
+  width: 240px;
 }
 
 .two .slide-track {
@@ -71,7 +68,7 @@ header h2 {
 }
 
 .two .slide {
-  width: 240px;
+  width: 200px;
   justify-content: space-evenly;
 }
 
@@ -80,19 +77,17 @@ header h2 {
 }
 
 header h2 span {
-  color: #ff7300;
+  color: #ff6200;
 }
 header .container .row {
   justify-content: center;
 }
 main header p {
-  font-family: "Inter", sans-serif;
   font-style: normal;
   font-size: 20px;
   line-height: 30px;
   text-align: center;
-  font-feature-settings: "pnum" on, "lnum" on, "liga" off;
-  color: #8c8c8c;
+  color: #9e9e9e;
   padding: 0 70px;
 }
 main header .header_bottom {
@@ -101,7 +96,6 @@ main header .header_bottom {
 }
 
 main header .header_bottom .text_line {
-  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
@@ -110,8 +104,7 @@ main header .header_bottom .text_line {
   text-align: center;
   letter-spacing: 0.2em;
   text-transform: uppercase;
-  font-feature-settings: "pnum" on, "lnum" on, "liga" off;
-  color: #ff7300;
+  color: #ff6200;
 }
 main header .header_bottom .text_line::before {
   content: "";
@@ -131,21 +124,21 @@ main header .header_bottom .text_line span {
   padding: 0 16px;
 }
 
-/* Sedction */
+/* Section */
 section .container img {
   width: 100%;
+  transition: 0.4s all ease;
 }
-section .container img:hover {
-  transition: 0.5s;
-  transform: scale(1.03);
+section .portfolio_img:hover img {
+  transform: scale(1.1);
 }
+
 section .container p {
   margin: 10px 0 16px;
   font-family: Inter;
   font-style: normal;
   font-size: 16px;
   line-height: 19px;
-  font-feature-settings: "pnum" on, "lnum" on, "liga" off;
   color: #1c1c1f;
 }
 
@@ -155,7 +148,6 @@ section .container .bottom p {
   font-style: normal;
   font-size: 16px;
   line-height: 19px;
-  font-feature-settings: "pnum" on, "lnum" on, "liga" off;
   color: #1c1c1f;
 }
 
@@ -178,7 +170,6 @@ section .container .bottom p {
   font-weight: 600;
   font-size: 20px;
   line-height: 24px;
-  font-feature-settings: "pnum" on, "lnum" on, "liga" off;
   color: #1c1c1f;
 }
 
@@ -188,7 +179,6 @@ section .container .bottom p {
   font-weight: normal;
   font-size: 14px;
   line-height: 17px;
-  font-feature-settings: "pnum" on, "lnum" on, "liga" off;
   color: #a6a6a6;
 }
 
@@ -237,8 +227,7 @@ section .container .bottom p {
   font-weight: normal;
   font-size: 14px;
   line-height: 17px;
-  font-feature-settings: "pnum" on, "lnum" on, "liga" off;
-  color: #ff7300;
+  color: #ff6200;
   margin-bottom: 15px;
 }
 
@@ -248,7 +237,6 @@ section .container .bottom p {
   font-weight: normal;
   font-size: 18px;
   line-height: 24px;
-  font-feature-settings: "pnum" on, "lnum" on, "liga" off;
   color: #3b4254;
   margin-bottom: 40px;
 }
@@ -271,7 +259,6 @@ section .container .bottom p {
   font-weight: 600;
   font-size: 30px;
   line-height: 36px;
-  font-feature-settings: "pnum" on, "lnum" on, "liga" off;
   color: #1c1c1f;
 }
 
@@ -281,7 +268,6 @@ section .container .bottom p {
   font-style: normal;
   font-size: 20px;
   line-height: 30px;
-  font-feature-settings: "pnum" on, "lnum" on, "liga" off;
   color: #626468;
 }
 
@@ -298,9 +284,8 @@ header .write h3 {
   font-weight: bold;
   font-size: 28px;
   line-height: 34px;
-  font-feature-settings: "pnum" on, "lnum" on, "liga" off;
   color: #1c1c1f;
-  border-bottom: 5px solid #ff7300;
+  border-bottom: 5px solid #ff6200;
   display: inline-block;
 }
 
@@ -324,7 +309,7 @@ header .write h3 {
   font-size: 60px;
   color: #a6a6a6;
 }
-.skills .logos .col-8 .far{
+.skills .logos .col-8 .far {
   font-size: 17px;
 }
 
@@ -333,15 +318,19 @@ header .write h3 {
 }
 
 .skills .logos:hover i {
-  color: #ff7300;
+  color: #ff6200;
 }
+
+.skills .icon-naming {
+  color: red;
+}
+
 .skills h4 {
   font-family: Inter;
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
   line-height: 27px;
-  font-feature-settings: "pnum" on, "lnum" on, "liga" off;
   color: #1c1c1f;
   margin-bottom: 6px;
   margin-top: 26px;
@@ -352,7 +341,6 @@ header .write h3 {
   font-weight: normal;
   font-size: 13px;
   line-height: 16px;
-  font-feature-settings: "pnum" on, "lnum" on, "liga" off;
   color: #1c1c1f;
 }
 .skills .others .other {
@@ -365,15 +353,26 @@ header .write h3 {
   color: #a6a6a6;
 }
 .skills .others {
-  padding: 50px 25px 20px;
+  padding: 50px 9px;
+}
+
+.skills .others i{
+  font-size: 17px;
+  margin-left: 20px;
 }
 .skills .others:hover {
-  background: #fffbf5;
+  background: white;
 }
-.skills .others .other div {
+.skills .others:hover .other {
+  color: #1c1c1f;
+}
+.skills .others:hover i {
+  color: #ff6200;
+}
+/* .skills .others .other div {
   display: inline;
   margin-left: 10px;
-}
+} */
 
 /* Media */
 
