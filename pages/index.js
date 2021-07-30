@@ -68,7 +68,7 @@ export default function Home({ data, img }) {
                 <img
                   rel="preload"
                   as="image"
-                  src={`https://redfox.frilansus.com/storage/app/${slider.logo}`}
+                  src={`https://redfox.frilansus.com/${slider.logo}`}
                   alt="partner."
                   decoding="auto"
                 />
@@ -86,7 +86,7 @@ export default function Home({ data, img }) {
                 <img
                   rel="preload"
                   as="image"
-                  src={`https://redfox.frilansus.com/storage/app/${slider.logo}`}
+                  src={`https://redfox.frilansus.com/${slider.logo}`}
                   alt="partner."
                   decoding="auto"
                 />
@@ -118,7 +118,7 @@ export default function Home({ data, img }) {
                 <img
                   rel="preload"
                   as="image"
-                  src={`https://redfox.frilansus.com/storage/app/${slider.logo}`}
+                  src={`https://redfox.frilansus.com/${slider.logo}`}
                   alt="partner."
                   decoding="auto"
                 />
@@ -136,7 +136,7 @@ export default function Home({ data, img }) {
                 <img
                   rel="preload"
                   as="image"
-                  src={`https://redfox.frilansus.com/storage/app/${slider.logo}`}
+                  src={`https://redfox.frilansus.com/${slider.logo}`}
                   alt="partner."
                   decoding="auto"
                 />
@@ -154,7 +154,7 @@ export default function Home({ data, img }) {
                 <img
                   rel="preload"
                   as="image"
-                  src={`https://redfox.frilansus.com/storage/app/${slider.logo}`}
+                  src={`https://redfox.frilansus.com/${slider.logo}`}
                   alt="partner."
                   decoding="auto"
                 />
@@ -198,9 +198,7 @@ export default function Home({ data, img }) {
                     <img
                       rel="preload"
                       as="image"
-                      src={`https://redfox.frilansus.com/frontend/images/${port.img.slice(
-                        8
-                      )}`}
+                      src={`https://redfox.frilansus.com/${port.logo}`}
                       alt="najot."
                       decoding="auto"
                     />
@@ -214,9 +212,7 @@ export default function Home({ data, img }) {
                   <img
                     rel="preload"
                     as="image"
-                    src={`https://redfox.frilansus.com/frontend/images/${port.img.slice(
-                      8
-                    )}`}
+                    src={`https://redfox.frilansus.com/${port.logo}`}
                     alt="nurafshon."
                     decoding="auto"
                   />
@@ -231,9 +227,7 @@ export default function Home({ data, img }) {
                   <img
                     rel="preload"
                     as="image"
-                    src={`https://redfox.frilansus.com/frontend/images/${port.img.slice(
-                      8
-                    )}`}
+                     src={`https://redfox.frilansus.com/${port.logo}`}
                     alt="najot."
                     decoding="auto"
                   />
@@ -248,9 +242,7 @@ export default function Home({ data, img }) {
                   <img
                     rel="preload"
                     as="image"
-                    src={`https://redfox.frilansus.com/frontend/images/${port.img.slice(
-                      8
-                    )}`}
+                     src={`https://redfox.frilansus.com/${port.logo}`}
                     alt="najot."
                     decoding="auto"
                   />
