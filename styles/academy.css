@@ -206,7 +206,7 @@
 .academy .albom .tab-pane .d-flex span {
   margin-top: 50px;
 }
-.academy .albom .tab-content .con p a{
+.academy .albom .tab-content .con p a {
   text-decoration: none;
   color: #1c1c1f;
 }
@@ -324,14 +324,47 @@
   .academy .albom .tab-content {
     margin-left: 0;
   }
- 
 }
 
 @media (max-width: 767px) {
   .academy .life .accordion .accordion-body .d-flex {
     flex-direction: column;
   }
-  .academy .albom .nav-link{
+  .academy .albom .nav-link {
     padding-right: 15px;
+  }
+}
+
+@media (max-width: 575px) {
+  .academy .top_color h2 {
+    font-size: 22px;
+    line-height: 30px;
+  }
+  .academy .top_color h2 span {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .academy .top_color {
+    margin-top: 35px;
+  }
+  .academy .life .accordion .items {
+    overflow: scroll;
+  }
+  .academy .life .accordion .accordion-body .tab-pane h4 a {
+    font-size: 13px;
+  }
+  .academy .port_ul ul li {
+    padding: 9px 20px;
+  }
+  .academy .life .accordion .accordion-button {
+    background: transparent;
+  }
+  .academy .albom .nav-pills {
+    /* display: flex; */
+    overflow: scroll;
+    flex-direction: none;
+  }
+  .academy .top_color p {
+    padding-right: 40px;
   }
 }
