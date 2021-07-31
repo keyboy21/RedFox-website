@@ -456,9 +456,11 @@ const Home = ({ data, img }) => {
                 <div className="logos">
                   <div className="row">
                     <div className="col-3 col-md-12 col-lg-12">
-                      {/* <object type='image/svg+xml' data="/Frame 242naming.svg" className="ico-naming" width={60} height={55} /> */}
-
-                      <i className="fad fa-file-signature"></i>
+                      <svg className="icon-skills" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M13.946 3.486h2.906V16.27l-.581.581h-2.325V3.486z" />
+                        <path d="M3.486 13.946H16.27v2.905H3.486z" />
+                        <path fillRule="evenodd" clipRule="evenodd" d="M34.865 13.736l3.467-3.508V2.133A2.15 2.15 0 0036.198 0H12.784L0 12.9v27.935a2.168 2.168 0 00.613 1.525 2.13 2.13 0 001.502.64h34.102c.56 0 1.098-.225 1.495-.624.396-.4.62-.943.62-1.509V28.473l-3.467 3.508v7.532H3.486V13.947l4.65-4.649 5.81-5.81h20.919v10.249zM43 17.677l-3.011-3.042v.002l-2.545 2.57 3.026 3.025L43 17.677zm-4.166 4.206l-3.025-3.025L23.425 31.36l-.004 3.036 3.015.004 12.398-12.517z" />
+                      </svg>
                     </div>
                     <div className="col-8 col-md-12 col-lg-12">
                       <h4>Naming</h4>
@@ -476,7 +478,9 @@ const Home = ({ data, img }) => {
                 <div className="logos">
                   <div className="row">
                     <div className="col-3 col-md-12 col-lg-12">
-                      <i className="fad fa-pen-fancy"></i>
+                      <svg className="icon-skills" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1.42 25.267a4.196 4.196 0 005.003.695l2.343 2.343-2.154 2.155 5.925 5.925 2.154-2.155 2.386 2.386a4.196 4.196 0 00.695 5.004 4.194 4.194 0 005.925 0 4.194 4.194 0 000-5.925A4.196 4.196 0 0018.693 35l-2.386-2.386 2.155-2.154-1.924-1.923 19.875-3.974-1.51-1.51a5.557 5.557 0 010-7.85l.956-.956 1.858 1.859 4.848-4.848L31.846.54l-4.848 4.847 1.751 1.75-.949.95a5.567 5.567 0 01-7.864 0l-1.51-1.51-.434 2.177-3.54 17.697-1.915-1.916-2.155 2.154-2.343-2.343a4.196 4.196 0 00-.695-5.003 4.194 4.194 0 00-5.925 0 4.194 4.194 0 000 5.924zm20.66 12.044c.743.742.743 1.95 0 2.693a1.906 1.906 0 01-2.692 0 1.906 1.906 0 010-2.693 1.906 1.906 0 012.693 0zm9.766-33.54l7.487 7.487-1.616 1.616-7.487-7.487 1.616-1.616zm-2.43 5.931l.949-.948 3.878 3.878-.956.955c-2.574 2.575-2.98 6.51-1.214 9.514l-13.209 2.64 7.87-7.87-1.615-1.616-7.87 7.87 2.64-13.208c3.007 1.769 6.949 1.364 9.527-1.215zm-16.88 18.065l2.694 2.693-2.693 2.693-2.693-2.693 2.693-2.693zm-6.808-6.809c.743.743.743 1.951 0 2.694a1.906 1.906 0 01-2.693 0 1.906 1.906 0 010-2.694 1.906 1.906 0 012.693 0z" />
+                      </svg>
                     </div>
                     <div className="col-8 col-md-12 col-lg-12">
                       <h4>Logo & Branding</h4>
@@ -494,7 +498,9 @@ const Home = ({ data, img }) => {
                 <div className="logos">
                   <div className="row">
                     <div className="col-3  col-md-12 col-lg-12">
-                      <i className="fas fa-palette"></i>
+                      <svg className="icon-skills" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M35.814 7.427v-4.64H31.14V0h-2.549v2.788h-4.757V0h-2.55v2.788h-4.757V0H13.98v2.788H9.222V0h-2.55v2.788H2V43h33.814V16.925l4.776-4.749-4.776-4.749zM4.549 5.322h28.716v3.266l-8.175 8.129c-1.154-5.207-5.83-9.114-11.408-9.114a11.69 11.69 0 00-9.133 4.382V5.322zm16.15 21.196c.364-1.743 1.31-3.044 2.427-4.24l1.837 1.826c-1.207 1.112-2.52 2.052-4.264 2.414zm6.888-1.413l.41-.408v9.94H16.103v-4.054a11.63 11.63 0 003.56-1.386c4.018-.208 6.452-2.628 7.924-4.092zM13.682 10.137c4.956 0 9.003 3.946 9.13 8.845l-.726.721c-1.416 1.409-3.731 3.712-4.055 7.503a9.13 9.13 0 01-4.35 1.095c-5.035 0-9.132-4.074-9.132-9.082 0-5.008 4.097-9.082 9.133-9.082zm19.583 30.329H4.55V26.453a11.69 11.69 0 009.006 4.38v6.338h16.991V22.163l2.72-2.703v21.006zm-6.486-18.14l-1.863-1.853 6.616-6.578 1.862 1.852-6.615 6.578zm8.418-8.371l-1.863-1.852 1.789-1.778 1.862 1.851-1.788 1.779z" />
+                      </svg>
                     </div>
                     <div className="col-8  col-md-12 col-lg-12">
                       <h4>Graphic design</h4>
@@ -512,7 +518,9 @@ const Home = ({ data, img }) => {
                 <div className="logos">
                   <div className="row">
                     <div className="col-3  col-md-12 col-lg-12">
-                      <i className="fal fa-phone-laptop"></i>
+                      <svg className="icon-skills" viewBox="0 0 53 50" xmlns="http://www.w3.org/2000/svg">
+                        <path fillRule="evenodd" clipRule="evenodd" d="M51.18 11.1h-3.64V1.85c0-.49-.192-.961-.533-1.308A1.805 1.805 0 0045.72 0H7.96c-.482 0-.945.195-1.286.542A1.866 1.866 0 006.14 1.85v25.438c0 .49.191.96.533 1.308.34.347.804.541 1.286.541h26.842v.974a1.443 1.443 0 00-.096-.003H1.4a1.4 1.4 0 100 2.8h33.306c.032 0 .064 0 .096-.003v2.245c0 .49.191.961.533 1.308.34.347.804.542 1.286.542H51.18c.483 0 .946-.195 1.287-.542.341-.347.533-.817.533-1.308v-22.2c0-.49-.192-.961-.533-1.308a1.805 1.805 0 00-1.287-.542zm-6.484-8.325V11.1h-8.075c-.482 0-.945.195-1.286.542a1.865 1.865 0 00-.533 1.308v13.413H8.87V2.774h35.826zm-7.165 31.219V13.875h12.625v20.119H37.53zM12 11h20v3H12v-3zm20 7H12v3h20v-3z" />
+                      </svg>
                     </div>
 
                     <div className="col-8 col-md-12 col-lg-12">
@@ -531,7 +539,10 @@ const Home = ({ data, img }) => {
                 <div className="logos">
                   <div className="row">
                     <div className="col-3 col-md-12 col-lg-12">
-                      <i className="far fa-shopping-bag"></i>
+                      <svg className="icon-skills" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+                        <path fillRule="evenodd" clipRule="evenodd" d="M8.381 1.16c.304-.4.784-.636 1.294-.636h23.65c.51 0 .99.236 1.295.635l5.912 7.761c.207.271.318.6.318.939v27.163a5.404 5.404 0 01-1.621 3.851 5.607 5.607 0 01-3.933 1.603H7.705a5.606 5.606 0 01-3.933-1.603 5.404 5.404 0 01-1.622-3.851V9.859c0-.338.112-.668.319-.939L8.38 1.16zm2.105 2.51l-5.11 6.71v26.642c0 .617.248 1.205.687 1.636a2.34 2.34 0 001.642.671h27.591a2.34 2.34 0 001.642-.67c.438-.432.687-1.02.687-1.637V10.379l-5.11-6.708H10.486z" />
+                        <path fillRule="evenodd" clipRule="evenodd" d="M13.618 16.046c.89 0 1.613.704 1.613 1.573 0 1.646.664 3.221 1.842 4.38a6.314 6.314 0 004.429 1.808A6.314 6.314 0 0025.93 22a6.147 6.147 0 001.841-4.38c0-.87.723-1.574 1.613-1.574s1.612.704 1.612 1.573a9.254 9.254 0 01-2.776 6.596 9.58 9.58 0 01-6.72 2.738 9.58 9.58 0 01-6.719-2.738 9.254 9.254 0 01-2.776-6.596c0-.869.722-1.573 1.612-1.573zM2.15 9.859c0-.869.722-1.573 1.613-1.573h35.475c.89 0 1.612.704 1.612 1.573s-.722 1.573-1.612 1.573H3.763c-.89 0-1.613-.704-1.613-1.573z" />
+                      </svg>
                     </div>
                     <div className="col-8 col-md-12 col-lg-12">
                       <h4>Packaging</h4>
@@ -549,7 +560,10 @@ const Home = ({ data, img }) => {
                 <div className="logos">
                   <div className="row">
                     <div className="col-3 col-md-12 col-lg-12">
-                      <i className="fas fa-print"></i>
+                      <svg className="icon-skills" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M38.297 9.406H36.28V0H6.72v9.406H4.703C2.083 9.406 0 11.623 0 14.311v14.31c0 2.688 2.083 4.906 4.703 4.906h1.344v9.406h30.906v-9.34h1.344c2.62 0 4.703-2.216 4.703-4.904V14.311c0-2.688-2.083-4.905-4.703-4.905zM9.407 2.687h24.187v6.72H9.406v-6.72zm24.859 37.626H8.734V27.547h25.532v12.765zm6.047-11.624c0 1.21-.874 2.217-2.016 2.217h-1.344V24.86H6.047v6.047H4.703c-1.142 0-2.016-1.008-2.016-2.217V14.311c0-1.21.874-2.217 2.016-2.217h33.594c1.142 0 2.016 1.008 2.016 2.217v14.378z" />
+                        <path d="M35.61 13.438a3.327 3.327 0 00-3.36 3.359 3.327 3.327 0 003.36 3.36 3.327 3.327 0 003.359-3.36 3.327 3.327 0 00-3.36-3.36zm0 4.03c-.404 0-.672-.268-.672-.671s.268-.672.671-.672c.404 0 .672.269.672.672s-.268.672-.672.672zM31.578 30.234H11.422v2.688h20.156v-2.688zM31.578 34.938H11.422v2.687h20.156v-2.688z" />
+                      </svg>
                     </div>
                     <div className="col-8 col-md-12 col-lg-12">
                       <h4>Poligrafik</h4>
@@ -567,7 +581,9 @@ const Home = ({ data, img }) => {
                 <div className="logos">
                   <div className="row">
                     <div className="col-3 col-md-12 col-lg-12">
-                      <i className="fab fa-instagram"></i>
+                      <svg className="icon-skills" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M32.981 7.439a2.58 2.58 0 100 5.16 2.58 2.58 0 000-5.16zm9.89 5.203a16.318 16.318 0 00-.989-5.224 10.62 10.62 0 00-2.494-3.806 10.105 10.105 0 00-3.805-2.473A15.695 15.695 0 0030.358.13C28.079 0 27.348 0 21.5 0c-5.848 0-6.579 0-8.858.129a15.695 15.695 0 00-5.224 1.01 10.277 10.277 0 00-3.806 2.473 10.105 10.105 0 00-2.473 3.806 15.695 15.695 0 00-1.01 5.224C0 14.921 0 15.652 0 21.5c0 5.848 0 6.579.129 8.858a15.695 15.695 0 001.01 5.225c.525 1.439 1.371 2.74 2.473 3.805a10.278 10.278 0 003.806 2.473c1.67.631 3.438.973 5.224 1.01C14.921 43 15.652 43 21.5 43c5.848 0 6.579 0 8.858-.129a15.696 15.696 0 005.225-1.01c1.439-.525 2.74-1.371 3.805-2.473a10.429 10.429 0 002.494-3.805c.613-1.676.947-3.441.989-5.225 0-2.279.129-3.01.129-8.858 0-5.848 0-6.579-.129-8.858zM39.001 30.1a12.062 12.062 0 01-.731 3.999 6.58 6.58 0 01-1.613 2.473 6.86 6.86 0 01-2.472 1.612 12.062 12.062 0 01-3.999.731c-2.15.108-2.945.129-8.6.129-5.654 0-6.45 0-8.6-.129a12.321 12.321 0 01-4.171-.645 7.03 7.03 0 01-2.365-1.613 6.45 6.45 0 01-1.591-2.472 11.91 11.91 0 01-.86-4.085c0-2.15-.129-2.946-.129-8.6 0-5.655 0-6.45.129-8.6.01-1.395.264-2.778.752-4.085A6.45 6.45 0 016.45 6.45a6.751 6.751 0 012.365-1.72 12.32 12.32 0 014.085-.731c2.15 0 2.945-.129 8.6-.129 5.654 0 6.45 0 8.6.129 1.365.016 2.717.263 3.999.731a6.58 6.58 0 012.559 1.72 6.578 6.578 0 011.612 2.365c.478 1.31.725 2.691.731 4.085.108 2.15.129 2.945.129 8.6 0 5.654-.022 6.45-.129 8.6zM21.5 10.47A11.03 11.03 0 1032.551 21.5 11.009 11.009 0 0021.5 10.47zm0 18.19a7.16 7.16 0 110-14.32 7.16 7.16 0 010 14.32z" />
+                      </svg>
                     </div>
                     <div className="col-8 col-md-12 col-lg-12">
                       <h4>SMM design</h4>
@@ -638,8 +654,10 @@ const Home = ({ data, img }) => {
           <div className="container">
             <div className="row">
               <div className="col-lg-4 col-md-6">
-                <div>
-                  <img src="/My-User-Pic-001 1mavlonbek.png" alt="experts." />
+                <div className="focs">
+                  <div className='focs2'>
+                    <img src="/My-User-Pic-001 1mavlonbek.png" alt="experts." />
+                  </div>
                 </div>
                 <div>
                   {router.locale == "uz" ? (<h4>Polatov Mavlonbek</h4>) : (<h4>Пулатов Мавлонбек</h4>)}
@@ -647,8 +665,10 @@ const Home = ({ data, img }) => {
                 </div>
               </div>
               <div className="col-lg-4 col-md-6">
-                <div>
-                  <img src="/My-User-Pic-001 1 (1).png" alt="experts." />
+                <div className="focs">
+                  <div className="focs2">
+                    <img src="/My-User-Pic-001 1 (1).png" alt="experts." />
+                  </div>
                 </div>
                 <div>
                   {router.locale == "uz" ? (<h4>Azam Muhammadiyev</h4>) : (<h4>Азам Мухаммадиев</h4>)}
@@ -656,8 +676,10 @@ const Home = ({ data, img }) => {
                 </div>
               </div>
               <div className="col-lg-4 col-md-6">
-                <div>
-                  <img src="/My-User-Pic-001 1 (2).png" alt="experts." />
+                <div className="focs">
+                  <div className="focs2">
+                    <img src="/My-User-Pic-001 1 (2).png" alt="experts." />
+                  </div>
                 </div>
                 <div>
                   {router.locale == "uz" ? (<h4>Rahmatullo Jabborov</h4>) : (<h4>Рахматулло Джаббаров</h4>)}
@@ -665,8 +687,10 @@ const Home = ({ data, img }) => {
                 </div>
               </div>
               <div className="col-lg-4 col-md-6">
-                <div>
-                  <img src="/My-User-Pic-001 1 (3).png" alt="experts." />
+                <div className="focs">
+                  <div className="focs2">
+                    <img src="/My-User-Pic-001 1 (3).png" alt="experts." />
+                  </div>
                 </div>
                 <div>
                   {router.locale == "uz" ? (<h4>Rahimjon Gaziyev</h4>) : (<h4>Рахимжон Газиев</h4>)}
@@ -674,8 +698,10 @@ const Home = ({ data, img }) => {
                 </div>
               </div>
               <div className="col-lg-4 col-md-6">
-                <div>
-                  <img src="/PicNurmatovO.png" alt="experts." />
+                <div className="focs">
+                  <div className="focs2">
+                    <img src="/PicNurmatovO.png" alt="experts." />
+                  </div>
                 </div>
                 <div>
                   {router.locale == "uz" ? (<h4>Nurmatov Odiljon</h4>) : (<h4>Нурматов Одилжон</h4>)}
@@ -683,8 +709,10 @@ const Home = ({ data, img }) => {
                 </div>
               </div>
               <div className="col-lg-4 col-md-6">
-                <div>
-                  <img src="/My-User-Pic-001 1 (4).png" alt="experts." />
+                <div className="focs">
+                  <div className="focs2">
+                    <img src="/My-User-Pic-001 1 (4).png" alt="experts." />
+                  </div>
                 </div>
                 <div>
                   {router.locale == "uz" ? (<h4>Baxtiyorjon Gaziyev</h4>) : (<h4>Бахтийоржон Газиев</h4>)}
@@ -692,8 +720,10 @@ const Home = ({ data, img }) => {
                 </div>
               </div>
               <div className="col-lg-4 col-md-6">
-                <div>
-                  <img src="/My-User-Pic-001 1 (5).png" alt="experts." />
+                <div className="focs">
+                  <div className="focs2">
+                    <img src="/My-User-Pic-001 1 (5).png" alt="experts." />
+                  </div>
                 </div>
                 <div>
                   <h4>Sarvarbek Abdupattoyev</h4>
@@ -701,8 +731,10 @@ const Home = ({ data, img }) => {
                 </div>
               </div>
               <div className="col-lg-4 col-md-6">
-                <div>
-                  <img src="/My-User-Pic-001 1 (6).png" alt="experts." />
+                <div className="focs">
+                  <div className="focs2">
+                    <img src="/My-User-Pic-001 1 (6).png" alt="experts." />
+                  </div>
                 </div>
                 <div>
                   <h4>Shokhrukh Rakhmatov</h4>
@@ -710,8 +742,10 @@ const Home = ({ data, img }) => {
                 </div>
               </div>
               <div className="col-lg-4 col-md-6">
-                <div>
-                  <img src="/My-User-Pic-001 1 (7).png" alt="experts." />
+                <div className="focs">
+                  <div className="focs2">
+                    <img src="/My-User-Pic-001 1 (7).png" alt="experts." />
+                  </div>
                 </div>
                 <div>
                   <h4>Shokhrukh Rakhmatov</h4>

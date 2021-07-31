@@ -182,17 +182,29 @@ section .container .bottom p {
   color: #a6a6a6;
 }
 
-.experts .col-lg-4 div:nth-child(1) {
+.experts .col-lg-4 .focs {
+  border: 4px solid #ffffff;
+  box-shadow: 0 0 0 4px #ffffff;
+  border-radius: 50%;
+}
+.experts .col-lg-4:hover .focs {
+  border: 4px solid #f1bd91;
+  box-shadow: 0 0 0 4px #f1c49f;
+  border-radius: 50%;
+  transition: box-shadow 0.2 ease;
+}
+
+.experts .col-lg-4 .focs .focs2 {
   border: 2px solid #e7e7e7;
   box-shadow: 0 0 0 4px #e7e7e7;
   border-radius: 50%;
 }
 
-.experts .col-lg-4:hover div:nth-child(1) {
-  border: 2px solid #f1bd91;
-  box-shadow: 0 0 0 4px #f1c49f;
+.experts .col-lg-4:hover .focs2 {
+  border: 2px solid white;
+  box-shadow: 0 0 0 4px #ffffff;
   border-radius: 50%;
-  transition: box-shadow 0.2 ease;
+  transition: box-shadow 1 ease;
 }
 
 .reason {
@@ -317,12 +329,21 @@ header .write h3 {
   background: #fffbf5;
 }
 
+.skills .col-lg-3 .others:hover {
+  background: #fffbf5;
+}
+
 .skills .logos:hover i {
   color: #ff6200;
 }
+.skills .icon-skills {
+  width: 64px;
+  height: 63px;
+  fill: #a6a6a6;
+}
 
-.skills .icon-naming {
-  color: red;
+.skills .logos:hover .icon-skills {
+  fill: #ff6200;
 }
 
 .skills h4 {
@@ -353,12 +374,13 @@ header .write h3 {
   color: #a6a6a6;
 }
 .skills .others {
-  padding: 50px 9px;
+  padding: 60px 9px 50px 9px;
 }
 
-.skills .others i{
+.skills .others i {
   font-size: 17px;
   margin-left: 20px;
+  color: #a6a6a6;
 }
 .skills .others:hover {
   background: white;

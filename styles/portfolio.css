@@ -29,7 +29,7 @@
 }
 
 .portfolio {
-  background: #e7e7e7;
+  background: #f9f9f9;
   padding-bottom: 180px;
   padding-top: 100px;
 }
@@ -42,8 +42,7 @@
   overflow: scroll;
 }
 
-.portfolio .port_ul ul,
-.blog .port_ul ul {
+.portfolio .port_ul ul {
   display: flex;
   list-style: none;
   position: relative;
@@ -51,13 +50,11 @@
   border-bottom: 3px solid #d2d2d2;
 }
 
-.portfolio .port_ul ul li,
-.blog .port_ul ul li {
+.portfolio .port_ul ul li {
   margin-right: 30px;
   padding-bottom: 8px;
 }
-.portfolio h3,
-.blog h3 {
+.portfolio h3 {
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
@@ -65,8 +62,7 @@
   color: #1c1c1f;
 }
 
-.portfolio .port_ul ul li a,
-.blog .port_ul ul li a {
+.portfolio .port_ul ul li a {
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
@@ -75,15 +71,13 @@
   text-decoration: none;
 }
 
-.portfolio h2,
-.blog h2 {
+.portfolio h2 {
   font-style: normal;
   font-weight: 600;
   font-size: 48px;
   line-height: 58px;
 }
-.portfolio p,
-.blog .top_color p {
+.portfolio p {
   font-style: normal;
   font-size: 20px;
   line-height: 30px;
@@ -91,16 +85,14 @@
   margin-bottom: 75px;
 }
 
-.portfolio span,
-.blog .top_color span {
+.portfolio span {
   font-style: normal;
   font-size: 20px;
   line-height: 30px;
   color: #ff7300;
 }
 
-.portfolio .port_ul ul li a.clik,
-.blog .port_ul ul li a.clik {
+.portfolio .port_ul ul li a.clik {
   color: #1c1c1f;
   content: "";
   width: 100%;
@@ -109,8 +101,7 @@
   position: relative;
   margin-bottom: 7px;
 }
-.portfolio .port_ul ul li a.clik::after,
-.blog .port_ul ul li a.clik::after {
+.portfolio .port_ul ul li a.clik::after {
   content: "";
   height: 3px;
   width: 100%;
@@ -213,7 +204,7 @@
 
 /* Small  */
 @media (max-width: 767px) {
-  .portfolio .top_color .port_ul ul li a{
+  .portfolio .top_color .port_ul ul li a {
     font-size: 18px;
   }
   .portfolio .all .row {

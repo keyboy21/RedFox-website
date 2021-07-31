@@ -1,19 +1,28 @@
 import MainLayout from "../../components/MainLayout.js";
-import { useMemo } from "react";
+import { useMemo, useState } from "react";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import Image from 'next/image';
 
-export default function Id({ data }) {
-  const router = useRouter();
+const ID = ({ data }) => {
 
-  const viewFilter = useMemo(() => (data.filter((view) => view.id == router.query.id)))
+  const router = useRouter();
+  const [local, setLocal] = useState(data)
+
+  const viewFilter = useMemo(() => (data.filter((view) => view.id == router.query.id)), local)
+
+  const design = viewFilter[0].designers;
+  const manag = viewFilter[0].managers;
+  const prMembers = viewFilter[0].project_members;
+  const designers = JSON.parse(design);
+  const managers = JSON.parse(manag)
+  const members = JSON.parse(prMembers)
 
   const similarFilter = useMemo(() => {
     return data.filter((sim) => {
       return sim.id >= 5 && sim.id <= 7;
     });
-  }, [data])
+  }, [local])
 
   return (
     <MainLayout>
@@ -174,28 +183,17 @@ export default function Id({ data }) {
             <div className="row">
               <div className="col-lg-3">
                 <h6>Dizaynerlar:</h6>
-                <p>Xabibullox Maksudaliyev</p>
-                <p>Rustam Jabborov</p>
+                {designers.map(name => <p key={name}> {name} </p>)}
               </div>
               <div className="col-lg-3">
                 <h6>Art-director:</h6>
-                <p>Rahimjon Gaziyev</p>
+                {viewFilter[0].art_director}
                 <h6>Menejerlar:</h6>
-                <p>Asliddin Bozorov</p>
-                <p>Polatov Mavlonbek</p>
+                {managers.map(name => <p key={name}> {name} </p>)}
               </div>
               <div className="col-lg-3">
                 <h6>Project members:</h6>
-                <p>Xabibullox Maksudaliyev</p>
-                <p>Polatov Mavlonbek</p>
-                <p>Sarvarbek Abdupattoyev</p>
-                <p>Xabibullox Maksudaliyev</p>
-                <p>Rustam Jabborov</p>
-                <p>Xabibullox Maksudaliyev</p>
-                <p>Rustam Jabborov</p>
-                <p>Polatov Mavlonbek</p>
-                <p>Sarvarbek Abdupattoyev</p>
-                <p>Xabibullox Maksudaliyev</p>
+                {members.map(name => <p key={name}> {name} </p>)}
               </div>
               <div className="col-lg-3">
                 <h6>Data:</h6>
@@ -233,7 +231,7 @@ export default function Id({ data }) {
                     <div className="accordion-body">
                       <ul>
                         <li>
-                          <p>Rahimjon Gaziyev</p>
+                          <p> {viewFilter[0].art_director}</p>
                         </li>
                       </ul>
                     </div>
@@ -260,16 +258,12 @@ export default function Id({ data }) {
                   >
                     <div className="accordion-body">
                       <ul>
-                        <li>
-                          <p>Asliddin Bozorov</p>
-                        </li>
-                        <li>
-                          <p>Polatov Mavlonbek</p>
-                        </li>
+                        {managers.map(name => <li key={name}> <p>{name}</p>  </li>)}
                       </ul>
                     </div>
                   </div>
                 </div>
+
                 <div className="accordion-item">
                   <h2 className="accordion-header" id="headingThree">
                     <button
@@ -291,42 +285,7 @@ export default function Id({ data }) {
                   >
                     <div className="accordion-body">
                       <ul className="design">
-                        <li>
-                          <p>Azam Muhammadiyev</p>
-                        </li>
-                        <li>
-                          <p>Xabibullox Maksudaliyev</p>
-                        </li>
-                        <li>
-                          <p>Azam Muhammadiyev</p>
-                        </li>
-                        <li>
-                          <p>Xabibullox Maksudaliyev</p>
-                        </li>
-                        <li>
-                          <p>Azam Muhammadiyev</p>
-                        </li>
-                        <li>
-                          <p>Xabibullox Maksudaliyev</p>
-                        </li>
-                        <li>
-                          <p>Azam Muhammadiyev</p>
-                        </li>
-                        <li>
-                          <p>Xabibullox Maksudaliyev</p>
-                        </li>
-                        <li>
-                          <p>Azam Muhammadiyev</p>
-                        </li>
-                        <li>
-                          <p>Xabibullox Maksudaliyev</p>
-                        </li>
-                        <li>
-                          <p>Azam Muhammadiyev</p>
-                        </li>
-                        <li>
-                          <p>Xabibullox Maksudaliyev</p>
-                        </li>
+                        {designers.map(name => <li key={name}> <p>{name} </p></li>)}
                       </ul>
                     </div>
                   </div>
@@ -352,24 +311,7 @@ export default function Id({ data }) {
                   >
                     <div className="accordion-body">
                       <ul>
-                        <li>
-                          <p>Utkir Tojiboyev</p>
-                        </li>
-                        <li>
-                          <p>Xabibullox Maksudaliyev</p>
-                        </li>
-                        <li>
-                          <p>Rustam Jabborov</p>
-                        </li>
-                        <li>
-                          <p>Polatov Mavlonbek</p>
-                        </li>
-                        <li>
-                          <p>Sarvarbek Abdupattoyev</p>
-                        </li>
-                        <li>
-                          <p>Utkir Tojiboyev</p>
-                        </li>
+                        {members.map(name => <li key={name}> <p>{name} </p></li>)}
                       </ul>
                       <hr />
                       <div className="time">
@@ -397,12 +339,11 @@ export default function Id({ data }) {
               {similarFilter.map((similar) => (
                 <Link href={`/portfolio/${similar.id}`} key={similar.id}>
                   <div className="col-sm-6 col-md-4 col-lg-4">
-                    <img
-                      rel="preload"
-                      as="image"
+                    <Image
+                      width={416}
+                      height={316}
                       src={`https://redfox.frilansus.com/${similar.img2}`}
                       alt="similar."
-
                     />
                     <p>{similar.title_uz}</p>
                   </div>
@@ -416,8 +357,10 @@ export default function Id({ data }) {
   );
 }
 
+export default ID;
+
 export async function getServerSideProps() {
-  const res = await fetch(`https://redfox.frilansus.com/api/portfolio/`);
+  const res = await fetch("https://redfox.frilansus.com/api/portfolio/");
   const data = await res.json();
   return { props: { data } };
 }

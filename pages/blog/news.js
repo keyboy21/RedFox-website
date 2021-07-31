@@ -24,8 +24,6 @@ const News = ({ data }) => {
     });
   }, [local]);
 
-  console.log('object :>> ', TwoFilter);
-
 
   return (
     <Blog>
@@ -45,7 +43,9 @@ const News = ({ data }) => {
                 <span>#</span>Adobe Photoshop
               </button>
               <p>{OneFilter.title_uz}</p>
-              <Markup content={OneFilter.text_uz.slice(0, 130) + "..."} />
+              <p>
+                <Markup content={OneFilter.text_uz.slice(0, 130) + "..."} />
+              </p>
             </div>
           </div>
         </div>
