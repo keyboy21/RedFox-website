@@ -78,7 +78,11 @@ const News = ({ data }) => {
           <div className="row">
             {TwoFilter.map((item) => (
               <div className="col-md-12 col-lg-6" key={item.id}>
-                <div className="col-5 col-sm-5 col-md-12" ><Image width={636} height={360} src={`https://redfox.frilansus.com/${item.img}`} alt="blog." /></div>
+                <div className="col-5 col-sm-5 col-md-12" >
+                  <div>
+                    <Image width={636} height={360} src={`https://redfox.frilansus.com/${item.img}`} alt="blog." />
+                  </div>
+                </div>
                 <div className="col-6 col-sm-6 col-md-12" >
                   <div className="top_info d-flex">
                     <Image width={74} height={74} src={`https://redfox.frilansus.com/${item.author.image}`} alt="experts." />
@@ -165,7 +169,9 @@ const News = ({ data }) => {
         <div className="blog_two">
           <div className="gorizontal">
             <div className="row">
-              <div className="col-6 col-sm-6 col-md-6 col-lg-6"><img src="/Rasm-1blog.png" alt="" /></div>
+              <div className="col-6 col-sm-6 col-md-6 col-lg-6">
+                <img src="/Rasm-1blog.png" alt="" />
+              </div>
               <div className="col-6 col-sm-6 col-md-6 col-lg-6">
                 <div className="top_info d-flex">
                   <div><img src="/PicNurmatovO.png" alt="experts." /></div>
@@ -268,7 +274,7 @@ const News = ({ data }) => {
                 </div>
               </div>
             </div>
-            <div className="col-md-none col-lg-4">
+            <div className="col-md-6 col-lg-4">
               <div className="col-5 col-sm-5 col-md-12"><img src="/Rasm-1blog.png" alt="" /></div>
               <div className="col-6 col-sm-6 col-md-12">
                 <div className="top_info d-flex">
@@ -358,7 +364,7 @@ const News = ({ data }) => {
                 </div>
               </div>
             </div>
-            <div className="col-md-none col-lg-4">
+            <div className="col-md-6 col-lg-4">
               <div className="col-5 col-sm-5 col-md-12" ><img src="/Rasm-1blog.png" alt="" /></div>
               <div className="col-6 col-sm-6 col-md-12" >
                 <div className="top_info d-flex">
@@ -383,7 +389,11 @@ const News = ({ data }) => {
         <div className="blog_two">
           <div className="row">
             <div className="col-md-12 col-lg-6">
-              <div className="col-5 col-sm-5 col-md-12" ><img src="/Rasm-1blog.png" alt="" /></div>
+              <div className="col-5 col-sm-5 col-md-12" >
+                <div>
+                  <img src="/Rasm-1blog.png" alt="" />
+                </div>
+              </div>
               <div className="col-6 col-sm-6 col-md-12" >
                 <div className="top_info d-flex">
                   <div><img src="/PicNurmatovO.png" alt="experts." /></div>
@@ -402,7 +412,11 @@ const News = ({ data }) => {
               </div>
             </div>
             <div className="col-md-12 col-lg-6">
-              <div className="col-5 col-sm-5 col-md-12" ><img src="/Rasm-1blog.png" alt="" /></div>
+              <div className="col-5 col-sm-5 col-md-12" >
+                <div>
+                  <img src="/Rasm-1blog.png" alt="" />
+                </div>
+              </div>
               <div className="col-6 col-sm-6 col-md-12" >
                 <div className="top_info d-flex">
                   <div><img src="/PicNurmatovO.png" alt="experts." /></div>

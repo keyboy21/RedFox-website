@@ -199,8 +199,20 @@
   .blog .blog_two .gorizontal .top_info div:nth-child(1) {
     display: none !important;
   }
-  .blog .not_img .bottom_info button{
+  .blog .blog_two .gorizontal .row {
+    justify-content: space-around;
+  }
+  .blog .blog_two .col-6 {
+    display: flex;
+    flex-direction: column;
+  }
+  .blog .blog_three .col-6 .top_info div:nth-child(2) {
+    margin-left: 0;
+  }
+  .blog .blog_two .col-6 .top_info div:nth-child(2) {
+    margin-left: 0;
+  }
+  .blog .not_img .bottom_info button {
     margin-top: 12px;
-
   }
 }
