@@ -55,7 +55,7 @@ export default function Blog({ children }) {
                       router.pathname == "/blog/it_news" ? "clik" : ""
                     }
                   >
-                    IT News
+                    ITNews
                   </a>
                 </Link>
               </li>

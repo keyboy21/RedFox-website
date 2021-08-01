@@ -68,7 +68,6 @@
   font-weight: 600;
   line-height: 31px;
   margin-bottom: 16px;
-
 }
 
 .blog .bottom_info p:nth-of-type(2) {
@@ -84,13 +83,20 @@
 .blog .blog_three {
   margin-top: 70px;
 }
+.blog .not_img {
+  margin-top: 0;
+}
+
+.blog .col-md-7 {
+  margin-bottom: 10px;
+}
 
 .blog .blog_three .col-lg-4 .top_info,
 .blog .blog_two .col-lg-6 .top_info {
   margin-top: 16px;
 }
 
-.blog .blog_two .gorizontal .top_info{
+.blog .blog_two .gorizontal .top_info {
   margin-top: 0;
 }
 
@@ -127,6 +133,74 @@
 
 @media (max-width: 767px) {
   .any .top_color .port_ul ul li a {
-    font-size: 15px;
+    font-size: 18px;
+  }
+  .blog {
+    margin-top: 40px;
+  }
+  .any .top_color .port_ul ul {
+    margin-bottom: 9px;
+  }
+  .blog .blog_three .col-lg-4 .top_info {
+    margin-top: 0;
+  }
+  .blog .blog_three .col-md-6 {
+    display: flex;
+    justify-content: space-between;
+  }
+  .blog .blog_two .col-md-12 {
+    display: flex;
+    justify-content: space-between;
+  }
+  .blog .blog_two .col-md-12 .col-sm-6 .top_info {
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 575px) {
+  .blog .bottom_info button {
+    padding: 0 9px;
+    line-height: 7px;
+    margin: 0;
+  }
+  .blog .top_info p {
+    display: none;
+  }
+  .blog .bottom_info button,
+  .blog .bottom_info button span {
+    font-size: 12px;
+  }
+  .blog .blog_three .col-lg-4 {
+    margin-bottom: 32px;
+  }
+
+  .blog .bottom_info p:nth-of-type(1) {
+    text-align: start;
+  }
+  .blog .bottom_info p:nth-of-type(1) {
+    font-size: 14px;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .blog .bottom_info p:nth-of-type(2) {
+    display: none;
+  }
+
+  .blog .blog_three .col-md-6 .col-6 .top_info div:nth-child(1) {
+    display: none !important;
+  }
+  .blog .blog_two .col-md-12 .col-sm-6 .top_info div:nth-child(1) {
+    display: none !important;
+  }
+
+  .blog .blog_two .col-md-12 {
+    margin-bottom: 15px;
+  }
+  .blog .blog_two .gorizontal .top_info div:nth-child(1) {
+    display: none !important;
+  }
+  .blog .not_img .bottom_info button{
+    margin-top: 12px;
+
   }
 }
