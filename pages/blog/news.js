@@ -7,7 +7,8 @@ import { Markup } from "interweave";
 const News = ({ data }) => {
 
   const [local, setLocal] = useState(data);
-  const [number, setNumber] = useState(44)
+  const [number, setNumber] = useState(44);
+
 
   const ThreeFilter = useMemo(() => {
     return local.filter((item, index) => {
@@ -67,25 +68,26 @@ const News = ({ data }) => {
   return (
     <Blog>
       <div className="blog">
-        <div className="row">
-          <div className="col-md-7 col-lg-8"><Image width={856} height={541} src={`https://redfox.frilansus.com/${local[0].img}`} alt="blog." /></div>
-          <div className="col-md-5 col-lg-4">
-            <div className="top_info d-flex">
-              <Image width={74} height={74} src={`https://redfox.frilansus.com/${local[0].author.image}`} alt="experts." />
-              <div>
-                <h6>{local[0].author.name}</h6>
-                <p>28 sentyabr 2020</p>
+        {local == "" ? "" : (
+          <div className="row">
+            <div className="col-md-7 col-lg-8"><Image width={856} height={541} src={`https://redfox.frilansus.com/${local[0].img}`} alt="blog." /></div>
+            <div className="col-md-5 col-lg-4">
+              <div className="top_info d-flex">
+                <Image width={74} height={74} src={`https://redfox.frilansus.com/${local[0].author.image}`} alt="experts." />
+                <div>
+                  <h6>{local[0].author.name}</h6>
+                  <p>28 sentyabr 2020</p>
+                </div>
+              </div>
+              <div className="bottom_info">
+                <button>
+                  <span>#</span>Adobe Photoshop
+                </button>
+                <p>{local[0].title_uz}</p>
+                <Markup content={local[0].text_uz.slice(0, 130) + "..."} />
               </div>
             </div>
-            <div className="bottom_info">
-              <button>
-                <span>#</span>Adobe Photoshop
-              </button>
-              <p>{local[0].title_uz}</p>
-              <Markup content={local[0].text_uz.slice(0, 130) + "..."} />
-            </div>
-          </div>
-        </div>
+          </div>)}
 
         <div className="blog_three">
           <div className="row">
@@ -366,8 +368,8 @@ const News = ({ data }) => {
 
 export default News
 export async function getStaticProps() {
-  const res = await axios("https://redfox.frilansus.com/api/blog");
-  const data = await res.data;
+  const res = await axios("https://redfox.frilansus.com/api/blog/");
+  const data = res.data;
   return { props: { data } };
 }
 

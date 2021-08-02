@@ -1,17 +1,20 @@
 import axios from "axios";
-import { useMemo } from "react";
+import { useMemo,useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import Portfolio from "./index.js";
 
 const Clients = ({ data, clients }) => {
+
+  const [local, setLocal] = useState(data);
+
   return (
     <Portfolio>
       <div className="categories">
         {clients.map((name) => {
           const firsFilter = useMemo(() => {
-            return data.filter((item) => item.mijoz_id == name.id);
-          }, [data])
+            return local.filter((item) => item.mijoz_id == name.id);
+          }, [local])
 
           return (
             <div className="prime" key={name.id}>

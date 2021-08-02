@@ -39,7 +39,7 @@ const Home = ({ data, img }) => {
   }, [local])
 
   const ImageFilter1 = useMemo(() => {
-    return img.filter((slide) => {
+    return img.filter((slide, index) => {
       return slide.id >= 2 && slide.id <= 3;
     });
   }, [imglocal])
