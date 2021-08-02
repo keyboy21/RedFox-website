@@ -1,3 +1,4 @@
+import axios from "axios";
 import { useMemo } from "react";
 import Link from "next/link";
 import Image from "next/image";
@@ -52,9 +53,9 @@ const Industry = ({ data, industry }) => {
 export default Industry
 
 export async function getStaticProps() {
-  const res = await fetch(`https://redfox.frilansus.com/api/portfolio/`);
-  const data = await res.json();
-  const cat = await fetch(`https://redfox.frilansus.com/api/industriya/`);
-  const industry = await cat.json();
+  const res = await axios(`https://redfox.frilansus.com/api/portfolio/`);
+  const data = res.data;
+  const cat = await axios(`https://redfox.frilansus.com/api/industriya/`);
+  const industry = cat.data;
   return { props: { data, industry } };
 }

@@ -1,3 +1,4 @@
+import axios from "axios";
 import { useMemo, useState } from "react";
 import Portfolio from "./index.js";
 import Link from "next/link";
@@ -48,10 +49,10 @@ const Categories = ({ data, category }) => {
 export default Categories;
 
 export async function getStaticProps() {
-  const res = await fetch(`https://redfox.frilansus.com/api/portfolio/`);
-  const data = await res.json();
-  const cat = await fetch(`https://redfox.frilansus.com/api/category/`);
-  const category = await cat.json();
+  const res = await axios(`https://redfox.frilansus.com/api/portfolio/`);
+  const data = res.data;
+  const cat = await axios(`https://redfox.frilansus.com/api/category/`);
+  const category = cat.data;
   return { props: { data, category } };
 }
 

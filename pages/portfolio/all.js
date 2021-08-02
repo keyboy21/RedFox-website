@@ -1,6 +1,8 @@
+import axios from "axios";
 import Portfolio from "./index.js";
 import Link from "next/link";
 import Image from 'next/image';
+
 
 const All = ({ data }) => {
   return (
@@ -33,8 +35,8 @@ const All = ({ data }) => {
 };
 
 export async function getStaticProps() {
-  const res = await fetch(`https://redfox.frilansus.com/api/portfolio`);
-  const data = await res.json();
+  const res = await axios(`https://redfox.frilansus.com/api/portfolio`);
+  const data = res.data;
   return { props: { data } };
 }
 export default All;

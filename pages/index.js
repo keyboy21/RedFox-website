@@ -1,5 +1,5 @@
-import { useMemo, useState } from "react";
 import axios from "axios";
+import { useMemo, useState } from "react";
 import MainLayout from "../components/MainLayout";
 import ScrollAnimation from "react-animate-on-scroll";
 import Image from 'next/image'
@@ -10,7 +10,6 @@ const Home = ({ data, img }) => {
   const [local, Setlocal] = useState(data);
   const [imglocal, Setimglocal] = useState(img)
   const router = useRouter();
-
 
   const SliderFirsFilter = useMemo(() => {
     return data.filter((slide) => {
@@ -63,10 +62,15 @@ const Home = ({ data, img }) => {
     });
   }, [imglocal])
 
+
   return (
     <MainLayout>
+
       <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
         <header>
+          <ScrollAnimation animateIn="wobble" animateOnce={true}>
+            <p>{router.locale == "uz" ? "Sayt to'liq tayyor emas" : "Сайт ещё в стадии веб-разработки"}</p>
+          </ScrollAnimation>
           <div className="container">
             <div className="row">
               <div className="header_top col-lg-10">
@@ -1070,9 +1074,8 @@ export default Home;
 // getServerSideProps
 // getStaticProps
 export async function getStaticProps() {
-  const res = await fetch("https://redfox.frilansus.com/api/partner");
-  const data = await res.json();
-  const portfolio = await fetch(`https://redfox.frilansus.com/api/portfolio`);
-  const img = await portfolio.json();
+  const { data } = await axios("https://redfox.frilansus.com/api/partner");
+  const portfolio = await axios(`https://redfox.frilansus.com/api/portfolio`);
+  const img = portfolio.data;
   return { props: { data, img } };
 }
