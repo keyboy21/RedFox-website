@@ -38,7 +38,7 @@
 }
 
 .academy .top_color {
-  margin-top: 150px;
+  margin-top: 200px;
 }
 
 .academy .top_color h2 {
@@ -344,9 +344,7 @@
     font-size: 20px;
     line-height: 30px;
   }
-  .academy .top_color {
-    margin-top: 35px;
-  }
+
   .academy .life .accordion .items {
     overflow: scroll;
   }

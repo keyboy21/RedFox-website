@@ -1,3 +1,6 @@
+.agency  {
+  margin-top: 200px;
+}
 .agency .port_ul ul {
   display: flex;
   list-style: none;
@@ -35,10 +38,6 @@
   line-height: 22px;
   color: #3d3d3d;
   text-decoration: none;
-}
-
-.agency .top_color {
-  margin-top: 150px;
 }
 
 .agency .top_color h2 {

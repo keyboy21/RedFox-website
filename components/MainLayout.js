@@ -26,7 +26,7 @@ export default function MainLayout({ children, title = "" }) {
         <title>Redfox Agency {title}</title>
         <link rel="icon" type="image/png" href="/Group.png" />
       </Head>
-      <nav className="navbar navbar-expand-sm navbar-light">
+      <nav className="navbar navbar-expand-sm navbar-light fixed-top">
         <div className="container">
           <a href='/' className="navbar-brand">
             <img src="/logo11111.svg" alt="logo." />

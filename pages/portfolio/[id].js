@@ -46,35 +46,23 @@ const ID = ({ data }) => {
                 </div>
                 <div className="col-lg-7">
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.
+                    {viewFilter[0].text_uz}
                   </p>
                   <p>
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                    laboris nisi ut aliquip ex ea commodo consequat.
+                    {viewFilter[0].text_uz}
                   </p>
                 </div>
               </div>
-              <div className="view_text">
+              {/* <div className="view_text">
                 <div className="col-lg-3">
                   <span>Topshiriq</span>
                 </div>
                 <div className="col-lg-7">
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing
-                    elit, sed do eiusmod tempor incididunt ut labore et dolore
-                    magna aliqua.
+                    {viewFilter[0].text_uz}
                   </p>
                   <p>
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                    laboris nisi ut aliquip ex ea commodo consequat. Ut enim ad
-                    minim veniam, quis nostrud exercitation ullamco laboris nisi
-                    ut aliquip ex ea commodo consequat. Ut enim ad minim veniam,
-                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-                    ea commodo consequat.
+                    {viewFilter[0].text_uz}
                   </p>
                 </div>
               </div>
@@ -84,16 +72,13 @@ const ID = ({ data }) => {
                 </div>
                 <div className="col-lg-7">
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.
+                    {viewFilter[0].text_uz}
                   </p>
                   <p>
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                    laboris nisi ut aliquip ex ea commodo consequat.
+                    {viewFilter[0].text_uz}
                   </p>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
@@ -168,10 +153,6 @@ const ID = ({ data }) => {
                   <p>
                     {viewFilter[0].text_final_uz}
                   </p>
-                  {/* <p>
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                    laboris nisi ut aliquip ex ea commodo consequat.
-                  </p> */}
                 </div>
               </div>
             </div>

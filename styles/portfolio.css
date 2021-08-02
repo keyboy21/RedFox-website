@@ -2,18 +2,7 @@
   margin: 0;
   padding: 0;
 }
-/* .portfolio ::-webkit-scrollbar-thumb {
-  background: #ff7300;
-  border-radius: 5px;
-  width: 1px;
-}
-.portfolio ::-webkit-scrollbar-corner {
-  background: transparent;
-}
 
-.portfolio ::-webkit-scrollbar {
-  height: 8px;
-} */
 
 .portfolio .categories ::-webkit-scrollbar-thumb {
   background: #ff7300;
@@ -31,7 +20,7 @@
 .portfolio {
   background: #f9f9f9;
   padding-bottom: 180px;
-  padding-top: 100px;
+  padding-top: 120px;
 }
 
 .categories .prime {
@@ -260,6 +249,10 @@
 }
 
 @media (max-width: 576px) {
+
+  .portfolio {
+    padding-top: 70px;
+}
   .portfolio .port_ul ::-webkit-scrollbar {
     height: 0;
     width: 0;
@@ -344,9 +337,7 @@
     background: #ffffff;
     padding-top: 30px;
   }
-  .portfolio {
-    padding-top: 0;
-  }
+
 
   .accordion-button:focus {
     z-index: 3;
