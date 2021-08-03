@@ -2,14 +2,15 @@ import axios from "axios";
 import { useMemo, useState } from "react";
 import MainLayout from "../components/MainLayout";
 import ScrollAnimation from "react-animate-on-scroll";
-import Image from 'next/image'
 import { useRouter } from "next/router";
+import Image from 'next/image';
+import Link from "next/link";
 
 const Home = ({ data, img }) => {
 
+  const router = useRouter();
   const [local, Setlocal] = useState(data);
   const [imglocal, Setimglocal] = useState(img)
-  const router = useRouter();
 
   const SliderFirsFilter = useMemo(() => {
     return data.filter((slide) => {
@@ -38,27 +39,31 @@ const Home = ({ data, img }) => {
     });
   }, [local])
 
-  const ImageFilter1 = useMemo(() => {
-    return img.filter((slide, index) => {
-      return slide.id >= 2 && slide.id <= 3;
-    });
-  }, [imglocal])
+
 
   const ImageFilter2 = useMemo(() => {
-    return img.filter((slide) => {
-      return slide.id <= 1;
+    return img.filter((slide, index) => {
+      return index < 1;
+    });
+  }, [imglocal])
+  console.log(`ImageFilter2`, ImageFilter2)
+
+  const ImageFilter1 = useMemo(() => {
+    return img.filter((slide, index) => {
+      return index > 1 && index < 4;
     });
   }, [imglocal])
 
+
   const ImageFilter3 = useMemo(() => {
-    return img.filter((slide) => {
-      return slide.id >= 4 && slide.id <= 7;
+    return img.filter((slide, index) => {
+      return index > 3 && index < 8;
     });
   }, [imglocal])
 
   const ImageFilter4 = useMemo(() => {
-    return img.filter((slide) => {
-      return slide.id >= 8 && slide.id <= 13;
+    return img.filter((slide, index) => {
+      return index > 7 && index < 14;
     });
   }, [imglocal])
 
@@ -332,83 +337,88 @@ const Home = ({ data, img }) => {
             <div className="row rev">
               <div className="col-lg-4 col-md-4 derzi">
                 {ImageFilter1.map((port) => (
-                  <div className="col-md-12 col-lg-12 col-5" key={port.id}>
-                    <div className="portfolio_img overflow-hidden">
-                      <Image
-                        src={`https://redfox.frilansus.com/${port.logo}`}
-                        width={416}
-                        height={326}
-                        decoding="auto"
-                        preload="true"
-                        alt="najot."
-                      />
+                  <Link href={`/portfolio/${port.id}`} key={port.id}>
+                    <div className="col-md-12 col-lg-12 col-5" >
+                      <div className="portfolio_img overflow-hidden">
+                        <Image
+                          src={`https://redfox.frilansus.com/${port.logo}`}
+                          width={416}
+                          height={326}
+                          decoding="auto"
+                          preload="true"
+                          alt="najot."
+                        />
+                      </div>
+                      <div className="portfolio_title">
+                        <p>{port.title_uz}</p>
+                      </div>
                     </div>
-
-                    <div className="portfolio_title">
-                      <p>{port.title_uz}</p>
-                    </div>
-
-                  </div>
+                  </Link>
                 ))}
               </div>
 
               {ImageFilter2.map((port) => (
-                <div className="col-lg-8 col-md-8" key={port.id}>
-                  <div className="portfolio_img overflow-hidden">
-                    <Image
-                      src={`https://redfox.frilansus.com/${port.logo}`}
-                      width={856}
-                      height={676}
-                      decoding="auto"
-                      preload="true"
-                      alt="nurafshon."
-                    />
+                <Link href={`/portfolio/${port.id}`} key={port.id} >
+                  <div className="col-lg-8 col-md-8" >
+                    <div className="portfolio_img overflow-hidden">
+                      <Image
+                        src={`https://redfox.frilansus.com/${port.logo}`}
+                        width={856}
+                        height={676}
+                        decoding="auto"
+                        preload="true"
+                        alt="nurafshon."
+                      />
+                    </div>
+                    <div className="portfolio_title">
+                      <p>{port.title_uz}</p>
+                    </div>
                   </div>
-                  <div className="portfolio_title">
-                    <p>{port.title_uz}</p>
-                  </div>
-
-                </div>
+                </Link>
               ))}
             </div>
 
             <div className="row bottom">
               {ImageFilter3.map((port) => (
-                <div className="col-lg-6 col-md-6" key={port.id}>
-                  <div className="portfolio_img overflow-hidden">
-                    <Image
-                      src={`https://redfox.frilansus.com/${port.logo}`}
-                      width={636}
-                      height={500}
-                      decoding="auto"
-                      preload="true"
-                      alt="nurafshon."
-                    />
+                <Link href={`/portfolio/${port.id}`} key={port.id} >
+                  <div className="col-lg-6 col-md-6" key={port.id}>
+                    <div className="portfolio_img overflow-hidden">
+                      <Image
+                        src={`https://redfox.frilansus.com/${port.logo}`}
+                        width={636}
+                        height={500}
+                        decoding="auto"
+                        preload="true"
+                        alt="nurafshon."
+                      />
+                    </div>
+                    <div className="portfolio_title">
+                      <p>{port.title_uz}</p>
+                    </div>
                   </div>
-                  <div className="portfolio_title">
-                    <p>{port.title_uz}</p>
-                  </div>
-                </div>
+                </Link>
               ))}
             </div>
 
             <div className="row">
               {ImageFilter4.map((port) => (
-                <div className="col-lg-4 col-md-4 col-6" key={port.id}>
-                  <div className="portfolio_img overflow-hidden">
-                    <Image
-                      src={`https://redfox.frilansus.com/${port.logo}`}
-                      width={416}
-                      height={322}
-                      decoding="auto"
-                      preload="true"
-                      alt="nurafshon."
-                    />
+                <Link href={`/portfolio/${port.id}`} key={port.id}>
+                  <div className="col-lg-4 col-md-4 col-6" >
+                    <div className="portfolio_img overflow-hidden">
+                      <Image
+                        src={`https://redfox.frilansus.com/${port.logo}`}
+                        width={416}
+                        height={322}
+                        decoding="auto"
+                        preload="true"
+                        alt="nurafshon."
+                      />
+                    </div>
+                    <div className="portfolio_title">
+                      <p>{port.title_uz}</p>
+                    </div>
                   </div>
-                  <div className="portfolio_title">
-                    <p>{port.title_uz}</p>
-                  </div>
-                </div>
+                </Link>
               ))}
             </div>
           </div>

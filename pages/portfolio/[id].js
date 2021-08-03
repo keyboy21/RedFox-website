@@ -9,7 +9,7 @@ const ID = ({ data }) => {
   const router = useRouter();
   const [local, setLocal] = useState(data)
 
-  const viewFilter = useMemo(() => (data.filter((view) => view.id == router.query.id)), local)
+  const viewFilter = data.filter((view) => view.id == router.query.id)
 
   const design = viewFilter[0].designers;
   const manag = viewFilter[0].managers;
@@ -19,8 +19,8 @@ const ID = ({ data }) => {
   const members = JSON.parse(prMembers)
 
   const similarFilter = useMemo(() => {
-    return data.filter((sim) => {
-      return sim.id >= 5 && sim.id <= 7;
+    return data.filter((sim, index) => {
+      return index >= 5 && index <= 7;
     });
   }, [local])
 
@@ -97,10 +97,9 @@ const ID = ({ data }) => {
             <div className="row justify-content-center">
               <div className="col-lg-11 flex-wrap d-flex justify-content-between">
                 <div className="images">
-                  <img
+                  <imgh
                     src={`https://redfox.frilansus.com/${viewFilter[0].img1}`}
                     alt="work."
-
                   />
                 </div>
                 <div className="images">
@@ -163,24 +162,32 @@ const ID = ({ data }) => {
           <div className="container">
             <div className="row">
               <div className="col-lg-3">
-                <h6>Dizaynerlar:</h6>
-                {designers.map(name => <p key={name}> {name} </p>)}
+                <div>
+                  <h6>Dizaynerlar:</h6>
+                  {designers.map(name => <p key={name}> {name} </p>)}
+                </div>
               </div>
               <div className="col-lg-3">
-                <h6>Art-director:</h6>
-                {viewFilter[0].art_director}
-                <h6>Menejerlar:</h6>
-                {managers.map(name => <p key={name}> {name} </p>)}
+                <div>
+                  <h6>Art-director:</h6>
+                  {viewFilter[0].art_director}
+                  <h6>Menejerlar:</h6>
+                  {managers.map(name => <p key={name}> {name} </p>)}
+                </div>
               </div>
               <div className="col-lg-3">
-                <h6>Project members:</h6>
-                {members.map(name => <p key={name}> {name} </p>)}
+                <div>
+                  <h6>Project members:</h6>
+                  {members.map(name => <p key={name}> {name} </p>)}
+                </div>
               </div>
               <div className="col-lg-3">
-                <h6>Data:</h6>
-                <p>{viewFilter[0].end_date}</p>
-                <h6>Bitkazildi:</h6>
-                <p>{viewFilter[0].end_project}</p>
+                <div>
+                  <h6>Data:</h6>
+                  <p>{viewFilter[0].end_date}</p>
+                  <h6>Bitkazildi:</h6>
+                  <p>{viewFilter[0].end_project}</p>
+                </div>
               </div>
             </div>
           </div>

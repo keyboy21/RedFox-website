@@ -1,4 +1,4 @@
-.view{
+.view {
   margin-top: 100px;
 }
 .view .view_top {
@@ -78,6 +78,11 @@
 .view .view_info {
   margin-top: 180px;
   margin-bottom: 74px;
+}
+
+.view .view_info .col-lg-3 {
+  display: flex;
+  justify-content: center;
 }
 
 .view .view_info .col-lg-3 h6 {
@@ -168,7 +173,6 @@
   }
 
   .view .view_accardion .accordion-item h2 button {
-
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
@@ -186,7 +190,6 @@
     background-image: url("../public/Vector (Stroke)accc.svg");
   }
   .view .view_accardion .accordion-item p {
-
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -212,7 +215,6 @@
     margin-right: 150px;
   }
   .view .view_accardion .accordion-item .time h6 {
-
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
@@ -220,7 +222,6 @@
     color: #ff7300;
   }
   .view .view_accardion .accordion-item .time p {
-
     font-style: normal;
     font-weight: 500;
     font-size: 30px;
@@ -234,7 +235,6 @@
     height: 310px;
   }
   .view .view_accardion .accordion-item .accordion-body ul li p {
-
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
