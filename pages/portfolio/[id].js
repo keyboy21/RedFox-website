@@ -97,7 +97,7 @@ const ID = ({ data }) => {
             <div className="row justify-content-center">
               <div className="col-lg-11 flex-wrap d-flex justify-content-between">
                 <div className="images">
-                  <imgh
+                  <img
                     src={`https://redfox.frilansus.com/${viewFilter[0].img1}`}
                     alt="work."
                   />
