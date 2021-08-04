@@ -186,7 +186,7 @@ const ID = ({ data }) => {
                   <h6>Data:</h6>
                   <p>{viewFilter[0].end_date}</p>
                   <h6>Bitkazildi:</h6>
-                  <p>{viewFilter[0].end_project}</p>
+                  <p>{viewFilter[0].end_project} kun</p>
                 </div>
               </div>
             </div>
