@@ -138,11 +138,11 @@
   .blog {
     margin-top: 40px;
   }
-  .blog .bottom_info button{
+  .blog .bottom_info button {
     margin-top: 5px;
     margin-bottom: 5px;
   }
-  .blog .bottom_info p:nth-of-type(1){
+  .blog .bottom_info p:nth-of-type(1) {
     margin-bottom: 0;
     margin-top: 0;
   }
@@ -164,7 +164,7 @@
     display: flex;
     justify-content: space-between;
   }
-  .blog .blog_two .col-md-12 .col-6{
+  .blog .blog_two .col-md-12 .col-6 {
     flex-direction: column;
   }
   .blog .blog_two .col-md-12 .col-sm-6 .top_info {
@@ -249,5 +249,14 @@
   .blog .blog_three .col-md-6 .col-6:nth-child(1),
   .blog .blog_two .col-md-12 .col-6:nth-child(1) {
     padding-right: 15px;
+  }
+  .any .top_color h2 {
+    text-align: start;
+  }
+  .any .top_color p {
+    font-size: 14px;
+    line-height: 22px;
+    text-align: start;
+    margin-bottom: 30px;
   }
 }

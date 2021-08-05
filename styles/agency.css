@@ -1,5 +1,5 @@
-.agency  {
-  margin-top: 200px;
+.agency {
+  margin-top: 120px;
 }
 .agency .port_ul ul {
   display: flex;
@@ -334,5 +334,9 @@ span a {
     overflow: scroll;
     border-bottom: none;
     padding: 30px 0;
+  }
+
+  .agency {
+    margin-top: 0;
   }
 }

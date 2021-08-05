@@ -73,9 +73,7 @@ const Home = ({ data, img }) => {
 
       <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
         <header>
-          <ScrollAnimation animateIn="wobble" animateOnce={true}>
-            <p>{router.locale == "uz" ? "Sayt to'liq tayyor emas" : "Сайт ещё в стадии веб-разработки"}</p>
-          </ScrollAnimation>
+          <p>{router.locale == "uz" ? "Sayt to'liq tayyor emas" : "Сайт ещё в стадии веб-разработки"}</p>
           <div className="container">
             <div className="row">
               <div className="header_top col-lg-10">
@@ -93,11 +91,9 @@ const Home = ({ data, img }) => {
                   </p>)}
               </div>
               <div className="header_bottom">
-                <ScrollAnimation animateIn="jello" animateOnce={true}>
-                  <div className="text_line">
-                    <span>Enterprise 30+</span>
-                  </div>
-                </ScrollAnimation>
+                <div className="text_line">
+                  <span>Enterprise 30+</span>
+                </div>
               </div>
             </div>
           </div>
@@ -141,19 +137,19 @@ const Home = ({ data, img }) => {
         </div>
       </div>
 
-      <ScrollAnimation animateIn="jello" animateOnce={true}>
-        <header className="medium">
-          <div className="container">
-            <div className="row">
-              <div className="header_bottom">
-                <div className="text_line">
-                  <span>Business 100+</span>
-                </div>
+
+      <header className="medium">
+        <div className="container">
+          <div className="row">
+            <div className="header_bottom">
+              <div className="text_line">
+                <span>Business 100+</span>
               </div>
             </div>
           </div>
-        </header>
-      </ScrollAnimation>
+        </div>
+      </header>
+
 
       <div className="slider two">
         <div className="slide-track">
@@ -316,15 +312,11 @@ const Home = ({ data, img }) => {
                     Мы выполняем свою работу с любовью. Что-бы вы не отправили <br />
                     для себя или своей компании, мы сделаем это с любовью.
                   </p>)}
-
-
               </div>
               <div className="header_bottom">
-                <ScrollAnimation animateIn="jello" animateOnce={true}>
-                  <div className="text_line">
-                    <span>PORTFOLIO</span>
-                  </div>
-                </ScrollAnimation>
+                <div className="text_line">
+                  <span>PORTFOLIO</span>
+                </div>
               </div>
             </div>
           </div>
@@ -448,13 +440,11 @@ const Home = ({ data, img }) => {
                   </p>)}
               </div>
               <div className="header_bottom">
-                <ScrollAnimation animateIn="jello" animateOnce={true}>
-                  <div className="text_line">
-                    {router.locale == 'uz' ?
-                      (<span>XIZMATLARIMIZ</span>) :
-                      (<span>НАШИ УСЛУГИ</span>)}
-                  </div>
-                </ScrollAnimation>
+                <div className="text_line">
+                  {router.locale == 'uz' ?
+                    (<span>XIZMATLARIMIZ</span>) :
+                    (<span>НАШИ УСЛУГИ</span>)}
+                </div>
               </div>
             </div>
           </div>
@@ -650,13 +640,12 @@ const Home = ({ data, img }) => {
                   </p>)}
               </div>
               <div className="header_bottom">
-                <ScrollAnimation animateIn="jello" animateOnce={true}>
-                  <div className="text_line">
-                    {router.locale == 'uz' ?
-                      (<span>Jamoa a‘zolari</span>) :
-                      (<span>ЧЛЕНЫ КОМАНДЫ</span>)}
-                  </div>
-                </ScrollAnimation>
+                <div className="text_line">
+                  {router.locale == 'uz' ?
+                    (<span>Jamoa a‘zolari</span>) :
+                    (<span>ЧЛЕНЫ КОМАНДЫ</span>)}
+                </div>
+
               </div>
             </div>
           </div>
@@ -792,11 +781,11 @@ const Home = ({ data, img }) => {
                   </p>)}
               </div>
               <div className="header_bottom">
-                <ScrollAnimation animateIn="jello" animateOnce={true}>
-                  <div className="text_line">
-                    {router.locale == 'uz' ? (<span>Mijozlar fikri</span>) : (<span>ОТЗЫВЫ КЛИЕНТОВ</span>)}
-                  </div>
-                </ScrollAnimation>
+
+                <div className="text_line">
+                  {router.locale == 'uz' ? (<span>Mijozlar fikri</span>) : (<span>ОТЗЫВЫ КЛИЕНТОВ</span>)}
+                </div>
+
               </div>
             </div>
           </div>
@@ -960,13 +949,13 @@ const Home = ({ data, img }) => {
                   </p>)}
               </div>
               <div className="header_bottom">
-                <ScrollAnimation animateIn="jello" animateOnce={true}>
-                  <div className="text_line">
-                    {router.locale == 'uz' ?
-                      (<span>afzalliklar</span>) :
-                      (<span>ПРЕИМУЩЕСТВА</span>)}
-                  </div>
-                </ScrollAnimation>
+
+                <div className="text_line">
+                  {router.locale == 'uz' ?
+                    (<span>afzalliklar</span>) :
+                    (<span>ПРЕИМУЩЕСТВА</span>)}
+                </div>
+
               </div>
             </div>
           </div>

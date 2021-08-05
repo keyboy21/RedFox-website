@@ -38,7 +38,7 @@
 }
 
 .academy .top_color {
-  margin-top: 200px;
+  margin-top: 120px;
 }
 
 .academy .top_color h2 {
@@ -343,6 +343,10 @@
   .academy .top_color h2 span {
     font-size: 20px;
     line-height: 30px;
+  }
+
+  .academy .top_color{
+    margin-top: 50px;
   }
 
   .academy .life .accordion .items {

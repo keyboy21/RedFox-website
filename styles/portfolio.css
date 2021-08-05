@@ -19,7 +19,7 @@
 .portfolio {
   background: #f9f9f9;
   padding-bottom: 180px;
-  padding-top: 120px;
+  padding-top: 70px;
 }
 
 .categories .prime {
@@ -256,9 +256,10 @@
 }
 
 @media (max-width: 576px) {
-  .portfolio {
-    padding-top: 70px;
+  .portfolio{
+    padding-top: 0;
   }
+
   .portfolio .port_ul ::-webkit-scrollbar {
     height: 0;
     width: 0;
