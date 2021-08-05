@@ -251,7 +251,6 @@ const ID = ({ data }) => {
                     </div>
                   </div>
                 </div>
-
                 <div className="accordion-item">
                   <h2 className="accordion-header" id="headingThree">
                     <button
@@ -301,7 +300,7 @@ const ID = ({ data }) => {
                       <ul>
                         {members.map(name => <li key={name}> <p>{name} </p></li>)}
                       </ul>
-                      <hr />
+
                       <div className="time">
                         <div>
                           <h6>Start</h6>
@@ -309,7 +308,7 @@ const ID = ({ data }) => {
                         </div>
                         <div>
                           <h6>Bitkazildi:</h6>
-                          <p>{viewFilter[0].end_project}</p>
+                          <p>{viewFilter[0].end_project} kun</p>
                         </div>
                       </div>
                     </div>

@@ -133,6 +133,23 @@
   padding: 120px 0 180px;
 }
 
+.view .view_accardion .accordion-item p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #3d3d3d;
+}
+.view .view_accardion .accordion-item .accordion-body .time {
+  margin-top: 30px;
+  display: flex;
+  justify-content: flex-start;
+}
+.view .accordion .accordion-item .accordion-body .time p {
+  font-size: 30px;
+  line-height: 36px;
+}
+
 @media (max-width: 991px) {
   .view .view_top h2 {
     font-size: 30px;
@@ -171,14 +188,25 @@
     width: 49%;
   }
 
+  .view .view_accardion {
+    padding: 1rem 110px;
+  }
+
   .view .view_accardion .accordion-item h2 button {
+    padding: 1rem 0;
+  }
+  .view .view_accardion .accordion-item .accordion-body {
+    padding: 1rem 0;
+  }
+
+  .view .view_accardion .accordion-item h2 .accordion-button {
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
     line-height: 22px;
-
     color: #ff7300;
   }
+
   .view .view_top h3:nth-of-type(1) {
     margin-top: 30px;
   }
@@ -188,14 +216,7 @@
   .accordion-button:not(.collapsed)::after {
     background-image: url("../public/Vector (Stroke)accc.svg");
   }
-  .view .view_accardion .accordion-item p {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 19px;
 
-    color: #3d3d3d;
-  }
   .view .view_accardion .accordion-item {
     border: none;
     border-bottom: 1px solid #ebebeb;
@@ -203,16 +224,9 @@
   .accordion-button:not(.collapsed) {
     color: transparent;
     background-color: transparent;
-    -webkit-box-shadow: none;
     box-shadow: none;
   }
-  .view .view_accardion .accordion-item .time {
-    display: flex;
-    justify-content: flex-start;
-  }
-  .view .view_accardion .accordion-item .time div:nth-of-type(1) {
-    margin-right: 150px;
-  }
+
   .view .view_accardion .accordion-item .time h6 {
     font-style: normal;
     font-weight: 600;
@@ -220,18 +234,12 @@
     line-height: 22px;
     color: #ff7300;
   }
-  .view .view_accardion .accordion-item .time p {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 30px;
-    line-height: 36px;
-    color: #3d3d3d;
-  }
+
   .view .view_accardion .accordion-item .accordion-body .design {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    height: 310px;
+    max-height: 310px;
   }
   .view .view_accardion .accordion-item .accordion-body ul li p {
     font-style: normal;
@@ -239,15 +247,21 @@
     font-size: 16px;
     line-height: 19px;
     text-align: justify;
-
     color: #3d3d3d;
   }
   .view .view_accardion .accordion-item .accordion-body ul li {
     list-style: none;
     margin-bottom: 30px;
   }
+  .view .view_accardion .accordion-item .time div:nth-child(1) {
+    margin-right: 157px;
+  }
   .view .view_accardion .accordion-item .time p:nth-child(1) {
     margin-bottom: 30px;
+  }
+  .view .accordion .accordion-item .accordion-body .time {
+    border-top: 1px solid #ebebeb;
+    padding-top: 30px;
   }
   .accordion-button:focus {
     box-shadow: none;
@@ -275,9 +289,27 @@
   .accordion-collapse {
     background-color: none;
   }
+
+  .view .view_accardion .accordion-item .accordion-body .time {
+    flex-direction: column;
+  }
+  .view .view_accardion .accordion-item .time div:nth-child(1) {
+    border-bottom: 1px solid #ebebeb;
+    margin-right: 0;
+    padding-bottom: 30px;
+    margin-bottom: 25px;
+  }
+
+  .view .accordion .accordion-item .accordion-body .time h6 {
+    font-size: 20px;
+    line-height: 24px;
+  }
 }
 
 @media (max-width: 575px) {
+  .view {
+    margin-top: 30px;
+  }
   .view .d-block {
     background-color: transparent;
   }
@@ -313,5 +345,33 @@
   }
   .view .view_accardion .accordion-item .accordion-body .design {
     height: auto;
+  }
+
+  .view .view_accardion .accordion-item h2 .accordion-button.collapsed {
+    color: black;
+  }
+  .view .view_accardion .accordion-item h2 .accordion-button {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #ff7300;
+  }
+  .view .view_accardion {
+    padding: 1rem 0;
+  }
+
+  .view .accordion .accordion-item .accordion-body .time div:nth-child(2) {
+    margin-top: 10px;
+  }
+
+  .view
+    .accordion
+    .accordion-item
+    .collapse
+    .accordion-body
+    .time
+    div:nth-child(1) {
+    margin-right: 0;
   }
 }
