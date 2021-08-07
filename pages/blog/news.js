@@ -84,7 +84,7 @@ const News = ({ data }) => {
                   <span>#</span>Adobe Photoshop
                 </button>
                 <p>{local[0].title_uz}</p>
-                <Markup content={local[0].text_uz.slice(0, 130) + "..."} />
+                <Markup content={local[0].text_uz.slice(0, 140) + "..."} />
               </div>
             </div>
           </div>)}
@@ -107,7 +107,7 @@ const News = ({ data }) => {
                       <span>#</span>Adobe Photoshop
                     </button>
                     <p>{item.title_uz}</p>
-                    <p><Markup content={item.text_uz.slice(0, 60) + "..."} /></p>
+                    <Markup content={item.text_uz.slice(0, 60) + "..."} />
                   </div>
                 </div>
               </div>

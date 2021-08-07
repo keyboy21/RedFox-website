@@ -43,14 +43,13 @@ const Home = ({ data, img }) => {
 
   const ImageFilter2 = useMemo(() => {
     return img.filter((slide, index) => {
-      return index < 1;
+      return index == 0;
     });
   }, [imglocal])
-  console.log(`ImageFilter2`, ImageFilter2)
 
   const ImageFilter1 = useMemo(() => {
     return img.filter((slide, index) => {
-      return index > 1 && index < 4;
+      return index > 0 && index < 3;
     });
   }, [imglocal])
 
@@ -137,7 +136,6 @@ const Home = ({ data, img }) => {
         </div>
       </div>
 
-
       <header className="medium">
         <div className="container">
           <div className="row">
@@ -149,7 +147,6 @@ const Home = ({ data, img }) => {
           </div>
         </div>
       </header>
-
 
       <div className="slider two">
         <div className="slide-track">

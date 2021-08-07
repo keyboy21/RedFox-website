@@ -76,6 +76,13 @@
   line-height: 32px;
   color: #3d3d3d;
 }
+.blog .blog_three .bottom_info span p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 32px;
+  color: #3d3d3d;
+}
 .blog .blog_three .col-lg-4 {
   margin-bottom: 70px;
 }
