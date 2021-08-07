@@ -28,7 +28,7 @@ export default function MainLayout({ children, title = "" }) {
       </Head>
       <nav className="navbar navbar-expand-sm navbar-light">
         <div className="container">
-          <a href='/' className="navbar-brand">
+          <a href={`/${router.locale}`} className="navbar-brand">
             <img src="/logo11111.svg" alt="logo." />
           </a>
           <button
