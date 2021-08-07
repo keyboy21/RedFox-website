@@ -105,6 +105,14 @@
   width: 100%;
 }
 
+.portfolio .all img {
+  cursor: pointer;
+}
+
+.portfolio .categories .prime img {
+  cursor: pointer;
+}
+
 .portfolio .col-lg-4 p {
   font-style: normal;
   font-weight: 600;
@@ -256,7 +264,7 @@
 }
 
 @media (max-width: 576px) {
-  .portfolio{
+  .portfolio {
     padding-top: 0;
   }
 

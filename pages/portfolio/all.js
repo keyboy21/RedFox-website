@@ -12,11 +12,12 @@ const All = ({ data }) => {
           {data.map((all) => {
             return (
               <Link href={`/portfolio/${all.id}`} key={all.id}>
-                <div className="col-lg-4 col-md-4 col-sm-6">
+                <div className="col-lg-4 col-md-4 col-sm-6" >
                   <Image
                     width={546}
                     height={431}
-                    style={{ cursor: "pointer" }}
+                    layout="responsive"
+                    objectFit="cover"
                     preload="true"
                     src={`https://redfox.frilansus.com/${all.logo}`}
                     alt="work."

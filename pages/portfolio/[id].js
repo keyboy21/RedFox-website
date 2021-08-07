@@ -87,7 +87,13 @@ const ID = ({ data }) => {
           <div className="container-fluid">
             <div className="row justify-content-center">
               <div className="col-lg-11">
-                <img
+                <Image
+                  width={1400}
+                  height={752}
+                  quality={100}
+                  layout="responsive"
+                  objectFit="cover"
+                  preload="true"
                   src={`https://redfox.frilansus.com/${viewFilter[0].logo}`}
                   alt="work."
                 />
@@ -97,41 +103,77 @@ const ID = ({ data }) => {
             <div className="row justify-content-center">
               <div className="col-lg-11 flex-wrap d-flex justify-content-between">
                 <div className="images">
-                  <img
+                  <Image
+                    width={453}
+                    height={256}
+                    quality={100}
+                    layout="responsive"
+                    objectFit="cover"
+                    preload="true"
                     src={`https://redfox.frilansus.com/${viewFilter[0].img1}`}
                     alt="work."
                   />
                 </div>
                 <div className="images">
-                  <img
+                  <Image
+                    width={453}
+                    height={256}
+                    quality={100}
+                    layout="responsive"
+                    objectFit="cover"
+                    preload="true"
                     src={`https://redfox.frilansus.com/${viewFilter[0].img2}`}
                     alt="work."
                     decoding="auto"
                   />
                 </div>
                 <div className="images">
-                  <img
+                  <Image
+                    width={453}
+                    height={256}
+                    quality={100}
+                    layout="responsive"
+                    objectFit="cover"
+                    preload="true"
                     src={`https://redfox.frilansus.com/${viewFilter[0].img3}`}
                     alt="work."
                     decoding="auto"
                   />
                 </div>
                 <div className="images">
-                  <img
+                  <Image
+                    width={453}
+                    height={256}
+                    quality={100}
+                    layout="responsive"
+                    objectFit="cover"
+                    preload="true"
                     src={`https://redfox.frilansus.com/${viewFilter[0].img4}`}
                     alt="work."
                     decoding="auto"
                   />
                 </div>
                 <div className="images">
-                  <img
+                  <Image
+                    width={453}
+                    height={256}
+                    quality={100}
+                    layout="responsive"
+                    objectFit="cover"
+                    preload="true"
                     src={`https://redfox.frilansus.com/${viewFilter[0].img5}`}
                     alt="work."
                     decoding="auto"
                   />
                 </div>
                 <div className="images">
-                  <img
+                  <Image
+                    width={453}
+                    height={256}
+                    quality={100}
+                    layout="responsive"
+                    objectFit="cover"
+                    preload="true"
                     src={`https://redfox.frilansus.com/${viewFilter[0].img6}`}
                     alt="work."
                   />
@@ -327,8 +369,12 @@ const ID = ({ data }) => {
                 <Link href={`/portfolio/${similar.id}`} key={similar.id}>
                   <div className="col-sm-6 col-md-4 col-lg-4">
                     <Image
-                      width={416}
-                      height={316}
+                      width={358}
+                      height={277}
+                      quality={100}
+                      layout="responsive"
+                      objectFit="cover"
+                      preload="true"
                       src={`https://redfox.frilansus.com/${similar.img2}`}
                       alt="similar."
                     />

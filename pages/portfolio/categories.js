@@ -25,10 +25,11 @@ const Categories = ({ data, category }) => {
                     <Link href={`/portfolio/${works.id}`} key={works.id}>
                       <div className="col-lg-4 col-md-4 col-sm-6 col-12">
                         <Image
-                          width={411}
-                          height={320}
-                          style={{ cursor: "pointer" }}
+                          width={415}
+                          height={325}
                           preload="true"
+                          layout="responsive"
+                          objectFit="cover"
                           src={`https://redfox.frilansus.com/${works.logo}`}
                           alt="work."
                         />

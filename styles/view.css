@@ -117,7 +117,7 @@
   color: #1c1c1f;
 }
 .view .similar img {
-  width: 100%;
+  cursor: pointer;
 }
 
 .view .similar p {
