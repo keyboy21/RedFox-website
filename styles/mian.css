@@ -415,18 +415,39 @@ header .write h3 {
 }
 
 @media (max-width: 767px) {
+  header {
+    margin-top: 70px;
+  }
+  header .header_top h2 {
+    font-size: 24px;
+    line-height: 30px;
+  }
   .skills h4 {
     margin-top: 0;
   }
+  section .container .bottom p {
+    margin-bottom: 20px;
+  }
+  .belive .col-lg-4 p {
+    padding: 0;
+  }
+  section .derzi {
+    display: flex;
+    
+  }
+
+  section .derzi .col-sm-6{
+    padding:0 5px;
+  }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 575px) {
   header .header_top h2 {
     font-size: 24px;
     line-height: 29px;
   }
   header {
-    margin-top: 100px;
+    margin-top: 70px;
   }
   .skills .logos i {
     font-size: 50px;
@@ -437,9 +458,17 @@ header .write h3 {
     line-height: 20px;
   }
 
+  section .container .bottom p {
+    margin-bottom: 20px;
+  }
+
   section .derzi {
     display: flex;
     justify-content: space-around;
+  }
+
+  section .col-6 {
+    padding: 0 5px;
   }
 
   section .rev {

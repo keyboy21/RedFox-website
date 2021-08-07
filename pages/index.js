@@ -327,7 +327,7 @@ const Home = ({ data, img }) => {
               <div className="col-lg-4 col-md-4 derzi">
                 {ImageFilter1.map((port) => (
                   <Link href={`/portfolio/${port.id}`} key={port.id}>
-                    <div className="col-md-12 col-lg-12 col-5" >
+                    <div className="col-md-12 col-lg-12 col-6 col-sm-6" >
                       <div className="portfolio_img overflow-hidden">
                         <Image
                           src={`https://redfox.frilansus.com/${port.logo}`}
