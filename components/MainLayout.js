@@ -48,7 +48,7 @@ export default function MainLayout({ children, title = "" }) {
           >
             <ul className="navbar-nav mb-2 mb-lg-0">
               <li className="nav-item">
-                <Link href="/blog/news">
+                <Link href="/blog/1?name=News">
                   <a
                     className={
                       router.pathname.startsWith("/blog/") == true

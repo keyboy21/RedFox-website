@@ -1,4 +1,5 @@
 import Link from "next/link";
+import axios from "axios";
 import { useState, useEffect } from "react";
 import { useRouter } from "next/router";
 import MainLayout from "../../components/MainLayout";
@@ -9,10 +10,11 @@ export default function Portfolio({ children }) {
 
   useEffect(async () => {
     // Fetch data from external API
-    const res = await fetch(`https://redfox.frilansus.com/api/portfolio`);
-    const data = await res.json();
+    const res = await axios(`https://redfox.frilansus.com/api/portfolio`);
+    const data = res.data;
     setCount(data);
   }, []);
+
 
   return (
     <MainLayout title={"| Portfolio"}>

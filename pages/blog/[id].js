@@ -1,81 +1,85 @@
-import axios from "axios";
-import { useState, useMemo } from "react";
 import Blog from "./index.js"
+import axios from "axios";
+import Link from "next/link";
+import { useRouter } from "next/router";
+import { useState, useMemo } from "react";
 import Image from "next/image";
 import { Markup } from "interweave";
 
-const News = ({ data }) => {
-
+export default function Blog_api({ data }) {
+  const router = useRouter();
   const [local, setLocal] = useState(data);
   const [number, setNumber] = useState(44);
 
+  const filter = local.filter((item) => {
+    return item.blog_category_id == router.query.id
+  })
 
-  const ThreeFilter = useMemo(() => {
-    return local.filter((item, index) => {
-      return index > 0 && index < 7
-    });
-  }, [local]);
+
+  const ThreeFilter = filter.filter((item, index) => {
+    return index > 0 && index < 7
+
+  });
 
   const TwoFilter = useMemo(() => {
-    return local.filter((item, index) => {
+    return filter.filter((item, index) => {
       return index > 7 && index < 10
     });
-  }, [local]);
+  }, [filter]);
 
   const ThreeFilter2 = useMemo(() => {
-    return local.filter((item, index) => {
+    return filter.filter((item, index) => {
       return index > 10 && index < 17
     });
-  }, [local]);
+  }, [filter]);
 
   const ThreeFilter3 = useMemo(() => {
-    return local.filter((item, index) => {
+    return filter.filter((item, index) => {
       return index > 17 && index < 21
     });
-  }, [local]);
+  }, [filter]);
 
   const ThreeFilter4 = useMemo(() => {
-    return local.filter((item, index) => {
+    return filter.filter((item, index) => {
       return index > 21 && index < 28
     });
-  }, [local]);
+  }, [filter]);
 
   const ThreeFilter5 = useMemo(() => {
-    return local.filter((item, index) => {
+    return filter.filter((item, index) => {
       return index > 28 && index < 30
     });
-  }, [local]);
+  }, [filter]);
 
   const ThreeFilter6 = useMemo(() => {
-    return local.filter((item, index) => {
+    return filter.filter((item, index) => {
       return index > 30 && index < 37
     });
-  }, [local]);
+  }, [filter]);
 
   const ThreeFilter7 = useMemo(() => {
-    return local.filter((item, index) => {
+    return filter.filter((item, index) => {
       return index > 37 && index < 40
     });
-  }, [local]);
+  }, [filter]);
 
   const More = useMemo(() => (
-    local.filter((item, index) => {
+    filter.filter((item, index) => {
       return index > 38 && index <= number
     })
   ))
-
 
   return (
     <Blog>
       <div className="blog">
         {local == "" ? "" : (
           <div className="row">
-            <div className="col-md-7 col-lg-8"><Image width={856} height={541} src={`https://redfox.frilansus.com/${local[0].img}`} alt="blog." /></div>
+            <div className="col-md-7 col-lg-8"><Image width={856} height={541} src={`https://redfox.frilansus.com/${filter[0].img}`} alt="blog." /></div>
             <div className="col-md-5 col-lg-4">
               <div className="top_info d-flex">
-                <Image width={74} height={74} src={`https://redfox.frilansus.com/${local[0].author.image}`} alt="experts." />
+                <Image width={74} height={74} src={`https://redfox.frilansus.com/${filter[0].author.image}`} alt="experts." />
                 <div>
-                  <h6>{local[0].author.name}</h6>
+                  <h6>{filter[0].author.name}</h6>
                   <p>28 sentyabr 2020</p>
                 </div>
               </div>
@@ -83,11 +87,13 @@ const News = ({ data }) => {
                 <button>
                   <span>#</span>Adobe Photoshop
                 </button>
-                <p>{local[0].title_uz}</p>
-                <Markup content={local[0].text_uz.slice(0, 140) + "..."} />
+                <p>{filter[0].title_uz}</p>
+                <Markup content={filter[0].text_uz.slice(0, 140) + "..."} />
               </div>
             </div>
-          </div>)}
+          </div>
+
+        )}
 
         <div className="blog_three">
           <div className="row">
@@ -362,14 +368,13 @@ const News = ({ data }) => {
       </div>
     </Blog>
   )
-
-
 }
 
-export default News
-export async function getStaticProps() {
+
+
+
+export async function getServerSideProps() {
   const res = await axios("https://redfox.frilansus.com/api/blog/");
   const data = res.data;
   return { props: { data } };
 }
-
