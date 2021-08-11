@@ -203,6 +203,10 @@
   .blog .top_info p {
     display: none;
   }
+  .blog .bottom_info{
+    padding-top: 10px;
+  }
+
   .blog .bottom_info button,
   .blog .bottom_info button span {
     font-size: 12px;
