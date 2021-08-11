@@ -468,7 +468,14 @@ const Home = ({ data, img }) => {
                       <div className="d-flex justify-content-between">
                         {router.locale == "uz" ? (<p>Brend nomini topish</p>) : (<p>Разработка названия бренда</p>)}
                         <div>
-                          <i className="far fa-long-arrow-right"></i>
+                          <svg className="icon_right" xmlns="http://www.w3.org/2000/svg" width="17" height="12" viewBox="0 0 17 12">
+                            <path d="M16.495 6.49504C16.7684 6.22164 16.7684 5.77836 16.495 5.50496L12.0397 
+                            1.04961C11.7663 0.776206 11.323 0.776206 11.0496 1.04961C10.7762 1.32301 10.7762 
+                            1.76628 11.0496 2.03969L15.0099 6L11.0496 9.96031C10.7762 10.2337 10.7762 10.677 
+                            11.0496 10.9504C11.323 11.2238 11.7663 11.2238 12.0397 10.9504L16.495 6.49504ZM0 
+                            6.70009H16V5.29991H0V6.70009Z" />
+                          </svg>
+                          {/* <i className="far fa-long-arrow-right"></i> */}
                         </div>
                       </div>
                     </div>
@@ -488,7 +495,14 @@ const Home = ({ data, img }) => {
                       <div className="d-flex justify-content-between">
                         {router.locale == "uz" ? (<p>Savdo belgisini yaratish</p>) : (<p>Подготовка торговой марки</p>)}
                         <div>
-                          <i className="far fa-long-arrow-right"></i>
+                          <svg className="icon_right" xmlns="http://www.w3.org/2000/svg" width="17" height="12" viewBox="0 0 17 12">
+                            <path d="M16.495 6.49504C16.7684 6.22164 16.7684 5.77836 16.495 5.50496L12.0397 
+                            1.04961C11.7663 0.776206 11.323 0.776206 11.0496 1.04961C10.7762 1.32301 10.7762 
+                            1.76628 11.0496 2.03969L15.0099 6L11.0496 9.96031C10.7762 10.2337 10.7762 10.677 
+                            11.0496 10.9504C11.323 11.2238 11.7663 11.2238 12.0397 10.9504L16.495 6.49504ZM0 
+                            6.70009H16V5.29991H0V6.70009Z" />
+                          </svg>
+                          {/* <i className="far fa-long-arrow-right"></i> */}
                         </div>
                       </div>
                     </div>
@@ -508,7 +522,14 @@ const Home = ({ data, img }) => {
                       <div className="d-flex justify-content-between">
                         {router.locale == "uz" ? (<p>Barcha turdagi xizmatlar</p>) : (<p>Все виды услуг</p>)}
                         <div>
-                          <i className="far fa-long-arrow-right"></i>
+                          <svg className="icon_right" xmlns="http://www.w3.org/2000/svg" width="17" height="12" viewBox="0 0 17 12">
+                            <path d="M16.495 6.49504C16.7684 6.22164 16.7684 5.77836 16.495 5.50496L12.0397 
+                            1.04961C11.7663 0.776206 11.323 0.776206 11.0496 1.04961C10.7762 1.32301 10.7762 
+                            1.76628 11.0496 2.03969L15.0099 6L11.0496 9.96031C10.7762 10.2337 10.7762 10.677 
+                            11.0496 10.9504C11.323 11.2238 11.7663 11.2238 12.0397 10.9504L16.495 6.49504ZM0 
+                            6.70009H16V5.29991H0V6.70009Z" />
+                          </svg>
+                          {/* <i className="far fa-long-arrow-right"></i> */}
                         </div>
                       </div>
                     </div>
@@ -523,13 +544,19 @@ const Home = ({ data, img }) => {
                         <path fillRule="evenodd" clipRule="evenodd" d="M51.18 11.1h-3.64V1.85c0-.49-.192-.961-.533-1.308A1.805 1.805 0 0045.72 0H7.96c-.482 0-.945.195-1.286.542A1.866 1.866 0 006.14 1.85v25.438c0 .49.191.96.533 1.308.34.347.804.541 1.286.541h26.842v.974a1.443 1.443 0 00-.096-.003H1.4a1.4 1.4 0 100 2.8h33.306c.032 0 .064 0 .096-.003v2.245c0 .49.191.961.533 1.308.34.347.804.542 1.286.542H51.18c.483 0 .946-.195 1.287-.542.341-.347.533-.817.533-1.308v-22.2c0-.49-.192-.961-.533-1.308a1.805 1.805 0 00-1.287-.542zm-6.484-8.325V11.1h-8.075c-.482 0-.945.195-1.286.542a1.865 1.865 0 00-.533 1.308v13.413H8.87V2.774h35.826zm-7.165 31.219V13.875h12.625v20.119H37.53zM12 11h20v3H12v-3zm20 7H12v3h20v-3z" />
                       </svg>
                     </div>
-
                     <div className="col-8 col-md-12 col-lg-12">
                       <h4>Web & UX/UI</h4>
                       <div className="d-flex justify-content-between">
                         {router.locale == "uz" ? (<p>Web va Mobile dizayn</p>) : (<p>Web и Mobile дизайн</p>)}
                         <div>
-                          <i className="far fa-long-arrow-right"></i>
+                          <svg className="icon_right" xmlns="http://www.w3.org/2000/svg" width="17" height="12" viewBox="0 0 17 12">
+                            <path d="M16.495 6.49504C16.7684 6.22164 16.7684 5.77836 16.495 5.50496L12.0397 
+                            1.04961C11.7663 0.776206 11.323 0.776206 11.0496 1.04961C10.7762 1.32301 10.7762 
+                            1.76628 11.0496 2.03969L15.0099 6L11.0496 9.96031C10.7762 10.2337 10.7762 10.677 
+                            11.0496 10.9504C11.323 11.2238 11.7663 11.2238 12.0397 10.9504L16.495 6.49504ZM0 
+                            6.70009H16V5.29991H0V6.70009Z" />
+                          </svg>
+                          {/* <i className="far fa-long-arrow-right"></i> */}
                         </div>
                       </div>
                     </div>
@@ -550,7 +577,14 @@ const Home = ({ data, img }) => {
                       <div className="d-flex justify-content-between">
                         {router.locale == "uz" ? (<p>Qadoqlash dizayni</p>) : (<p>Дизайн упаковки</p>)}
                         <div>
-                          <i className="far fa-long-arrow-right"></i>
+                          <svg className="icon_right" xmlns="http://www.w3.org/2000/svg" width="17" height="12" viewBox="0 0 17 12">
+                            <path d="M16.495 6.49504C16.7684 6.22164 16.7684 5.77836 16.495 5.50496L12.0397 
+                            1.04961C11.7663 0.776206 11.323 0.776206 11.0496 1.04961C10.7762 1.32301 10.7762 
+                            1.76628 11.0496 2.03969L15.0099 6L11.0496 9.96031C10.7762 10.2337 10.7762 10.677 
+                            11.0496 10.9504C11.323 11.2238 11.7663 11.2238 12.0397 10.9504L16.495 6.49504ZM0 
+                            6.70009H16V5.29991H0V6.70009Z" />
+                          </svg>
+                          {/* <i className="far fa-long-arrow-right"></i> */}
                         </div>
                       </div>
                     </div>
@@ -571,7 +605,14 @@ const Home = ({ data, img }) => {
                       <div className="d-flex justify-content-between">
                         {router.locale == "uz" ? (<p>Banner va Flayer dizayni</p>) : (<p>Дизайн баннера и флаера</p>)}
                         <div>
-                          <i className="far fa-long-arrow-right"></i>
+                          <svg className="icon_right" xmlns="http://www.w3.org/2000/svg" width="17" height="12" viewBox="0 0 17 12">
+                            <path d="M16.495 6.49504C16.7684 6.22164 16.7684 5.77836 16.495 5.50496L12.0397 
+                            1.04961C11.7663 0.776206 11.323 0.776206 11.0496 1.04961C10.7762 1.32301 10.7762 
+                            1.76628 11.0496 2.03969L15.0099 6L11.0496 9.96031C10.7762 10.2337 10.7762 10.677 
+                            11.0496 10.9504C11.323 11.2238 11.7663 11.2238 12.0397 10.9504L16.495 6.49504ZM0 
+                            6.70009H16V5.29991H0V6.70009Z" />
+                          </svg>
+                          {/* <i className="far fa-long-arrow-right"></i> */}
                         </div>
                       </div>
                     </div>
@@ -591,7 +632,14 @@ const Home = ({ data, img }) => {
                       <div className="d-flex justify-content-between">
                         {router.locale == "uz" ? (<p>Ijtimoiy tarmog’lar uchun</p>) : (<p>Для социальных сетей</p>)}
                         <div>
-                          <i className="far fa-long-arrow-right"></i>
+                          <svg className="icon_right" xmlns="http://www.w3.org/2000/svg" width="17" height="12" viewBox="0 0 17 12">
+                            <path d="M16.495 6.49504C16.7684 6.22164 16.7684 5.77836 16.495 5.50496L12.0397 
+                            1.04961C11.7663 0.776206 11.323 0.776206 11.0496 1.04961C10.7762 1.32301 10.7762 
+                            1.76628 11.0496 2.03969L15.0099 6L11.0496 9.96031C10.7762 10.2337 10.7762 10.677 
+                            11.0496 10.9504C11.323 11.2238 11.7663 11.2238 12.0397 10.9504L16.495 6.49504ZM0 
+                            6.70009H16V5.29991H0V6.70009Z" />
+                          </svg>
+                          {/* <i className="far fa-long-arrow-right"></i> */}
                         </div>
                       </div>
                     </div>
@@ -603,7 +651,14 @@ const Home = ({ data, img }) => {
                   <span className="other">
                     {router.locale == "uz" ? 'Yana shu kabi ko‘plab xizmatlar mavjud' : 'Есть еще много подобных услуг'}
                   </span>
-                  <i className="far fa-long-arrow-right" />
+                  <svg className="icon_right" xmlns="http://www.w3.org/2000/svg" width="17" height="12" viewBox="0 0 17 12">
+                    <path d="M16.495 6.49504C16.7684 6.22164 16.7684 5.77836 16.495 5.50496L12.0397 
+                            1.04961C11.7663 0.776206 11.323 0.776206 11.0496 1.04961C10.7762 1.32301 10.7762 
+                            1.76628 11.0496 2.03969L15.0099 6L11.0496 9.96031C10.7762 10.2337 10.7762 10.677 
+                            11.0496 10.9504C11.323 11.2238 11.7663 11.2238 12.0397 10.9504L16.495 6.49504ZM0 
+                            6.70009H16V5.29991H0V6.70009Z" />
+                  </svg>
+                  {/* <i className="far fa-long-arrow-right" /> */}
                 </div>
               </div>
             </div>

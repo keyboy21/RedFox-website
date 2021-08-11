@@ -341,8 +341,14 @@ header .write h3 {
   height: 63px;
   fill: #a6a6a6;
 }
+.skills .icon_right {
+  fill: #a6a6a6;
+}
 
 .skills .logos:hover .icon-skills {
+  fill: #ff6200;
+}
+.skills .logos:hover .icon_right {
   fill: #ff6200;
 }
 
@@ -377,10 +383,9 @@ header .write h3 {
   padding: 60px 9px 50px 9px;
 }
 
-.skills .others i {
-  font-size: 17px;
+.skills .others .icon_right {
   margin-left: 20px;
-  color: #a6a6a6;
+  fill: #a6a6a6;
 }
 .skills .others:hover {
   background: white;
@@ -388,13 +393,10 @@ header .write h3 {
 .skills .others:hover .other {
   color: #1c1c1f;
 }
-.skills .others:hover i {
-  color: #ff6200;
+.skills .others:hover .icon_right {
+  fill: #ff6200;
 }
-/* .skills .others .other div {
-  display: inline;
-  margin-left: 10px;
-} */
+
 
 /* Media */
 
@@ -433,11 +435,10 @@ header .write h3 {
   }
   section .derzi {
     display: flex;
-    
   }
 
-  section .derzi .col-sm-6{
-    padding:0 5px;
+  section .derzi .col-sm-6 {
+    padding: 0 5px;
   }
 }
 

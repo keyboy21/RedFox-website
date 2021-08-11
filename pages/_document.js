@@ -4,13 +4,6 @@ export default class MyDocument extends Document {
   render() {
     return (
       <Html lang='en'>
-        <Head>
-          <link
-            rel="stylesheet"
-            href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-            loading="lazy"
-          />
-        </Head>
         <body>
           <Main />
           <NextScript />
@@ -19,7 +12,7 @@ export default class MyDocument extends Document {
             integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
             crossOrigin="anonymous" loading="lazy"
           />
-  
+
         </body>
       </Html>
     );
