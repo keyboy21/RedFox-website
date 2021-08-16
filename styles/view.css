@@ -1,3 +1,10 @@
+:root{
+  --redfox:#ff7300;
+  --portfolio_back: #f9f9f9;
+  --black:#1c1c1f;
+  --font:normal;
+}
+
 .view {
   margin-top: 100px;
 }
@@ -8,20 +15,20 @@
 }
 
 .view .view_top h2 {
-  font-style: normal;
+  font-style: var(--font);
   font-weight: 600;
   font-size: 48px;
   line-height: 58px;
-  color: #1c1c1f;
+  color: var(--black);
   padding-left: 233px;
 }
 
 .view .view_top h3 {
-  font-style: normal;
+  font-style: var(--font);
   font-weight: 600;
   font-size: 30px;
   line-height: 36px;
-  color: #1c1c1f;
+  color: var(--black);
   padding-left: 233px;
 }
 
@@ -41,19 +48,19 @@
 }
 
 .view .view_bottom .view_text span {
-  font-style: normal;
+  font-style: var(--font);
   font-weight: 600;
   font-size: 20px;
   line-height: 24px;
-  color: #1c1c1f;
+  color: var(--black);
 }
 
 .view .view_bottom .view_text p {
   margin-bottom: 15px;
-  font-style: normal;
+  font-style: var(--font);
   font-size: 20px;
   line-height: 30px;
-  color: #1c1c1f;
+  color: var(--black);
 }
 
 .view .view_img .col-lg-11 img {
@@ -85,7 +92,7 @@
 }
 
 .view .view_info .col-lg-3 h6 {
-  font-style: normal;
+  font-style: var(--font);
   font-weight: 600;
   font-size: 18px;
   line-height: 22px;
@@ -99,7 +106,7 @@
 }
 
 .view .view_info .col-lg-3 p {
-  font-style: normal;
+  font-style: var(--font);
   font-size: 16px;
   line-height: 19px;
   color: #3d3d3d;
@@ -110,21 +117,21 @@
   height: 1px;
 }
 .view .similar h5 {
-  font-style: normal;
+  font-style: var(--font);
   font-weight: 600;
   font-size: 24px;
   line-height: 29px;
-  color: #1c1c1f;
+  color: var(--black);
 }
 .view .similar img {
   cursor: pointer;
 }
 
 .view .similar p {
-  font-style: normal;
+  font-style: var(--font);
   font-size: 16px;
   line-height: 19px;
-  color: #1c1c1f;
+  color: var(--black);
   margin-top: 16px;
 }
 
@@ -134,7 +141,7 @@
 }
 
 .view .view_accardion .accordion-item p {
-  font-style: normal;
+  font-style: var(--font);
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
@@ -200,11 +207,11 @@
   }
 
   .view .view_accardion .accordion-item h2 .accordion-button {
-    font-style: normal;
+    font-style: var(--font);
     font-weight: 600;
     font-size: 18px;
     line-height: 22px;
-    color: #ff7300;
+    color: var(--redfox);
   }
 
   .view .view_top h3:nth-of-type(1) {
@@ -228,11 +235,11 @@
   }
 
   .view .view_accardion .accordion-item .time h6 {
-    font-style: normal;
+    font-style: var(--font);
     font-weight: 600;
     font-size: 18px;
     line-height: 22px;
-    color: #ff7300;
+    color: var(--redfox);
   }
 
   .view .view_accardion .accordion-item .accordion-body .design {
@@ -242,7 +249,7 @@
     max-height: 310px;
   }
   .view .view_accardion .accordion-item .accordion-body ul li p {
-    font-style: normal;
+    font-style: var(--font);
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
@@ -351,11 +358,11 @@
     color: black;
   }
   .view .view_accardion .accordion-item h2 .accordion-button {
-    font-style: normal;
+    font-style: var(--font);
     font-weight: 600;
     font-size: 18px;
     line-height: 22px;
-    color: #ff7300;
+    color: var(--redfox);
   }
   .view .view_accardion {
     padding: 1rem 0;

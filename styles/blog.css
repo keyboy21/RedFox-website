@@ -1,3 +1,10 @@
+:root{
+  --redfox:#ff7300;
+  --portfolio_back: #f9f9f9;
+  --black:#1c1c1f;
+  --font:normal;
+}
+
 .blog img {
   width: 100%;
 }
@@ -48,7 +55,7 @@
   transition: box-shadow 0.2 ease;
 }
 .blog .bottom_info button {
-  font-style: normal;
+  font-style: var(--font);
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
@@ -71,13 +78,13 @@
 
 .blog .bottom_info p:nth-of-type(2) {
   font-size: 20px;
-  font-weight: normal;
+  font-weight: var(--font);
   line-height: 32px;
   color: #3d3d3d;
 }
 .blog .blog_three .bottom_info span p {
-  font-style: normal;
-  font-weight: normal;
+  font-style: var(--font);
+  font-weight: var(--font);
   font-size: 20px;
   line-height: 32px;
   color: #3d3d3d;

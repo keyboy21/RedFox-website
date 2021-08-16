@@ -1,10 +1,17 @@
+:root{
+  --redfox:#ff7300;
+  --portfolio_back: #f9f9f9;
+  --black:#1c1c1f;
+  --font:normal;
+}
+
 * {
   margin: 0;
   padding: 0;
 }
 
 .portfolio .categories ::-webkit-scrollbar-thumb {
-  background: #ff7300;
+  background: var(--redfox);
   border-radius: 10px;
   width: 1px;
 }
@@ -17,7 +24,7 @@
 }
 
 .portfolio {
-  background: #f9f9f9;
+  background: var(--portfolio_back);
   padding-bottom: 100px;
   padding-top: 70px;
 }
@@ -46,15 +53,15 @@
   padding-bottom: 8px;
 }
 .portfolio h3 {
-  font-style: normal;
+  font-style: var(--font);
   font-weight: 600;
   font-size: 24px;
   line-height: 29px;
-  color: #1c1c1f;
+  color: var(--black);
 }
 
 .portfolio .port_ul ul li a {
-  font-style: normal;
+  font-style:  var(--font);
   font-weight: 600;
   font-size: 20px;
   line-height: 24px;
@@ -63,28 +70,28 @@
 }
 
 .portfolio h2 {
-  font-style: normal;
+  font-style:  var(--font);
   font-weight: 600;
   font-size: 48px;
   line-height: 58px;
 }
 .portfolio p {
-  font-style: normal;
+  font-style:  var(--font);
   font-size: 20px;
   line-height: 30px;
-  color: #1c1c1f;
+  color: var(--black);
   margin-bottom: 75px;
 }
 
 .portfolio span {
-  font-style: normal;
+  font-style:  var(--font);
   font-size: 20px;
   line-height: 30px;
-  color: #ff7300;
+  color: var(--redfox);
 }
 
 .portfolio .port_ul ul li a.clik {
-  color: #1c1c1f;
+  color: var(--black);
   content: "";
   width: 100%;
   height: 3px;
@@ -96,7 +103,7 @@
   content: "";
   height: 3px;
   width: 100%;
-  background-color: #fa7000;
+  background-color: var(--redfox);
   position: absolute;
   display: inline-block;
   margin-bottom: 7px;
@@ -117,11 +124,11 @@
 }
 
 .portfolio .col-lg-4 p {
-  font-style: normal;
+  font-style:  var(--font);
   font-weight: 600;
   font-size: 16px;
   line-height: 19px;
-  color: #1c1c1f;
+  color: var(--black);
   margin: 10px 0 15px;
 }
 
@@ -132,7 +139,7 @@
   justify-content: center;
   align-items: center;
   background: #f1f1f1;
-  font-style: normal;
+  font-style:  var(--font);
   font-weight: 600;
   font-size: 30px;
   line-height: 36px;
@@ -143,7 +150,7 @@
 }
 
 .portfolio .tags .accordion .accordion-button {
-  color: black;
+  color: var(--black);
   background-color: #f9f9f9;
 }
 
@@ -152,11 +159,11 @@
 }
 
 .portfolio .tags .name h2 {
-  font-style: normal;
+  font-style:  var(--font);
   font-weight: 600;
   font-size: 20px;
   line-height: 24px;
-  color: #1c1c1f;
+  color: var(--black);
 }
 .portfolio .tags .tags_ul {
   margin: 0;
@@ -182,11 +189,11 @@
 .portfolio .tags ul p {
   margin: 0;
   padding: 0;
-  font-style: normal;
+  font-style:  var(--font);
   font-weight: 600;
   font-size: 16px;
   line-height: 19px;
-  color: black;
+  color: var(--black);
 }
 
 .portfolio .tags ul p:last-child {
@@ -221,12 +228,12 @@
     margin-right: 10px;
   }
   .portfolio .port_ul ul li a.clik {
-    background: #ff7300;
+    background: var(--redfox);
     margin: 0;
     padding: 15px 10px;
     border-radius: 5px;
     color: white;
-    font-weight: normal;
+    font-weight:  var(--font);
     font-size: 16px;
   }
   .portfolio .port_ul ul li a {
@@ -235,7 +242,7 @@
     padding: 15px 10px;
     border-radius: 5px;
     color: #a6a6a6;
-    font-weight: normal;
+    font-weight:  var(--font);
     font-size: 16px;
   }
   .portfolio .port_ul ul li a.clik::after {
@@ -293,12 +300,12 @@
     margin-right: 10px;
   }
   .portfolio .port_ul ul li a.clik {
-    background: #ff7300;
+    background: var(--redfox);
     margin: 0;
     padding: 15px 10px;
     border-radius: 5px;
     color: white;
-    font-weight: normal;
+    font-weight:  var(--font);
     font-size: 16px;
   }
   .portfolio .port_ul ul li a {
@@ -307,7 +314,7 @@
     padding: 15px 10px;
     border-radius: 5px;
     color: #a6a6a6;
-    font-weight: normal;
+    font-weight:  var(--font);
     font-size: 16px;
   }
   .portfolio .port_ul ul li a.clik::after {
@@ -320,12 +327,12 @@
     background: transparent;
   }
   .accordion .accordion-button {
-    font-style: normal;
+    font-style:  var(--font);
     font-weight: 600;
     font-size: 20px;
     line-height: 24px;
 
-    color: #1c1c1f;
+    color: var(--black);
     background-color: #e7e7e7;
   }
   .accordion .accordion-button::after {
