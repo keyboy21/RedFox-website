@@ -6,77 +6,85 @@ footer {
   margin: 0;
   padding: 0;
   padding-top: 136px;
-}
 
-footer .right-footer img {
-  margin-bottom: 86px;
-}
+  .right-footer img {
+    margin-bottom: 86px;
+  }
 
-footer h1 {
-  font-weight: 700;
-  font-size: 16px;
-}
+  h1 {
+    font-weight: 700;
+    font-size: 16px;
+  }
 
-footer h2 {
-  font-size: 13px;
-}
+  h2 {
+    font-size: 13px;
+  }
 
-footer .right-footer h2 {
-  line-height: 18px;
-  color: #d2d2d2;
-}
+  .right-footer {
+    h2 {
+      line-height: 18px;
+      color: #d2d2d2;
+    }
 
-footer .right-footer a {
-  text-decoration: none;
-  color: #d2d2d2;
-}
+    a {
+      text-decoration: none;
+      color: #d2d2d2;
+    }
+  }
 
-footer .left-footer .col-lg-3 a {
-  text-decoration: none;
-  color: #d2d2d2;
-}
+  .left-footer {
+    .col-lg-3 a {
+      text-decoration: none;
+      color: #d2d2d2;
+    }
 
-footer .left-footer h1 {
-  margin-bottom: 18px;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 19px;
-  color: #ffffff;
-  font-style: normal;
-}
+    h1 {
+      margin-bottom: 18px;
+      font-weight: bold;
+      font-size: 16px;
+      line-height: 19px;
+      color: #ffffff;
+      font-style: normal;
+    }
 
-footer .left-footer h2 a,
-.footer-bottom h2,
-.footer-bottom .left-footer h2 a {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 13px;
-  line-height: 16px;
-  color: #d2d2d2;
-  text-decoration: none;
+    h2 a {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 13px;
+      line-height: 16px;
+      color: #d2d2d2;
+      text-decoration: none;
+    }
+  }
 }
 
 .footer-bottom {
+  h2, .left-footer h2 a {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #d2d2d2;
+    text-decoration: none;
+  }
+
   height: 82px;
   background-color: #1a191c;
-}
-
-.footer-bottom {
   display: flex;
   align-items: center;
-}
 
-.footer-bottom .right-footer h2 {
-  margin: 0px;
-}
+  .right-footer h2 {
+    margin: 0px;
+  }
 
-.footer-bottom .left-footer {
-  display: flex;
-  justify-content: flex-end;
-}
+  .left-footer {
+    display: flex;
+    justify-content: flex-end;
 
-.footer-bottom .left-footer h2:not(:first-child) {
-  margin-left: 22px;
+    h2:not(:first-child) {
+      margin-left: 22px;
+    }
+  }
 }
 
 @media (min-width: 280px) and (max-width: 991px) {
@@ -101,27 +109,27 @@ footer .left-footer h2 a,
     padding: 10px 0px;
   }
 
-  .collapse #showCol4 a {
-    text-decoration: none;
+  .collapse {
+    #showCol4 a {
+      text-decoration: none;
+    }
+
+    #showCol1 {
+      transition: 1s ease-in;
+    }
   }
 
-  .collapse #showCol1 {
-    transition: 1s ease-in;
-  }
   .last_collapse {
     padding-top: 50px;
   }
+
   .activeShow {
     height: 35px;
     overflow: hidden;
     transition: 0.3s ease-in;
   }
 
-  .hideShow1,
-  .hideShow2,
-  .hideShow3,
-  .hideShow4,
-  .hideShow5 {
+  .hideShow1, .hideShow2, .hideShow3, .hideShow4, .hideShow5 {
     transition: 3s ease-in;
     height: 210px;
   }
@@ -130,6 +138,7 @@ footer .left-footer h2 a,
     transform: rotate(0deg);
     transition: 0.3s ease-in;
   }
+
   .sircleImg1 {
     transform: rotate(180deg);
     transition: 0.3s;
@@ -151,16 +160,22 @@ footer .left-footer h2 a,
     position: relative;
     align-items: center;
     padding: 10px;
+
+    h1 {
+      font-size: 20px;
+      font-weight: 600;
+    }
   }
 
-  .coll .onShow h1 {
-
-    font-size: 20px;
-    font-weight: 600;
-  }
-
-  .collapse .coll h2 a,
   .collapse .coll h2 {
+    a {
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 19.36px;
+      color: #fff;
+      text-decoration: none;
+      padding-left: 5%;
+    }
 
     font-weight: 500;
     font-size: 16px;
@@ -169,13 +184,16 @@ footer .left-footer h2 a,
     text-decoration: none;
     padding-left: 5%;
   }
-  .footer-bottom .col-6 {
-    width: 100%;
-  }
 
-  .footer-bottom .right-footer h2 {
-    font-size: 16px;
-    text-align: center;
+  .footer-bottom {
+    .col-6 {
+      width: 100%;
+    }
+
+    .right-footer h2 {
+      font-size: 16px;
+      text-align: center;
+    }
   }
 }
 
@@ -192,11 +210,15 @@ footer .left-footer h2 a,
     text-align: center;
   }
 
-  .collapse .coll h2 a,
   .collapse .coll h2 {
+    a {
+      color: #d1d1d1;
+    }
+
     color: #d1d1d1;
   }
 }
+
 @media (max-width: 268px) {
   .footer-bottom .right-footer h2 {
     font-size: 8px;
