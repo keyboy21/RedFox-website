@@ -1,0 +1,68 @@
+:root{--redfox:#ff7300;--portfolio_back:#f9f9f9;--black:#1c1c1f;--font:normal}
+*{margin:0;padding:0}
+.portfolio{background:var(--portfolio_back);padding-bottom:100px;padding-top:70px}
+.portfolio .categories ::-webkit-scrollbar-thumb{background:var(--redfox);border-radius:10px;width:1px}
+.portfolio .categories ::-webkit-scrollbar-corner{background:0 0}
+.portfolio .categories ::-webkit-scrollbar{height:8px}
+.categories .prime{margin-top:20px}
+.categories .hide{flex-wrap:nowrap;overflow:scroll}
+.portfolio .port_ul ul{display:flex;list-style:none;position:relative;margin-bottom:60px;border-bottom:3px solid #d2d2d2}
+.portfolio .top_color .port_ul ul li a{white-space:nowrap}
+.portfolio .port_ul ul li{margin-right:30px;padding-bottom:8px}
+.portfolio h3{font-style:var(--font);font-weight:600;font-size:24px;line-height:29px;color:var(--black)}
+.portfolio .port_ul ul li a{font-style:var(--font);font-weight:600;font-size:20px;line-height:24px;color:#a6a6a6;text-decoration:none}
+.portfolio h2{font-style:var(--font);font-weight:600;font-size:48px;line-height:58px}
+.portfolio p{font-style:var(--font);font-size:20px;line-height:30px;color:var(--black);margin-bottom:75px}
+.portfolio span{font-style:var(--font);font-size:20px;line-height:30px;color:var(--redfox)}
+.portfolio .port_ul ul li a.clik{color:var(--black);content:"";width:100%;height:3px;padding-bottom:17px;position:relative;margin-bottom:7px}
+.portfolio .port_ul ul li a.clik::after{content:"";height:3px;width:100%;background-color:var(--redfox);position:absolute;display:inline-block;margin-bottom:7px;left:0;bottom:-2px}
+.portfolio .col-lg-4 img{width:100%}
+.portfolio .all img,.portfolio .categories .prime img{cursor:pointer}
+.portfolio .col-lg-4 p{font-style:var(--font);font-weight:600;font-size:16px;line-height:19px;color:var(--black);margin:10px 0 15px}
+.portfolio .btn_portfolio{width:100%;display:flex;justify-content:center;align-items:center;background:#f1f1f1;font-style:var(--font);font-weight:600;font-size:30px;line-height:36px;border:none;padding:15px 0;color:#a6a6a6;margin-top:120px}
+.blog .btn_portfolio{width:100%;display:flex;justify-content:center;align-items:center;background:#f1f1f1;font-style:var(--font);font-weight:600;font-size:30px;line-height:36px;border:none;padding:15px 0;color:#a6a6a6;margin-top:120px}
+.portfolio .tags .accordion .accordion-button{color:var(--black);background-color:#f9f9f9}
+.portfolio .tags .accordion .accordion-body{background-color:#f9f9f9}
+.portfolio .tags .name h2{font-style:var(--font);font-weight:600;font-size:20px;line-height:24px;color:var(--black)}
+.portfolio .tags .tags_ul{margin:0;padding:0;display:flex;flex-direction:column;flex-wrap:wrap;max-height:1170px}
+.portfolio .tags ul li{margin:0;padding:5px 10px;display:flex;align-items:center;justify-content:flex-start;background-color:#d8d8d8;border-radius:4px;margin-bottom:15px;margin-right:30px}
+.portfolio .tags ul p{margin:0;padding:0;font-style:var(--font);font-weight:600;font-size:16px;line-height:19px;color:var(--black)}
+.portfolio .tags ul p:last-child{color:#9b9a9a;margin-left:4px;font-weight:500}
+.portfolio .tags .col-auto{height:1190px}
+@media (max-width:991px){
+.portfolio .btn_portfolio{margin-top:70px;margin-bottom:95px}
+.portfolio .tags .row{flex-direction:column}
+}
+@media (max-width:767px){
+.portfolio .port_ul ul{overflow:scroll;border-bottom:none;padding:30px 0}
+.portfolio .port_ul ul li{margin-right:10px}
+.portfolio .port_ul ul li a{background:#f4f7f8;margin:0;padding:15px 10px;border-radius:5px;color:#a6a6a6;font-weight:var(--font);font-size:16px}
+.portfolio .port_ul ul li a.clik{background:var(--redfox);margin:0;padding:15px 10px;border-radius:5px;color:#fff;font-weight:var(--font);font-size:16px}
+.portfolio .port_ul ul li a.clik::after{display:none}
+.portfolio .top_color .port_ul ul li a{font-size:18px}
+.portfolio .all .row{justify-content:center}
+.categories .row,.client .row,.industriya .row{justify-content:center}
+.portfolio .tags .row{flex-direction:column}
+.portfolio .tags .name h2{text-align:start;margin-top:15px}
+}
+@media (max-width:576px){
+.portfolio{padding-top:0;padding-bottom:70px}
+.portfolio .port_ul ::-webkit-scrollbar{height:0;width:0}
+.portfolio h2,.portfolio p{text-align:center}
+.portfolio .col-lg-4 p{margin:10px 0 10px}
+.portfolio .port_ul ul{overflow:scroll;border-bottom:none;padding:30px 0}
+.portfolio .port_ul ul li{margin-right:10px}
+.portfolio .port_ul ul li a{background:#f4f7f8;margin:0;padding:15px 10px;border-radius:5px;color:#a6a6a6;font-weight:var(--font);font-size:16px}
+.portfolio .port_ul ul li a.clik{background:var(--redfox);margin:0;padding:15px 10px;border-radius:5px;color:#fff;font-weight:var(--font);font-size:16px}
+.portfolio .port_ul ul li a.clik::after{display:none}
+.accordion{background:0 0}
+.accordion .accordion-button{font-style:var(--font);font-weight:600;font-size:20px;line-height:24px;color:var(--black);background-color:#e7e7e7}
+.accordion .accordion-button::after{background-image:none;background-image:url("../public/Vector (Stroke)accc.svg")}
+.accordion-collapse{background:#e7e7e7}
+.accordion .accordion-item .show_ul{display:flex;flex-direction:column}
+.accordion .accordion-item .show_ul li{margin-right:0;background:0 0}
+.accordion .accordion-item .show_ul .back{background-color:#d8d8d8;display:flex;align-items:center;padding:8px 15px;border-radius:4px}
+.portfolio .top_color{background:#fff;padding-top:30px}
+.accordion-button:focus{z-index:3;border-color:none;box-shadow:none}
+.categories .hide{justify-content:flex-start}
+}

@@ -1,0 +1,83 @@
+:root{--redfox:#ff7300;--portfolio_back:#f9f9f9;--black:#1c1c1f;--font:normal}
+.view{margin-top:100px}
+.view .view_top{display:flex;justify-content:center;align-items:center}
+.view .view_top h2{font-style:var(--font);font-weight:600;font-size:48px;line-height:58px;color:var(--black);padding-left:233px}
+.view .view_top h3{font-style:var(--font);font-weight:600;font-size:30px;line-height:36px;color:var(--black);padding-left:233px}
+.view .view_top h3:nth-of-type(1){margin-top:70px;margin-bottom:30px}
+.view .view_bottom .view_text{display:flex;justify-content:flex-start}
+.view .view_bottom .view_text .col-lg-3{display:flex;justify-content:flex-start;padding-left:73px}
+.view .view_bottom .view_text span{font-style:var(--font);font-weight:600;font-size:20px;line-height:24px;color:var(--black)}
+.view .view_bottom .view_text p{margin-bottom:15px;font-style:var(--font);font-size:20px;line-height:30px;color:var(--black)}
+.view .view_img .col-lg-11{margin-bottom:30px}
+.view .view_img .col-lg-11 img{width:100%}
+.view .view_img .row .images{width:32.5%;height:auto;margin-bottom:16px}
+.view .view_img .img{justify-content:space-between}
+.view .two{margin-top:100px}
+.view .view_info{margin-top:180px;margin-bottom:74px}
+.view .view_info .col-lg-3{display:flex;justify-content:center}
+.view .view_info .col-lg-3 h6{font-style:var(--font);font-weight:600;font-size:18px;line-height:22px;color:#ff7300}
+.view .view_info .col-lg-3:nth-child(2) h6:nth-of-type(2),.view .view_info .col-lg-3:nth-child(4) h6:nth-of-type(2){margin-top:44px}
+.view .view_info .col-lg-3 p{font-style:var(--font);font-size:16px;line-height:19px;color:#3d3d3d;margin-top:16px}
+.view hr{height:1px}
+.view .similar{background:#f9f9f9;padding:120px 0 180px}
+.view .similar h5{font-style:var(--font);font-weight:600;font-size:24px;line-height:29px;color:var(--black)}
+.view .similar img{cursor:pointer}
+.view .similar p{font-style:var(--font);font-size:16px;line-height:19px;color:var(--black);margin-top:16px}
+.view .view_accardion .accordion-item p{font-style:var(--font);font-weight:500;font-size:16px;line-height:19px;color:#3d3d3d}
+.view .view_accardion .accordion-item .accordion-body .time{margin-top:30px;display:flex;justify-content:flex-start}
+.view .accordion .accordion-item .accordion-body .time p{font-size:30px;line-height:36px}
+@media (max-width:991px){
+.view .view_top h2{font-size:30px;padding-left:100px;padding-right:156px}
+.view .view_top h3{padding-left:100px}
+.view .view_bottom .view_text{display:flex;flex-direction:column;padding-left:123px}
+.view .view_bottom .view_text .col-lg-3{padding-left:0}
+.view .view_top h3{font-size:24px}
+.view .view_bottom .view_text span{font-size:16px;margin-bottom:10px}
+.view .view_bottom .view_text p{font-size:16px;margin-bottom:0}
+.view .view_bottom .view_text .col-lg-7 p:nth-of-type(2){margin-bottom:20px}
+.view .two{margin-top:73px}
+.view .view_img .row .images{width:49%}
+.view .view_accardion{padding:1rem 110px}
+.view .view_accardion .accordion-item .accordion-body,.view .view_accardion .accordion-item h2 button{padding:1rem 0}
+.view .view_accardion .accordion-item h2 .accordion-button{font-style:var(--font);font-weight:600;font-size:18px;line-height:22px;color:var(--redfox)}
+.view .view_top h3:nth-of-type(1){margin-top:30px}
+.accordion-button::after,.accordion-button:not(.collapsed)::after{background-image:url("../public/Vector (Stroke)accc.svg")}
+.view .view_accardion .accordion-item{border:none;border-bottom:1px solid #ebebeb}
+.accordion-button:not(.collapsed){color:transparent;background-color:transparent;box-shadow:none}
+.view .view_accardion .accordion-item .time h6{font-style:var(--font);font-weight:600;font-size:18px;line-height:22px;color:var(--redfox)}
+.view .view_accardion .accordion-item .accordion-body .design{display:flex;flex-direction:column;flex-wrap:wrap;max-height:310px}
+.view .view_accardion .accordion-item .accordion-body ul li{list-style:none;margin-bottom:30px}
+.view .view_accardion .accordion-item .accordion-body ul li p{font-style:var(--font);font-weight:500;font-size:16px;line-height:19px;text-align:justify;color:#3d3d3d}
+.view .view_accardion .accordion-item .time div:nth-child(1){margin-right:157px}
+.view .view_accardion .accordion-item .time p:nth-child(1){margin-bottom:30px}
+.view .accordion .accordion-item .accordion-body .time{border-top:1px solid #ebebeb;padding-top:30px}
+.accordion-button:focus{box-shadow:none}
+.view .similar{background:#f9f9f9;padding:80px 0 119px}
+.view .two{margin-bottom:60px}
+.view .similar p{font-size:14px;line-height:18px}
+}
+@media (max-width:767px){
+.view .similar .col-sm-6{margin-bottom:20px}
+.view .similar p{font-size:14px}
+.accordion-collapse{background-color:none}
+.view .view_accardion .accordion-item .accordion-body .time{flex-direction:column}
+.view .view_accardion .accordion-item .time div:nth-child(1){border-bottom:1px solid #ebebeb;margin-right:0;padding-bottom:30px;margin-bottom:25px}
+.view .accordion .accordion-item .accordion-body .time h6{font-size:20px;line-height:24px}
+}
+@media (max-width:575px){
+.view{margin-top:30px}
+.view .accordion .accordion-button,.view .d-block{background-color:transparent}
+.accordion-collapse{background-color:none}
+.view .view_bottom .view_text{padding-left:16px}
+.view .view_img .row .images{width:100%}
+.view .view_top h2{font-weight:700;font-size:30px;margin-top:30px;line-height:36px;padding-left:16px;padding-right:52px}
+.view .view_top h3{padding-left:16px;padding-right:0}
+.view .view_top h3:nth-of-type(1){margin-bottom:15px}
+.accordion-collapse{background:0 0}
+.view .view_accardion{padding:1rem 0}
+.view .view_accardion .accordion-item .accordion-body .design{height:auto}
+.view .view_accardion .accordion-item h2 .accordion-button{font-style:var(--font);font-weight:600;font-size:18px;line-height:22px;color:var(--redfox)}
+.view .view_accardion .accordion-item h2 .accordion-button.collapsed{color:#000}
+.view .accordion .accordion-item .accordion-body .time div:nth-child(2){margin-top:10px}
+.view .accordion .accordion-item .collapse .accordion-body .time div:nth-child(1){margin-right:0}
+}

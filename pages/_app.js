@@ -1,17 +1,16 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "animate.css/source/animate.css";
 import "/styles/globals.css";
-import "/styles/mian.scss";
-import "/styles/footer.scss";
+import "/styles/mian.css";
+import "/styles/footer.css";
 import "/styles/blog.css";
-import "/styles/portfolio.scss";
-import "/styles/view.scss";
+import "/styles/portfolio.css";
+import "/styles/view.css";
 import "/styles/agency.css";
 import "/styles/academy.css";
 import "/styles/servic.css";
 import '@popperjs/core';
 import NextNprogress from "nextjs-progressbar";
-
 
 function MyApp({ Component, pageProps }) {
   return (
