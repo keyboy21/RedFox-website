@@ -18,7 +18,7 @@
 .portfolio .port_ul ul li a.clik::after{content:"";height:3px;width:100%;background-color:var(--redfox);position:absolute;display:inline-block;margin-bottom:7px;left:0;bottom:-2px}
 .portfolio .col-lg-4 img{width:100%}
 .portfolio .all img,.portfolio .categories .prime img{cursor:pointer}
-.portfolio .col-lg-4 p{font-style:var(--font);font-weight:600;font-size:16px;line-height:19px;color:var(--black);margin:10px 0 15px}
+.portfolio .col-lg-4 .portfoliop{font-style:var(--font);font-weight:600;font-size:16px;line-height:19px;color:var(--black);margin:10px 0 15px}
 .portfolio .btn_portfolio{width:100%;display:flex;justify-content:center;align-items:center;background:#f1f1f1;font-style:var(--font);font-weight:600;font-size:30px;line-height:36px;border:none;padding:15px 0;color:#a6a6a6;margin-top:120px}
 .blog .btn_portfolio{width:100%;display:flex;justify-content:center;align-items:center;background:#f1f1f1;font-style:var(--font);font-weight:600;font-size:30px;line-height:36px;border:none;padding:15px 0;color:#a6a6a6;margin-top:120px}
 .portfolio .tags .accordion .accordion-button{color:var(--black);background-color:#f9f9f9}
@@ -49,7 +49,7 @@
 .portfolio{padding-top:0;padding-bottom:70px}
 .portfolio .port_ul ::-webkit-scrollbar{height:0;width:0}
 .portfolio h2,.portfolio p{text-align:center}
-.portfolio .col-lg-4 p{margin:10px 0 10px}
+.portfolio .col-lg-4 .portfoliop{margin:10px 0 10px}
 .portfolio .port_ul ul{overflow:scroll;border-bottom:none;padding:30px 0}
 .portfolio .port_ul ul li{margin-right:10px}
 .portfolio .port_ul ul li a{background:#f4f7f8;margin:0;padding:15px 10px;border-radius:5px;color:#a6a6a6;font-weight:var(--font);font-size:16px}

@@ -22,7 +22,7 @@ const All = ({ data }) => {
                     src={`https://redfox.frilansus.com/${all.logo}`}
                     alt="work."
                   />
-                  <p>{all.title_uz}</p>
+                  <p className="portfoliop" >{all.title_uz}</p>
                 </div>
               </Link>
             );

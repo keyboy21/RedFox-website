@@ -88,7 +88,11 @@ export default function Blog_api({ data }) {
                   <span>#</span>Adobe Photoshop
                 </button>
                 <p>{filter[0].title_uz}</p>
-                <Markup content={filter[0].text_uz.slice(0, 140) + "..."} />
+
+                <div className='ccc'>
+                  <Markup content={filter[0].text_uz.slice(0, 110) + "..."} />
+                </div>
+
               </div>
             </div>
           </div>
