@@ -332,7 +332,7 @@ const Home = ({ data, img }) => {
                         <Image
                           src={`https://redfox.frilansus.com/${port.logo}`}
                           width={416}
-                          height={326}
+                          height={270}
                           decoding="auto"
                           preload="true"
                           alt="najot."
@@ -352,8 +352,8 @@ const Home = ({ data, img }) => {
                     <div className="portfolio_img overflow-hidden">
                       <Image
                         src={`https://redfox.frilansus.com/${port.logo}`}
-                        width={856}
-                        height={676}
+                        width={746}
+                        height={610}
                         decoding="auto"
                         preload="true"
                         alt="nurafshon."
