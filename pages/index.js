@@ -352,7 +352,7 @@ const Home = ({ data, img }) => {
                     <div className="portfolio_img overflow-hidden">
                       <Image
                         src={`https://redfox.frilansus.com/${port.logo}`}
-                        width={746}
+                        width={855}
                         height={610}
                         decoding="auto"
                         preload="true"
