@@ -32,7 +32,7 @@ const Industry = ({ data, industry }) => {
                           src={`https://redfox.frilansus.com/${works.logo}`}
                           alt="work."
                         />
-                        <p>{works.title_uz}</p>
+                        <p className="portfoliop">{works.title_uz}</p>
                       </div>
                     </Link>
                   )
