@@ -18,13 +18,15 @@ export default function MainLayout({ children, title = "" }) {
     <>
       <Head>
         <meta charSet="utf-8" />
+        <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width" />
         <meta name="theme-color" content="#000000" />
-        <link rel="apple-touch-icon" href="/apple-touch-icon.png" type="image/png" />
         <meta name="description" content="Redfox agency website" />
         <meta name="keywords" content="redfox, design, web-development, naming" />
         <title>Redfox Agency {title}</title>
         <link rel="icon" type="image/png" href="/Group.png" />
+        <link rel="apple-touch-icon" href="/apple-icon.png" />
+        <link rel="manifest" href="/manifest.json" />
       </Head>
       <nav className="navbar navbar-expand-sm navbar-light">
         <div className="container">
