@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { useEffect, lazy } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "animate.css/source/animate.css";
 import "/styles/globals.css";
@@ -15,6 +15,7 @@ import NextNprogress from "nextjs-progressbar";
 
 function MyApp({ Component, pageProps }) {
   useEffect(() => {
+    typeof document !== undefined ? import('bootstrap/dist/js/bootstrap.bundle.min.js') : null
     if ("serviceWorker" in navigator) {
       window.addEventListener("load", function () {
         navigator.serviceWorker.register("/sw.js").then(
@@ -28,9 +29,7 @@ function MyApp({ Component, pageProps }) {
       });
     }
   }, [])
-  useEffect(() => {
-    typeof document !== undefined ? require('bootstrap/dist/js/bootstrap.min.js') : null
-  }, [])
+
   return (
     <>
       <NextNprogress
