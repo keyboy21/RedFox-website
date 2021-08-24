@@ -199,7 +199,7 @@ export default function Footer() {
               </a>
             </h2>
             <h2>
-              {router.locale == 'uz' ? (<a href="http://t.me/redfoxacademy" target="_blank"> Dizayn akademiya</a>) :
+              {router.locale == 'uz' ? (<a href="http://t.me/redfoxacademy" target="_blank"  rel="noopener"> Dizayn akademiya</a>) :
                 (<a href="http://t.me/redfoxacademy" target="_blank" rel="noopener">Дизайн Академия </a>)}
             </h2>
             <h2>
