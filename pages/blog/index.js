@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
 import { useRouter } from "next/router";
+import ContentLoader from "react-content-loader"
 import MainLayout from "../../components/MainLayout"
 import Link from "next/link";
-
 
 const Blog = ({ children }) => {
 
@@ -31,7 +31,15 @@ const Blog = ({ children }) => {
   if (error) {
     return <div style={{ textAlign: 'center', fontSize: 20, color: '#ff6200' }} >{router.locale == "uz" ? "Internet yo'q" : 'Нет интернет'}</div>;
   } else if (!isLoaded) {
-    return <div style={{ textAlign: 'center', fontSize: 20, color: '#ff6200' }} >{router.locale == "uz" ? "yuklanmoqda..." : 'Загрузка...'}</div>;
+    return <div style={{ textAlign: 'center', fontSize: 20, color: '#ff6200' }} >{router.locale == "uz" ? (
+      <ContentLoader viewBox="0 0 100% 650" height={900} width={"100%"}>
+        <rect x="6" y="5" rx="0" ry="0" width="100%" height="100%" />
+      </ContentLoader>
+    ) : (
+      <ContentLoader viewBox="0 0 100% 650" height={900} width={"100%"}>
+        <rect x="6" y="5" rx="0" ry="0" width="100%" height="100%" />
+      </ContentLoader>
+    )}</div>;
   } else {
     return (
       <MainLayout title={"| Blog"}>
@@ -49,7 +57,7 @@ const Blog = ({ children }) => {
                       <a
                         className={
                           router.query.name == item.title ? "clik" : ""
-                          
+
                         }
                       >
                         {item.title}
