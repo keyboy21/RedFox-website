@@ -32,11 +32,11 @@ const Blog = ({ children }) => {
     return <div style={{ textAlign: 'center', fontSize: 20, color: '#ff6200' }} >{router.locale == "uz" ? "Internet yo'q" : 'Нет интернет'}</div>;
   } else if (!isLoaded) {
     return <div style={{ textAlign: 'center', fontSize: 20, color: '#ff6200' }} >{router.locale == "uz" ? (
-      <ContentLoader viewBox="0 0 100% 650" height={900} width={"100%"}>
+      <ContentLoader viewBox="0 0 100% 650" height={900} width={"100%"} speed={1} foregroundColor="#dedede">
         <rect x="6" y="5" rx="0" ry="0" width="100%" height="100%" />
       </ContentLoader>
     ) : (
-      <ContentLoader viewBox="0 0 100% 650" height={900} width={"100%"}>
+      <ContentLoader viewBox="0 0 100% 650" height={900} width={"100%"} speed={1} foregroundColor="#dedede" >
         <rect x="6" y="5" rx="0" ry="0" width="100%" height="100%" />
       </ContentLoader>
     )}</div>;
