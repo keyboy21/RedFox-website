@@ -25,11 +25,14 @@ const Industry = ({ data, industry }) => {
                     <Link href={`/portfolio/${works.id}`} key={works.id}>
                       <div className="col-lg-4 col-md-4 col-sm-6 col-12">
                         <Image
+                          src={`https://redfox.frilansus.com/${works.logo}`}
                           width={411}
                           height={320}
+                          quality='100'
+                          placeholder="blur"
+                          blurDataURL={`https://redfox.frilansus.com/${works.logo}`}
                           style={{ cursor: "pointer" }}
                           preload="true"
-                          src={`https://redfox.frilansus.com/${works.logo}`}
                           alt="work."
                         />
                         <p className="portfoliop">{works.title_uz}</p>

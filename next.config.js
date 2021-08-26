@@ -9,7 +9,6 @@ module.exports = withPWA({
 })
 
 module.exports = {
-  webpack5: false,
   generateEtags: false,
   images: {
     minimumCacheTTL: 60,

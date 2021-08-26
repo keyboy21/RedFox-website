@@ -108,6 +108,9 @@ const Home = ({ data, img }) => {
                   src={`https://redfox.frilansus.com/${slider.logo}`}
                   width={100}
                   height={100}
+                  placeholder="blur"
+                  blurDataURL={`https://redfox.frilansus.com/${slider.logo}`}
+                  priority={true}
                   preload="true"
                   alt="partner."
                 />
@@ -127,6 +130,9 @@ const Home = ({ data, img }) => {
                   src={`https://redfox.frilansus.com/${slider.logo}`}
                   width={100}
                   height={100}
+                  placeholder="blur"
+                  blurDataURL={`https://redfox.frilansus.com/${slider.logo}`}
+                  priority={true}
                   preload="true"
                   alt="partner."
                 />
@@ -157,6 +163,9 @@ const Home = ({ data, img }) => {
                   src={`https://redfox.frilansus.com/${slider.logo}`}
                   width={100}
                   height={90}
+                  placeholder="blur"
+                  blurDataURL={`https://redfox.frilansus.com/${slider.logo}`}
+                  priority={true}
                   preload="true"
                   alt="partner."
 
@@ -171,6 +180,9 @@ const Home = ({ data, img }) => {
                   src={`https://redfox.frilansus.com/${slider.logo}`}
                   width={100}
                   height={100}
+                  placeholder="blur"
+                  blurDataURL={`https://redfox.frilansus.com/${slider.logo}`}
+                  priority={true}
                   preload="true"
                   alt="partner."
 
@@ -185,6 +197,9 @@ const Home = ({ data, img }) => {
                   src={`https://redfox.frilansus.com/${slider.logo}`}
                   width={100}
                   height={100}
+                  placeholder="blur"
+                  blurDataURL={`https://redfox.frilansus.com/${slider.logo}`}
+                  priority={true}
                   preload="true"
                   alt="partner."
 
@@ -204,6 +219,9 @@ const Home = ({ data, img }) => {
                   src={`https://redfox.frilansus.com/${slider.logo}`}
                   width={100}
                   height={100}
+                  placeholder="blur"
+                  blurDataURL={`https://redfox.frilansus.com/${slider.logo}`}
+                  priority={true}
                   preload="true"
                   alt="partner."
                 />
@@ -217,6 +235,9 @@ const Home = ({ data, img }) => {
                   src={`https://redfox.frilansus.com/${slider.logo}`}
                   width={100}
                   height={100}
+                  placeholder="blur"
+                  blurDataURL={`https://redfox.frilansus.com/${slider.logo}`}
+                  priority={true}
                   preload="true"
                   alt="partner."
                 />
@@ -230,6 +251,9 @@ const Home = ({ data, img }) => {
                   src={`https://redfox.frilansus.com/${slider.logo}`}
                   width={100}
                   height={100}
+                  placeholder="blur"
+                  blurDataURL={`https://redfox.frilansus.com/${slider.logo}`}
+                  priority={true}
                   preload="true"
                   alt="partner."
                 />
@@ -248,6 +272,9 @@ const Home = ({ data, img }) => {
                   src={`https://redfox.frilansus.com/${slider.logo}`}
                   width={100}
                   height={100}
+                  placeholder="blur"
+                  blurDataURL={`https://redfox.frilansus.com/${slider.logo}`}
+                  priority={true}
                   preload="true"
                   alt="partner."
                 />
@@ -261,6 +288,9 @@ const Home = ({ data, img }) => {
                   src={`https://redfox.frilansus.com/${slider.logo}`}
                   width={100}
                   height={100}
+                  placeholder="blur"
+                  blurDataURL={`https://redfox.frilansus.com/${slider.logo}`}
+                  priority={true}
                   preload="true"
                   alt="partner."
 
@@ -276,6 +306,9 @@ const Home = ({ data, img }) => {
                   src={`https://redfox.frilansus.com/${slider.logo}`}
                   width={100}
                   height={100}
+                  placeholder="blur"
+                  blurDataURL={`https://redfox.frilansus.com/${slider.logo}`}
+                  priority={true}
                   preload="true"
                   alt="partner."
                 />
@@ -333,6 +366,9 @@ const Home = ({ data, img }) => {
                           src={`https://redfox.frilansus.com/${port.logo}`}
                           width={416}
                           height={270}
+                          quality='100'
+                          placeholder="blur"
+                          blurDataURL={`https://redfox.frilansus.com/${port.logo}`}
                           decoding="auto"
                           preload="true"
                           alt="najot."
@@ -354,6 +390,9 @@ const Home = ({ data, img }) => {
                         src={`https://redfox.frilansus.com/${port.logo}`}
                         width={855}
                         height={610}
+                        quality='100'
+                        placeholder="blur"
+                        blurDataURL={`https://redfox.frilansus.com/${port.logo}`}
                         decoding="auto"
                         preload="true"
                         alt="nurafshon."
@@ -376,6 +415,9 @@ const Home = ({ data, img }) => {
                         src={`https://redfox.frilansus.com/${port.logo}`}
                         width={636}
                         height={500}
+                        quality='100'
+                        placeholder="blur"
+                        blurDataURL={`https://redfox.frilansus.com/${port.logo}`}
                         decoding="auto"
                         preload="true"
                         alt="nurafshon."
@@ -398,6 +440,9 @@ const Home = ({ data, img }) => {
                         src={`https://redfox.frilansus.com/${port.logo}`}
                         width={416}
                         height={322}
+                        quality='100'
+                        placeholder="blur"
+                        blurDataURL={`https://redfox.frilansus.com/${port.logo}`}
                         decoding="auto"
                         preload="true"
                         alt="nurafshon."

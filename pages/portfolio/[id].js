@@ -88,13 +88,15 @@ const ID = ({ data }) => {
             <div className="row justify-content-center">
               <div className="col-lg-11">
                 <Image
+                  src={`https://redfox.frilansus.com/${viewFilter[0].logo}`}
                   width={1400}
                   height={752}
-                  quality={100}
+                  quality='100'
+                  placeholder="blur"
+                  blurDataURL={`https://redfox.frilansus.com/${viewFilter[0].logo}`}
                   layout="responsive"
                   objectFit="cover"
                   preload="true"
-                  src={`https://redfox.frilansus.com/${viewFilter[0].logo}`}
                   alt="work."
                 />
               </div>
@@ -104,77 +106,89 @@ const ID = ({ data }) => {
               <div className="col-lg-11 flex-wrap d-flex justify-content-between">
                 <div className="images">
                   <Image
-                    width={453}
-                    height={256}
-                    quality={100}
-                    layout="responsive"
-                    objectFit="cover"
-                    preload="true"
                     src={`https://redfox.frilansus.com/${viewFilter[0].img1}`}
+                    width={453}
+                    height={256}
+                    quality='100'
+                    placeholder="blur"
+                    blurDataURL={`https://redfox.frilansus.com/${viewFilter[0].logo}`}
+                    layout="responsive"
+                    objectFit="cover"
+                    preload="true"
                     alt="work."
                   />
                 </div>
                 <div className="images">
                   <Image
-                    width={453}
-                    height={256}
-                    quality={100}
-                    layout="responsive"
-                    objectFit="cover"
-                    preload="true"
                     src={`https://redfox.frilansus.com/${viewFilter[0].img2}`}
+                    width={453}
+                    height={256}
+                    quality='100'
+                    placeholder="blur"
+                    blurDataURL={`https://redfox.frilansus.com/${viewFilter[0].logo}`}
+                    layout="responsive"
+                    objectFit="cover"
+                    preload="true"
                     alt="work."
                     decoding="auto"
                   />
                 </div>
                 <div className="images">
                   <Image
-                    width={453}
-                    height={256}
-                    quality={100}
-                    layout="responsive"
-                    objectFit="cover"
-                    preload="true"
                     src={`https://redfox.frilansus.com/${viewFilter[0].img3}`}
+                    width={453}
+                    height={256}
+                    quality='100'
+                    placeholder="blur"
+                    blurDataURL={`https://redfox.frilansus.com/${viewFilter[0].logo}`}
+                    layout="responsive"
+                    objectFit="cover"
+                    preload="true"
                     alt="work."
                     decoding="auto"
                   />
                 </div>
                 <div className="images">
                   <Image
-                    width={453}
-                    height={256}
-                    quality={100}
-                    layout="responsive"
-                    objectFit="cover"
-                    preload="true"
                     src={`https://redfox.frilansus.com/${viewFilter[0].img4}`}
+                    width={453}
+                    height={256}
+                    quality='100'
+                    placeholder="blur"
+                    blurDataURL={`https://redfox.frilansus.com/${viewFilter[0].logo}`}
+                    layout="responsive"
+                    objectFit="cover"
+                    preload="true"
                     alt="work."
                     decoding="auto"
                   />
                 </div>
                 <div className="images">
                   <Image
-                    width={453}
-                    height={256}
-                    quality={100}
-                    layout="responsive"
-                    objectFit="cover"
-                    preload="true"
                     src={`https://redfox.frilansus.com/${viewFilter[0].img5}`}
+                    width={453}
+                    height={256}
+                    quality='100'
+                    placeholder="blur"
+                    blurDataURL={`https://redfox.frilansus.com/${viewFilter[0].logo}`}
+                    layout="responsive"
+                    objectFit="cover"
+                    preload="true"
                     alt="work."
                     decoding="auto"
                   />
                 </div>
                 <div className="images">
                   <Image
+                    src={`https://redfox.frilansus.com/${viewFilter[0].img6}`}
                     width={453}
                     height={256}
-                    quality={100}
+                    quality='100'
+                    placeholder="blur"
+                    blurDataURL={`https://redfox.frilansus.com/${viewFilter[0].logo}`}
                     layout="responsive"
                     objectFit="cover"
                     preload="true"
-                    src={`https://redfox.frilansus.com/${viewFilter[0].img6}`}
                     alt="work."
                   />
                 </div>
@@ -369,13 +383,15 @@ const ID = ({ data }) => {
                 <Link href={`/portfolio/${similar.id}`} key={similar.id}>
                   <div className="col-sm-6 col-md-4 col-lg-4">
                     <Image
+                      src={`https://redfox.frilansus.com/${similar.img2}`}
                       width={358}
                       height={277}
-                      quality={100}
+                      quality='100'
+                      placeholder="blur"
+                      blurDataURL={`https://redfox.frilansus.com/${similar.img2}`}
                       layout="responsive"
                       objectFit="cover"
                       preload="true"
-                      src={`https://redfox.frilansus.com/${similar.img2}`}
                       alt="similar."
                     />
                     <p>{similar.title_uz}</p>

@@ -3,7 +3,6 @@ import Portfolio from "./index.js";
 import Link from "next/link";
 import Image from 'next/image';
 
-
 const All = ({ data }) => {
   return (
     <Portfolio>
@@ -14,12 +13,15 @@ const All = ({ data }) => {
               <Link href={`/portfolio/${all.id}`} key={all.id}>
                 <div className="col-lg-4 col-md-4 col-sm-6" >
                   <Image
+                    src={`https://redfox.frilansus.com/${all.logo}`}
                     width={546}
                     height={431}
+                    quality='100'
+                    placeholder="blur"
+                    blurDataURL={`https://redfox.frilansus.com/${all.logo}`}
                     layout="responsive"
                     objectFit="cover"
                     preload="true"
-                    src={`https://redfox.frilansus.com/${all.logo}`}
                     alt="work."
                   />
                   <p className="portfoliop" >{all.title_uz}</p>
