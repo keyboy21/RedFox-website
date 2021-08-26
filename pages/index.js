@@ -110,7 +110,6 @@ const Home = ({ data, img }) => {
                   height={100}
                   placeholder="blur"
                   blurDataURL={`https://redfox.frilansus.com/${slider.logo}`}
-                  priority={true}
                   preload="true"
                   alt="partner."
                 />
@@ -132,7 +131,6 @@ const Home = ({ data, img }) => {
                   height={100}
                   placeholder="blur"
                   blurDataURL={`https://redfox.frilansus.com/${slider.logo}`}
-                  priority={true}
                   preload="true"
                   alt="partner."
                 />
@@ -165,7 +163,6 @@ const Home = ({ data, img }) => {
                   height={90}
                   placeholder="blur"
                   blurDataURL={`https://redfox.frilansus.com/${slider.logo}`}
-                  priority={true}
                   preload="true"
                   alt="partner."
 
@@ -182,7 +179,6 @@ const Home = ({ data, img }) => {
                   height={100}
                   placeholder="blur"
                   blurDataURL={`https://redfox.frilansus.com/${slider.logo}`}
-                  priority={true}
                   preload="true"
                   alt="partner."
 
@@ -199,7 +195,6 @@ const Home = ({ data, img }) => {
                   height={100}
                   placeholder="blur"
                   blurDataURL={`https://redfox.frilansus.com/${slider.logo}`}
-                  priority={true}
                   preload="true"
                   alt="partner."
 
@@ -221,7 +216,6 @@ const Home = ({ data, img }) => {
                   height={100}
                   placeholder="blur"
                   blurDataURL={`https://redfox.frilansus.com/${slider.logo}`}
-                  priority={true}
                   preload="true"
                   alt="partner."
                 />
@@ -237,7 +231,6 @@ const Home = ({ data, img }) => {
                   height={100}
                   placeholder="blur"
                   blurDataURL={`https://redfox.frilansus.com/${slider.logo}`}
-                  priority={true}
                   preload="true"
                   alt="partner."
                 />
@@ -253,7 +246,6 @@ const Home = ({ data, img }) => {
                   height={100}
                   placeholder="blur"
                   blurDataURL={`https://redfox.frilansus.com/${slider.logo}`}
-                  priority={true}
                   preload="true"
                   alt="partner."
                 />
@@ -274,7 +266,6 @@ const Home = ({ data, img }) => {
                   height={100}
                   placeholder="blur"
                   blurDataURL={`https://redfox.frilansus.com/${slider.logo}`}
-                  priority={true}
                   preload="true"
                   alt="partner."
                 />
@@ -290,7 +281,6 @@ const Home = ({ data, img }) => {
                   height={100}
                   placeholder="blur"
                   blurDataURL={`https://redfox.frilansus.com/${slider.logo}`}
-                  priority={true}
                   preload="true"
                   alt="partner."
 
@@ -308,7 +298,6 @@ const Home = ({ data, img }) => {
                   height={100}
                   placeholder="blur"
                   blurDataURL={`https://redfox.frilansus.com/${slider.logo}`}
-                  priority={true}
                   preload="true"
                   alt="partner."
                 />
