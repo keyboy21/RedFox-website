@@ -108,8 +108,6 @@ const Home = ({ data, img }) => {
                   src={`https://redfox.frilansus.com/${slider.logo}`}
                   width={100}
                   height={100}
-                  placeholder="blur"
-                  blurDataURL={`https://redfox.frilansus.com/${slider.logo}`}
                   preload="true"
                   alt="partner."
                 />
@@ -129,8 +127,6 @@ const Home = ({ data, img }) => {
                   src={`https://redfox.frilansus.com/${slider.logo}`}
                   width={100}
                   height={100}
-                  placeholder="blur"
-                  blurDataURL={`https://redfox.frilansus.com/${slider.logo}`}
                   preload="true"
                   alt="partner."
                 />
@@ -161,8 +157,6 @@ const Home = ({ data, img }) => {
                   src={`https://redfox.frilansus.com/${slider.logo}`}
                   width={100}
                   height={90}
-                  placeholder="blur"
-                  blurDataURL={`https://redfox.frilansus.com/${slider.logo}`}
                   preload="true"
                   alt="partner."
 
@@ -177,8 +171,6 @@ const Home = ({ data, img }) => {
                   src={`https://redfox.frilansus.com/${slider.logo}`}
                   width={100}
                   height={100}
-                  placeholder="blur"
-                  blurDataURL={`https://redfox.frilansus.com/${slider.logo}`}
                   preload="true"
                   alt="partner."
 
@@ -193,8 +185,6 @@ const Home = ({ data, img }) => {
                   src={`https://redfox.frilansus.com/${slider.logo}`}
                   width={100}
                   height={100}
-                  placeholder="blur"
-                  blurDataURL={`https://redfox.frilansus.com/${slider.logo}`}
                   preload="true"
                   alt="partner."
 
@@ -214,8 +204,6 @@ const Home = ({ data, img }) => {
                   src={`https://redfox.frilansus.com/${slider.logo}`}
                   width={100}
                   height={100}
-                  placeholder="blur"
-                  blurDataURL={`https://redfox.frilansus.com/${slider.logo}`}
                   preload="true"
                   alt="partner."
                 />
@@ -229,8 +217,6 @@ const Home = ({ data, img }) => {
                   src={`https://redfox.frilansus.com/${slider.logo}`}
                   width={100}
                   height={100}
-                  placeholder="blur"
-                  blurDataURL={`https://redfox.frilansus.com/${slider.logo}`}
                   preload="true"
                   alt="partner."
                 />
@@ -244,8 +230,6 @@ const Home = ({ data, img }) => {
                   src={`https://redfox.frilansus.com/${slider.logo}`}
                   width={100}
                   height={100}
-                  placeholder="blur"
-                  blurDataURL={`https://redfox.frilansus.com/${slider.logo}`}
                   preload="true"
                   alt="partner."
                 />
@@ -264,8 +248,6 @@ const Home = ({ data, img }) => {
                   src={`https://redfox.frilansus.com/${slider.logo}`}
                   width={100}
                   height={100}
-                  placeholder="blur"
-                  blurDataURL={`https://redfox.frilansus.com/${slider.logo}`}
                   preload="true"
                   alt="partner."
                 />
@@ -279,8 +261,6 @@ const Home = ({ data, img }) => {
                   src={`https://redfox.frilansus.com/${slider.logo}`}
                   width={100}
                   height={100}
-                  placeholder="blur"
-                  blurDataURL={`https://redfox.frilansus.com/${slider.logo}`}
                   preload="true"
                   alt="partner."
 
@@ -296,8 +276,6 @@ const Home = ({ data, img }) => {
                   src={`https://redfox.frilansus.com/${slider.logo}`}
                   width={100}
                   height={100}
-                  placeholder="blur"
-                  blurDataURL={`https://redfox.frilansus.com/${slider.logo}`}
                   preload="true"
                   alt="partner."
                 />
