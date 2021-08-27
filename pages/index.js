@@ -159,7 +159,6 @@ const Home = ({ data, img }) => {
                   height={90}
                   preload="true"
                   alt="partner."
-
                 />
               </div>
             );
@@ -173,7 +172,6 @@ const Home = ({ data, img }) => {
                   height={100}
                   preload="true"
                   alt="partner."
-
                 />
               </div>
             );
@@ -187,7 +185,6 @@ const Home = ({ data, img }) => {
                   height={100}
                   preload="true"
                   alt="partner."
-
                 />
               </div>
             );
@@ -333,9 +330,6 @@ const Home = ({ data, img }) => {
                           src={`https://redfox.frilansus.com/${port.logo}`}
                           width={416}
                           height={270}
-                          quality='100'
-                          placeholder="blur"
-                          blurDataURL={`https://redfox.frilansus.com/${port.logo}`}
                           decoding="auto"
                           preload="true"
                           alt="najot."
@@ -357,9 +351,6 @@ const Home = ({ data, img }) => {
                         src={`https://redfox.frilansus.com/${port.logo}`}
                         width={855}
                         height={610}
-                        quality='100'
-                        placeholder="blur"
-                        blurDataURL={`https://redfox.frilansus.com/${port.logo}`}
                         decoding="auto"
                         preload="true"
                         alt="nurafshon."
@@ -382,9 +373,6 @@ const Home = ({ data, img }) => {
                         src={`https://redfox.frilansus.com/${port.logo}`}
                         width={636}
                         height={500}
-                        quality='100'
-                        placeholder="blur"
-                        blurDataURL={`https://redfox.frilansus.com/${port.logo}`}
                         decoding="auto"
                         preload="true"
                         alt="nurafshon."
@@ -407,9 +395,6 @@ const Home = ({ data, img }) => {
                         src={`https://redfox.frilansus.com/${port.logo}`}
                         width={416}
                         height={322}
-                        quality='100'
-                        placeholder="blur"
-                        blurDataURL={`https://redfox.frilansus.com/${port.logo}`}
                         decoding="auto"
                         preload="true"
                         alt="nurafshon."
