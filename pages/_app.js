@@ -1,6 +1,5 @@
-import { useEffect, lazy } from "react";
+import { useEffect } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "animate.css/source/animate.css";
 import "../styles/globals.css";
 import "../styles/mian.css";
 import "../styles/footer.css";
@@ -10,6 +9,7 @@ import "../styles/view.css";
 import "../styles/agency.css";
 import "../styles/academy.css";
 import "../styles/servic.css";
+import "animate.css/source/animate.css";
 import '@popperjs/core';
 import NextNprogress from "nextjs-progressbar";
 
