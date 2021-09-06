@@ -68,32 +68,32 @@ const Home = ({ data, img }) => {
   return (
     <MainLayout>
 
-        <header>
-          <p>{router.locale == "uz" ? "Sayt to'liq tayyor emas" : "Сайт ещё в стадии веб-разработки"}</p>
-          <div className="container">
-            <div className="row">
-              <div className="header_top col-lg-10">
-                {router.locale == "uz" ? (<h2> Bizga ishonch bildirgan kompaniyalar <span>250+</span> </h2>) :
-                  (<h2><span>250+</span> компаний, которые нам доверяют </h2>)}
-                {router.locale == "uz" ?
-                  (<p>
-                    Biznesda ham hayotda ham eng muhim omil bu ishonchdir. <br />
-                    Bizga ishonch bildirgan kompaniyalar qatorida sizni ham
-                    ko&apos;rishdan mamnunmiz.
-                  </p>) :
-                  (<p>
-                    Самый важный фактор как в бизнесе, так и в жизни - это доверие. <br />
-                    Мы рады видеть вас среди компаний, которые нам доверяют.
-                  </p>)}
-              </div>
-              <div className="header_bottom">
-                <div className="text_line">
-                  <span>Enterprise 30+</span>
-                </div>
+      <header>
+        <p>{router.locale == "uz" ? "Sayt to'liq tayyor emas" : "Сайт ещё в стадии веб-разработки"}</p>
+        <div className="container">
+          <div className="row">
+            <div className="header_top col-lg-10">
+              {router.locale == "uz" ? (<h2> Bizga ishonch bildirgan kompaniyalar <span>250+</span> </h2>) :
+                (<h2><span>250+</span> компаний, которые нам доверяют </h2>)}
+              {router.locale == "uz" ?
+                (<p>
+                  Biznesda ham hayotda ham eng muhim omil bu ishonchdir. <br />
+                  Bizga ishonch bildirgan kompaniyalar qatorida sizni ham
+                  ko&apos;rishdan mamnunmiz.
+                </p>) :
+                (<p>
+                  Самый важный фактор как в бизнесе, так и в жизни - это доверие. <br />
+                  Мы рады видеть вас среди компаний, которые нам доверяют.
+                </p>)}
+            </div>
+            <div className="header_bottom">
+              <div className="text_line">
+                <span>Enterprise 30+</span>
               </div>
             </div>
           </div>
-        </header>
+        </div>
+      </header>
 
       <div className="slider">
         <div className="slide-track">
@@ -450,15 +450,10 @@ const Home = ({ data, img }) => {
                 <div className="logos">
                   <div className="row">
                     <div className="col-3 col-md-12 col-lg-12">
-                      <svg className="icon-skills" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M13.946 3.486h2.906V16.27l-.581.581h-2.325V3.486z" />
-                        <path d="M3.486 13.946H16.27v2.905H3.486z" />
-                        <path fillRule="evenodd" clipRule="evenodd" 
-                        d="M34.865 13.736l3.467-3.508V2.133A2.15 2.15 0 0036.198 0H12.784L0 
-                        12.9v27.935a2.168 2.168 0 00.613 1.525 2.13 2.13 0 001.502.64h34.102c.56
-                         0 1.098-.225 1.495-.624.396-.4.62-.943.62-1.509V28.473l-3.467 3.508v7.532H3.486V13.
-                         947l4.65-4.649 5.81-5.81h20.919v10.249zM43 17.677l-3.011-3.042v.002l-2.545 2.57 3.026
-                          3.025L43 17.677zm-4.166 4.206l-3.025-3.025L23.425 31.36l-.004 3.036 3.015.004 12.398-12.517z" />
+                      <svg xmlns="http://www.w3.org/2000/svg" className="icon-skills" viewBox="0 0 48 48">
+                        <path d="M13.9463 3.48648H16.8517V16.2703L16.2706 16.8513H13.9463V3.48648Z" />
+                        <rect x="3.48633" y="13.946" width="12.7838" height="2.9054" />
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M34.8649 13.7356L38.332 10.2276V2.1328C38.332 0.97825 37.3737 0 36.1982 0H12.7838L5.25424e-05 12.9V40.835C-0.00191192 41.1173 0.0512274 41.3973 0.156436 41.6589C0.261646 41.9205 0.416864 42.1586 0.613228 42.3597C0.809593 42.5607 1.04326 42.7207 1.30088 42.8306C1.5585 42.9405 1.83504 42.998 2.1147 43H36.2174C36.7778 43 37.3154 42.7754 37.7119 42.3755C38.1084 41.9755 38.3315 41.4331 38.332 40.8672V28.4725L34.8649 31.9805V39.5135H3.48649V13.9459L8.13514 9.2973L13.9459 3.48649H34.8649V13.7356ZM43 17.6773L39.9888 14.6351V14.6372L37.4443 17.2061L40.4699 20.2317L43 17.6773ZM38.8342 21.8831L35.8086 18.8575L23.4251 31.3599L23.4209 34.3957L26.4363 34.4L38.8342 21.8831Z" />
                       </svg>
                     </div>
                     <div className="col-8 col-md-12 col-lg-12">
@@ -467,11 +462,7 @@ const Home = ({ data, img }) => {
                         {router.locale == "uz" ? (<p>Brend nomini topish</p>) : (<p>Разработка названия бренда</p>)}
                         <div>
                           <svg className="icon_right" xmlns="http://www.w3.org/2000/svg" width="17" height="12" viewBox="0 0 17 12">
-                            <path d="M16.495 6.49504C16.7684 6.22164 16.7684 5.77836 16.495 5.50496L12.0397 
-                            1.04961C11.7663 0.776206 11.323 0.776206 11.0496 1.04961C10.7762 1.32301 10.7762 
-                            1.76628 11.0496 2.03969L15.0099 6L11.0496 9.96031C10.7762 10.2337 10.7762 10.677 
-                            11.0496 10.9504C11.323 11.2238 11.7663 11.2238 12.0397 10.9504L16.495 6.49504ZM0 
-                            6.70009H16V5.29991H0V6.70009Z" />
+                            <path d="M16.495 6.49504C16.7684 6.22164 16.7684 5.77836 16.495 5.50496L12.0397 1.04961C11.7663 0.776206 11.323 0.776206 11.0496 1.04961C10.7762 1.32301 10.7762  1.76628 11.0496 2.03969L15.0099 6L11.0496 9.96031C10.7762 10.2337 10.7762 10.677 11.0496 10.9504C11.323 11.2238 11.7663 11.2238 12.0397 10.9504L16.495 6.49504ZM0  6.70009H16V5.29991H0V6.70009Z" />
                           </svg>
                         </div>
                       </div>
