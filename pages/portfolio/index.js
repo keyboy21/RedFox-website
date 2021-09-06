@@ -8,11 +8,13 @@ export default function Portfolio({ children }) {
   const [count, setCount] = useState([]);
   const router = useRouter();
 
-  useEffect(async () => {
-    // Fetch data from external API
-    const res = await axios(`https://redfox.frilansus.com/api/portfolio`);
-    const data = res.data;
-    setCount(data);
+  useEffect(() => {
+    async function fetchData() {
+      const res = await axios(`https://redfox.frilansus.com/api/portfolio`);
+      const data = res.data;
+      setCount(data);
+    }
+    fetchData()
   }, []);
 
 

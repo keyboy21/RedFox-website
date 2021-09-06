@@ -77,7 +77,7 @@ const contact = () => {
                   muomila va shu kabi ko‘plab holatlardan xursand bo‘lishadi
                   hamda o‘z fikrlarini bildirishadi.
                 </p>
-                <a href="https://t.me/RedFoxManager" target="_blank">
+                <a href="https://t.me/RedFoxManager" target="_blank" rel="noreferrer">
                   <h3> Online yozing</h3>
                 </a>
               </div>

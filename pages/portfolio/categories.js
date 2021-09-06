@@ -5,15 +5,15 @@ import Link from "next/link";
 import Image from 'next/image'
 
 const Categories = ({ data, category }) => {
-  const [local, setLocal] = useState(data)
+  // const [local, setLocal] = useState(data)
 
   return (
     <Portfolio>
       <div className="categories">
         {category.map((name) => {
           const firsFilter = useMemo(() => {
-            return local.filter((item) => item.category_id == name.id);
-          }, [local])
+            return data.filter((item) => item.category_id == name.id);
+          }, [data])
           return (
             <div className="prime" key={name.id}>
               <h3>
@@ -22,7 +22,7 @@ const Categories = ({ data, category }) => {
               <div className="row hide">
                 {firsFilter.map((works) => {
                   return (
-                    <Link href={`/portfolio/${works.id}`} key={works.id}>
+                    <Link href={`/portfolio/${works.id}`} key={works.id} passHref>
                       <div className="col-lg-4 col-md-4 col-sm-6 col-12">
                         <Image
                           src={`https://redfox.frilansus.com/${works.logo}`}

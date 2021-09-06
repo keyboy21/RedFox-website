@@ -18,7 +18,7 @@ const Academy = ({ children }) => {
           </p>
           <div className="port_ul">
             <ul>
-              <Link href="/academy/academylife/">
+              <Link href="/academy/academylife/" passHref>
                 <li
                   className={
                     router.pathname == "/academy/academylife" ? "acal" : ""
@@ -34,7 +34,7 @@ const Academy = ({ children }) => {
                 </li>
               </Link>
 
-              <Link href="/academy/albom/">
+              <Link href="/academy/albom/" passHref>
                 <li
                   className={router.pathname == "/academy/albom" ? "acal" : ""}
                 >

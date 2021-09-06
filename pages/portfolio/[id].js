@@ -1,5 +1,5 @@
 import MainLayout from "../../components/MainLayout.js";
-import { useMemo, useState } from "react";
+import { useMemo } from "react";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import Image from 'next/image';
@@ -7,7 +7,7 @@ import Image from 'next/image';
 const ID = ({ data }) => {
 
   const router = useRouter();
-  const [local, setLocal] = useState(data)
+  // const [local, setLocal] = useState(data)
 
   const viewFilter = data.filter((view) => view.id == router.query.id)
 
@@ -22,7 +22,7 @@ const ID = ({ data }) => {
     return data.filter((sim, index) => {
       return index >= 5 && index <= 7;
     });
-  }, [local])
+  }, [data])
 
   return (
     <MainLayout>
@@ -380,7 +380,7 @@ const ID = ({ data }) => {
             <h5>O‘xshash ishlar</h5>
             <div className="row">
               {similarFilter.map((similar) => (
-                <Link href={`/portfolio/${similar.id}`} key={similar.id}>
+                <Link href={`/portfolio/${similar.id}`} key={similar.id} passHref>
                   <div className="col-sm-6 col-md-4 col-lg-4">
                     <Image
                       src={`https://redfox.frilansus.com/${similar.img2}`}

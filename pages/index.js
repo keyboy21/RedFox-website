@@ -9,35 +9,35 @@ import Link from "next/link";
 const Home = ({ data, img }) => {
 
   const router = useRouter();
-  const [local, Setlocal] = useState(data);
-  const [imglocal, Setimglocal] = useState(img)
+  // const [local, Setlocal] = useState(data);
+  // const [imglocal, Setimglocal] = useState(img)
 
   const SliderFirsFilter = useMemo(() => {
     return data.filter((slide) => {
       return slide.id <= 14;
     });
-  }, [local])
+  }, [data])
 
   const SliderSecondFilter = useMemo(() => {
     return data.filter((slider) => {
       return slider.id >= 15 && slider.id <= 28;
     });
-  }, [local])
+  }, [data])
   const SliderThreeFilter = useMemo(() => {
     return data.filter((slider) => {
       return slider.id >= 29 && slider.id <= 42;
     });
-  }, [local])
+  }, [data])
   const SliderFourFilter = useMemo(() => {
     return data.filter((slider) => {
       return slider.id >= 43 && slider.id <= 55;
     });
-  }, [local])
+  }, [data])
   const SliderFiveFilter = useMemo(() => {
     return data.filter((slider) => {
       return slider.id >= 56 && slider.id <= 69;
     });
-  }, [local])
+  }, [data])
 
 
 
@@ -45,26 +45,26 @@ const Home = ({ data, img }) => {
     return img.filter((slide, index) => {
       return index == 0;
     });
-  }, [imglocal])
+  }, [img])
 
   const ImageFilter1 = useMemo(() => {
     return img.filter((slide, index) => {
       return index > 0 && index < 3;
     });
-  }, [imglocal])
+  }, [img])
 
 
   const ImageFilter3 = useMemo(() => {
     return img.filter((slide, index) => {
       return index > 3 && index < 8;
     });
-  }, [imglocal])
+  }, [img])
 
   const ImageFilter4 = useMemo(() => {
     return img.filter((slide, index) => {
       return index > 7 && index < 14;
     });
-  }, [imglocal])
+  }, [img])
 
 
   return (
@@ -82,7 +82,7 @@ const Home = ({ data, img }) => {
                   (<p>
                     Biznesda ham hayotda ham eng muhim omil bu ishonchdir. <br />
                     Bizga ishonch bildirgan kompaniyalar qatorida sizni ham
-                    ko'rishdan mamnunmiz.
+                    ko&apos;rishdan mamnunmiz.
                   </p>) :
                   (<p>
                     Самый важный фактор как в бизнесе, так и в жизни - это доверие. <br />
@@ -298,9 +298,9 @@ const Home = ({ data, img }) => {
                   </h2>)}
                 {router.locale == "uz" ?
                   (<p>
-                    Biz o'z ishimizni yaxshi ko'rib bajaramiz. Siz yoki
+                    Biz o&apos;z ishimizni yaxshi ko&apos;rib bajaramiz. Siz yoki
                     kompaniyangiz uchun nimayiki topshirsangiz, biz uni
-                    bajarishdan xursand bo'lamiz.
+                    bajarishdan xursand bo&apos;lamiz.
                   </p>) :
                   (<p>
                     Мы выполняем свою работу с любовью. Что-бы вы не отправили <br />
@@ -323,7 +323,7 @@ const Home = ({ data, img }) => {
             <div className="row rev">
               <div className="col-lg-4 col-md-4 derzi">
                 {ImageFilter1.map((port) => (
-                  <Link href={`/portfolio/${port.id}`} key={port.id}>
+                  <Link href={`/portfolio/${port.id}`} key={port.id} passHref>
                     <div className="col-md-12 col-lg-12 col-6 col-sm-6" >
                       <div className="portfolio_img overflow-hidden">
                         <Image
@@ -344,7 +344,7 @@ const Home = ({ data, img }) => {
               </div>
 
               {ImageFilter2.map((port) => (
-                <Link href={`/portfolio/${port.id}`} key={port.id} >
+                <Link href={`/portfolio/${port.id}`} key={port.id} passHref >
                   <div className="col-lg-8 col-md-8" >
                     <div className="portfolio_img overflow-hidden">
                       <Image
@@ -366,7 +366,7 @@ const Home = ({ data, img }) => {
 
             <div className="row bottom">
               {ImageFilter3.map((port) => (
-                <Link href={`/portfolio/${port.id}`} key={port.id} >
+                <Link href={`/portfolio/${port.id}`} key={port.id} passHref>
                   <div className="col-lg-6 col-md-6" key={port.id}>
                     <div className="portfolio_img overflow-hidden">
                       <Image
@@ -388,7 +388,7 @@ const Home = ({ data, img }) => {
 
             <div className="row">
               {ImageFilter4.map((port) => (
-                <Link href={`/portfolio/${port.id}`} key={port.id}>
+                <Link href={`/portfolio/${port.id}`} key={port.id} passHref>
                   <div className="col-lg-4 col-md-4 col-6" >
                     <div className="portfolio_img overflow-hidden">
                       <Image
@@ -457,7 +457,12 @@ const Home = ({ data, img }) => {
                       <svg className="icon-skills" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
                         <path d="M13.946 3.486h2.906V16.27l-.581.581h-2.325V3.486z" />
                         <path d="M3.486 13.946H16.27v2.905H3.486z" />
-                        <path fillRule="evenodd" clipRule="evenodd" d="M34.865 13.736l3.467-3.508V2.133A2.15 2.15 0 0036.198 0H12.784L0 12.9v27.935a2.168 2.168 0 00.613 1.525 2.13 2.13 0 001.502.64h34.102c.56 0 1.098-.225 1.495-.624.396-.4.62-.943.62-1.509V28.473l-3.467 3.508v7.532H3.486V13.947l4.65-4.649 5.81-5.81h20.919v10.249zM43 17.677l-3.011-3.042v.002l-2.545 2.57 3.026 3.025L43 17.677zm-4.166 4.206l-3.025-3.025L23.425 31.36l-.004 3.036 3.015.004 12.398-12.517z" />
+                        <path fillRule="evenodd" clipRule="evenodd" 
+                        d="M34.865 13.736l3.467-3.508V2.133A2.15 2.15 0 0036.198 0H12.784L0 
+                        12.9v27.935a2.168 2.168 0 00.613 1.525 2.13 2.13 0 001.502.64h34.102c.56
+                         0 1.098-.225 1.495-.624.396-.4.62-.943.62-1.509V28.473l-3.467 3.508v7.532H3.486V13.
+                         947l4.65-4.649 5.81-5.81h20.919v10.249zM43 17.677l-3.011-3.042v.002l-2.545 2.57 3.026
+                          3.025L43 17.677zm-4.166 4.206l-3.025-3.025L23.425 31.36l-.004 3.036 3.015.004 12.398-12.517z" />
                       </svg>
                     </div>
                     <div className="col-8 col-md-12 col-lg-12">
@@ -472,7 +477,6 @@ const Home = ({ data, img }) => {
                             11.0496 10.9504C11.323 11.2238 11.7663 11.2238 12.0397 10.9504L16.495 6.49504ZM0 
                             6.70009H16V5.29991H0V6.70009Z" />
                           </svg>
-                          {/* <i className="far fa-long-arrow-right"></i> */}
                         </div>
                       </div>
                     </div>
@@ -499,7 +503,6 @@ const Home = ({ data, img }) => {
                             11.0496 10.9504C11.323 11.2238 11.7663 11.2238 12.0397 10.9504L16.495 6.49504ZM0 
                             6.70009H16V5.29991H0V6.70009Z" />
                           </svg>
-                          {/* <i className="far fa-long-arrow-right"></i> */}
                         </div>
                       </div>
                     </div>
@@ -526,7 +529,6 @@ const Home = ({ data, img }) => {
                             11.0496 10.9504C11.323 11.2238 11.7663 11.2238 12.0397 10.9504L16.495 6.49504ZM0 
                             6.70009H16V5.29991H0V6.70009Z" />
                           </svg>
-                          {/* <i className="far fa-long-arrow-right"></i> */}
                         </div>
                       </div>
                     </div>
@@ -553,7 +555,6 @@ const Home = ({ data, img }) => {
                             11.0496 10.9504C11.323 11.2238 11.7663 11.2238 12.0397 10.9504L16.495 6.49504ZM0 
                             6.70009H16V5.29991H0V6.70009Z" />
                           </svg>
-                          {/* <i className="far fa-long-arrow-right"></i> */}
                         </div>
                       </div>
                     </div>
@@ -581,7 +582,6 @@ const Home = ({ data, img }) => {
                             11.0496 10.9504C11.323 11.2238 11.7663 11.2238 12.0397 10.9504L16.495 6.49504ZM0 
                             6.70009H16V5.29991H0V6.70009Z" />
                           </svg>
-                          {/* <i className="far fa-long-arrow-right"></i> */}
                         </div>
                       </div>
                     </div>
@@ -609,7 +609,6 @@ const Home = ({ data, img }) => {
                             11.0496 10.9504C11.323 11.2238 11.7663 11.2238 12.0397 10.9504L16.495 6.49504ZM0 
                             6.70009H16V5.29991H0V6.70009Z" />
                           </svg>
-                          {/* <i className="far fa-long-arrow-right"></i> */}
                         </div>
                       </div>
                     </div>
@@ -636,7 +635,6 @@ const Home = ({ data, img }) => {
                             11.0496 10.9504C11.323 11.2238 11.7663 11.2238 12.0397 10.9504L16.495 6.49504ZM0 
                             6.70009H16V5.29991H0V6.70009Z" />
                           </svg>
-                          {/* <i className="far fa-long-arrow-right"></i> */}
                         </div>
                       </div>
                     </div>
@@ -655,7 +653,6 @@ const Home = ({ data, img }) => {
                             11.0496 10.9504C11.323 11.2238 11.7663 11.2238 12.0397 10.9504L16.495 6.49504ZM0 
                             6.70009H16V5.29991H0V6.70009Z" />
                   </svg>
-                  {/* <i className="far fa-long-arrow-right" /> */}
                 </div>
               </div>
             </div>
@@ -851,7 +848,7 @@ const Home = ({ data, img }) => {
                     <img src="/My-User-Pic-001 1.png" alt="experts." />
                   </div>
                   {router.locale == 'uz' ? (<h5>Bahodir Akbarov</h5>) : (<h5>Бахадыр Акбаров</h5>)}
-                  {router.locale == 'uz' ? (<span>Venox kompaniyasi asoschisi</span>) : (<span>Основатель компании "Venox"</span>)}
+                  {router.locale == 'uz' ? (<span>Venox kompaniyasi asoschisi</span>) : (<span>Основатель компании &quot;Venox&quot;</span>)}
                   {router.locale == 'uz' ? (<p>
                     Bolalar baraka topila qo‘l ko‘zilar dard ko‘rmasin, bosib
                     chiqarishdan chiqqanidan keyin ko‘rib ko‘z to‘ymayabdi juda
@@ -872,7 +869,7 @@ const Home = ({ data, img }) => {
                     <img src="/Frame 8.png" alt="reason" />
                   </div>
                   {router.locale == 'uz' ? (<h5>Rixsiboy Umarov</h5>) : (<h5>Рихсибой Умаров</h5>)}
-                  {router.locale == 'uz' ? (<span>ITGO asoschisi</span>) : (<span>Основатель "ITGO"</span>)}
+                  {router.locale == 'uz' ? (<span>ITGO asoschisi</span>) : (<span>Основатель &quot;ITGO&quot; </span>)}
                   {router.locale == 'uz' ? (<p>
                     Ishlar bilan bo‘lib sizlarga tashakkurimizni ham ayta
                     olmadik, qhilingan ishdan hamma mamnun bo‘ldi, qilgan
@@ -895,7 +892,7 @@ const Home = ({ data, img }) => {
                     <img src="/Frame 8 (1).png" alt="reason." />
                   </div>
                   {router.locale == 'uz' ? (<h5>Qudrat Abdurahimov</h5>) : (<h5>Кудрат Абдурахимов</h5>)}
-                  {router.locale == 'uz' ? (<span>GITA Kompaniyasi Founderi</span>) : (<span>Основатель компании "GITA"</span>)}
+                  {router.locale == 'uz' ? (<span>GITA Kompaniyasi Founderi</span>) : (<span>Основатель компании &quot;GITA&quot; </span>)}
                   {router.locale == 'uz' ? (<p>
                     Xammaga katta rahmat yigitlar. Nasib qilsa yaxshi kunlarda
                     ko‘rishamiz. Karantin tugasa ko‘rishib qolsak,
@@ -916,7 +913,7 @@ const Home = ({ data, img }) => {
                     <img src="/Frame 8 (2).png" alt="reason." />
                   </div>
                   {router.locale == 'uz' ? (<h5>Sobirjon Yaxshiyev</h5>) : (<h5>Сабиржан Яхшиев</h5>)}
-                  {router.locale == 'uz' ? (<span>Sunnah product asoschisi</span>) : (<span>Основатель "Sunnah products"</span>)}
+                  {router.locale == 'uz' ? (<span>Sunnah product asoschisi</span>) : (<span>Основатель &quot;Sunnah products&quot; </span>)}
                   {router.locale == 'uz' ? (<p>
                     Uzingiz va shogirdlarni extiyot qiling ko‘p kerak bolasizlar
                     ko‘pchlika. O‘zbekistonda dizayin sohasi tanazzulga
@@ -937,7 +934,7 @@ const Home = ({ data, img }) => {
                     <img src="/My-User-Pic-001 2.png" alt="reason." />
                   </div>
                   {router.locale == 'uz' ? (<h5>Abdurahmon Nasriddinov</h5>) : (<h5>Абдурахман Насреддинов</h5>)}
-                  {router.locale == 'uz' ? (<span>Sardor brendi Founderi</span>) : (<span>Основатель бренда "Sardor"</span>)}
+                  {router.locale == 'uz' ? (<span>Sardor brendi Founderi</span>) : (<span>Основатель бренда &quot;Sardor&quot; </span>)}
                   {router.locale == 'uz' ? (<p>
                     Ishingizni mahsulini kurib xalovat qilyapsizmi? Qo‘llaring
                     dard ko‘rmasin mexnatlaring halol
@@ -956,7 +953,7 @@ const Home = ({ data, img }) => {
                     <img src="/Frame 8 (3).png" alt="reason." />
                   </div>
                   {router.locale == 'uz' ? (<h5>Ahmad Saidov</h5>) : (<h5>Ахмад Саидов</h5>)}
-                  {router.locale == 'uz' ? (<span>Greenmotors asoschisi</span>) : (<span>Основатель "Greenmotors"</span>)}
+                  {router.locale == 'uz' ? (<span>Greenmotors asoschisi</span>) : (<span>Основатель &quot;Greenmotors&quot; </span>)}
                   {router.locale == 'uz' ? (<p>
                     Qolgan dizaynlarham zo‘r chiqdi, qiyin bo‘ldi tanlash, ming
                     bor uzur, ishlarilarga rivoj bersin, xamma qatnashganlarga
@@ -1019,7 +1016,7 @@ const Home = ({ data, img }) => {
                 <div>
                   <img src="/1one .svg" alt='belive.'></img>
                 </div>
-                {router.locale == 'uz' ? (<span>Tanlash imkoniyati ko'pligi</span>) : (<span>Большой выбор</span>)}
+                {router.locale == 'uz' ? (<span>Tanlash imkoniyati ko&apos;pligi</span>) : (<span>Большой выбор</span>)}
                 {router.locale == 'uz' ? (<p>
                   RedFox sizning buyurtmangiz uchun 10 dan ortiq sara ishlar
                   jamlanmasini taqdim qiladi va siz ularning ichidan eng
@@ -1033,8 +1030,8 @@ const Home = ({ data, img }) => {
                 </div>
                 {router.locale == 'uz' ? (<span>Deyarli 24/7 rejimda muloqot mavjudligi</span>) : (<span>Доступность связи в режиме 24/7</span>)}
                 {router.locale == 'uz' ? (<p>
-                  Xalqaro miqyosda tan olingan va eng a'lo sifatda baholangan
-                  24/7 menejerlar support'i ishlashga harakat qilmoqdamiz,
+                  Xalqaro miqyosda tan olingan va eng a&apos;lo sifatda baholangan
+                  24/7 menejerlar support&apos;i ishlashga harakat qilmoqdamiz,
                   buyurtmangiz yakunlanguncha sizning xizmatingizdamiz.
                 </p>) : (<p>Всемирно признанный и признанный превосходный менеджер, работающий круглосуточно и без выходных,
                   к вашим услугам, пока ваш заказ не будет выполнен.</p>)}
@@ -1045,9 +1042,9 @@ const Home = ({ data, img }) => {
                 </div>
                 {router.locale == 'uz' ? (<span>Sohalar qamrovi kengligi</span>) : (<span>Широкий охват</span>)}
                 {router.locale == 'uz' ? (<p>
-                  Studiyada dizaynning barcha sohalari bo'yicha mutaxassislar
+                  Studiyada dizaynning barcha sohalari bo&apos;yicha mutaxassislar
                   borligi sizning barcha ishingiz bir joyda, shuningdek uyg‘un
-                  holatda mukammal bitishini ta'minlaydi.
+                  holatda mukammal bitishini ta&apos;minlaydi.
                 </p>) : (<p>Присутствие в студии специалистов по всем направлениям дизайна гарантирует, что все ваши работы  будут
                   выполнены в одном месте, а также в идеальной гармонии.</p>)}
               </div>
@@ -1058,7 +1055,7 @@ const Home = ({ data, img }) => {
                 {router.locale == 'uz' ? (<span>Yirik loyihalardagi tajriba</span>) : (<span>Опыт работы в крупных проектах</span>)}
                 {router.locale == 'uz' ? (<p>
                   Bugungi kunga qadar studiyamiz 1000 dan ortiq muvaffaqiyatli
-                  ish topshirgan. Hamda ko'plab o'rta biznes egalari va
+                  ish topshirgan. Hamda ko&apos;plab o&apos;rta biznes egalari va
                   (Enterprise) katta korxonalar bilan amalga oshirilgan
                   loyihalar.
                 </p>) : (<p>На сегодняшний день наша студия представила более 1000 успешных работ.
@@ -1070,10 +1067,10 @@ const Home = ({ data, img }) => {
                 </div>
                 {router.locale == 'uz' ? (<span>Eng muhimi</span>) : (<span>Самое главное</span>)}
                 {router.locale == 'uz' ? (<p>
-                  Biz o'z kasbimizni sevamiz va barchasini chin dildan
+                  Biz o&apos;z kasbimizni sevamiz va barchasini chin dildan
                   bajaramiz. Bu ham albatta sizning foydangizga. Qolganini
-                  bizning Portfolio <a href="https://t.me/portfolius" target="_blank" rel="noopener">https://t.me/portfolius.</a> gapirsin.</p>) :
-                  (<p>Мы любим свою профессию и делаем все искренне. Это тоже определенно в вашу пользу. Остальное наше Пусть говорит портфолио<a href="https://t.me/portfolius" target="_blank" rel="noopener"> https://t.me/portfolius.</a> </p>)}
+                  bizning Portfolio <a href="https://t.me/portfolius" target="_blank" rel="noreferrer">https://t.me/portfolius.</a> gapirsin.</p>) :
+                  (<p>Мы любим свою профессию и делаем все искренне. Это тоже определенно в вашу пользу. Остальное наше Пусть говорит портфолио<a href="https://t.me/portfolius" target="_blank" rel="noreferrer"> https://t.me/portfolius.</a> </p>)}
               </div>
             </div>
           </div>
@@ -1103,7 +1100,7 @@ const Home = ({ data, img }) => {
                   </p>)}
               </div>
               <div className="write col-lg-12">
-                <a href="https://t.me/RedFoxManager" target="_blank" rel="noopener">
+                <a href="https://t.me/RedFoxManager" target="_blank" rel="noreferrer">
                   {router.locale == 'uz' ?
                     (<h3>Online yozing</h3>) :
                     (<h3>Написать онлайн</h3>)}

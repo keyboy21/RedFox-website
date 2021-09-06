@@ -11,6 +11,7 @@ import "../styles/academy.css";
 import "../styles/servic.css";
 import "animate.css/source/animate.css";
 import '@popperjs/core';
+import NPprogress from "nprogress";
 import NextNprogress from "nextjs-progressbar";
 
 function MyApp({ Component, pageProps }) {
@@ -29,6 +30,7 @@ function MyApp({ Component, pageProps }) {
       });
     }
   }, [])
+  NPprogress.configure({ showSpinner: false });
 
   return (
     <>

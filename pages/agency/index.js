@@ -7,7 +7,7 @@ export default function Agency({ children }) {
   return (
     <MainLayout title={"| Agency"}>
       <div className="agency">
-        
+
         <div className="container top_color">
           <h2>
             Biz ijod olamida yashaydigan kichik bir oilamiz <span>: )</span>
@@ -19,7 +19,7 @@ export default function Agency({ children }) {
           </p>
           <div className="port_ul">
             <ul>
-              <Link href="/agency/short/">
+              <Link href="/agency/short/" passHref>
                 <li
                   className={router.pathname == "/agency/short" ? "clicc" : ""}
                 >
@@ -31,7 +31,7 @@ export default function Agency({ children }) {
                 </li>
               </Link>
 
-              <Link href="/agency/customers/">
+              <Link href="/agency/customers/" passHref>
                 <li
                   className={
                     router.pathname == "/agency/customers" ? "clicc" : ""
@@ -47,7 +47,7 @@ export default function Agency({ children }) {
                 </li>
               </Link>
 
-              <Link href="/agency/team/">
+              <Link href="/agency/team/" passHref>
                 <li
                   className={router.pathname == "/agency/team" ? "clicc" : ""}
                 >
@@ -59,7 +59,7 @@ export default function Agency({ children }) {
                 </li>
               </Link>
 
-              <Link href="/agency/partners/">
+              <Link href="/agency/partners/" passHref>
                 <li
                   className={
                     router.pathname == "/agency/partners" ? "clicc" : ""
@@ -75,7 +75,7 @@ export default function Agency({ children }) {
                 </li>
               </Link>
 
-              <Link href="/agency/contact/">
+              <Link href="/agency/contact/" passHref >
                 <li
                   className={
                     router.pathname == "/agency/contact" ? "clicc" : ""

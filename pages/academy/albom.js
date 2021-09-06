@@ -18,10 +18,10 @@ const albom = () => {
                 <div className="photo col-12">
                   <img src="/0_kFGYMChNm8oYcbBZ 2ph.png" alt="" />
                 </div>
-                <h5>Qanday qilib qisqa vaqt ichida professional dizayner bo'lish mumkin?</h5>
+                <h5>Qanday qilib qisqa vaqt ichida professional dizayner bo&apos;lish mumkin?</h5>
                 <p>119 marta ko’rildi • 04 sentyabr 2020</p>
-                <p>Endi hech qanday leksiyalarsiz, o'qituvchilarsiz, faqatgina kuchli mutaxassislardan <br />
-                  amaliy mashg'ulotlar, real proyektlar asosida dizaynni o'rganing va shunday <a href="https://behance.net/redfoxuz" target="_blank" rel="noopener"> (https://behance.net/redfoxuz)</a> ishlar tayyorlang.
+                <p>Endi hech qanday leksiyalarsiz, o&apos;qituvchilarsiz, faqatgina kuchli mutaxassislardan <br />
+                  amaliy mashg&apos;ulotlar, real proyektlar asosida dizaynni o&apos;rganing va shunday <a href="https://behance.net/redfoxuz" target="_blank" rel="noreferrer"> (https://behance.net/redfoxuz)</a> ishlar tayyorlang.
                 </p>
 
                 <div className='d-flex justify-content-center align-items-center'>
@@ -33,10 +33,10 @@ const albom = () => {
                 <div className="photo col-12">
                   <img src="/0_kFGYMChNm8oYcbBZ 2ph.png" alt="" />
                 </div>
-                <h5>Qanday qilib qisqa vaqt ichida professional dizayner bo'lish mumkin?</h5>
+                <h5>Qanday qilib qisqa vaqt ichida professional dizayner bo&apos;lish mumkin?</h5>
                 <p>119 marta ko’rildi • 04 sentyabr 2020</p>
-                <p>Endi hech qanday leksiyalarsiz, o'qituvchilarsiz, faqatgina kuchli mutaxassislardan <br />
-                  amaliy mashg'ulotlar, real proyektlar asosida dizaynni o'rganing va shunday (http://behance.net/redfoxuz) ishlar tayyorlang.
+                <p>Endi hech qanday leksiyalarsiz, o&apos;qituvchilarsiz, faqatgina kuchli mutaxassislardan <br />
+                  amaliy mashg&apos;ulotlar, real proyektlar asosida dizaynni o&apos;rganing va shunday (http://behance.net/redfoxuz) ishlar tayyorlang.
                 </p>
               </div>
             </div>
@@ -45,10 +45,10 @@ const albom = () => {
                 <div className="photo col-12">
                   <img src="/0_kFGYMChNm8oYcbBZ 2ph.png" alt="" />
                 </div>
-                <h5>Qanday qilib qisqa vaqt ichida professional dizayner bo'lish mumkin?</h5>
+                <h5>Qanday qilib qisqa vaqt ichida professional dizayner bo&apos;lish mumkin?</h5>
                 <p>119 marta ko’rildi • 04 sentyabr 2020</p>
-                <p>Endi hech qanday leksiyalarsiz, o'qituvchilarsiz, faqatgina kuchli mutaxassislardan <br />
-                  amaliy mashg'ulotlar, real proyektlar asosida dizaynni o'rganing va shunday <a href="https://behance.net/redfoxuz" target="_blank" rel="noopener"> (https://behance.net/redfoxuz)</a> ishlar tayyorlang.
+                <p>Endi hech qanday leksiyalarsiz, o&apos;qituvchilarsiz, faqatgina kuchli mutaxassislardan <br />
+                  amaliy mashg&apos;ulotlar, real proyektlar asosida dizaynni o&apos;rganing va shunday <a href="https://behance.net/redfoxuz" target="_blank" rel="noreferrer"> (https://behance.net/redfoxuz)</a> ishlar tayyorlang.
                 </p>
                 <div className='d-flex justify-content-center align-items-center'>
                   <span>• • •</span>
@@ -58,10 +58,10 @@ const albom = () => {
                 <div className="photo col-12">
                   <img src="/0_kFGYMChNm8oYcbBZ 2ph.png" alt="" />
                 </div>
-                <h5>Qanday qilib qisqa vaqt ichida professional dizayner bo'lish mumkin?</h5>
+                <h5>Qanday qilib qisqa vaqt ichida professional dizayner bo&apos;lish mumkin?</h5>
                 <p>119 marta ko’rildi • 04 sentyabr 2020</p>
-                <p>Endi hech qanday leksiyalarsiz, o'qituvchilarsiz, faqatgina kuchli mutaxassislardan <br />
-                  amaliy mashg'ulotlar, real proyektlar asosida dizaynni o'rganing va shunday <a href="https://behance.net/redfoxuz" target="_blank" rel="noopener"> (https://behance.net/redfoxuz)</a> ishlar tayyorlang.
+                <p>Endi hech qanday leksiyalarsiz, o&apos;qituvchilarsiz, faqatgina kuchli mutaxassislardan <br />
+                  amaliy mashg&apos;ulotlar, real proyektlar asosida dizaynni o&apos;rganing va shunday <a href="https://behance.net/redfoxuz" target="_blank" rel="noreferrer"> (https://behance.net/redfoxuz)</a> ishlar tayyorlang.
                 </p>
               </div>
             </div>
@@ -70,10 +70,10 @@ const albom = () => {
                 <div className="photo col-12">
                   <img src="/0_kFGYMChNm8oYcbBZ 2ph.png" alt="" />
                 </div>
-                <h5>Qanday qilib qisqa vaqt ichida professional dizayner bo'lish mumkin?</h5>
+                <h5>Qanday qilib qisqa vaqt ichida professional dizayner bo&apos;lish mumkin?</h5>
                 <p>119 marta ko’rildi • 04 sentyabr 2020</p>
-                <p>Endi hech qanday leksiyalarsiz, o'qituvchilarsiz, faqatgina kuchli mutaxassislardan <br />
-                  amaliy mashg'ulotlar, real proyektlar asosida dizaynni o'rganing va shunday <a href="https://behance.net/redfoxuz" target="_blank" rel="noopener"> (https://behance.net/redfoxuz)</a> ishlar tayyorlang.
+                <p>Endi hech qanday leksiyalarsiz, o&apos;qituvchilarsiz, faqatgina kuchli mutaxassislardan <br />
+                  amaliy mashg&apos;ulotlar, real proyektlar asosida dizaynni o&apos;rganing va shunday <a href="https://behance.net/redfoxuz" target="_blank" rel="noreferrer"> (https://behance.net/redfoxuz)</a> ishlar tayyorlang.
                 </p>
                 <div className='d-flex justify-content-center align-items-center'>
                   <span>• • •</span>
@@ -83,10 +83,10 @@ const albom = () => {
                 <div className="photo col-12">
                   <img src="/0_kFGYMChNm8oYcbBZ 2ph.png" alt="" />
                 </div>
-                <h5>Qanday qilib qisqa vaqt ichida professional dizayner bo'lish mumkin?</h5>
+                <h5>Qanday qilib qisqa vaqt ichida professional dizayner bo&apos;lish mumkin?</h5>
                 <p>119 marta ko’rildi • 04 sentyabr 2020</p>
-                <p>Endi hech qanday leksiyalarsiz, o'qituvchilarsiz, faqatgina kuchli mutaxassislardan <br />
-                  amaliy mashg'ulotlar, real proyektlar asosida dizaynni o'rganing va shunday <a href="https://behance.net/redfoxuz" target="_blank" rel="noopener"> (https://behance.net/redfoxuz)</a> ishlar tayyorlang.
+                <p>Endi hech qanday leksiyalarsiz, o&apos;qituvchilarsiz, faqatgina kuchli mutaxassislardan <br />
+                  amaliy mashg&apos;ulotlar, real proyektlar asosida dizaynni o&apos;rganing va shunday <a href="https://behance.net/redfoxuz" target="_blank" rel="noreferrer"> (https://behance.net/redfoxuz)</a> ishlar tayyorlang.
                 </p>
               </div>
             </div>
@@ -95,10 +95,10 @@ const albom = () => {
                 <div className="photo col-12">
                   <img src="/0_kFGYMChNm8oYcbBZ 2ph.png" alt="" />
                 </div>
-                <h5>Qanday qilib qisqa vaqt ichida professional dizayner bo'lish mumkin?</h5>
+                <h5>Qanday qilib qisqa vaqt ichida professional dizayner bo&apos;lish mumkin?</h5>
                 <p>119 marta ko’rildi • 04 sentyabr 2020</p>
-                <p>Endi hech qanday leksiyalarsiz, o'qituvchilarsiz, faqatgina kuchli mutaxassislardan <br />
-                  amaliy mashg'ulotlar, real proyektlar asosida dizaynni o'rganing va shunday <a href="https://behance.net/redfoxuz" target="_blank" rel="noopener"> (https://behance.net/redfoxuz)</a> ishlar tayyorlang.
+                <p>Endi hech qanday leksiyalarsiz, o&apos;qituvchilarsiz, faqatgina kuchli mutaxassislardan <br />
+                  amaliy mashg&apos;ulotlar, real proyektlar asosida dizaynni o&apos;rganing va shunday <a href="https://behance.net/redfoxuz" target="_blank" rel="noreferrer"> (https://behance.net/redfoxuz)</a> ishlar tayyorlang.
                 </p>
                 <div className='d-flex justify-content-center align-items-center'>
                   <span>• • •</span>
@@ -108,10 +108,10 @@ const albom = () => {
                 <div className="photo col-12">
                   <img src="/0_kFGYMChNm8oYcbBZ 2ph.png" alt="" />
                 </div>
-                <h5>Qanday qilib qisqa vaqt ichida professional dizayner bo'lish mumkin?</h5>
+                <h5>Qanday qilib qisqa vaqt ichida professional dizayner bo&apos;lish mumkin?</h5>
                 <p>119 marta ko’rildi • 04 sentyabr 2020</p>
-                <p>Endi hech qanday leksiyalarsiz, o'qituvchilarsiz, faqatgina kuchli mutaxassislardan <br />
-                  amaliy mashg'ulotlar, real proyektlar asosida dizaynni o'rganing va shunday (https://behance.net/redfoxuz) ishlar tayyorlang.
+                <p>Endi hech qanday leksiyalarsiz, o&apos;qituvchilarsiz, faqatgina kuchli mutaxassislardan <br />
+                  amaliy mashg&apos;ulotlar, real proyektlar asosida dizaynni o&apos;rganing va shunday (https://behance.net/redfoxuz) ishlar tayyorlang.
                 </p>
               </div>
             </div>
@@ -120,10 +120,10 @@ const albom = () => {
                 <div className="photo col-12">
                   <img src="/0_kFGYMChNm8oYcbBZ 2ph.png" alt="" />
                 </div>
-                <h5>Qanday qilib qisqa vaqt ichida professional dizayner bo'lish mumkin?</h5>
+                <h5>Qanday qilib qisqa vaqt ichida professional dizayner bo&apos;lish mumkin?</h5>
                 <p>119 marta ko’rildi • 04 sentyabr 2020</p>
-                <p>Endi hech qanday leksiyalarsiz, o'qituvchilarsiz, faqatgina kuchli mutaxassislardan <br />
-                  amaliy mashg'ulotlar, real proyektlar asosida dizaynni o'rganing va shunday <a href="https://behance.net/redfoxuz" target="_blank" rel="noopener"> (https://behance.net/redfoxuz)</a> ishlar tayyorlang.
+                <p>Endi hech qanday leksiyalarsiz, o&apos;qituvchilarsiz, faqatgina kuchli mutaxassislardan <br />
+                  amaliy mashg&apos;ulotlar, real proyektlar asosida dizaynni o&apos;rganing va shunday <a href="https://behance.net/redfoxuz" target="_blank" rel="noreferrer"> (https://behance.net/redfoxuz)</a> ishlar tayyorlang.
                 </p>
                 <div className='d-flex justify-content-center align-items-center'>
                   <span>• • •</span>
@@ -133,10 +133,10 @@ const albom = () => {
                 <div className="photo col-12">
                   <img src="/0_kFGYMChNm8oYcbBZ 2ph.png" alt="" />
                 </div>
-                <h5>Qanday qilib qisqa vaqt ichida professional dizayner bo'lish mumkin?</h5>
+                <h5>Qanday qilib qisqa vaqt ichida professional dizayner bo&apos;lish mumkin?</h5>
                 <p>119 marta ko’rildi • 04 sentyabr 2020</p>
-                <p>Endi hech qanday leksiyalarsiz, o'qituvchilarsiz, faqatgina kuchli mutaxassislardan <br />
-                  amaliy mashg'ulotlar, real proyektlar asosida dizaynni o'rganing va shunday <a href="https://behance.net/redfoxuz" target="_blank" rel="noopener"> (https://behance.net/redfoxuz)</a> ishlar tayyorlang.
+                <p>Endi hech qanday leksiyalarsiz, o&apos;qituvchilarsiz, faqatgina kuchli mutaxassislardan <br />
+                  amaliy mashg&apos;ulotlar, real proyektlar asosida dizaynni o&apos;rganing va shunday <a href="https://behance.net/redfoxuz" target="_blank" rel="noreferrer"> (https://behance.net/redfoxuz)</a> ishlar tayyorlang.
                 </p>
               </div>
             </div>

@@ -10,7 +10,7 @@ const All = ({ data }) => {
         <div className="row">
           {data.map((all) => {
             return (
-              <Link href={`/portfolio/${all.id}`} key={all.id}>
+              <Link href={`/portfolio/${all.id}`} key={all.id} passHref>
                 <div className="col-lg-4 col-md-4 col-sm-6" >
                   <Image
                     src={`https://redfox.frilansus.com/${all.logo}`}

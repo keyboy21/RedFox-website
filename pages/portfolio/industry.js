@@ -22,7 +22,7 @@ const Industry = ({ data, industry }) => {
               <div className="row hide">
                 {firsFilter.map((works) => {
                   return (
-                    <Link href={`/portfolio/${works.id}`} key={works.id}>
+                    <Link href={`/portfolio/${works.id}`} key={works.id} passHref>
                       <div className="col-lg-4 col-md-4 col-sm-6 col-12">
                         <Image
                           src={`https://redfox.frilansus.com/${works.logo}`}

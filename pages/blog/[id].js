@@ -63,11 +63,11 @@ export default function Blog_api({ data }) {
     });
   }, [filter]);
 
-  const More = useMemo(() => (
-    filter.filter((item, index) => {
+  const More = useMemo(() => {
+    return filter.filter((item, index) => {
       return index > 38 && index <= number
     })
-  ))
+  })
 
   return (
     <Blog>

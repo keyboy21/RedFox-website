@@ -11,7 +11,7 @@ module.exports = withPWA({
 module.exports = {
   generateEtags: false,
   images: {
-    minimumCacheTTL: 60,
+    minimumCacheTTL: 5,
   },
   images: {
     domains: ['redfox.frilansus.com'],
@@ -32,7 +32,5 @@ module.exports = {
 
     ],
   },
-
-
 
 }

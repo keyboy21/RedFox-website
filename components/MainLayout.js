@@ -11,7 +11,7 @@ export default function MainLayout({ children, title = "" }) {
 
   useEffect(() => {
     setLang(router.locale)
-  })
+  }, [router.locale])
 
 
   return (
@@ -102,12 +102,12 @@ export default function MainLayout({ children, title = "" }) {
                   </a>
                 </Link>
               </li>
-              {lang == "uz" ? (<Link href={router.asPath} locale={'ru'} >
+              {lang == "uz" ? (<Link href={router.asPath} locale={'ru'} passHref >
                 <li className="nav-item" style={{ cursor: "pointer" }} >
                   <p className="nav-link">Ru</p>
                 </li>
               </Link>) : ""}
-              {lang == "ru" ? ((<Link href={router.asPath} locale={'uz'} >
+              {lang == "ru" ? ((<Link href={router.asPath} locale={'uz'} passHref>
                 <li className="nav-item" style={{ cursor: "pointer" }} >
                   <p className="nav-link">Uz</p>
                 </li>
