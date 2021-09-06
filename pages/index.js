@@ -9,8 +9,6 @@ import Link from "next/link";
 const Home = ({ data, img }) => {
 
   const router = useRouter();
-  // const [local, Setlocal] = useState(data);
-  // const [imglocal, Setimglocal] = useState(img)
 
   const SliderFirsFilter = useMemo(() => {
     return data.filter((slide) => {
@@ -70,7 +68,6 @@ const Home = ({ data, img }) => {
   return (
     <MainLayout>
 
-      <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
         <header>
           <p>{router.locale == "uz" ? "Sayt to'liq tayyor emas" : "Сайт ещё в стадии веб-разработки"}</p>
           <div className="container">
@@ -97,7 +94,6 @@ const Home = ({ data, img }) => {
             </div>
           </div>
         </header>
-      </ScrollAnimation>
 
       <div className="slider">
         <div className="slide-track">
