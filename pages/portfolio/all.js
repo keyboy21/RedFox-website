@@ -38,8 +38,8 @@ const All = ({ data }) => {
 };
 
 export async function getStaticProps() {
-  const res = await axios(`https://redfox.frilansus.com/api/portfolio`);
-  const data = res.data;
+  const folio = await axios(`https://redfox.frilansus.com/api/portfolio`);
+  const data = folio.data;
   return { props: { data } };
 }
 export default All;
