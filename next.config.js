@@ -39,7 +39,7 @@ module.exports = {
           {
             key: 'Cache-Control',
             // Instead of this value:
-            value: 'public, max-age=3600',
+            value: 'public, no-cache, no-store',
             // Cache-Control response header is `public, max-age=60` in production
             // and `public, max-age=0, must-revalidate` in development
           },
